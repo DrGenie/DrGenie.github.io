@@ -1,5 +1,4 @@
 ---
-title: false
 pagetitle: "Teaching | Mesfin Genie"
 page-layout: full
 description: "Teaching and research supervision by Mesfin Genie."
