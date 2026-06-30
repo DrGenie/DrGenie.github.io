@@ -7,11 +7,12 @@ image: assets/mesfin-genie-profile.webp
 
 ::: {.hero}
 ::: {.page-shell .hero-grid}
-::: {.profile-photo-wrap}
+::: {.profile-photo-wrap .reveal}
 ![](assets/mesfin-genie-profile.webp){.profile-photo alt="Mesfin Genie"}
+<span class="photo-badge"><span class="dot"></span>Open to collaboration</span>
 :::
 
-::: {.hero-content}
+::: {.hero-content .reveal}
 <div class="eyebrow">Health economist · choice modeller</div>
 
 # Mesfin Genie
@@ -20,9 +21,7 @@ image: assets/mesfin-genie-profile.webp
 <div class="hero-affiliation">Newcastle Business School · The University of Newcastle, Australia</div>
 
 <div class="hero-copy">
-I study how patients, citizens and decision-makers make trade-offs in health and public policy. My research combines health economics, discrete choice experiments, behavioural decision science, eye tracking and applied econometrics.
-
-I develop methods for understanding how people process information in complex choices and translate empirical evidence into practical tools for policy and programme design.
+I study how patients, citizens and decision-makers make trade-offs in health and public policy — combining discrete choice experiments, behavioural decision science, eye tracking and applied econometrics to turn evidence into tools that shape real policy.
 </div>
 
 <div class="hero-actions">
@@ -37,7 +36,7 @@ I develop methods for understanding how people process information in complex ch
 <a class="social-link" href="https://www.researchgate.net/profile/Mesfin-Genie" title="ResearchGate" aria-label="ResearchGate"><i class="ai ai-researchgate"></i></a>
 <a class="social-link" href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" title="LinkedIn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
 <a class="social-link" href="https://github.com/DrGenie" title="GitHub" aria-label="GitHub"><i class="bi bi-github"></i></a>
-<a class="social-link" href="https://x.com/mesfin_genie" title="X" aria-label="X"><i class="bi bi-twitter"></i></a>
+<a class="social-link" href="https://x.com/mesfin_genie" title="X" aria-label="X"><i class="bi bi-twitter-x"></i></a>
 <a class="social-link" href="https://www.newcastle.edu.au/profile/mesfin-genie" title="University profile" aria-label="University profile"><i class="bi bi-building"></i></a>
 <a class="social-link" href="mailto:mesfin.genie@newcastle.edu.au" title="Email" aria-label="Email"><i class="bi bi-envelope"></i></a>
 </div>
@@ -45,9 +44,28 @@ I develop methods for understanding how people process information in complex ch
 :::
 :::
 
+::: {.stats-band}
+::: {.page-shell}
+::: {.stats-grid}
+::: {.stat}
+<span class="num">45+</span><span class="lbl">Peer-reviewed papers</span>
+:::
+::: {.stat}
+<span class="num">A$1.2M+</span><span class="lbl">Funding · lead / site lead</span>
+:::
+::: {.stat}
+<span class="num">4</span><span class="lbl">Countries · appointments</span>
+:::
+::: {.stat}
+<span class="num">2</span><span class="lbl">Decision-support tools</span>
+:::
+:::
+:::
+:::
+
 ::: {.section}
 ::: {.page-shell}
-::: {.section-heading}
+::: {.section-heading .reveal}
 <div class="section-rule"></div>
 
 ## Research
@@ -56,19 +74,25 @@ My work centres on three connected areas.
 :::
 
 ::: {.grid-3}
-::: {.theme-card}
+::: {.theme-card .reveal}
+<div class="tool-kicker">Preferences</div>
+
 ### Health preferences and choice modelling
 
 Discrete choice experiments, preference heterogeneity, equity, value assessment and patient-centred decision-making.
 :::
 
-::: {.theme-card}
+::: {.theme-card .reveal}
+<div class="tool-kicker">Behaviour</div>
+
 ### Behaviour in complex decisions
 
 Attention, information processing, numeracy, feedback, attribute ordering and eye-tracking evidence within stated-preference studies.
 :::
 
-::: {.theme-card}
+::: {.theme-card .reveal}
+<div class="tool-kicker">Policy</div>
+
 ### Public health policy and evaluation
 
 Vaccination policy, mandates, telehealth, preventive care and the economic evaluation of health and public programmes.
@@ -79,14 +103,14 @@ Vaccination policy, mandates, telehealth, preventive care and the economic evalu
 
 ::: {.section .alt}
 ::: {.page-shell}
-::: {.section-heading}
+::: {.section-heading .reveal}
 <div class="section-rule"></div>
 
 ## Recent publications
 :::
 
 <div class="publication-list">
-<div class="publication-item">
+<div class="publication-item reveal">
 <div class="publication-year">2026</div>
 <div>
 <div class="publication-title">Fit for purpose? Assessing the robustness of discrete choice experiment designs in the context of evolving health technologies</div>
@@ -96,7 +120,7 @@ Vaccination policy, mandates, telehealth, preventive care and the economic evalu
 </div>
 </div>
 
-<div class="publication-item">
+<div class="publication-item reveal">
 <div class="publication-year">2026</div>
 <div>
 <div class="publication-title">Guidance or misdirection? Unpacking the role of feedback in health preference assessments</div>
@@ -106,7 +130,7 @@ Vaccination policy, mandates, telehealth, preventive care and the economic evalu
 </div>
 </div>
 
-<div class="publication-item">
+<div class="publication-item reveal">
 <div class="publication-year">2026</div>
 <div>
 <div class="publication-title">Priority for self or others? Incorporating equity considerations in a preference-based health value assessment</div>
@@ -116,7 +140,7 @@ Vaccination policy, mandates, telehealth, preventive care and the economic evalu
 </div>
 </div>
 
-<div class="publication-item">
+<div class="publication-item reveal">
 <div class="publication-year">2026</div>
 <div>
 <div class="publication-title">Feeling lonely? Preferences for support programmes to reduce loneliness among older adults in Australia</div>
@@ -133,14 +157,16 @@ Vaccination policy, mandates, telehealth, preventive care and the economic evalu
 
 ::: {.section}
 ::: {.page-shell}
-::: {.section-heading}
+::: {.section-heading .reveal}
 <div class="section-rule"></div>
 
 ## Digital tools
+
+Interactive applications that turn empirical research into transparent, usable analysis.
 :::
 
 ::: {.grid-2}
-::: {.tool-card}
+::: {.tool-card .reveal}
 <div class="tool-kicker">Vaccine policy</div>
 
 ### eMANDEVA Decision Aid
@@ -150,7 +176,7 @@ An interactive decision-support application for evaluating vaccine-mandate desig
 <a class="tool-link" data-open-new="true" href="https://mesfingenie.com/eMANDEVA-DecisionAid-V18/">Open eMANDEVA <i class="bi bi-arrow-up-right"></i></a>
 :::
 
-::: {.tool-card}
+::: {.tool-card .reveal}
 <div class="tool-kicker">Economic evaluation</div>
 
 ### Farming BCA Tool
