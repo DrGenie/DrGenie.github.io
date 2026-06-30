@@ -23,7 +23,6 @@ project:
     - farming-bca-tool-v18/**
 
 website:
-  title: "Mesfin Genie"
   site-url: "https://mesfingenie.com"
   favicon: assets/favicon.png
   page-navigation: true
