@@ -1,5 +1,4 @@
 ---
-title: false
 pagetitle: "Publications | Mesfin Genie"
 page-layout: full
 description: "Journal articles, working papers, book chapters and data outputs by Mesfin Genie."
