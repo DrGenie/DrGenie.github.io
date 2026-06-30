@@ -25,17 +25,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install compatibility dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install requests beautifulsoup4
-
       - name: Attempt verified metrics update
         run: python scripts/update_scholar_metrics.py
 
       - name: Commit verified changes
+        shell: bash
         run: |
-          if git diff --quiet -- assets/scholar-metrics.json; then
+          if [[ -z "$(git status --porcelain -- assets/scholar-metrics.json)" ]]; then
             echo "No verified metrics change."
             exit 0
           fi
@@ -44,5 +40,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add assets/scholar-metrics.json
+
+          if git diff --cached --quiet; then
+            echo "No verified metrics change to commit."
+            exit 0
+          fi
+
           git commit -m "Update verified Google Scholar metrics"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
