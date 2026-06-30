@@ -1,5 +1,4 @@
 ---
-title: false
 pagetitle: "Tools | Mesfin Genie"
 page-layout: full
 description: "Interactive decision-support and economic-evaluation tools developed by Mesfin Genie."
