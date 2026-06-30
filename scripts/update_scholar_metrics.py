@@ -1,31 +1,114 @@
+"""Update verified public Google Scholar metrics without failing the workflow.
+
+The script writes metrics only when the expected Mesfin Genie profile and all
+three headline values are present. If Google Scholar blocks the request or the
+page structure changes, the existing JSON file is left untouched and the
+script exits successfully.
+"""
+
+from __future__ import annotations
+
+from datetime import datetime, timezone
 from pathlib import Path
-import json,re,sys,time
-from datetime import datetime,timezone
-import requests
-from bs4 import BeautifulSoup
-URL='https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en'
-out=Path(__file__).resolve().parents[1]/'assets/scholar-metrics.json'
-headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36','Accept-Language':'en-US,en;q=0.9'}
-try:
-    time.sleep(2)
-    r=requests.get(URL,headers=headers,timeout=30)
-    r.raise_for_status()
-    low=r.text.lower()
-    if 'unusual traffic' in low or 'not a robot' in low: raise RuntimeError('Google Scholar rate-limited the request')
-    soup=BeautifulSoup(r.text,'html.parser')
-    name=soup.select_one('#gsc_prf_in') or soup.select_one('.gsc_prf_in')
-    if not name or 'Mesfin' not in name.get_text(' ',strip=True): raise RuntimeError('Author profile could not be verified')
-    vals={}
-    for row in soup.select('table.gsc_rsb_std tr'):
-        cells=[c.get_text(' ',strip=True) for c in row.select('td')]
-        if len(cells)>=3:
-            key=cells[0].lower(); value=re.sub(r'[^0-9]','',cells[1])
-            if value: vals[key]=int(value)
-    citations,h,i10=vals.get('citations'),vals.get('h-index'),vals.get('i10-index')
-    if not all(isinstance(x,int) and x>=0 for x in (citations,h,i10)): raise RuntimeError('Metrics table was incomplete')
-    data={'status':'verified','citations':citations,'h_index':h,'i10_index':i10,'updated_at':datetime.now(timezone.utc).isoformat(),'source':URL}
-    out.write_text(json.dumps(data,indent=2)+'\n',encoding='utf-8')
-    print('Updated verified Google Scholar metrics')
-except Exception as exc:
-    print('Scholar metrics not updated:',exc)
-    sys.exit(0)
+import html
+import json
+import re
+import sys
+import urllib.error
+import urllib.request
+
+PROFILE_URL = "https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en"
+OUTPUT_PATH = (
+    Path(__file__).resolve().parents[1] / "assets" / "scholar-metrics.json"
+)
+
+
+def _clean_text(value: str) -> str:
+    value = re.sub(r"<[^>]+>", " ", value)
+    value = html.unescape(value)
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def _extract_metrics(page: str) -> tuple[int, int, int]:
+    lowered = page.lower()
+    if "unusual traffic" in lowered or "not a robot" in lowered:
+        raise RuntimeError("Google Scholar blocked the automated request")
+
+    name_match = re.search(
+        r'id=["\']gsc_prf_in["\'][^>]*>(.*?)</',
+        page,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    profile_name = _clean_text(name_match.group(1)) if name_match else ""
+    if "mesfin" not in profile_name.lower() or "genie" not in profile_name.lower():
+        raise RuntimeError("The expected Google Scholar profile was not verified")
+
+    cells = re.findall(
+        r'<td[^>]*class=["\']gsc_rsb_std["\'][^>]*>(.*?)</td>',
+        page,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    numbers: list[int] = []
+    for cell in cells:
+        text = _clean_text(cell)
+        if re.fullmatch(r"[0-9][0-9,]*", text):
+            numbers.append(int(text.replace(",", "")))
+
+    # Scholar normally provides two columns for each metric:
+    # all-time and since-year. We use the all-time values at positions 0, 2, 4.
+    if len(numbers) < 5:
+        raise RuntimeError("The Google Scholar metrics table was incomplete")
+
+    citations, h_index, i10_index = numbers[0], numbers[2], numbers[4]
+    if citations < 0 or h_index < 0 or i10_index < 0:
+        raise RuntimeError("Invalid metric values were returned")
+
+    return citations, h_index, i10_index
+
+
+def main() -> int:
+    request = urllib.request.Request(
+        PROFILE_URL,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/149.0.0.0 Safari/537.36"
+            ),
+            "Accept-Language": "en-US,en;q=0.9",
+        },
+    )
+
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            page = response.read().decode("utf-8", errors="replace")
+        citations, h_index, i10_index = _extract_metrics(page)
+    except (urllib.error.URLError, TimeoutError, RuntimeError, ValueError) as exc:
+        print(f"Google Scholar metrics were not updated: {exc}")
+        print("The existing verified metrics file was left unchanged.")
+        return 0
+
+    data = {
+        "status": "verified",
+        "citations": citations,
+        "h_index": h_index,
+        "i10_index": i10_index,
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "source": PROFILE_URL,
+    }
+
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    new_content = json.dumps(data, indent=2, ensure_ascii=False) + "\n"
+    old_content = OUTPUT_PATH.read_text(encoding="utf-8") if OUTPUT_PATH.exists() else ""
+
+    if new_content == old_content:
+        print("Verified Google Scholar metrics are unchanged.")
+        return 0
+
+    OUTPUT_PATH.write_text(new_content, encoding="utf-8")
+    print("Verified Google Scholar metrics were updated.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
