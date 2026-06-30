@@ -34,11 +34,13 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "1.9.38"
 
       - name: Clean previous build
         run: rm -rf _site .quarto
 
-      - name: Write build date and sitemap
+      - name: Prepare build information and sitemap
         run: python scripts/prepare_build.py
 
       - name: Render website
