@@ -1,5 +1,4 @@
 ---
-title: false
 pagetitle: "Research | Mesfin Genie"
 page-layout: full
 description: "Research by Mesfin Genie in health preferences, choice modelling, decision processes and public health policy."
