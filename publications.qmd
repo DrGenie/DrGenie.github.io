@@ -1,0 +1,21 @@
+---
+title: "Publications"
+---
+
+A full and frequently updated list is available through [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-1744-4666), and [Open Research Newcastle](https://openresearch.newcastle.edu.au/authors/Mesfin_Genie/21127013).
+
+## Selected papers
+
+1. Genie MG, Reed SD, Özdemir S. Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments. *Health Economics*. 2026;35(6):910–928. doi:10.1002/hec.70093
+
+2. Genie MG, Boyes AW, Paolucci F. Feeling lonely? Preferences for support programmes to reduce loneliness among older adults in Australia: A discrete choice experiment. *Health Policy*. 2026;167:105587. doi:10.1016/j.healthpol.2026.105587
+
+3. Attema AE, Antonini M, Genie MG, Torbica A, Paolucci F. Time preferences and COVID-19 vaccination uptake. *European Journal of Health Economics*. 2025. doi:10.1007/s10198-025-01801-7
+
+4. Genie MG, Ryan M, Krucien N. Keeping an eye on cost: What can eye tracking tell us about attention to cost information in discrete choice experiments? *Health Economics*. 2023. doi:10.1002/hec.4658
+
+5. Genie MG, Ryan M, Krucien N. To pay or not to pay? Cost information processing in the valuation of publicly funded healthcare. *Social Science & Medicine*. 2021.
+
+6. Genie MG, Krucien N, Ryan M. Weighting or aggregating? Investigating information processing in multi-attribute choices. *Health Economics*. 2021. doi:10.1002/hec.4245
+
+7. Genie MG, Loría-Rebolledo LE, et al. Understanding public preferences and trade-offs for government responses during a pandemic: a protocol for a discrete choice experiment in the UK. *BMJ Open*. 2020;10:e043477.

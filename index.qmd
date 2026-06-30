@@ -1,0 +1,62 @@
+---
+title: "Mesfin Genie"
+subtitle: "Senior Lecturer in Health Economics"
+about:
+  template: jolla
+  image: profile.jpg
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:mesfin.genie@newcastle.edu.au
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en
+    - icon: mortarboard
+      text: University profile
+      href: https://www.newcastle.edu.au/profile/mesfin-genie
+    - icon: link-45deg
+      text: ORCID
+      href: https://orcid.org/0000-0002-1744-4666
+---
+
+## About
+
+I am a Senior Lecturer in Health Economics at Newcastle Business School, The University of Newcastle, Australia. My research focuses on behavioural health economics, stated-preference methods, discrete choice experiments, and the use of experimental and decision-analytic methods to understand how people make healthcare decisions.
+
+My current work examines how patients, the public, clinicians, and policy makers make trade-offs in health and public policy settings. I have a particular interest in preference heterogeneity, information processing, attention, equity, vaccine mandate policies, chronic disease management, and health technology assessment.
+
+Before joining The University of Newcastle, I held research and teaching positions at Ca’ Foscari University of Venice, the Health Economics Research Unit at the University of Aberdeen, Auburn University, and Duke University.
+
+## Research areas
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+### Health economics and policy
+Preference evidence for health policy, public health interventions, chronic disease management, and healthcare decision making.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Discrete choice experiments
+Design, implementation, econometric analysis, validity, heterogeneity, and methodological development in DCEs.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Behavioural health economics
+Information processing, numeracy, attention, dominance, feedback, and decision quality in stated-preference tasks.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### Equity and public preferences
+Public and patient trade-offs involving equity, distributional concerns, vaccine mandates, and healthcare access.
+:::
+:::
+
+## Selected publications
+
+- Genie MG, Reed SD, Özdemir S. Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments. *Health Economics*. 2026;35(6):910–928. doi:10.1002/hec.70093
+- Genie MG, Boyes AW, Paolucci F. Feeling lonely? Preferences for support programmes to reduce loneliness among older adults in Australia: A discrete choice experiment. *Health Policy*. 2026;167:105587. doi:10.1016/j.healthpol.2026.105587
+- Genie MG, Ryan M, Krucien N. Keeping an eye on cost: What can eye tracking tell us about attention to cost information in discrete choice experiments? *Health Economics*. 2023. doi:10.1002/hec.4658
+- Genie MG, Ryan M, Krucien N. To pay or not to pay? Cost information processing in the valuation of publicly funded healthcare. *Social Science & Medicine*. 2021.
+- Genie MG, Krucien N, Ryan M. Weighting or aggregating? Investigating information processing in multi-attribute choices. *Health Economics*. 2021. doi:10.1002/hec.4245
+

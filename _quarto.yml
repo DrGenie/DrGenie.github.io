@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "Mesfin Genie"
+  site-url: "https://mesfingenie.com"
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Students
+        href: students.qmd
+      - text: Contact
+        href: contact.qmd
+  page-footer:
+    left: "© Mesfin Genie"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme:
+      light: cosmo
+    css: styles.css
+    toc: true
+    link-external-newwindow: true
+execute:
+  freeze: auto

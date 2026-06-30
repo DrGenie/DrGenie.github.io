@@ -1,0 +1,32 @@
+---
+title: "Research"
+---
+
+My research is located at the intersection of health economics, behavioural economics, mathematical psychology, and public policy. I use stated-preference methods, especially discrete choice experiments, to study how people evaluate health technologies, public health policies, and healthcare delivery models.
+
+## Main themes
+
+### Preference heterogeneity and choice modelling
+
+I study how preferences differ across individuals and groups, and how heterogeneity affects inference, willingness-to-pay estimates, predicted uptake, and policy interpretation.
+
+### Information processing and attention
+
+A central strand of my work examines how respondents process complex choice information. This includes research on cost information, eye tracking, numeracy, feedback, and dominance-structured tasks.
+
+### Public health policy and mandates
+
+I examine public preferences for vaccine mandates and other public health interventions, with a focus on legitimacy, proportionality, exemption design, and policy thresholds.
+
+### Equity and distributional preferences
+
+My work also studies how people trade off self-interest, population benefit, and concern for worse-off groups in healthcare and public policy decisions.
+
+## Methods
+
+- Discrete choice experiments
+- Mixed logit and latent class models
+- Best–worst and dual-response choice tasks
+- Eye-tracking and process-tracing methods
+- Experimental survey design
+- Health preference and decision-quality assessment

@@ -1,0 +1,30 @@
+/* Academic personal website styling */
+
+:root {
+  --bs-body-font-size: 1.02rem;
+}
+
+body {
+  line-height: 1.65;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+.navbar-title {
+  font-weight: 700;
+}
+
+.about-entity .about-link {
+  border-radius: 999px;
+}
+
+.grid h3 {
+  margin-top: 0.25rem;
+}
+
+.quarto-title-banner {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
