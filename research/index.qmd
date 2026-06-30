@@ -1,0 +1,59 @@
+---
+title: "Research"
+---
+
+::: {.page-header}
+<div class="kicker">Research</div>
+# Health economics, preference evidence and behaviour
+My research develops and applies methods for understanding how people value health, process information, and make trade-offs under uncertainty.
+:::
+
+::: {.content}
+::: {.grid-2}
+::: {.card}
+### Health economics and policy
+Economic evaluation, health technology assessment, public health policy, health service design, vaccine policy, and policy acceptability.
+:::
+::: {.card}
+### Choice modelling
+Discrete choice experiments, mixed logit, latent class models, preference heterogeneity, attribute non-attendance, equity-efficiency trade-offs, and willingness-to-pay or willingness-to-sacrifice measures.
+:::
+::: {.card}
+### Behavioural health economics
+Attention, numeracy, feedback, presentation effects, eye tracking, task engagement, information processing, and decision quality in health preference tasks.
+:::
+::: {.card}
+### Decision support
+Translation of statistical and econometric evidence into transparent online tools for policy evaluation, clinical decision support, and applied economic evaluation.
+:::
+:::
+
+## Current research streams
+
+::: {.grid-3}
+::: {.card}
+### Vaccine mandate evaluation
+Mandate design, exemptions, scope, thresholds, policy legitimacy, predicted support, and decision support tools for future public health emergencies.
+:::
+::: {.card}
+### Eye tracking and DCEs
+How visual attention shapes stated preferences, cost sensitivity, response quality and the interpretation of attribute importance.
+:::
+::: {.card}
+### Equity and value assessment
+How people trade off total health gain against priority to worse-off groups, fairness and distributional concerns.
+:::
+::: {.card}
+### Telehealth and access
+Preferences for telehealth models, continuity, distance, waiting time, data security and out-of-pocket costs.
+:::
+::: {.card}
+### Rare disease care
+Organisational models of care, coordination, access to innovation, continuity and patient-centred service design.
+:::
+::: {.card}
+### Applied benefit-cost analysis
+Economic tools for applied decision-making in agriculture, public policy and programme evaluation.
+:::
+:::
+:::

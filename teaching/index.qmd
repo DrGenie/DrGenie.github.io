@@ -1,0 +1,26 @@
+---
+title: "Teaching"
+---
+
+::: {.page-header}
+<div class="kicker">Teaching</div>
+# Health economics and behavioural economics teaching
+Courses at Newcastle Business School, with emphasis on applied economic reasoning, policy evaluation and evidence-based decision-making.
+:::
+
+::: {.content}
+::: {.grid-2}
+::: {.card}
+### ECON2112 Health Economics and Finance
+Health systems, health financing, economic evaluation, demand for health care, insurance, provider behaviour, equity and applied policy analysis.
+:::
+::: {.card}
+### ECON3111 Behavioural Economics
+Behavioural decision-making, heuristics, biases, incentives, bounded rationality, experimental evidence and applications to health, public policy and markets.
+:::
+:::
+
+## Teaching philosophy
+
+I teach economics as an applied way of thinking. Students learn to connect theory, data and policy rather than treating economic models as abstract exercises. Assessment and class activities emphasise interpretation, evidence, communication and independent reasoning.
+:::

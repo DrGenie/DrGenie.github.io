@@ -1,0 +1,81 @@
+---
+title: "Publications"
+---
+
+::: {.page-header}
+<div class="kicker">Publications</div>
+# Selected publications
+Publications are grouped by field so readers can quickly find work in health economics, choice modelling, behavioural methods, public health and applied policy.
+:::
+
+::: {.content}
+<span class="tag">Health economics</span><span class="tag">Choice modelling</span><span class="tag">Behavioural economics</span><span class="tag">Public health policy</span><span class="tag">Decision tools</span>
+
+## Choice modelling and preference methods
+
+::: {.pub}
+<div class="pub-title">Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments</div>
+<div class="pub-meta">Mesfin G. Genie, Reed and Ozdemir · Health Economics · 2026</div>
+<div class="pub-links">[DOI](https://doi.org/10.1002/hec.70093) [Journal](https://onlinelibrary.wiley.com/doi/full/10.1002/hec.70093)</div>
+:::
+
+::: {.pub}
+<div class="pub-title">Keeping an eye on cost: What can eye tracking tell us about attention to cost information in discrete choice experiments?</div>
+<div class="pub-meta">Mesfin G. Genie · Health Economics · 2023</div>
+<div class="pub-links">[DOI](https://doi.org/10.1002/hec.4658) [PubMed](https://pubmed.ncbi.nlm.nih.gov/36737875/)</div>
+:::
+
+::: {.pub}
+<div class="pub-title">The role of heterogeneity of patients' preferences in kidney transplantation</div>
+<div class="pub-meta">Mesfin G. Genie, Antonio Nicolò and Giacomo Pasini · Journal of Health Economics · 2020</div>
+<div class="pub-links">[DOI](https://doi.org/10.1016/j.jhealeco.2020.102331)</div>
+:::
+
+::: {.pub}
+<div class="pub-title">Fit for Purpose? Assessing the Robustness of Discrete Choice Experiment Designs in the Context of Evolving Health Technologies</div>
+<div class="pub-meta">Mesfin G. Genie, Verity Watson, Michaël Schwarzinger and Stéphane Luchini · Social Science & Medicine · 2026</div>
+:::
+
+## Equity, value assessment and health policy
+
+::: {.pub}
+<div class="pub-title">Priority for Self or Others? Incorporating Equity Preferences into Health Value Assessment</div>
+<div class="pub-meta">Mesfin G. Genie · Value in Health · 2025</div>
+<div class="pub-links">[DOI](https://doi.org/10.1016/j.jval.2025.10.011) [PubMed](https://pubmed.ncbi.nlm.nih.gov/41192667/)</div>
+:::
+
+::: {.pub}
+<div class="pub-title">Feeling lonely? Preferences for support programmes to reduce loneliness among older adults in Australia</div>
+<div class="pub-meta">Mesfin G. Genie, Boyes and Paolucci · Health Policy · 2026</div>
+:::
+
+## Public health, vaccination and pandemic policy
+
+::: {.pub}
+<div class="pub-title">Understanding public preferences and trade-offs for government responses during a pandemic: a protocol for a discrete choice experiment in the UK</div>
+<div class="pub-meta">Mesfin G. Genie, Loría-Rebolledo, Paranjothy, Powell, Ryan, Sakowsky and Watson · BMJ Open · 2020</div>
+:::
+
+::: {.pub}
+<div class="pub-title">Impact of vaccine mandates and removals on COVID-19 vaccination uptake</div>
+<div class="pub-meta">BMJ Open · 2025</div>
+<div class="pub-links">[Journal](https://bmjopen.bmj.com/content/15/7/e097412.info)</div>
+:::
+
+## Health behaviour and applied economics
+
+::: {.pub}
+<div class="pub-title">Time preferences and COVID-19 vaccination uptake</div>
+<div class="pub-meta">European Journal of Health Economics · 2025</div>
+<div class="pub-links">[Journal](https://link.springer.com/article/10.1007/s10198-025-01801-7)</div>
+:::
+
+::: {.pub}
+<div class="pub-title">Immigration and the utilisation of preventive care in Europe: Results from retrospective data</div>
+<div class="pub-meta">Mesfin G. Genie, Raluca Elena Buia and Giacomo Pasini · Empirical Economics · 2026</div>
+:::
+
+## Full publication list
+
+The site is ready for a complete BibTeX-based publication list. Export BibTeX from Google Scholar and replace `assets/publications.bib`; the page can then be rebuilt as an automatically updated list with filters by year, field and journal.
+:::

@@ -1,54 +1,51 @@
 project:
   type: website
   output-dir: _site
-
 website:
   title: "Mesfin Genie"
   site-url: "https://mesfingenie.com"
-  description: "Official academic website of Mesfin Genie, Senior Lecturer in Health Economics at the University of Newcastle."
+  description: "Mesfin Genie, PhD — Senior Lecturer in Health Economics at the University of Newcastle."
+  favicon: assets/img/favicon.png
+  open-graph: true
+  twitter-card: true
+  search: true
   navbar:
+    logo: assets/img/mg-mark.svg
+    title: false
     pinned: true
-    logo: assets/mg-mark.svg
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Research"
-        href: research.qmd
-      - text: "Publications"
-        href: publications.qmd
-      - text: "Projects & Grants"
-        href: projects.qmd
-      - text: "Software"
-        href: software.qmd
-      - text: "Teaching"
-        href: teaching.qmd
-      - text: "Supervision"
-        href: supervision.qmd
-      - text: "CV"
-        href: cv.qmd
-      - text: "Contact"
-        href: contact.qmd
     right:
-      - icon: mortarboard
-        href: https://scholar.google.com/citations?user=v2SXM_kAAAAJ
-        aria-label: Google Scholar
-      - icon: github
-        href: https://github.com/DrGenie
-        aria-label: GitHub
-      - icon: linkedin
-        href: https://www.linkedin.com/in/mesfin-genie-ph-d-65634216
-        aria-label: LinkedIn
+      - text: Research
+        href: research/
+      - text: Publications
+        href: publications/
+      - text: Projects
+        href: projects/
+      - text: Software
+        href: software/
+      - text: Teaching
+        href: teaching/
+      - text: Supervision
+        href: supervision/
+      - text: CV
+        href: cv/
+      - text: Contact
+        href: contact/
   page-footer:
     left: "© 2026 Mesfin Genie"
-    right: "Built with Quarto · Hosted on GitHub Pages"
-  search: true
-
+    right:
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=v2SXM_kAAAAJ
+      - text: University profile
+        href: https://www.newcastle.edu.au/profile/mesfin-genie
+      - text: GitHub
+        href: https://github.com/DrGenie
 format:
   html:
-    theme: cosmo
-    css: assets/styles.css
+    theme: [cosmo, assets/styles.scss]
     toc: false
     page-layout: full
     smooth-scroll: true
     link-external-newwindow: true
-    code-copy: true
+    anchor-sections: false
+execute:
+  freeze: auto

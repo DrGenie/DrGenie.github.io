@@ -2,122 +2,139 @@
 title: "Mesfin Genie"
 ---
 
-::: {.hero-wrap}
 ::: {.hero}
+::: {.hero-grid}
 ::: {}
-<div class="eyebrow">Health Economics · Choice Modelling · Behavioural Science</div>
+<div class="kicker">Health economics · choice modelling · behavioural science</div>
 
-# Mesfin Genie, PhD
+# Mesfin Genie
 
 ## Senior Lecturer in Health Economics  
 ## Newcastle Business School · The University of Newcastle
 
-I study how patients, citizens and decision makers make trade-offs in complex health and policy settings. My work combines health economics, discrete choice experiments, behavioural economics, eye tracking, vaccine policy, health technology assessment, and applied policy evaluation.
+I study how patients, citizens and decision makers make trade-offs in health and public policy. My work combines discrete choice experiments, behavioural economics, eye tracking, econometrics, and decision support tools to generate evidence that is useful for policy, clinical practice, and health technology assessment.
 
 ::: {.hero-actions}
-[Publications](publications.qmd){.btn-site .btn-primary}
-[Research](research.qmd){.btn-site .btn-secondary}
-[Projects](projects.qmd){.btn-site .btn-secondary}
-[CV](cv.qmd){.btn-site .btn-secondary}
+[Publications](publications/){.button .primary}
+[Research](research/){.button .secondary}
+[Software & tools](software/){.button .secondary}
+[CV](cv/){.button .secondary}
 :::
 :::
 
-::: {.profile-panel}
+::: {.portrait-card}
 <div class="portrait">MG</div>
-<div class="panel-caption"><strong>Research focus.</strong> Health preference research, DCEs, information processing, vaccine policy, HTA, clinical outcome assessment, and decision support tools.</div>
+
+::: {.meta-row}
+::: {.meta-box}
+<strong>Health economics</strong>
+Preference, policy and value assessment
+:::
+::: {.meta-box}
+<strong>Choice modelling</strong>
+DCEs, heterogeneity and behaviour
+:::
+::: {.meta-box}
+<strong>Decision tools</strong>
+Evidence translated into usable web apps
+:::
+::: {.meta-box}
+<strong>University of Newcastle</strong>
+Newcastle Business School
+:::
+:::
 :::
 :::
 :::
 
-::: {.metrics}
-::: {.metric}
-<div class="num">41</div>
-<div class="label">Journal articles listed by UoN</div>
-:::
-::: {.metric}
-<div class="num">8</div>
-<div class="label">Grants listed by UoN</div>
-:::
-::: {.metric}
-<div class="num">$1.24m</div>
-<div class="label">Funding listed by UoN</div>
-:::
-::: {.metric}
-<div class="num">9</div>
-<div class="label">Current/past supervisions</div>
-:::
-:::
+::: {.content}
 
 ::: {.section}
 ::: {.section-title}
 ## Research at a glance
-
-Selected areas that define my current programme of work.
+My work connects methods development with applied policy questions in health, public health and behavioural decision-making.
 :::
 
 ::: {.grid-3}
 ::: {.card}
-### Health economics and policy
-Economic evaluation, health-system reform, health technology assessment, vaccine policy, public preferences, and policy acceptability.
+<div class="goldline"></div>
+### Preference evidence for policy
+Discrete choice experiments and preference elicitation for health services, vaccine policy, chronic disease care, and public health interventions.
 :::
+
 ::: {.card}
-### Choice modelling
-Discrete choice experiments, mixed logit, latent class models, heterogeneity, equity–efficiency trade-offs, WTP, and stated preference methods.
+<div class="goldline"></div>
+### Behaviour inside choice tasks
+Eye tracking, information processing, feedback, numeracy, attention to cost, and decision quality in stated preference studies.
 :::
+
 ::: {.card}
-### Behavioural health economics
-Attention, information processing, numeracy, feedback, eye tracking, decision quality, and choice architecture in health preference tasks.
+<div class="goldline"></div>
+### Decision support and translation
+Online tools that turn complex economic and preference evidence into transparent, usable outputs for policy and practice.
 :::
 :::
 :::
 
 ::: {.section}
 ::: {.section-title}
-## Selected recent work
-
-Recent publications organised around choice modelling, vaccine policy, health preference methods, and applied health economics.
+## Featured work
+Selected outputs from recent and current research streams.
 :::
 
 ::: {.grid-2}
 ::: {.card}
-### Health preference methods
-<div class="pub"><div class="pub-title">Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments</div><div class="pub-meta">Genie, Reed and Ozdemir · <em>Health Economics</em> · 2026</div></div>
-<div class="pub"><div class="pub-title">Fit for purpose? Assessing the robustness of discrete choice experiment designs in the context of evolving health technologies</div><div class="pub-meta">Genie, Watson, Schwarzinger and Luchini · <em>Social Science & Medicine</em> · 2026</div></div>
+### Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments
+**Health Economics**, 2026.  
+A methodological study of feedback in dominance-structured health preference tasks.
 :::
+
 ::: {.card}
-### Vaccine policy and public preferences
-<div class="pub"><div class="pub-title">No Jab, No Access? Preferences for Vaccine Mandates in Europe and Australia</div><div class="pub-meta">Genie et al. · <em>Australian and New Zealand Journal of Public Health</em> · 2026</div></div>
-<div class="pub"><div class="pub-title">An open repository of COVID-19 vaccine mandate studies with a worked scoping review of quasi-experimental evidence</div><div class="pub-meta">Martinenghi et al. · <em>npj Vaccines</em> · 2026</div></div>
+### Keeping an eye on cost
+**Health Economics**, 2023.  
+Eye-tracking evidence on attention to cost information in discrete choice experiments.
+:::
+
+::: {.card}
+### Priority for self or others?
+**Value in Health**, 2025.  
+Equity, distributional preferences and decision-making in health value assessment.
+:::
+
+::: {.card}
+### Heterogeneity of patients' preferences in kidney transplantation
+**Journal of Health Economics**, 2020.  
+Preference heterogeneity and treatment decision-making in kidney transplantation.
 :::
 :::
 :::
 
 ::: {.section}
 ::: {.section-title}
-## Current priorities
-
-The website is structured so these streams can expand into project pages, outputs, software, and policy-facing materials.
+## Decision tools
+Two live tools are integrated into the site and accessible directly from the Software page.
 :::
 
-::: {.grid-4}
+::: {.tool-card}
+::: {}
+### eMANDEVA Decision Aid
+A web-based decision aid for vaccine mandate evaluation and policy design.
+:::
+[Open tool](https://mesfingenie.com/eMANDEVA-DecisionAid-V18/){.button .dark}
 :::
 
-::: {.grid-2}
-::: {.card}
-### MandEval and vaccine mandates
-Mandate design, public acceptability, quasi-experimental evidence, international preference heterogeneity, and decision tools for future pandemic policy.
+::: {.tool-card}
+::: {}
+### Farming BCA Tool
+A benefit-cost analysis tool for farm-trial and soil-management interventions.
 :::
-::: {.card}
-### Attention and choice
-Eye tracking, attribute ordering, information acquisition, early attention, and how presentation affects preference estimates and decision quality.
-:::
-::: {.card}
-### Decision support tools
-Online tools translating preference evidence and economic evaluation outputs into transparent policy, clinical, and agricultural decision support.
-:::
-::: {.card}
-### Equity and value assessment
-Incorporating concern for worse-off groups, distributional preferences, and fairness into preference-based value assessment.
+[Open tool](https://mesfingenie.com/farming-bca-tool-v18/){.button .dark}
 :::
 :::
+
+::: {.quote-band}
+## Research translated into decisions
+The site is structured around research, publications, projects, software and supervision, with clean URLs and no visible `.html` links in the navigation.
+:::
+
 :::

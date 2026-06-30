@@ -1,0 +1,32 @@
+---
+title: "Supervision"
+---
+
+::: {.page-header}
+<div class="kicker">Supervision</div>
+# PhD, HDR and research supervision
+I welcome strong students interested in health economics, discrete choice experiments, eye tracking, behavioural health economics, decision support tools and applied econometrics.
+:::
+
+::: {.content}
+## Suitable areas
+
+::: {.grid-3}
+::: {.card}
+### Health preference research
+Discrete choice experiments, best-worst scaling, valuation, preference heterogeneity and patient/public trade-offs.
+:::
+::: {.card}
+### Behavioural health economics
+Attention, information processing, feedback, numeracy, decision quality and experimental methods.
+:::
+::: {.card}
+### Policy and evaluation
+Vaccine policy, telehealth, rare disease care, chronic disease programmes, economic evaluation and health system design.
+:::
+:::
+
+## Contacting me about supervision
+
+Please send a short research statement, CV, academic transcripts, writing sample if available, and a clear explanation of how your interests connect with my research programme.
+:::

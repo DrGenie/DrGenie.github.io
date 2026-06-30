@@ -1,0 +1,34 @@
+---
+title: "CV"
+---
+
+::: {.page-header}
+<div class="kicker">Curriculum vitae</div>
+# Mesfin Genie
+Senior Lecturer in Health Economics, Newcastle Business School, The University of Newcastle.
+:::
+
+::: {.content}
+::: {.grid-2}
+::: {.card}
+### Current appointment
+Senior Lecturer in Health Economics  
+Newcastle Business School  
+The University of Newcastle, Australia
+:::
+::: {.card}
+### Education
+PhD in Economics, Ca’ Foscari University of Venice  
+MSc in Health Economics and Management, University of Bologna  
+MSc in Economics, Addis Ababa University
+:::
+:::
+
+## Research areas
+
+Health economics; behavioural economics; discrete choice experiments; preference elicitation; eye tracking; vaccine policy; health technology assessment; decision support tools; applied econometrics.
+
+## Profiles
+
+[University profile](https://www.newcastle.edu.au/profile/mesfin-genie){.button .light} [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ){.button .light} [GitHub](https://github.com/DrGenie){.button .light}
+:::

@@ -1,0 +1,38 @@
+---
+title: "Projects"
+---
+
+::: {.page-header}
+<div class="kicker">Projects</div>
+# Research projects and funded work
+Applied and methodological projects in health economics, public health policy, preference research and decision support.
+:::
+
+::: {.content}
+::: {.grid-2}
+::: {.card}
+### MandEval
+Evaluation of vaccine mandates, mandate removals, policy acceptability and future mandate design. The programme combines causal policy evaluation, stated preference methods and decision-support tools.
+:::
+::: {.card}
+### Eye-tracking discrete choice experiments
+Experimental work examining how attention to attributes, order effects and information processing shape stated preferences and cost sensitivity.
+:::
+::: {.card}
+### Health preference methods
+Methodological studies on feedback, dominance-structured tasks, design robustness, attribute processing and preference heterogeneity.
+:::
+::: {.card}
+### Telehealth preference research
+DCE work on access, continuity, modality, waiting time, travel, privacy, data security and out-of-pocket cost.
+:::
+::: {.card}
+### Rare disease care organisation
+Patient preference work on care coordination, centres of expertise, innovation access, continuity and service configuration.
+:::
+::: {.card}
+### Benefit-cost analysis tools
+Applied decision tools for translating trial, programme and farm-level data into economic metrics including NPV, BCR, ROI and sensitivity results.
+:::
+:::
+:::
