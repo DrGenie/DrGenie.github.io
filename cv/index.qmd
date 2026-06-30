@@ -1,5 +1,4 @@
 ---
-title: false
 pagetitle: "Curriculum Vitae | Mesfin Genie"
 page-layout: full
 description: "Curriculum vitae of Mesfin Genie, Senior Lecturer in Health Economics."
