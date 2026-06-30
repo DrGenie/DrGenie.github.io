@@ -1,5 +1,4 @@
 ---
-title: false
 pagetitle: "Conferences | Mesfin Genie"
 page-layout: full
 description: "Upcoming and recent conference presentations and published abstracts by Mesfin Genie."
