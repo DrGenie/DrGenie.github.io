@@ -1,0 +1,15 @@
+VALIDATION REPORT
+=================
+
+PASSED
+- YAML files parsed successfully
+- No boolean title fields
+- All pages contain one main landmark and one H1
+- JavaScript syntax passed
+- Python scripts compiled
+- 44 publication records validated
+- DOI URL formats validated
+- Core colour pairs meet WCAG AA contrast
+- LaTeX CV compiled successfully
+- JSON files parsed
+- Duplicate HTML IDs not found

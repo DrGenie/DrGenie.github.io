@@ -26,6 +26,8 @@ website:
   title: "Mesfin Genie"
   site-url: "https://mesfingenie.com"
   favicon: assets/favicon.png
+  page-navigation: true
+  back-to-top-navigation: true
   open-graph:
     locale: en_AU
     site-name: "Mesfin Genie"
@@ -37,8 +39,9 @@ website:
   search: false
   navbar:
     pinned: true
-    background: "#f6f5f0"
-    foreground: "#143b32"
+    collapse-below: lg
+    background: "#002244"
+    foreground: "#ffffff"
     title: "Mesfin Genie"
     left:
       - text: "Home"
@@ -56,7 +59,7 @@ website:
       - text: "CV"
         href: /cv/
   page-footer:
-    border: true
+    border: false
     left: "© 2026 Mesfin Genie"
     center: "<span id='site-last-updated'>Last updated</span>"
     right: |
