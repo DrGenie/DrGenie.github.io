@@ -8,7 +8,7 @@ description: "Research by Mesfin Genie in health economics, choice modelling and
 ::: {.page-shell}
 # Research
 
-My research develops and applies methods for understanding health-related decisions and translating preference evidence into policy and programme design.
+I develop and apply methods for understanding health-related decisions and translating preference evidence into policy and programme design.
 :::
 :::
 
@@ -19,37 +19,37 @@ I use discrete choice experiments and related stated-preference methods to exami
 
 A central theme is heterogeneity: people differ in the outcomes they value, the risks they are willing to accept and the trade-offs they are prepared to make. My work develops empirical strategies that make those differences visible and policy-relevant.
 
-Selected work: [The role of heterogeneity of patients’ preferences in kidney transplantation](https://doi.org/10.1016/j.jhealeco.2020.102331), [Priority for self or others?](https://doi.org/10.1016/j.jval.2025.10.011), and [Choice consistency in discrete choice experiments](https://doi.org/10.1016/j.jval.2024.07.001).
+**Selected work:** [The role of heterogeneity of patients’ preferences in kidney transplantation](https://doi.org/10.1016/j.jhealeco.2020.102331){target="_blank"}; [Priority for self or others?](https://doi.org/10.1016/j.jval.2025.10.011){target="_blank"}; [Choice consistency in discrete choice experiments](https://doi.org/10.1016/j.jval.2024.07.001){target="_blank"}.
 
 ## Decision processes
 
 I study how people process information in complex choice tasks: where they look, how they evaluate cost and benefit information, whether feedback improves subsequent choices, and how numeracy and attribute order shape decision quality. This programme combines choice modelling, behavioural economics, experiments and eye tracking.
 
-Selected work: [Keeping an eye on cost](https://doi.org/10.1002/hec.4658), [Weighting or aggregating?](https://doi.org/10.1002/hec.4245), [To pay or not to pay?](https://doi.org/10.1016/j.socscimed.2021.113822), and [Guidance or misdirection?](https://doi.org/10.1002/hec.70093).
+**Selected work:** [Keeping an eye on cost](https://doi.org/10.1002/hec.4658){target="_blank"}; [Weighting or aggregating?](https://doi.org/10.1002/hec.4245){target="_blank"}; [To pay or not to pay?](https://doi.org/10.1016/j.socscimed.2021.113822){target="_blank"}; [Guidance or misdirection?](https://doi.org/10.1002/hec.70093){target="_blank"}.
 
 ## Public health policy
 
 My applied research examines vaccination policy, vaccine mandates, non-pharmaceutical interventions, preventive care, telehealth and programme evaluation. The work uses discrete choice experiments, quasi-experimental designs and economic evaluation to identify behavioural responses, distributional consequences and policy trade-offs.
 
-Selected work: [Are we ready for the next pandemic?](https://doi.org/10.1016/j.socscimed.2025.117687), [Time preferences and COVID-19 vaccination uptake](https://doi.org/10.1007/s10198-025-01801-7), and [Vaccine uptake in the context of mandate announcement and removal](https://doi.org/10.1016/j.vaccine.2026.128825).
+**Selected work:** [Are we ready for the next pandemic?](https://doi.org/10.1016/j.socscimed.2025.117687){target="_blank"}; [Time preferences and COVID-19 vaccination uptake](https://doi.org/10.1007/s10198-025-01801-7){target="_blank"}; [Vaccine uptake in the context of mandate announcement and removal](https://doi.org/10.1016/j.vaccine.2026.128825){target="_blank"}.
 
 ## Major programmes
 
-::: {.grid-2}
-::: {.feature-card}
+::: {.programme-grid}
+::: {.programme-card}
 ### MandEval
 
 **Medical Research Future Fund · 2023–2026**
 
-Effectiveness and consequences of Australia’s COVID-19 vaccine mandates, including uptake, equity, public preferences and policy design. Total programme funding: approximately A$4.57 million; University of Newcastle allocation: A$808,440.
+Effectiveness and consequences of Australia’s COVID-19 vaccine mandates, including uptake, equity, public preferences and policy design.
 :::
 
-::: {.feature-card}
+::: {.programme-card}
 ### Field Epidemiology Training Programs in India
 
 **World Bank · 2025**
 
-Economic and implementation analysis supporting a business case for scaling Field Epidemiology Training Programs in India. University of Newcastle funding: A$416,000.
+Economic and implementation analysis supporting a business case for scaling Field Epidemiology Training Programs in India.
 :::
 :::
 :::

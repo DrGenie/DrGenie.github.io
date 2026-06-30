@@ -29,8 +29,8 @@ website:
   search: false
   navbar:
     pinned: true
-    background: "#ffffff"
-    foreground: "#173f36"
+    background: "#fffdf9"
+    foreground: "#17263b"
     title: "Mesfin Genie"
     left:
       - text: "Home"
@@ -58,6 +58,7 @@ website:
         href: mailto:mesfin.genie@newcastle.edu.au
         aria-label: Email
   page-footer:
+    border: true
     left: "© 2026 Mesfin Genie"
     right: |
       [University profile](https://www.newcastle.edu.au/profile/mesfin-genie){target="_blank"} · [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en){target="_blank"} · [ORCID](https://orcid.org/0000-0002-1744-4666){target="_blank"}
@@ -71,7 +72,6 @@ format:
     include-in-header: assets/head.html
     include-after-body: assets/scripts.html
     anchor-sections: false
-    html-math-method: katex
     link-external-newwindow: true
 
 execute:

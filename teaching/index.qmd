@@ -15,15 +15,19 @@ Health economics, behavioural economics and applied research supervision.
 ::: {.prose}
 ## Current courses
 
-::: {.grid-2}
-::: {.feature-card}
-### ECON2112 · Health Economics and Finance
+::: {.course-grid}
+::: {.course-card}
+<div class="course-code">ECON2112</div>
+
+### Health Economics and Finance
 
 Healthcare markets, insurance, provider behaviour, economic evaluation and health-policy design.
 :::
 
-::: {.feature-card}
-### ECON3111 · Behavioural Economics
+::: {.course-card}
+<div class="course-code">ECON3111</div>
+
+### Behavioural Economics
 
 Decision-making under risk and uncertainty, intertemporal choice, social preferences, experiments and behavioural public policy.
 :::
@@ -31,8 +35,7 @@ Decision-making under risk and uncertainty, intertemporal choice, social prefere
 
 ## Additional teaching
 
-**ECON3011 · Health Economics and Finance**
-
+**ECON3011 · Health Economics and Finance**  
 Course coordination and teaching in applied health economics, economic evaluation and health-system decision-making.
 
 ## Research supervision

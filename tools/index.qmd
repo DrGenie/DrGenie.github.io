@@ -8,59 +8,45 @@ description: "Interactive decision-support and economic-evaluation tools develop
 ::: {.page-shell}
 # Tools
 
-Interactive applications translating empirical research into transparent policy and economic analysis.
+Interactive decision-support and economic-evaluation applications.
 :::
 :::
 
 ::: {.section}
 ::: {.page-shell}
-::: {.tool-showcase}
-::: {.tool-showcase-copy}
-<div class="tool-kicker">Version 18 · Vaccine policy</div>
+::: {.tool-page-grid}
+::: {.tool-page-card}
+<div class="tool-topline"><span>Vaccine policy · Version 18</span><span class="live-pill">Live</span></div>
 
 ## eMANDEVA Decision Aid
 
-The eMANDEVA Decision Aid combines discrete-choice evidence with policy scenarios to assess prospective vaccine-mandate designs.
+Evaluates prospective vaccine-mandate designs using expected public support, lives saved, benefit-cost outcomes and policy trade-offs.
 
-- Expected public support
-- Lives saved and health benefits
-- Benefit-cost outcomes
-- Policy-design trade-offs and traffic-light summaries
-
-<a class="tool-link" data-open-new="true" href="https://mesfingenie.com/eMANDEVA-DecisionAid-V18/">Launch eMANDEVA <i class="bi bi-arrow-up-right"></i></a>
+::: {.tool-tags}
+[Public support]{.tool-tag}
+[Lives saved]{.tool-tag}
+[Benefit–cost analysis]{.tool-tag}
+[Policy scenarios]{.tool-tag}
 :::
 
-::: {.tool-preview aria-label="Illustrative eMANDEVA outputs"}
-<div class="preview-heading">Policy scenario</div>
-<div class="preview-metric"><span>Expected support</span><strong>68%</strong></div>
-<div class="preview-bar"><span style="width:68%"></span></div>
-<div class="preview-metric"><span>Lives saved</span><strong>High</strong></div>
-<div class="preview-metric"><span>Benefit-cost assessment</span><strong>Positive</strong></div>
-:::
+[Launch eMANDEVA ↗](https://mesfingenie.com/eMANDEVA-DecisionAid-V18/){.button-primary target="_blank"}
 :::
 
-::: {.tool-showcase}
-::: {.tool-showcase-copy}
-<div class="tool-kicker">Version 18 · Farm economics</div>
+::: {.tool-page-card}
+<div class="tool-topline"><span>Farm economics · Version 18</span><span class="live-pill">Live</span></div>
 
 ## Farming BCA Tool
 
-The Farming BCA Tool evaluates farm practices and soil-management interventions under alternative assumptions and sensitivity scenarios.
+Evaluates farm practices and soil-management interventions under alternative assumptions and sensitivity scenarios.
 
-- Net present value
-- Benefit-cost ratio
-- Gross profit margin and return on investment
-- Discount-rate and cost-benefit sensitivity analysis
-
-<a class="tool-link" data-open-new="true" href="https://mesfingenie.com/farming-bca-tool-v18/">Launch Farming BCA Tool <i class="bi bi-arrow-up-right"></i></a>
+::: {.tool-tags}
+[Net present value]{.tool-tag}
+[Benefit–cost ratio]{.tool-tag}
+[Return on investment]{.tool-tag}
+[Sensitivity analysis]{.tool-tag}
 :::
 
-::: {.tool-preview aria-label="Illustrative Farming BCA Tool outputs"}
-<div class="preview-heading">Practice comparison</div>
-<div class="preview-metric"><span>Net present value</span><strong>A$/ha</strong></div>
-<div class="preview-metric"><span>Benefit-cost ratio</span><strong>BCR</strong></div>
-<div class="preview-metric"><span>Return on investment</span><strong>ROI</strong></div>
-<div class="preview-chart"><i></i><i></i><i></i><i></i></div>
+[Launch Farming BCA Tool ↗](https://mesfingenie.com/farming-bca-tool-v18/){.button-primary target="_blank"}
 :::
 :::
 :::
