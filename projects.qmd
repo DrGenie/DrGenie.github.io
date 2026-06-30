@@ -1,0 +1,14 @@
+---
+title: "Projects"
+---
+
+# Projects
+
+<div class="grid grid-2">
+<div class="card"><h3>Vaccine mandate evaluation</h3><p>International preference evidence on future vaccine mandate policies, including mandate scope, exemptions, thresholds, lives saved and public support.</p></div>
+<div class="card"><h3>Eye tracking in DCEs</h3><p>Experimental work on attribute order, visual attention, scanpaths, information acquisition and choice behaviour in multi-attribute health decisions.</p></div>
+<div class="card"><h3>Loneliness support programmes</h3><p>Preference evidence and decision-support tools for support programmes to reduce loneliness among older adults in Australia.</p></div>
+<div class="card"><h3>Telehealth preferences</h3><p>Patient preferences for telehealth organisation, access, privacy, modality, travel and out-of-pocket costs.</p></div>
+<div class="card"><h3>Equity in value assessment</h3><p>Preference-based methods for incorporating priority to worse-off groups and equity–efficiency trade-offs.</p></div>
+<div class="card"><h3>Soil CRC BCA Tool</h3><p>Applied economic tools for benefit–cost analysis and reporting of long-term agricultural trials.</p></div>
+</div>

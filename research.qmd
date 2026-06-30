@@ -2,31 +2,23 @@
 title: "Research"
 ---
 
-My research is located at the intersection of health economics, behavioural economics, mathematical psychology, and public policy. I use stated-preference methods, especially discrete choice experiments, to study how people evaluate health technologies, public health policies, and healthcare delivery models.
+# Research
 
-## Main themes
+My research sits at the intersection of health economics, behavioural economics, preference measurement and applied policy evaluation.
 
-### Preference heterogeneity and choice modelling
+<div class="grid grid-2">
+<div class="card"><h3>Health preference research</h3><p>Discrete choice experiments and stated preference methods to understand patient, public and clinician preferences in healthcare.</p><span class="tag">DCE</span><span class="tag">MXL</span><span class="tag">Latent class</span></div>
+<div class="card"><h3>Information processing</h3><p>Eye tracking, numeracy, feedback, dominance tasks and attention measures to understand how people process health information.</p><span class="tag">Eye tracking</span><span class="tag">Decision quality</span></div>
+<div class="card"><h3>Public health policy</h3><p>Preference and policy acceptability studies in vaccination, mandates, pandemic responses, telehealth and prevention.</p><span class="tag">Vaccine mandates</span><span class="tag">Telehealth</span></div>
+<div class="card"><h3>Value assessment</h3><p>Equity, efficiency, distributional concerns and preference-based approaches to health technology and policy evaluation.</p><span class="tag">HTA</span><span class="tag">Equity</span></div>
+</div>
 
-I study how preferences differ across individuals and groups, and how heterogeneity affects inference, willingness-to-pay estimates, predicted uptake, and policy interpretation.
+## Fields
 
-### Information processing and attention
-
-A central strand of my work examines how respondents process complex choice information. This includes research on cost information, eye tracking, numeracy, feedback, and dominance-structured tasks.
-
-### Public health policy and mandates
-
-I examine public preferences for vaccine mandates and other public health interventions, with a focus on legitimacy, proportionality, exemption design, and policy thresholds.
-
-### Equity and distributional preferences
-
-My work also studies how people trade off self-interest, population benefit, and concern for worse-off groups in healthcare and public policy decisions.
-
-## Methods
-
+- Health economics
+- Behavioural economics
 - Discrete choice experiments
-- Mixed logit and latent class models
-- Best–worst and dual-response choice tasks
-- Eye-tracking and process-tracing methods
-- Experimental survey design
-- Health preference and decision-quality assessment
+- Health preference research
+- Eye-tracking and information processing
+- Health policy and technology assessment
+- Decision tools and applied economic evaluation

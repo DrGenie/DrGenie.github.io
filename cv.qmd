@@ -1,0 +1,28 @@
+---
+title: "CV"
+---
+
+# CV
+
+## Current position
+
+**Senior Lecturer in Health Economics**  
+Newcastle Business School, The University of Newcastle, Australia
+
+## Education
+
+- PhD in Economics, Ca' Foscari University of Venice
+- MSc in Health Economics and Management, University of Bologna
+- MA/MSc in Economics, Addis Ababa University
+- BA in Economics, Jimma University
+
+## Previous appointments
+
+- Health Measurement and Regulatory Science Fellow, Duke University
+- Postdoctoral Research Fellow, Auburn University
+- Research Fellow, Health Economics Research Unit, University of Aberdeen
+- Postdoctoral Research Fellow, Ca' Foscari University of Venice
+
+## Download
+
+Add your current CV as `assets/Mesfin_Genie_CV.pdf`, then link it here.

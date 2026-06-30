@@ -2,12 +2,20 @@
 title: "Teaching"
 ---
 
-I teach and coordinate courses in health economics, finance, and behavioural economics at Newcastle Business School.
+# Teaching
 
-## Current and recent teaching
+## Current and recent courses
 
-- ECON2112 Health Economics and Finance
-- ECON3111 Behavioural Economics
-- ECON3011 Health Economics & Finance
+| Course | Area |
+|---|---|
+| ECON2112 Health Economics and Finance | Health economics, healthcare financing, economic evaluation |
+| ECON3111 Behavioural Economics | Behavioural decision making, biases, policy applications |
+| ECON3011 Health Economics and Finance | Health economics and applied policy analysis |
 
-My teaching links economic theory with applied health policy, empirical evidence, and decision-making in real healthcare systems.
+## Teaching interests
+
+- Health economics
+- Behavioural economics
+- Applied microeconometrics
+- Discrete choice modelling
+- Economic evaluation and decision analysis

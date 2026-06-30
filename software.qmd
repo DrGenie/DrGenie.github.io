@@ -1,0 +1,12 @@
+---
+title: "Software"
+---
+
+# Software and tools
+
+<div class="grid grid-2">
+<div class="card"><h3>MandEval decision tools</h3><p>Interactive tools translating vaccine mandate DCE evidence into predicted support, lives-saved equivalents and benefit–cost indicators.</p></div>
+<div class="card"><h3>Choice modelling workflows</h3><p>MATLAB workflows for MNL, mixed logit, latent class, hybrid and quantum-like choice models for DCE data.</p></div>
+<div class="card"><h3>Eye-tracking DCE workflows</h3><p>Scripts for attention metrics, scanpaths, transition matrices, temporal processing and attention-augmented choice models.</p></div>
+<div class="card"><h3>BCA Tool</h3><p>Benefit–cost analysis and professional reporting tool for applied field-trial evaluation.</p></div>
+</div>

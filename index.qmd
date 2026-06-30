@@ -1,62 +1,71 @@
 ---
 title: "Mesfin Genie"
-subtitle: "Senior Lecturer in Health Economics"
-about:
-  template: jolla
-  image: profile.jpg
-  image-shape: rounded
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:mesfin.genie@newcastle.edu.au
-    - icon: google
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en
-    - icon: mortarboard
-      text: University profile
-      href: https://www.newcastle.edu.au/profile/mesfin-genie
-    - icon: link-45deg
-      text: ORCID
-      href: https://orcid.org/0000-0002-1744-4666
 ---
 
-## About
+<div class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">Health Economics · Choice Modelling · Behavioural Science</div>
+      <h1>Mesfin Genie, PhD</h1>
+      <h2>Senior Lecturer in Health Economics<br>Newcastle Business School · The University of Newcastle</h2>
+      <p>I study how patients, citizens and decision makers make trade-offs in complex health and policy settings. My work combines health economics, discrete choice experiments, behavioural economics, eye tracking, preference measurement, and applied policy evaluation.</p>
+      <div class="hero-buttons">
+        <a class="btn-site btn-primary" href="publications.html">Publications</a>
+        <a class="btn-site btn-secondary" href="research.html">Research areas</a>
+        <a class="btn-site btn-secondary" href="cv.html">CV</a>
+        <a class="btn-site btn-secondary" href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="profile-card">
+      <div class="portrait-placeholder">MG</div>
+      <div class="profile-meta"><strong>Research focus</strong><br>Health preference research, discrete choice experiments, information processing, vaccine policy, health technology assessment, and decision support tools.</div>
+    </div>
+  </div>
+</div>
 
-I am a Senior Lecturer in Health Economics at Newcastle Business School, The University of Newcastle, Australia. My research focuses on behavioural health economics, stated-preference methods, discrete choice experiments, and the use of experimental and decision-analytic methods to understand how people make healthcare decisions.
+<section class="section">
 
-My current work examines how patients, the public, clinicians, and policy makers make trade-offs in health and public policy settings. I have a particular interest in preference heterogeneity, information processing, attention, equity, vaccine mandate policies, chronic disease management, and health technology assessment.
+## Research at a glance
 
-Before joining The University of Newcastle, I held research and teaching positions at Ca’ Foscari University of Venice, the Health Economics Research Unit at the University of Aberdeen, Auburn University, and Duke University.
+<div class="grid grid-3">
+<div class="card"><div class="metric">Health</div><div class="metric-label">Preference research and policy evaluation</div></div>
+<div class="card"><div class="metric">DCE</div><div class="metric-label">Discrete choice experiments and choice modelling</div></div>
+<div class="card"><div class="metric">Behaviour</div><div class="metric-label">Attention, information processing and decision quality</div></div>
+</div>
 
-## Research areas
+</section>
 
-::: {.grid}
-::: {.g-col-12 .g-col-md-6}
-### Health economics and policy
-Preference evidence for health policy, public health interventions, chronic disease management, and healthcare decision making.
-:::
+<section class="section">
 
-::: {.g-col-12 .g-col-md-6}
-### Discrete choice experiments
-Design, implementation, econometric analysis, validity, heterogeneity, and methodological development in DCEs.
-:::
+## Core research fields
 
-::: {.g-col-12 .g-col-md-6}
-### Behavioural health economics
-Information processing, numeracy, attention, dominance, feedback, and decision quality in stated-preference tasks.
-:::
+<div class="grid grid-3">
+<div class="card"><h3>Health economics and policy</h3><p>Economic evaluation, health system reform, public health policy, health technology assessment and policy acceptability.</p></div>
+<div class="card"><h3>Choice modelling</h3><p>Discrete choice experiments, mixed logit, latent class models, heterogeneity, equity–efficiency trade-offs and stated preference methods.</p></div>
+<div class="card"><h3>Behavioural health economics</h3><p>Attention, numeracy, feedback, attribute processing, eye tracking and decision quality in health preference tasks.</p></div>
+</div>
 
-::: {.g-col-12 .g-col-md-6}
-### Equity and public preferences
-Public and patient trade-offs involving equity, distributional concerns, vaccine mandates, and healthcare access.
-:::
-:::
+</section>
 
-## Selected publications
+<section class="section">
 
-- Genie MG, Reed SD, Özdemir S. Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments. *Health Economics*. 2026;35(6):910–928. doi:10.1002/hec.70093
-- Genie MG, Boyes AW, Paolucci F. Feeling lonely? Preferences for support programmes to reduce loneliness among older adults in Australia: A discrete choice experiment. *Health Policy*. 2026;167:105587. doi:10.1016/j.healthpol.2026.105587
-- Genie MG, Ryan M, Krucien N. Keeping an eye on cost: What can eye tracking tell us about attention to cost information in discrete choice experiments? *Health Economics*. 2023. doi:10.1002/hec.4658
-- Genie MG, Ryan M, Krucien N. To pay or not to pay? Cost information processing in the valuation of publicly funded healthcare. *Social Science & Medicine*. 2021.
-- Genie MG, Krucien N, Ryan M. Weighting or aggregating? Investigating information processing in multi-attribute choices. *Health Economics*. 2021. doi:10.1002/hec.4245
+## Selected recent work
 
+<div class="pub"><div class="pub-field">Health Economics</div><div class="pub-title">Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments</div><div class="pub-meta">Genie, Reed and Ozdemir · 2026 · Health Economics</div></div>
+<div class="pub"><div class="pub-field">Health Policy</div><div class="pub-title">Feeling lonely? Preferences for support programmes to reduce loneliness among older adults in Australia</div><div class="pub-meta">Genie, Boyes and Paolucci · 2026 · Health Policy</div></div>
+<div class="pub"><div class="pub-field">Health Economics</div><div class="pub-title">Keeping an eye on cost: What can eye tracking tell us about attention to cost information in discrete choice experiments?</div><div class="pub-meta">Genie · 2023 · Health Economics</div></div>
+
+</section>
+
+<section class="section">
+
+## Current priorities
+
+<div class="grid grid-2">
+<div class="card"><h3>Vaccine mandate evaluation</h3><p>Mandate design, public acceptability, international preference heterogeneity and decision tools for future pandemic policy.</p></div>
+<div class="card"><h3>Attention and choice</h3><p>Using eye tracking and experimental manipulations to understand how information presentation changes preferences and choice quality.</p></div>
+<div class="card"><h3>Decision support tools</h3><p>Online tools translating DCE and economic evaluation evidence into transparent policy and clinical decision support.</p></div>
+<div class="card"><h3>Equity and value assessment</h3><p>Incorporating concern for worse-off groups, distributional preferences and fairness into preference-based value assessment.</p></div>
+</div>
+
+</section>

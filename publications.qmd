@@ -2,20 +2,48 @@
 title: "Publications"
 ---
 
-A full and frequently updated list is available through [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-1744-4666), and [Open Research Newcastle](https://openresearch.newcastle.edu.au/authors/Mesfin_Genie/21127013).
+# Publications
 
-## Selected papers
+This page is organised by research field. The list below includes verified and publicly documented publications and can be expanded from a Google Scholar BibTeX export without changing the website design.
 
-1. Genie MG, Reed SD, Özdemir S. Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments. *Health Economics*. 2026;35(6):910–928. doi:10.1002/hec.70093
+## Health preference research and choice modelling
 
-2. Genie MG, Boyes AW, Paolucci F. Feeling lonely? Preferences for support programmes to reduce loneliness among older adults in Australia: A discrete choice experiment. *Health Policy*. 2026;167:105587. doi:10.1016/j.healthpol.2026.105587
+<div class="pub"><div class="pub-field">Choice modelling · Kidney transplantation</div><div class="pub-title">The role of heterogeneity of patients' preferences in kidney transplantation</div><div class="pub-meta">Genie, Nicolo and Pasini · 2020 · <em>Journal of Health Economics</em> · DOI: 10.1016/j.jhealeco.2020.102331</div></div>
 
-3. Attema AE, Antonini M, Genie MG, Torbica A, Paolucci F. Time preferences and COVID-19 vaccination uptake. *European Journal of Health Economics*. 2025. doi:10.1007/s10198-025-01801-7
+<div class="pub"><div class="pub-field">Choice modelling · Cost information</div><div class="pub-title">To pay or not to pay? Cost information processing in the valuation of publicly funded healthcare</div><div class="pub-meta">Genie, Ryan and Krucien · 2021 · <em>Social Science & Medicine</em> · DOI: 10.1016/j.socscimed.2021.113822</div></div>
 
-4. Genie MG, Ryan M, Krucien N. Keeping an eye on cost: What can eye tracking tell us about attention to cost information in discrete choice experiments? *Health Economics*. 2023. doi:10.1002/hec.4658
+<div class="pub"><div class="pub-field">Choice modelling · Eye tracking</div><div class="pub-title">Keeping an eye on cost: What can eye tracking tell us about attention to cost information in discrete choice experiments?</div><div class="pub-meta">Genie · 2023 · <em>Health Economics</em> · DOI: 10.1002/hec.4658</div></div>
 
-5. Genie MG, Ryan M, Krucien N. To pay or not to pay? Cost information processing in the valuation of publicly funded healthcare. *Social Science & Medicine*. 2021.
+<div class="pub"><div class="pub-field">Choice modelling · Decision quality</div><div class="pub-title">Choice Consistency in Discrete Choice Experiments: Does Numeracy Skill Matter?</div><div class="pub-meta">Genie et al. · 2024 · <em>Value in Health</em></div></div>
 
-6. Genie MG, Krucien N, Ryan M. Weighting or aggregating? Investigating information processing in multi-attribute choices. *Health Economics*. 2021. doi:10.1002/hec.4245
+<div class="pub"><div class="pub-field">Value assessment · Equity</div><div class="pub-title">Priority for Self or Others? Incorporating Equity Considerations in a Preference-Based Health Value Assessment</div><div class="pub-meta">Genie et al. · 2025 · <em>Value in Health</em></div></div>
 
-7. Genie MG, Loría-Rebolledo LE, et al. Understanding public preferences and trade-offs for government responses during a pandemic: a protocol for a discrete choice experiment in the UK. *BMJ Open*. 2020;10:e043477.
+<div class="pub"><div class="pub-field">Choice modelling · Feedback</div><div class="pub-title">Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments</div><div class="pub-meta">Genie, Reed and Ozdemir · 2026 · <em>Health Economics</em></div></div>
+
+## Public health, vaccination and mandates
+
+<div class="pub"><div class="pub-field">Pandemic policy · DCE protocol</div><div class="pub-title">Understanding public preferences and trade-offs for government responses during a pandemic: a protocol for a discrete choice experiment in the UK</div><div class="pub-meta">Genie et al. · 2020 · <em>BMJ Open</em> · DOI: 10.1136/bmjopen-2020-043477</div></div>
+
+<div class="pub"><div class="pub-field">Vaccination · Evidence synthesis</div><div class="pub-title">Open repository of COVID-19 vaccine mandate studies and scoping review</div><div class="pub-meta">Genie et al. · 2026 · <em>npj Vaccines</em></div></div>
+
+## Health policy, ageing and digital health
+
+<div class="pub"><div class="pub-field">Ageing · Loneliness</div><div class="pub-title">Feeling lonely? Preferences for support programmes to reduce loneliness among older adults in Australia: A discrete choice experiment</div><div class="pub-meta">Genie, Boyes and Paolucci · 2026 · <em>Health Policy</em></div></div>
+
+<div class="pub"><div class="pub-field">Health system utilisation</div><div class="pub-title">Immigration and the utilisation of preventive care in Europe: Results from retrospective data</div><div class="pub-meta">Buia, Genie and Pasini · 2026 · <em>Empirical Economics</em></div></div>
+
+## Methods and robustness
+
+<div class="pub"><div class="pub-field">DCE methods</div><div class="pub-title">Fit for Purpose? Assessing the Robustness of Discrete Choice Experiment Designs in the Context of Evolving Health Technologies</div><div class="pub-meta">Genie, Watson, Schwarzinger and Luchini · 2026 · <em>Social Science & Medicine</em></div></div>
+
+## Publication maintenance
+
+To add the complete Google Scholar list:
+
+1. Open Google Scholar profile.
+2. Select publications.
+3. Export as BibTeX.
+4. Save the file as `assets/publications.bib`.
+5. Commit changes to GitHub.
+
+The website is already styled to display publications by field; the `assets/publications_by_field.csv` file gives the structure for importing and classifying the full list.

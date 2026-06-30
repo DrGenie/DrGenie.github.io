@@ -2,12 +2,18 @@
 title: "Contact"
 ---
 
-**Dr Mesfin Genie**  
+# Contact
+
+**Mesfin Genie, PhD**  
 Senior Lecturer in Health Economics  
 Newcastle Business School  
 The University of Newcastle, Australia
 
-Email: [mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au)  
-University profile: <https://www.newcastle.edu.au/profile/mesfin-genie>  
-Google Scholar: <https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en>  
-ORCID: <https://orcid.org/0000-0002-1744-4666>
+Email: [mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au)
+
+## Profiles
+
+- [University of Newcastle profile](https://www.newcastle.edu.au/profile/mesfin-genie)
+- [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ)
+- [LinkedIn](https://au.linkedin.com/in/mesfin-genie-ph-d-65634216)
+- [GitHub](https://github.com/DrGenie)

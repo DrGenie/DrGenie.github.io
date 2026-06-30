@@ -1,30 +1,11 @@
-/* Academic personal website styling */
-
-:root {
-  --bs-body-font-size: 1.02rem;
+:root{
+  --navy:#0b1f3a;
+  --blue:#1f5f8b;
+  --ink:#172033;
+  --muted:#667085;
+  --line:#e7eaf0;
+  --bg:#f7f9fc;
+  --card:#ffffff;
+  --accent:#b9975b;
 }
-
-body {
-  line-height: 1.65;
-}
-
-h1, h2, h3 {
-  letter-spacing: -0.02em;
-}
-
-.navbar-title {
-  font-weight: 700;
-}
-
-.about-entity .about-link {
-  border-radius: 999px;
-}
-
-.grid h3 {
-  margin-top: 0.25rem;
-}
-
-.quarto-title-banner {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
+body{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.62;font-size:16.5px}.navbar{border-bottom:1px solid var(--line);box-shadow:0 4px 18px rgba(16,24,40,.04)}.navbar-title{font-weight:800;letter-spacing:.2px;color:var(--navy)!important}.nav-link{font-weight:650;color:#24364f!important}.nav-link:hover{color:var(--blue)!important}.quarto-title-block{display:none}.page-columns{display:block}.content{max-width:1180px;margin:auto}.hero{background:linear-gradient(135deg,#f8fbff 0%,#eef4fb 100%);border-bottom:1px solid var(--line);padding:70px 32px 64px;margin:0 calc(50% - 50vw) 42px}.hero-inner{max-width:1180px;margin:auto;display:grid;grid-template-columns:1.55fr .85fr;gap:54px;align-items:center}.eyebrow{font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--blue);margin-bottom:14px}.hero h1{font-size:4.2rem;line-height:.96;margin:0;color:var(--navy);letter-spacing:-.055em}.hero h2{font-size:1.35rem;line-height:1.35;font-weight:600;color:#334155;margin:18px 0 0}.hero p{font-size:1.05rem;color:#344054;max-width:720px}.hero-buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn-site{display:inline-block;padding:11px 17px;border-radius:999px;text-decoration:none;font-weight:800;border:1px solid var(--navy)}.btn-primary{background:var(--navy);color:#fff!important}.btn-secondary{background:#fff;color:var(--navy)!important}.profile-card{background:#fff;border:1px solid var(--line);border-radius:28px;padding:26px;box-shadow:0 24px 55px rgba(11,31,58,.10)}.portrait{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:22px;background:#e8edf5}.portrait-placeholder{width:100%;aspect-ratio:1/1;border-radius:22px;background:linear-gradient(135deg,#0b1f3a,#1f5f8b);color:#fff;display:flex;align-items:center;justify-content:center;font-size:5rem;font-weight:800;letter-spacing:-.08em}.profile-meta{margin-top:18px;font-size:.95rem;color:#475467}.section{margin:48px 0}.section h2{font-size:2rem;color:var(--navy);letter-spacing:-.03em;margin-bottom:18px}.grid{display:grid;gap:18px}.grid-3{grid-template-columns:repeat(3,1fr)}.grid-2{grid-template-columns:repeat(2,1fr)}.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 12px 30px rgba(16,24,40,.055)}.card h3{font-size:1.15rem;color:var(--navy);margin-top:0}.metric{font-size:2.1rem;font-weight:850;color:var(--navy);line-height:1}.metric-label{color:var(--muted);font-weight:650;margin-top:6px}.tag{display:inline-block;background:#eef4fb;color:#17456d;border:1px solid #d8e6f5;border-radius:999px;padding:5px 10px;font-size:.82rem;font-weight:700;margin:3px}.pub{border-left:4px solid var(--blue);padding:16px 18px;margin:15px 0;background:#fff;border-radius:0 14px 14px 0;box-shadow:0 7px 18px rgba(16,24,40,.05)}.pub-title{font-weight:800;color:var(--navy);font-size:1.02rem}.pub-meta{color:#475467;font-size:.94rem}.pub-field{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--blue);font-weight:800;margin-bottom:3px}.callout-note{border-left-color:var(--accent)!important}.small{font-size:.92rem;color:var(--muted)}a{color:var(--blue);text-decoration-thickness:.08em;text-underline-offset:2px}table{border-collapse:separate;border-spacing:0;width:100%;overflow:hidden;border:1px solid var(--line);border-radius:16px}th{background:#f3f6fb;color:var(--navy)}th,td{padding:12px 14px;border-bottom:1px solid var(--line)}tr:last-child td{border-bottom:none}.quarto-title-banner{background:var(--bg)}@media(max-width:850px){.hero-inner,.grid-2,.grid-3{grid-template-columns:1fr}.hero h1{font-size:3rem}.hero{padding:46px 20px}.content{padding:0 18px}.profile-card{max-width:420px}}
