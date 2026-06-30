@@ -1,477 +1,377 @@
 ---
 title: "Publications"
 page-layout: full
+description: "Publications by Mesfin Genie in health economics, choice modelling, behavioural decision science and public health policy."
 ---
 
 ::: {.page-header}
 ::: {.page-shell}
-<div class="eyebrow">Publications</div>
-
 # Publications
 
-Peer-reviewed articles and research outputs are listed newest first. Publication status and persistent links are shown for each record.
+Journal articles, working papers, book chapters and data outputs.
 :::
 :::
 
-::: {.section}
+::: {.section .publications-section}
 ::: {.page-shell}
-<div class="filters" aria-label="Filter publications">
-<button class="filter-button active" data-pub-filter="all">All</button>
-<button class="filter-button" data-pub-filter="preference">Preferences & choice</button>
-<button class="filter-button" data-pub-filter="public-health">Public health policy</button>
-<button class="filter-button" data-pub-filter="other">Other applied economics</button>
+
+<div class="publication-controls" aria-label="Publication filters">
+  <div class="publication-search-wrap">
+    <label for="publication-search">Search</label>
+    <input id="publication-search" type="search" placeholder="Title, author, journal or keyword" autocomplete="off">
+  </div>
+  <div>
+    <label for="publication-field">Field</label>
+    <select id="publication-field">
+      <option value="all">All fields</option>
+      <option value="preference">Preferences & choice</option>
+      <option value="public-health">Public health policy</option>
+      <option value="other">Other applied economics</option>
+    </select>
+  </div>
+  <div>
+    <label for="publication-year">Year</label>
+    <select id="publication-year">
+      <option value="all">All years</option>
+      <option value="2026">2026</option>
+<option value="2025">2025</option>
+<option value="2024">2024</option>
+<option value="2023">2023</option>
+<option value="2022">2022</option>
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+    </select>
+  </div>
+  <div>
+    <label for="publication-type">Output</label>
+    <select id="publication-type">
+      <option value="all">All outputs</option>
+      <option value="journal">Journal articles</option>
+      <option value="chapter">Book chapters</option>
+      <option value="working">Working papers</option>
+      <option value="data">Data</option>
+    </select>
+  </div>
+  <button id="publication-reset" class="filter-reset" type="button">Reset</button>
 </div>
 
-<div class="publication-list">
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments</div>
-<div class="publication-authors">Mesfin G. Genie; Shelby D. Reed; Semra Ozdemir</div>
-<div class="publication-meta"><em>Health Economics</em>, 35, 910–928 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1002/hec.70093">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Community First or My Body First? Moral Values and Vaccine Mandate Preferences</div>
-<div class="publication-authors">Mesfin Genie; Fabio I. Martinenghi; Francesco Paolucci; Jonathan Lake; Katie Attwell; Christopher C. Blyth; Margie Danchin; Teresa Gavaruzzi; Udo Evers</div>
-<div class="publication-meta"><em>Australian and New Zealand Journal of Public Health</em>, 50, 100496 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.anzjph.2026.100496">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">No Jab, No Access? Preferences for Vaccine Mandates in Europe and Australia</div>
-<div class="publication-authors">Mesfin Genie; Fabio I. Martinenghi; Francesco Paolucci; Jonathan Lake; Katie Attwell; Christopher C. Blyth; Jessica Kaufman; Margie Danchin; Jeremy K. Ward; Teresa Gavaruzzi</div>
-<div class="publication-meta"><em>Australian and New Zealand Journal of Public Health</em>, 50, 100450 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.anzjph.2026.100450">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Priority for Self or Others? Incorporating Equity Considerations in a Preference-Based Health Value Assessment</div>
-<div class="publication-authors">Mesfin G. Genie; Surachat Ngorsuraches</div>
-<div class="publication-meta"><em>Value in Health</em>, 29, 467–475 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2025.10.011">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Jabs or Societal Restrictions? Public Preferences for Vaccination Programmes in South Africa</div>
-<div class="publication-authors">Aregawi G. Gebremariam; Mesfin G. Genie; Beidemaryam Wondwosen Admasu; D. Abegaz; J. G. Gatua; Surachat Ngorsuraches; Francesco Paolucci</div>
-<div class="publication-meta"><em>Health Policy and Technology</em>, 15, 101195 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2026.101195">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Jabs and Lockdowns: Public Preferences for Vaccination Programmes in Chile</div>
-<div class="publication-authors">Stefano Bruzzo-Gallardo; Josefa Henriquez; Mesfin G. Genie</div>
-<div class="publication-meta"><em>Health Policy and Technology</em>, 15, 101196 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2026.101196">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Vaccine Uptake in the Context of Mandate Announcement and Removal: Evidence from Europe and North America</div>
-<div class="publication-authors">Aregawi G. Gebremariam; Mesfin Genie; Huong Le; Annette K. Regan; Frank H. Beard; Kristine Macartney; Francesco Paolucci; Hannah C. Moore; Katie Attwell; Christopher C. Blyth</div>
-<div class="publication-meta"><em>Vaccine</em>, 88, 128825 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.vaccine.2026.128825">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Fit for Purpose? Assessing the Robustness of Discrete Choice Experiment Designs in the Context of Evolving Health Technologies</div>
-<div class="publication-authors">Mesfin G. Genie; Verity Watson; Michaël Schwarzinger; Stéphane Luchini</div>
-<div class="publication-meta"><em>Social Science &amp; Medicine</em>, 404, 119463 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.socscimed.2026.119463">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Time Preferences and COVID-19 Vaccination Uptake</div>
-<div class="publication-authors">Arthur E. Attema; Marcello Antonini; Mesfin Genie; Aleksandra Torbica; Francesco Paolucci</div>
-<div class="publication-meta"><em>The European Journal of Health Economics</em>, 27, 47–63 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1007/s10198-025-01801-7">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="other">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Immigration and Preventive Care Utilization in Europe: Evidence from Retrospective Data</div>
-<div class="publication-authors">Raluca Elena Buia; Mesfin Genie; Cristina Elisa Orso; Giacomo Pasini</div>
-<div class="publication-meta"><em>Empirical Economics</em>, 70 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1007/s00181-026-02928-z">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Shots or Shutdowns? Public Preferences for COVID-19 Vaccines and Societal Restrictions in the US</div>
-<div class="publication-authors">Ibrahim Alfayoumi; Mesfin G. Genie; Surachat Ngorsuraches</div>
-<div class="publication-meta"><em>Health Policy and Technology</em>, 15, 101152 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2025.101152">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Understanding Vaccine Acceptance through Construal-Level Theory of Psychological Distance: Evidence from Singapore and South Korea</div>
-<div class="publication-authors">Yevgen Bogodistov; Mesfin Genie; Ayman Fouda</div>
-<div class="publication-meta"><em>Health Policy and Technology</em>, 15, 101148 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2025.101148">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Feeling Lonely? Preferences for Support Programmes to Reduce Loneliness among Older Adults in Australia: A Discrete Choice Experiment</div>
-<div class="publication-authors">Mesfin G. Genie; Allison W. Boyes; Francesco Paolucci</div>
-<div class="publication-meta"><em>Health Policy</em>, 167, 105587 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.healthpol.2026.105587">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">Vaccination Policies and Hesitancy: Preferences, Trade-offs and Future Challenges</div>
-<div class="publication-authors">Chiara Berardi; Ayman Fouda; Mesfin Genie; Aleksandra Torbica</div>
-<div class="publication-meta"><em>Health Policy and Technology</em>, 15, 101246 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2026.101246">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2026</div>
-<div>
-<div class="publication-title">An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence</div>
-<div class="publication-authors">Fabio I. Martinenghi; Tushar P. Ojha; Anaïs Thomasson; Bianca Devsam; Sarah Drislane; Stavros Vasiliadis; Chiara Berardi; Aregawi Gebremariam; Arianna Dipalma; Teresa Gavaruzzi; Jeremy K. Ward; Francesco Paolucci; Margie Danchin; Mesfin Genie; Katie Attwell; Christopher C. Blyth</div>
-<div class="publication-meta"><em>npj Vaccines</em>, 11, 01454 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1038/s41541-026-01454-4">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2025</div>
-<div>
-<div class="publication-title">The Role of Heterogeneity of Patients’ Preferences in Kidney Transplantation</div>
-<div class="publication-authors">Mesfin G. Genie; Antonio Nicolò; Giacomo Pasini</div>
-<div class="publication-meta"><em>SSRN Electronic Journal</em> · <span class="status working">Earlier version</span></div>
-<div class="publication-links"><a href="https://doi.org/10.2139/ssrn.3428620">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2025</div>
-<div>
-<div class="publication-title">Democracy, Trust, and Political Orientation: Disentangling Mechanisms Shaping Individuals’ Vaccine Attitudes</div>
-<div class="publication-authors">Mesfin Genie</div>
-<div class="publication-meta"><em>Journal of Health Politics, Policy and Law</em> · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1215/03616878-12166725">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2025</div>
-<div>
-<div class="publication-title">Are We Ready for the Next Pandemic? Public Preferences and Trade-offs between Vaccine Characteristics and Societal Restrictions across 21 Countries</div>
-<div class="publication-authors">Marcello Antonini; Mesfin G. Genie; Katie Attwell; Arthur E. Attema; Jeremy K. Ward; Alessia Melegaro; Aleksandra Torbica; Brian Kelly; Chiara Berardi; Ana Rita Sequeira; N. McGregor; A. Kellner; Shuli Brammli-Greenberg; Madeleine Hinwood; L. Murauskiene; Daiga Behmane; Zsolt J. Balogh; Terje P. Hagen; Francesco Paolucci</div>
-<div class="publication-meta"><em>Social Science &amp; Medicine</em>, 366, 117687 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.socscimed.2025.117687">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2025</div>
-<div>
-<div class="publication-title">Important Continuous Glucose Monitoring Attributes for Patients with Type 2 Diabetes</div>
-<div class="publication-authors">Tim C. Lai; Heather P. Whitley; Mesfin Genie; Robert H. Eckel; Surachat Ngorsuraches</div>
-<div class="publication-meta"><em>Clinical Diabetes</em>, 43, 670–680 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.2337/cd25-0047">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2025</div>
-<div>
-<div class="publication-title">Patients’ Preferences for Cytoreductive Treatments in Newly Diagnosed Metastatic Prostate Cancer: The IP5-MATTER Study</div>
-<div class="publication-authors">Martin J. Connor; Mesfin Genie; Tim Dudderidge; Hangjian Wu; Johanna Sukumar; Mark Beresford; Diletta Bianchini; C. Goh; G. Horan; P. Innominato; V. Khoo; N. Klimowska-Nassar; S. Madaan; S. Mangar; S. McCracken; P. Ostler; S. Paisey; A. Robinson; B. Rai; N. Sarwar; N. Srihari; K. T. Jayaprakash; M. Varughese; M. Winkler; Hashim U. Ahmed; Verity Watson</div>
-<div class="publication-meta"><em>European Urology Oncology</em>, 8, 663–673 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.euo.2024.06.010">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2025</div>
-<div>
-<div class="publication-title">Impact of Vaccine Mandates and Removals on COVID-19 Vaccine Uptake in Australia and International Comparators: A Study Protocol</div>
-<div class="publication-authors">Aregawi G. Gebremariam; Mesfin Genie; Huong Le; Katie Attwell; Bette Liu; Annette K. Regan; Frank H. Beard; Kristine Macartney; Francesco Paolucci; Hannah C. Moore; Christopher C. Blyth</div>
-<div class="publication-meta"><em>BMJ Open</em>, 15, e097412 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1136/bmjopen-2024-097412">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2024</div>
-<div>
-<div class="publication-title">Doctor of Pharmacy Students’ Preferences for the Attributes of a Pharmacoeconomics Workshop: A Discrete Choice Experiment</div>
-<div class="publication-authors">Surachat Ngorsuraches; Mesfin Genie; Anna Solomon</div>
-<div class="publication-meta"><em>American Journal of Pharmaceutical Education</em>, 88, 101089 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.ajpe.2024.101089">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2024</div>
-<div>
-<div class="publication-title">Choice Consistency in Discrete Choice Experiments: Does Numeracy Skill Matter?</div>
-<div class="publication-authors">Mesfin G. Genie; Nabin Poudel; Francesco Paolucci; Surachat Ngorsuraches</div>
-<div class="publication-meta"><em>Value in Health</em>, 27, 1594–1604 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2024.07.001">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2024</div>
-<div>
-<div class="publication-title">Political Determinants of COVID-19 Restrictions and Vaccine Rollouts: The Case of Regional Elections in Italy and Spain</div>
-<div class="publication-authors">Pablo Arija Prieto; Marcello Antonini; Mehdi Ammi; Mesfin Genie; Francesco Paolucci</div>
-<div class="publication-meta"><em>Health Policy</em>, 145, 105082 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.healthpol.2024.105082">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2024</div>
-<div>
-<div class="publication-title">Public Preferences for Vaccination Campaigns in the COVID-19 Endemic Phase: Insights from the VaxPref Database</div>
-<div class="publication-authors">Marcello Antonini; Mesfin G. Genie; Arthur E. Attema; Katie Attwell; Zsolt J. Balogh; Daiga Behmane; Chiara Berardi; Shuli Brammli-Greenberg; Andrew Greenland; Terje P. Hagen; Madeleine Hinwood; C. James; A. Kellner; Brian Kelly; L. Murauskiene; N. McGregor; Alessia Melegaro; N. Moy; Ana Rita Sequeira; R. Singh; Aleksandra Torbica; Jeremy K. Ward; D. Yang; Francesco Paolucci</div>
-<div class="publication-meta"><em>Health Policy and Technology</em>, 13, 100849 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2024.100849">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2024</div>
-<div>
-<div class="publication-title">Willingness to Participate in Placebo-Controlled Surgical Trials of the Knee</div>
-<div class="publication-authors">Laura Wall; Samantha Bunzli; Elizabeth Nelson; L. Hawke; Mesfin Genie; Madeleine Hinwood; Danielle Lang; M. Dowsey; P. Clarke; P. Choong; Zsolt J. Balogh; L. Lohmander; Francesco Paolucci</div>
-<div class="publication-meta"><em>The Bone &amp; Joint Journal</em>, 106-B, 1408–1415 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1302/0301-620X.106B12.BJJ-2023-1266.R2">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2024</div>
-<div>
-<div class="publication-title">Vaccine Uptake and Effectiveness: Why Some African Countries Performed Better than Others?</div>
-<div class="publication-authors">Aregawi G. Gebremariam; D. Abegaz; H. Y. Nigus; T. L. Argaw; M. Gerbaba; Mesfin G. Genie; Francesco Paolucci</div>
-<div class="publication-meta"><em>Health Policy and Technology</em>, 13, 100820 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2023.100820">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2024</div>
-<div>
-<div class="publication-title">Vaccination and Non-pharmaceutical Interventions during COVID-19: Impact on Health and Non-health Outcomes in the US</div>
-<div class="publication-authors">Asmita P. Khatiwada; Mesfin G. Genie; Aregawi G. Gebremariam; Tim C. Lai; Nabin Poudel; Surachat Ngorsuraches</div>
-<div class="publication-meta"><em>Health Policy and Technology</em>, 13, 100792 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2023.100792">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2023</div>
-<div>
-<div class="publication-title">Keeping an Eye on Cost: What Can Eye Tracking Tell Us about Attention to Cost Information in Discrete Choice Experiments?</div>
-<div class="publication-authors">Mesfin G. Genie; Mandy Ryan; Nicolas Krucien</div>
-<div class="publication-meta"><em>Health Economics</em>, 32, 1101–1119 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1002/hec.4658">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="other">
-<div class="publication-year">2022</div>
-<div>
-<div class="publication-title">How Do Renewable Energy and Urbanization Cause Carbon Emissions? Evidence from Advanced Panel Estimation Techniques</div>
-<div class="publication-authors">Y. Sun; H. Li; Z. Andlib; Mesfin G. Genie</div>
-<div class="publication-meta"><em>Renewable Energy</em>, 185, 996–1005 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.renene.2021.12.112">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="other">
-<div class="publication-year">2022</div>
-<div>
-<div class="publication-title">The Role of Solar Energy and Eco-innovation in Reducing Environmental Degradation in China: Evidence from a QARDL Approach</div>
-<div class="publication-authors">F. Chien; C.-C. Hsu; Z. Andlib; M. I. Shah; T. Ajaz; Mesfin G. Genie</div>
-<div class="publication-meta"><em>Integrated Environmental Assessment and Management</em>, 18, 555–571 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1002/ieam.4500">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2022</div>
-<div>
-<div class="publication-title">Public Acceptability of Non-pharmaceutical Interventions to Control a Pandemic in the UK: A Discrete Choice Experiment</div>
-<div class="publication-authors">Luis E. Loría-Rebolledo; Mandy Ryan; Verity Watson; Mesfin G. Genie; Ruben A. Sakowsky; Daniel Powell; Shantini Paranjothy</div>
-<div class="publication-meta"><em>BMJ Open</em>, 12, e054155 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1136/bmjopen-2021-054155">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2022</div>
-<div>
-<div class="publication-title">A Systematic Review of Patients’ Values, Preferences, and Expectations for the Treatment of Metastatic Prostate Cancer</div>
-<div class="publication-authors">Martin J. Connor; Mesfin G. Genie; David Burns; E. J. Bass; M. Gonzalez; N. Sarwar; A. Falconer; S. Mangar; T. Dudderidge; V. Khoo; M. Winkler; Hashim U. Ahmed; Verity Watson</div>
-<div class="publication-meta"><em>European Urology Open Science</em>, 36, 9–18 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.euros.2021.10.003">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2021</div>
-<div>
-<div class="publication-title">To Pay or Not to Pay? Cost Information Processing in the Valuation of Publicly Funded Healthcare</div>
-<div class="publication-authors">Mesfin G. Genie; Mandy Ryan; Nicolas Krucien</div>
-<div class="publication-meta"><em>Social Science &amp; Medicine</em>, 276, 113822 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.socscimed.2021.113822">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="other">
-<div class="publication-year">2021</div>
-<div>
-<div class="publication-title">The Trade-off between Economic Growth and Environmental Quality: Does Economic Freedom Asymmetry Matter for Pakistan?</div>
-<div class="publication-authors">Muhammad Tariq Majeed; Zhiyuan Yu; Adnan Maqbool; Mesfin Genie; S. Ullah; Waheed Ahmad</div>
-<div class="publication-meta"><em>Environmental Science and Pollution Research</em>, 28, 41912–41921 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1007/s11356-021-13709-9">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2021</div>
-<div>
-<div class="publication-title">Weighting or Aggregating? Investigating Information Processing in Multi-attribute Choices</div>
-<div class="publication-authors">Mesfin G. Genie; Nicolas Krucien; Mandy Ryan</div>
-<div class="publication-meta"><em>Health Economics</em>, 30, 1291–1305 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1002/hec.4245">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2021</div>
-<div>
-<div class="publication-title">Metastatic Prostate Cancer Men’s Attitudes towards Treatment of the Local Tumour and Metastasis Evaluative Research (IP5-MATTER): Protocol for a Prospective, Multicentre Discrete Choice Experiment Study</div>
-<div class="publication-authors">Martin J. Connor; Mesfin G. Genie; Michael Gonzalez; N. Sarwar; K. T. Jayaprakash; G. Horan; F. Hosking-Jervis; N. Klimowska-Nassar; J. Sukumar; T. Pokrovska; D. Basak; A. Robinson; M. Beresford; B. Rai; S. Mangar; V. Khoo; T. Dudderidge; A. Falconer; M. Winkler; Verity Watson; Hashim U. Ahmed</div>
-<div class="publication-meta"><em>BMJ Open</em>, 11, e048996 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1136/bmjopen-2021-048996">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2020</div>
-<div>
-<div class="publication-title">The Role of Heterogeneity of Patients’ Preferences in Kidney Transplantation</div>
-<div class="publication-authors">Mesfin G. Genie; Antonio Nicolò; Giacomo Pasini</div>
-<div class="publication-meta"><em>Journal of Health Economics</em>, 72, 102331 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.jhealeco.2020.102331">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2020</div>
-<div>
-<div class="publication-title">Understanding Public Preferences and Trade-offs for Government Responses during a Pandemic: A Protocol for a Discrete Choice Experiment in the UK</div>
-<div class="publication-authors">Mesfin G. Genie; Luis E. Loría-Rebolledo; Shantini Paranjothy; Daniel Powell; Mandy Ryan; Ruben A. Sakowsky; Verity Watson</div>
-<div class="publication-meta"><em>BMJ Open</em>, 10, e043477 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1136/bmjopen-2020-043477">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2020</div>
-<div>
-<div class="publication-title">The COVID-19 Pandemic in Italy: Policy and Technology Impact on Health and Non-health Outcomes</div>
-<div class="publication-authors">Chiara Berardi; Marcello Antonini; Mesfin G. Genie; G. Cotugno; A. Lanteri; Adrian Melia; Francesco Paolucci</div>
-<div class="publication-meta"><em>Health Policy and Technology</em>, 9, 454–487 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2020.08.019">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="preference">
-<div class="publication-year">2018</div>
-<div>
-<div class="publication-title">Does Cognitive Ability Affect Choice Consistency?</div>
-<div class="publication-authors">Mesfin Genie</div>
-<div class="publication-meta"><em>SSRN Electronic Journal</em> · <span class="status working">Working paper</span></div>
-<div class="publication-links"><a href="https://doi.org/10.2139/ssrn.3270180">DOI</a></div>
-</div>
-</div>
+<div class="publication-result-bar">
+  <span id="publication-count" aria-live="polite"></span>
+  <a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar <i class="bi bi-arrow-up-right"></i></a>
 </div>
 
-## Book chapter
+<section class="publication-type-section" data-publication-section="journal">
+<h2>Journal articles</h2>
+<details class="publication-year-group" data-year-group="2026" open>
+<summary><span>2026</span><span class="year-count">15 articles</span></summary>
+<div class="publication-year-list">
+<article class="publication-record" data-field="preference" data-year="2026" data-status="journal" data-type="journal" data-search="2026 guidance or misdirection? unpacking the role of feedback in health preference assessments mesfin g. genie; shelby d. reed; semra ozdemir health economics , 35, 910–928 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1002/hec.70093" target="_blank" rel="noopener noreferrer">Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin G. Genie</strong>; Shelby D. Reed; Semra Ozdemir</div>
+  <div class="publication-meta"><em>Health Economics</em>, 35, 910–928 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1002/hec.70093" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2026" data-status="journal" data-type="journal" data-search="2026 community first or my body first? moral values and vaccine mandate preferences mesfin genie; fabio i. martinenghi; francesco paolucci; jonathan lake; katie attwell; christopher c. blyth; margie danchin; teresa gavaruzzi; udo evers australian and new zealand journal of public health , 50, 100496 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.anzjph.2026.100496" target="_blank" rel="noopener noreferrer">Community First or My Body First? Moral Values and Vaccine Mandate Preferences</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin Genie</strong>; Fabio I. Martinenghi; Francesco Paolucci; Jonathan Lake; Katie Attwell; Christopher C. Blyth; Margie Danchin; Teresa Gavaruzzi; Udo Evers</div>
+  <div class="publication-meta"><em>Australian and New Zealand Journal of Public Health</em>, 50, 100496 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.anzjph.2026.100496" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2026" data-status="journal" data-type="journal" data-search="2026 no jab, no access? preferences for vaccine mandates in europe and australia mesfin genie; fabio i. martinenghi; francesco paolucci; jonathan lake; katie attwell; christopher c. blyth; jessica kaufman; margie danchin; jeremy k. ward; teresa gavaruzzi australian and new zealand journal of public health , 50, 100450 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.anzjph.2026.100450" target="_blank" rel="noopener noreferrer">No Jab, No Access? Preferences for Vaccine Mandates in Europe and Australia</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin Genie</strong>; Fabio I. Martinenghi; Francesco Paolucci; Jonathan Lake; Katie Attwell; Christopher C. Blyth; Jessica Kaufman; Margie Danchin; Jeremy K. Ward; Teresa Gavaruzzi</div>
+  <div class="publication-meta"><em>Australian and New Zealand Journal of Public Health</em>, 50, 100450 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.anzjph.2026.100450" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="preference" data-year="2026" data-status="journal" data-type="journal" data-search="2026 priority for self or others? incorporating equity considerations in a preference-based health value assessment mesfin g. genie; surachat ngorsuraches value in health , 29, 467–475 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.jval.2025.10.011" target="_blank" rel="noopener noreferrer">Priority for Self or Others? Incorporating Equity Considerations in a Preference-Based Health Value Assessment</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin G. Genie</strong>; Surachat Ngorsuraches</div>
+  <div class="publication-meta"><em>Value in Health</em>, 29, 467–475 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2025.10.011" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2026" data-status="journal" data-type="journal" data-search="2026 jabs or societal restrictions? public preferences for vaccination programmes in south africa aregawi g. gebremariam; mesfin g. genie; beidemaryam wondwosen admasu; d. abegaz; j. g. gatua; surachat ngorsuraches; francesco paolucci health policy and technology , 15, 101195 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.hlpt.2026.101195" target="_blank" rel="noopener noreferrer">Jabs or Societal Restrictions? Public Preferences for Vaccination Programmes in South Africa</a></div>
+  <div class="publication-authors">Aregawi G. Gebremariam; <strong class="author-self">Mesfin G. Genie</strong>; Beidemaryam Wondwosen Admasu; D. Abegaz; J. G. Gatua; Surachat Ngorsuraches; Francesco Paolucci</div>
+  <div class="publication-meta"><em>Health Policy and Technology</em>, 15, 101195 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2026.101195" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2026" data-status="journal" data-type="journal" data-search="2026 jabs and lockdowns: public preferences for vaccination programmes in chile stefano bruzzo-gallardo; josefa henriquez; mesfin g. genie health policy and technology , 15, 101196 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.hlpt.2026.101196" target="_blank" rel="noopener noreferrer">Jabs and Lockdowns: Public Preferences for Vaccination Programmes in Chile</a></div>
+  <div class="publication-authors">Stefano Bruzzo-Gallardo; Josefa Henriquez; <strong class="author-self">Mesfin G. Genie</strong></div>
+  <div class="publication-meta"><em>Health Policy and Technology</em>, 15, 101196 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2026.101196" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2026" data-status="journal" data-type="journal" data-search="2026 vaccine uptake in the context of mandate announcement and removal: evidence from europe and north america aregawi g. gebremariam; mesfin genie; huong le; annette k. regan; frank h. beard; kristine macartney; francesco paolucci; hannah c. moore; katie attwell; christopher c. blyth vaccine , 88, 128825 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.vaccine.2026.128825" target="_blank" rel="noopener noreferrer">Vaccine Uptake in the Context of Mandate Announcement and Removal: Evidence from Europe and North America</a></div>
+  <div class="publication-authors">Aregawi G. Gebremariam; <strong class="author-self">Mesfin Genie</strong>; Huong Le; Annette K. Regan; Frank H. Beard; Kristine Macartney; Francesco Paolucci; Hannah C. Moore; Katie Attwell; Christopher C. Blyth</div>
+  <div class="publication-meta"><em>Vaccine</em>, 88, 128825 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.vaccine.2026.128825" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="preference" data-year="2026" data-status="journal" data-type="journal" data-search="2026 fit for purpose? assessing the robustness of discrete choice experiment designs in the context of evolving health technologies mesfin g. genie; verity watson; michaël schwarzinger; stéphane luchini social science &amp; medicine , 404, 119463 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.socscimed.2026.119463" target="_blank" rel="noopener noreferrer">Fit for Purpose? Assessing the Robustness of Discrete Choice Experiment Designs in the Context of Evolving Health Technologies</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin G. Genie</strong>; Verity Watson; Michaël Schwarzinger; Stéphane Luchini</div>
+  <div class="publication-meta"><em>Social Science &amp; Medicine</em>, 404, 119463 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.socscimed.2026.119463" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2026" data-status="journal" data-type="journal" data-search="2026 time preferences and covid-19 vaccination uptake arthur e. attema; marcello antonini; mesfin genie; aleksandra torbica; francesco paolucci the european journal of health economics , 27, 47–63 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1007/s10198-025-01801-7" target="_blank" rel="noopener noreferrer">Time Preferences and COVID-19 Vaccination Uptake</a></div>
+  <div class="publication-authors">Arthur E. Attema; Marcello Antonini; <strong class="author-self">Mesfin Genie</strong>; Aleksandra Torbica; Francesco Paolucci</div>
+  <div class="publication-meta"><em>The European Journal of Health Economics</em>, 27, 47–63 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1007/s10198-025-01801-7" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="other" data-year="2026" data-status="journal" data-type="journal" data-search="2026 immigration and preventive care utilization in europe: evidence from retrospective data raluca elena buia; mesfin genie; cristina elisa orso; giacomo pasini empirical economics , 70 · published other applied economics journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1007/s00181-026-02928-z" target="_blank" rel="noopener noreferrer">Immigration and Preventive Care Utilization in Europe: Evidence from Retrospective Data</a></div>
+  <div class="publication-authors">Raluca Elena Buia; <strong class="author-self">Mesfin Genie</strong>; Cristina Elisa Orso; Giacomo Pasini</div>
+  <div class="publication-meta"><em>Empirical Economics</em>, 70 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1007/s00181-026-02928-z" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a><a href="https://doi.org/10.2139/ssrn.4269083" target="_blank" rel="noopener noreferrer">Earlier version <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2026" data-status="journal" data-type="journal" data-search="2026 shots or shutdowns? public preferences for covid-19 vaccines and societal restrictions in the us ibrahim alfayoumi; mesfin g. genie; surachat ngorsuraches health policy and technology , 15, 101152 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.hlpt.2025.101152" target="_blank" rel="noopener noreferrer">Shots or Shutdowns? Public Preferences for COVID-19 Vaccines and Societal Restrictions in the US</a></div>
+  <div class="publication-authors">Ibrahim Alfayoumi; <strong class="author-self">Mesfin G. Genie</strong>; Surachat Ngorsuraches</div>
+  <div class="publication-meta"><em>Health Policy and Technology</em>, 15, 101152 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2025.101152" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2026" data-status="journal" data-type="journal" data-search="2026 understanding vaccine acceptance through construal-level theory of psychological distance: evidence from singapore and south korea yevgen bogodistov; mesfin genie; ayman fouda health policy and technology , 15, 101148 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.hlpt.2025.101148" target="_blank" rel="noopener noreferrer">Understanding Vaccine Acceptance through Construal-Level Theory of Psychological Distance: Evidence from Singapore and South Korea</a></div>
+  <div class="publication-authors">Yevgen Bogodistov; <strong class="author-self">Mesfin Genie</strong>; Ayman Fouda</div>
+  <div class="publication-meta"><em>Health Policy and Technology</em>, 15, 101148 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2025.101148" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="preference" data-year="2026" data-status="journal" data-type="journal" data-search="2026 feeling lonely? preferences for support programmes to reduce loneliness among older adults in australia: a discrete choice experiment mesfin g. genie; allison w. boyes; francesco paolucci health policy , 167, 105587 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.healthpol.2026.105587" target="_blank" rel="noopener noreferrer">Feeling Lonely? Preferences for Support Programmes to Reduce Loneliness among Older Adults in Australia: A Discrete Choice Experiment</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin G. Genie</strong>; Allison W. Boyes; Francesco Paolucci</div>
+  <div class="publication-meta"><em>Health Policy</em>, 167, 105587 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.healthpol.2026.105587" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2026" data-status="journal" data-type="journal" data-search="2026 vaccination policies and hesitancy: preferences, trade-offs and future challenges chiara berardi; ayman fouda; mesfin genie; aleksandra torbica health policy and technology , 15, 101246 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.hlpt.2026.101246" target="_blank" rel="noopener noreferrer">Vaccination Policies and Hesitancy: Preferences, Trade-offs and Future Challenges</a></div>
+  <div class="publication-authors">Chiara Berardi; Ayman Fouda; <strong class="author-self">Mesfin Genie</strong>; Aleksandra Torbica</div>
+  <div class="publication-meta"><em>Health Policy and Technology</em>, 15, 101246 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2026.101246" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2026" data-status="journal" data-type="journal" data-search="2026 an open repository of covid-19 vaccine mandate studies with a worked scoping review of quasi-experimental evidence fabio i. martinenghi; tushar p. ojha; anaïs thomasson; bianca devsam; sarah drislane; stavros vasiliadis; chiara berardi; aregawi gebremariam; arianna dipalma; teresa gavaruzzi; jeremy k. ward; francesco paolucci; margie danchin; mesfin genie; katie attwell; christopher c. blyth npj vaccines , 11, 01454 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1038/s41541-026-01454-4" target="_blank" rel="noopener noreferrer">An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence</a></div>
+  <div class="publication-authors">Fabio I. Martinenghi; Tushar P. Ojha; Anaïs Thomasson; Bianca Devsam; Sarah Drislane; Stavros Vasiliadis; Chiara Berardi; Aregawi Gebremariam; Arianna Dipalma; Teresa Gavaruzzi; Jeremy K. Ward; Francesco Paolucci; Margie Danchin; <strong class="author-self">Mesfin Genie</strong>; Katie Attwell; Christopher C. Blyth</div>
+  <div class="publication-meta"><em>npj Vaccines</em>, 11, 01454 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1038/s41541-026-01454-4" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+</div>
+</details><details class="publication-year-group" data-year-group="2025" open>
+<summary><span>2025</span><span class="year-count">5 articles</span></summary>
+<div class="publication-year-list">
+<article class="publication-record" data-field="public-health" data-year="2025" data-status="journal" data-type="journal" data-search="2025 democracy, trust, and political orientation: disentangling mechanisms shaping individuals’ vaccine attitudes mesfin genie journal of health politics, policy and law · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1215/03616878-12166725" target="_blank" rel="noopener noreferrer">Democracy, Trust, and Political Orientation: Disentangling Mechanisms Shaping Individuals’ Vaccine Attitudes</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin Genie</strong></div>
+  <div class="publication-meta"><em>Journal of Health Politics, Policy and Law</em> <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1215/03616878-12166725" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2025" data-status="journal" data-type="journal" data-search="2025 are we ready for the next pandemic? public preferences and trade-offs between vaccine characteristics and societal restrictions across 21 countries marcello antonini; mesfin g. genie; katie attwell; arthur e. attema; jeremy k. ward; alessia melegaro; aleksandra torbica; brian kelly; chiara berardi; ana rita sequeira; n. mcgregor; a. kellner; shuli brammli-greenberg; madeleine hinwood; l. murauskiene; daiga behmane; zsolt j. balogh; terje p. hagen; francesco paolucci social science &amp; medicine , 366, 117687 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.socscimed.2025.117687" target="_blank" rel="noopener noreferrer">Are We Ready for the Next Pandemic? Public Preferences and Trade-offs between Vaccine Characteristics and Societal Restrictions across 21 Countries</a></div>
+  <div class="publication-authors">Marcello Antonini; <strong class="author-self">Mesfin G. Genie</strong>; Katie Attwell; Arthur E. Attema; Jeremy K. Ward; Alessia Melegaro; Aleksandra Torbica; Brian Kelly; Chiara Berardi; Ana Rita Sequeira; N. McGregor; A. Kellner; Shuli Brammli-Greenberg; Madeleine Hinwood; L. Murauskiene; Daiga Behmane; Zsolt J. Balogh; Terje P. Hagen; Francesco Paolucci</div>
+  <div class="publication-meta"><em>Social Science &amp; Medicine</em>, 366, 117687 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.socscimed.2025.117687" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="preference" data-year="2025" data-status="journal" data-type="journal" data-search="2025 important continuous glucose monitoring attributes for patients with type 2 diabetes tim c. lai; heather p. whitley; mesfin genie; robert h. eckel; surachat ngorsuraches clinical diabetes , 43, 670–680 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.2337/cd25-0047" target="_blank" rel="noopener noreferrer">Important Continuous Glucose Monitoring Attributes for Patients with Type 2 Diabetes</a></div>
+  <div class="publication-authors">Tim C. Lai; Heather P. Whitley; <strong class="author-self">Mesfin Genie</strong>; Robert H. Eckel; Surachat Ngorsuraches</div>
+  <div class="publication-meta"><em>Clinical Diabetes</em>, 43, 670–680 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.2337/cd25-0047" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="preference" data-year="2025" data-status="journal" data-type="journal" data-search="2025 patients’ preferences for cytoreductive treatments in newly diagnosed metastatic prostate cancer: the ip5-matter study martin j. connor; mesfin genie; tim dudderidge; hangjian wu; johanna sukumar; mark beresford; diletta bianchini; c. goh; g. horan; p. innominato; v. khoo; n. klimowska-nassar; s. madaan; s. mangar; s. mccracken; p. ostler; s. paisey; a. robinson; b. rai; n. sarwar; n. srihari; k. t. jayaprakash; m. varughese; m. winkler; hashim u. ahmed; verity watson european urology oncology , 8, 663–673 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.euo.2024.06.010" target="_blank" rel="noopener noreferrer">Patients’ Preferences for Cytoreductive Treatments in Newly Diagnosed Metastatic Prostate Cancer: The IP5-MATTER Study</a></div>
+  <div class="publication-authors">Martin J. Connor; <strong class="author-self">Mesfin Genie</strong>; Tim Dudderidge; Hangjian Wu; Johanna Sukumar; Mark Beresford; Diletta Bianchini; C. Goh; G. Horan; P. Innominato; V. Khoo; N. Klimowska-Nassar; S. Madaan; S. Mangar; S. McCracken; P. Ostler; S. Paisey; A. Robinson; B. Rai; N. Sarwar; N. Srihari; K. T. Jayaprakash; M. Varughese; M. Winkler; Hashim U. Ahmed; Verity Watson</div>
+  <div class="publication-meta"><em>European Urology Oncology</em>, 8, 663–673 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.euo.2024.06.010" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2025" data-status="journal" data-type="journal" data-search="2025 impact of vaccine mandates and removals on covid-19 vaccine uptake in australia and international comparators: a study protocol aregawi g. gebremariam; mesfin genie; huong le; katie attwell; bette liu; annette k. regan; frank h. beard; kristine macartney; francesco paolucci; hannah c. moore; christopher c. blyth bmj open , 15, e097412 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1136/bmjopen-2024-097412" target="_blank" rel="noopener noreferrer">Impact of Vaccine Mandates and Removals on COVID-19 Vaccine Uptake in Australia and International Comparators: A Study Protocol</a></div>
+  <div class="publication-authors">Aregawi G. Gebremariam; <strong class="author-self">Mesfin Genie</strong>; Huong Le; Katie Attwell; Bette Liu; Annette K. Regan; Frank H. Beard; Kristine Macartney; Francesco Paolucci; Hannah C. Moore; Christopher C. Blyth</div>
+  <div class="publication-meta"><em>BMJ Open</em>, 15, e097412 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1136/bmjopen-2024-097412" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+</div>
+</details><details class="publication-year-group" data-year-group="2024">
+<summary><span>2024</span><span class="year-count">7 articles</span></summary>
+<div class="publication-year-list">
+<article class="publication-record" data-field="preference" data-year="2024" data-status="journal" data-type="journal" data-search="2024 doctor of pharmacy students’ preferences for the attributes of a pharmacoeconomics workshop: a discrete choice experiment surachat ngorsuraches; mesfin genie; anna solomon american journal of pharmaceutical education , 88, 101089 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.ajpe.2024.101089" target="_blank" rel="noopener noreferrer">Doctor of Pharmacy Students’ Preferences for the Attributes of a Pharmacoeconomics Workshop: A Discrete Choice Experiment</a></div>
+  <div class="publication-authors">Surachat Ngorsuraches; <strong class="author-self">Mesfin Genie</strong>; Anna Solomon</div>
+  <div class="publication-meta"><em>American Journal of Pharmaceutical Education</em>, 88, 101089 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.ajpe.2024.101089" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="preference" data-year="2024" data-status="journal" data-type="journal" data-search="2024 choice consistency in discrete choice experiments: does numeracy skill matter? mesfin g. genie; nabin poudel; francesco paolucci; surachat ngorsuraches value in health , 27, 1594–1604 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.jval.2024.07.001" target="_blank" rel="noopener noreferrer">Choice Consistency in Discrete Choice Experiments: Does Numeracy Skill Matter?</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin G. Genie</strong>; Nabin Poudel; Francesco Paolucci; Surachat Ngorsuraches</div>
+  <div class="publication-meta"><em>Value in Health</em>, 27, 1594–1604 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2024.07.001" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2024" data-status="journal" data-type="journal" data-search="2024 political determinants of covid-19 restrictions and vaccine rollouts: the case of regional elections in italy and spain pablo arija prieto; marcello antonini; mehdi ammi; mesfin genie; francesco paolucci health policy , 145, 105082 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.healthpol.2024.105082" target="_blank" rel="noopener noreferrer">Political Determinants of COVID-19 Restrictions and Vaccine Rollouts: The Case of Regional Elections in Italy and Spain</a></div>
+  <div class="publication-authors">Pablo Arija Prieto; Marcello Antonini; Mehdi Ammi; <strong class="author-self">Mesfin Genie</strong>; Francesco Paolucci</div>
+  <div class="publication-meta"><em>Health Policy</em>, 145, 105082 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.healthpol.2024.105082" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2024" data-status="journal" data-type="journal" data-search="2024 public preferences for vaccination campaigns in the covid-19 endemic phase: insights from the vaxpref database marcello antonini; mesfin g. genie; arthur e. attema; katie attwell; zsolt j. balogh; daiga behmane; chiara berardi; shuli brammli-greenberg; andrew greenland; terje p. hagen; madeleine hinwood; c. james; a. kellner; brian kelly; l. murauskiene; n. mcgregor; alessia melegaro; n. moy; ana rita sequeira; r. singh; aleksandra torbica; jeremy k. ward; d. yang; francesco paolucci health policy and technology , 13, 100849 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.hlpt.2024.100849" target="_blank" rel="noopener noreferrer">Public Preferences for Vaccination Campaigns in the COVID-19 Endemic Phase: Insights from the VaxPref Database</a></div>
+  <div class="publication-authors">Marcello Antonini; <strong class="author-self">Mesfin G. Genie</strong>; Arthur E. Attema; Katie Attwell; Zsolt J. Balogh; Daiga Behmane; Chiara Berardi; Shuli Brammli-Greenberg; Andrew Greenland; Terje P. Hagen; Madeleine Hinwood; C. James; A. Kellner; Brian Kelly; L. Murauskiene; N. McGregor; Alessia Melegaro; N. Moy; Ana Rita Sequeira; R. Singh; Aleksandra Torbica; Jeremy K. Ward; D. Yang; Francesco Paolucci</div>
+  <div class="publication-meta"><em>Health Policy and Technology</em>, 13, 100849 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2024.100849" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="preference" data-year="2024" data-status="journal" data-type="journal" data-search="2024 willingness to participate in placebo-controlled surgical trials of the knee laura wall; samantha bunzli; elizabeth nelson; l. hawke; mesfin genie; madeleine hinwood; danielle lang; m. dowsey; p. clarke; p. choong; zsolt j. balogh; l. lohmander; francesco paolucci the bone &amp; joint journal , 106-b, 1408–1415 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1302/0301-620X.106B12.BJJ-2023-1266.R2" target="_blank" rel="noopener noreferrer">Willingness to Participate in Placebo-Controlled Surgical Trials of the Knee</a></div>
+  <div class="publication-authors">Laura Wall; Samantha Bunzli; Elizabeth Nelson; L. Hawke; <strong class="author-self">Mesfin Genie</strong>; Madeleine Hinwood; Danielle Lang; M. Dowsey; P. Clarke; P. Choong; Zsolt J. Balogh; L. Lohmander; Francesco Paolucci</div>
+  <div class="publication-meta"><em>The Bone &amp; Joint Journal</em>, 106-B, 1408–1415 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1302/0301-620X.106B12.BJJ-2023-1266.R2" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2024" data-status="journal" data-type="journal" data-search="2024 vaccine uptake and effectiveness: why some african countries performed better than others? aregawi g. gebremariam; d. abegaz; h. y. nigus; t. l. argaw; m. gerbaba; mesfin g. genie; francesco paolucci health policy and technology , 13, 100820 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.hlpt.2023.100820" target="_blank" rel="noopener noreferrer">Vaccine Uptake and Effectiveness: Why Some African Countries Performed Better than Others?</a></div>
+  <div class="publication-authors">Aregawi G. Gebremariam; D. Abegaz; H. Y. Nigus; T. L. Argaw; M. Gerbaba; <strong class="author-self">Mesfin G. Genie</strong>; Francesco Paolucci</div>
+  <div class="publication-meta"><em>Health Policy and Technology</em>, 13, 100820 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2023.100820" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2024" data-status="journal" data-type="journal" data-search="2024 vaccination and non-pharmaceutical interventions during covid-19: impact on health and non-health outcomes in the us asmita p. khatiwada; mesfin g. genie; aregawi g. gebremariam; tim c. lai; nabin poudel; surachat ngorsuraches health policy and technology , 13, 100792 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.hlpt.2023.100792" target="_blank" rel="noopener noreferrer">Vaccination and Non-pharmaceutical Interventions during COVID-19: Impact on Health and Non-health Outcomes in the US</a></div>
+  <div class="publication-authors">Asmita P. Khatiwada; <strong class="author-self">Mesfin G. Genie</strong>; Aregawi G. Gebremariam; Tim C. Lai; Nabin Poudel; Surachat Ngorsuraches</div>
+  <div class="publication-meta"><em>Health Policy and Technology</em>, 13, 100792 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2023.100792" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+</div>
+</details><details class="publication-year-group" data-year-group="2023">
+<summary><span>2023</span><span class="year-count">1 article</span></summary>
+<div class="publication-year-list">
+<article class="publication-record" data-field="preference" data-year="2023" data-status="journal" data-type="journal" data-search="2023 keeping an eye on cost: what can eye tracking tell us about attention to cost information in discrete choice experiments? mesfin g. genie; mandy ryan; nicolas krucien health economics , 32, 1101–1119 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1002/hec.4658" target="_blank" rel="noopener noreferrer">Keeping an Eye on Cost: What Can Eye Tracking Tell Us about Attention to Cost Information in Discrete Choice Experiments?</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin G. Genie</strong>; Mandy Ryan; Nicolas Krucien</div>
+  <div class="publication-meta"><em>Health Economics</em>, 32, 1101–1119 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1002/hec.4658" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+</div>
+</details><details class="publication-year-group" data-year-group="2022">
+<summary><span>2022</span><span class="year-count">4 articles</span></summary>
+<div class="publication-year-list">
+<article class="publication-record" data-field="other" data-year="2022" data-status="journal" data-type="journal" data-search="2022 how do renewable energy and urbanization cause carbon emissions? evidence from advanced panel estimation techniques y. sun; h. li; z. andlib; mesfin g. genie renewable energy , 185, 996–1005 · published other applied economics journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.renene.2021.12.112" target="_blank" rel="noopener noreferrer">How Do Renewable Energy and Urbanization Cause Carbon Emissions? Evidence from Advanced Panel Estimation Techniques</a></div>
+  <div class="publication-authors">Y. Sun; H. Li; Z. Andlib; <strong class="author-self">Mesfin G. Genie</strong></div>
+  <div class="publication-meta"><em>Renewable Energy</em>, 185, 996–1005 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.renene.2021.12.112" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="other" data-year="2022" data-status="journal" data-type="journal" data-search="2022 the role of solar energy and eco-innovation in reducing environmental degradation in china: evidence from a qardl approach f. chien; c.-c. hsu; z. andlib; m. i. shah; t. ajaz; mesfin g. genie integrated environmental assessment and management , 18, 555–571 · published other applied economics journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1002/ieam.4500" target="_blank" rel="noopener noreferrer">The Role of Solar Energy and Eco-innovation in Reducing Environmental Degradation in China: Evidence from a QARDL Approach</a></div>
+  <div class="publication-authors">F. Chien; C.-C. Hsu; Z. Andlib; M. I. Shah; T. Ajaz; <strong class="author-self">Mesfin G. Genie</strong></div>
+  <div class="publication-meta"><em>Integrated Environmental Assessment and Management</em>, 18, 555–571 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1002/ieam.4500" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2022" data-status="journal" data-type="journal" data-search="2022 public acceptability of non-pharmaceutical interventions to control a pandemic in the uk: a discrete choice experiment luis e. loría-rebolledo; mandy ryan; verity watson; mesfin g. genie; ruben a. sakowsky; daniel powell; shantini paranjothy bmj open , 12, e054155 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1136/bmjopen-2021-054155" target="_blank" rel="noopener noreferrer">Public Acceptability of Non-pharmaceutical Interventions to Control a Pandemic in the UK: A Discrete Choice Experiment</a></div>
+  <div class="publication-authors">Luis E. Loría-Rebolledo; Mandy Ryan; Verity Watson; <strong class="author-self">Mesfin G. Genie</strong>; Ruben A. Sakowsky; Daniel Powell; Shantini Paranjothy</div>
+  <div class="publication-meta"><em>BMJ Open</em>, 12, e054155 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1136/bmjopen-2021-054155" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a><a href="https://doi.org/10.1101/2021.10.12.21264883" target="_blank" rel="noopener noreferrer">Earlier version <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="preference" data-year="2022" data-status="journal" data-type="journal" data-search="2022 a systematic review of patients’ values, preferences, and expectations for the treatment of metastatic prostate cancer martin j. connor; mesfin g. genie; david burns; e. j. bass; m. gonzalez; n. sarwar; a. falconer; s. mangar; t. dudderidge; v. khoo; m. winkler; hashim u. ahmed; verity watson european urology open science , 36, 9–18 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.euros.2021.10.003" target="_blank" rel="noopener noreferrer">A Systematic Review of Patients’ Values, Preferences, and Expectations for the Treatment of Metastatic Prostate Cancer</a></div>
+  <div class="publication-authors">Martin J. Connor; <strong class="author-self">Mesfin G. Genie</strong>; David Burns; E. J. Bass; M. Gonzalez; N. Sarwar; A. Falconer; S. Mangar; T. Dudderidge; V. Khoo; M. Winkler; Hashim U. Ahmed; Verity Watson</div>
+  <div class="publication-meta"><em>European Urology Open Science</em>, 36, 9–18 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.euros.2021.10.003" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+</div>
+</details><details class="publication-year-group" data-year-group="2021">
+<summary><span>2021</span><span class="year-count">4 articles</span></summary>
+<div class="publication-year-list">
+<article class="publication-record" data-field="preference" data-year="2021" data-status="journal" data-type="journal" data-search="2021 to pay or not to pay? cost information processing in the valuation of publicly funded healthcare mesfin g. genie; mandy ryan; nicolas krucien social science &amp; medicine , 276, 113822 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.socscimed.2021.113822" target="_blank" rel="noopener noreferrer">To Pay or Not to Pay? Cost Information Processing in the Valuation of Publicly Funded Healthcare</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin G. Genie</strong>; Mandy Ryan; Nicolas Krucien</div>
+  <div class="publication-meta"><em>Social Science &amp; Medicine</em>, 276, 113822 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.socscimed.2021.113822" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="other" data-year="2021" data-status="journal" data-type="journal" data-search="2021 the trade-off between economic growth and environmental quality: does economic freedom asymmetry matter for pakistan? muhammad tariq majeed; zhiyuan yu; adnan maqbool; mesfin genie; s. ullah; waheed ahmad environmental science and pollution research , 28, 41912–41921 · published other applied economics journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1007/s11356-021-13709-9" target="_blank" rel="noopener noreferrer">The Trade-off between Economic Growth and Environmental Quality: Does Economic Freedom Asymmetry Matter for Pakistan?</a></div>
+  <div class="publication-authors">Muhammad Tariq Majeed; Zhiyuan Yu; Adnan Maqbool; <strong class="author-self">Mesfin Genie</strong>; S. Ullah; Waheed Ahmad</div>
+  <div class="publication-meta"><em>Environmental Science and Pollution Research</em>, 28, 41912–41921 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1007/s11356-021-13709-9" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="preference" data-year="2021" data-status="journal" data-type="journal" data-search="2021 weighting or aggregating? investigating information processing in multi-attribute choices mesfin g. genie; nicolas krucien; mandy ryan health economics , 30, 1291–1305 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1002/hec.4245" target="_blank" rel="noopener noreferrer">Weighting or Aggregating? Investigating Information Processing in Multi-attribute Choices</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin G. Genie</strong>; Nicolas Krucien; Mandy Ryan</div>
+  <div class="publication-meta"><em>Health Economics</em>, 30, 1291–1305 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1002/hec.4245" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="preference" data-year="2021" data-status="journal" data-type="journal" data-search="2021 metastatic prostate cancer men’s attitudes towards treatment of the local tumour and metastasis evaluative research (ip5-matter): protocol for a prospective, multicentre discrete choice experiment study martin j. connor; mesfin g. genie; michael gonzalez; n. sarwar; k. t. jayaprakash; g. horan; f. hosking-jervis; n. klimowska-nassar; j. sukumar; t. pokrovska; d. basak; a. robinson; m. beresford; b. rai; s. mangar; v. khoo; t. dudderidge; a. falconer; m. winkler; verity watson; hashim u. ahmed bmj open , 11, e048996 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1136/bmjopen-2021-048996" target="_blank" rel="noopener noreferrer">Metastatic Prostate Cancer Men’s Attitudes towards Treatment of the Local Tumour and Metastasis Evaluative Research (IP5-MATTER): Protocol for a Prospective, Multicentre Discrete Choice Experiment Study</a></div>
+  <div class="publication-authors">Martin J. Connor; <strong class="author-self">Mesfin G. Genie</strong>; Michael Gonzalez; N. Sarwar; K. T. Jayaprakash; G. Horan; F. Hosking-Jervis; N. Klimowska-Nassar; J. Sukumar; T. Pokrovska; D. Basak; A. Robinson; M. Beresford; B. Rai; S. Mangar; V. Khoo; T. Dudderidge; A. Falconer; M. Winkler; Verity Watson; Hashim U. Ahmed</div>
+  <div class="publication-meta"><em>BMJ Open</em>, 11, e048996 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1136/bmjopen-2021-048996" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+</div>
+</details><details class="publication-year-group" data-year-group="2020">
+<summary><span>2020</span><span class="year-count">3 articles</span></summary>
+<div class="publication-year-list">
+<article class="publication-record" data-field="preference" data-year="2020" data-status="journal" data-type="journal" data-search="2020 the role of heterogeneity of patients’ preferences in kidney transplantation mesfin g. genie; antonio nicolò; giacomo pasini journal of health economics , 72, 102331 · published preferences &amp; choice journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.jhealeco.2020.102331" target="_blank" rel="noopener noreferrer">The Role of Heterogeneity of Patients’ Preferences in Kidney Transplantation</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin G. Genie</strong>; Antonio Nicolò; Giacomo Pasini</div>
+  <div class="publication-meta"><em>Journal of Health Economics</em>, 72, 102331 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.jhealeco.2020.102331" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a><a href="https://doi.org/10.2139/ssrn.3428620" target="_blank" rel="noopener noreferrer">Earlier version <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2020" data-status="journal" data-type="journal" data-search="2020 understanding public preferences and trade-offs for government responses during a pandemic: a protocol for a discrete choice experiment in the uk mesfin g. genie; luis e. loría-rebolledo; shantini paranjothy; daniel powell; mandy ryan; ruben a. sakowsky; verity watson bmj open , 10, e043477 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1136/bmjopen-2020-043477" target="_blank" rel="noopener noreferrer">Understanding Public Preferences and Trade-offs for Government Responses during a Pandemic: A Protocol for a Discrete Choice Experiment in the UK</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin G. Genie</strong>; Luis E. Loría-Rebolledo; Shantini Paranjothy; Daniel Powell; Mandy Ryan; Ruben A. Sakowsky; Verity Watson</div>
+  <div class="publication-meta"><em>BMJ Open</em>, 10, e043477 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1136/bmjopen-2020-043477" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+<article class="publication-record" data-field="public-health" data-year="2020" data-status="journal" data-type="journal" data-search="2020 the covid-19 pandemic in italy: policy and technology impact on health and non-health outcomes chiara berardi; marcello antonini; mesfin g. genie; g. cotugno; a. lanteri; adrian melia; francesco paolucci health policy and technology , 9, 454–487 · published public health policy journal article">
+  <div class="publication-title"><a href="https://doi.org/10.1016/j.hlpt.2020.08.019" target="_blank" rel="noopener noreferrer">The COVID-19 Pandemic in Italy: Policy and Technology Impact on Health and Non-health Outcomes</a></div>
+  <div class="publication-authors">Chiara Berardi; Marcello Antonini; <strong class="author-self">Mesfin G. Genie</strong>; G. Cotugno; A. Lanteri; Adrian Melia; Francesco Paolucci</div>
+  <div class="publication-meta"><em>Health Policy and Technology</em>, 9, 454–487 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/j.hlpt.2020.08.019" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a><a href="https://doi.org/10.2139/ssrn.3680293" target="_blank" rel="noopener noreferrer">Earlier version <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
+</div>
+</details>
+</section>
 
-<div class="publication-list">
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2025</div>
-<div>
-<div class="publication-title">Telehealth Evolution and Policy Response in Australia: Insights from the COVID-19 Pandemic</div>
-<div class="publication-authors">Stefano Bruzzo-Gallardo; Mesfin Genie; R. Gallagher; Francesco Paolucci</div>
-<div class="publication-meta"><em>Information Technologies in the Healthcare Industry</em>, 561–592 · <span class="status">Published</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1016/B978-0-443-30168-1.00002-5">DOI</a></div>
+<section class="publication-type-section" data-publication-section="chapter">
+<h2>Book chapter</h2>
+<div class="publication-year-list">
+<article class="publication-record" data-field="public-health" data-year="2025" data-status="chapter" data-type="chapter" data-search="2025 telehealth evolution and policy response in australia: insights from the covid-19 pandemic stefano bruzzo-gallardo; mesfin genie; r. gallagher; francesco paolucci information technologies in the healthcare industry , 561–592 · published public health policy book chapter">
+  <div class="publication-title"><a href="https://doi.org/10.1016/B978-0-443-30168-1.00002-5" target="_blank" rel="noopener noreferrer">Telehealth Evolution and Policy Response in Australia: Insights from the COVID-19 Pandemic</a></div>
+  <div class="publication-authors">Stefano Bruzzo-Gallardo; <strong class="author-self">Mesfin Genie</strong>; R. Gallagher; Francesco Paolucci</div>
+  <div class="publication-meta"><em>Information Technologies in the Healthcare Industry</em>, 561–592 <span class="status ">Published</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.1016/B978-0-443-30168-1.00002-5" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
 </div>
+</section><section class="publication-type-section" data-publication-section="working">
+<h2>Working papers</h2>
+<div class="publication-year-list">
+<article class="publication-record" data-field="preference" data-year="2018" data-status="working" data-type="working" data-search="2018 does cognitive ability affect choice consistency? mesfin genie ssrn electronic journal · working paper preferences &amp; choice working paper">
+  <div class="publication-title"><a href="https://doi.org/10.2139/ssrn.3270180" target="_blank" rel="noopener noreferrer">Does Cognitive Ability Affect Choice Consistency?</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin Genie</strong></div>
+  <div class="publication-meta"><em>SSRN Electronic Journal</em> <span class="status working">Working paper</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.2139/ssrn.3270180" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article><article class="publication-record" data-field="public-health" data-year="2025" data-status="working" data-type="working" data-search="2025 vaccinating now or vaccinating later: separating pull-forward and net effects using a dynamic regression discontinuity design fabio i. martinenghi; mesfin genie; katie attwell; huong le; hannah c. moore; aregawi g. gebremariam; bette liu; francesco paolucci; christopher c. blyth arxiv · working paper public health policy working paper">
+  <div class="publication-title"><a href="https://doi.org/10.48550/arXiv.2509.22714" target="_blank" rel="noopener noreferrer">Vaccinating Now or Vaccinating Later: Separating Pull-Forward and Net Effects Using a Dynamic Regression Discontinuity Design</a></div>
+  <div class="publication-authors">Fabio I. Martinenghi; <strong class="author-self">Mesfin Genie</strong>; Katie Attwell; Huong Le; Hannah C. Moore; Aregawi G. Gebremariam; Bette Liu; Francesco Paolucci; Christopher C. Blyth</div>
+  <div class="publication-meta"><em>arXiv</em> <span class="status working">Working paper</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.48550/arXiv.2509.22714" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
 </div>
+</section><section class="publication-type-section" data-publication-section="data">
+<h2>Data</h2>
+<div class="publication-year-list">
+<article class="publication-record" data-field="other" data-year="2019" data-status="data" data-type="data" data-search="2019 combining the retrospective interviews of wave 3 and wave 7: the third release of the share job episodes panel mesfin genie survey of health, ageing and retirement in europe · published dataset other applied economics data output">
+  <div class="publication-title">Combining the Retrospective Interviews of Wave 3 and Wave 7: The Third Release of the SHARE Job Episodes Panel</div>
+  <div class="publication-authors"><strong class="author-self">Mesfin Genie</strong></div>
+  <div class="publication-meta"><em>Survey of Health, Ageing and Retirement in Europe</em> <span class="status data">Published data</span></div>
+  <div class="publication-links"><a href="https://www.newcastle.edu.au/profile/mesfin-genie#publications" target="_blank" rel="noopener noreferrer">University record <i class="bi bi-arrow-up-right"></i></a></div>
+</article><article class="publication-record" data-field="other" data-year="2019" data-status="data" data-type="data" data-search="2019 share job episodes panel mesfin genie survey of health, ageing and retirement in europe · published data product other applied economics data output">
+  <div class="publication-title"><a href="https://doi.org/10.6103/SHARE.jep.800" target="_blank" rel="noopener noreferrer">SHARE Job Episodes Panel</a></div>
+  <div class="publication-authors"><strong class="author-self">Mesfin Genie</strong></div>
+  <div class="publication-meta"><em>Survey of Health, Ageing and Retirement in Europe</em> <span class="status data">Published data</span></div>
+  <div class="publication-links"><a href="https://doi.org/10.6103/SHARE.jep.800" target="_blank" rel="noopener noreferrer">DOI <i class="bi bi-arrow-up-right"></i></a></div>
+</article>
 </div>
+</section>
 
-## Working papers and earlier versions
-
-<div class="publication-list">
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2025</div>
-<div>
-<div class="publication-title">Vaccinating Now or Vaccinating Later: Separating Pull-Forward and Net Effects Using a Dynamic Regression Discontinuity Design</div>
-<div class="publication-authors">Fabio I. Martinenghi; Mesfin Genie; Katie Attwell; Huong Le; Hannah C. Moore; Aregawi G. Gebremariam; Bette Liu; Francesco Paolucci; Christopher C. Blyth</div>
-<div class="publication-meta"><em>arXiv</em> · <span class="status working">Working paper</span></div>
-<div class="publication-links"><a href="https://doi.org/10.48550/arXiv.2509.22714">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="other">
-<div class="publication-year">2022</div>
-<div>
-<div class="publication-title">Immigration and the Utilization of Preventive Care in Europe: Results from Retrospective Data</div>
-<div class="publication-authors">Raluca Elena Buia; Mesfin Genie; Cristina Elisa Orso; Giacomo Pasini</div>
-<div class="publication-meta"><em>SSRN</em> · <span class="status working">Earlier version</span></div>
-<div class="publication-links"><a href="https://doi.org/10.2139/ssrn.4269083">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2021</div>
-<div>
-<div class="publication-title">Public Acceptability of Non-pharmaceutical Interventions to Control a Pandemic in the United Kingdom: A Discrete Choice Experiment</div>
-<div class="publication-authors">Luis E. Loría-Rebolledo; Mandy Ryan; Verity Watson; Mesfin Genie; Ruben A. Sakowsky; Daniel Powell; Shantini Paranjothy</div>
-<div class="publication-meta"><em>medRxiv</em> · <span class="status working">Earlier version</span></div>
-<div class="publication-links"><a href="https://doi.org/10.1101/2021.10.12.21264883">DOI</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="public-health">
-<div class="publication-year">2020</div>
-<div>
-<div class="publication-title">The COVID-19 Pandemic in Italy: Policy and Technology Impact on Health and Non-health Outcomes</div>
-<div class="publication-authors">Chiara Berardi; Marcello Antonini; Mesfin Genie; G. Cotugno; A. Lanteri; Adrian Melia; Francesco Paolucci</div>
-<div class="publication-meta"><em>SSRN</em> · <span class="status working">Earlier version</span></div>
-<div class="publication-links"><a href="https://doi.org/10.2139/ssrn.3680293">DOI</a></div>
-</div>
-</div>
-</div>
-
-
-## Data and other research outputs
-
-<div class="publication-list">
-<div class="publication-item" data-field="other">
-<div class="publication-year">2019</div>
-<div>
-<div class="publication-title">Combining the Retrospective Interviews of Wave 3 and Wave 7: The Third Release of the SHARE Job Episodes Panel</div>
-<div class="publication-authors">Mesfin Genie</div>
-<div class="publication-meta"><em>Survey of Health, Ageing and Retirement in Europe</em> · <span class="status">Published dataset</span></div>
-<div class="publication-links"><a href="https://www.newcastle.edu.au/profile/mesfin-genie#publications">University record</a></div>
-</div>
-</div>
-<div class="publication-item" data-field="other">
-<div class="publication-year">2019</div>
-<div>
-<div class="publication-title">SHARE Job Episodes Panel</div>
-<div class="publication-authors">Mesfin Genie</div>
-<div class="publication-meta"><em>Survey of Health, Ageing and Retirement in Europe</em> · <span class="status">Published data product</span></div>
-<div class="publication-links"><a href="https://doi.org/10.6103/SHARE.jep.800">DOI</a></div>
-</div>
-</div>
-</div>
+<div id="publication-empty" class="publication-empty" hidden>No publications match the selected filters.</div>
 
 :::
 :::

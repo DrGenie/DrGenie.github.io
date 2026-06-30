@@ -1,15 +1,14 @@
 ---
 title: "Teaching"
 page-layout: full
+description: "Teaching and supervision by Mesfin Genie."
 ---
 
 ::: {.page-header}
 ::: {.page-shell}
-<div class="eyebrow">Teaching</div>
+# Teaching
 
-# Teaching and supervision
-
-Undergraduate teaching in health economics and behavioural economics, alongside doctoral and research supervision in applied economics and health policy.
+Health economics, behavioural economics and applied research supervision.
 :::
 :::
 
@@ -20,13 +19,13 @@ Undergraduate teaching in health economics and behavioural economics, alongside 
 ::: {.feature-card}
 ### ECON2112 · Health Economics and Finance
 
-Economic analysis of health, healthcare markets, insurance, provider behaviour, economic evaluation and health-policy design.
+Healthcare markets, insurance, provider behaviour, economic evaluation and health-policy design.
 :::
 
 ::: {.feature-card}
 ### ECON3111 · Behavioural Economics
 
-Decision-making under risk and uncertainty, intertemporal choice, social preferences, behavioural public policy and experimental evidence.
+Decision-making under risk and uncertainty, intertemporal choice, social preferences, experiments and behavioural public policy.
 :::
 :::
 

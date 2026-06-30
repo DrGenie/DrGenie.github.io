@@ -1,29 +1,39 @@
 ---
 title: "CV"
 page-layout: full
+description: "Curriculum vitae of Mesfin Genie."
 ---
 
 ::: {.page-header}
-::: {.page-shell}
-<div class="eyebrow">Curriculum vitae</div>
-
+::: {.page-shell .cv-header-grid}
+::: {.cv-header-copy}
 # Mesfin Genie
 
 Senior Lecturer in Health Economics · Newcastle Business School · The University of Newcastle
 :::
+
+::: {.cv-header-actions}
+<a class="button-primary" href="/cv/mesfin-genie-cv.pdf" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-pdf"></i> Download CV</a>
+<button class="button-secondary print-button" type="button" data-print-page="true"><i class="bi bi-printer"></i> Print page</button>
+:::
+:::
 :::
 
-::: {.prose}
+::: {.prose .cv-page}
 ## Academic appointments
 
 <div class="timeline">
 <div class="timeline-item">
 <h3>Senior Lecturer in Health Economics</h3>
-<p><strong>The University of Newcastle, Australia · 2023–present</strong><br>Newcastle Business School.</p>
+<p><strong>The University of Newcastle, Australia · 2026–present</strong><br>Newcastle Business School.</p>
+</div>
+<div class="timeline-item">
+<h3>Lecturer in Health Economics</h3>
+<p><strong>The University of Newcastle, Australia · 2023–2025</strong><br>Newcastle Business School.</p>
 </div>
 <div class="timeline-item">
 <h3>Health Measurement and Regulatory Science Fellow</h3>
-<p><strong>Duke University, United States · 2023–2024</strong><br>Department of Population Health Sciences.</p>
+<p><strong>Duke University, United States · 2023–2024</strong><br>Duke Department of Population Health Sciences; concurrent fellowship.</p>
 </div>
 <div class="timeline-item">
 <h3>Postdoctoral Research Fellow</h3>
@@ -50,7 +60,7 @@ Senior Lecturer in Health Economics · Newcastle Business School · The Universi
 
 - Health economics and health preference research
 - Choice modelling and discrete choice experiments
-- Behavioural economics and information processing
+- Behavioural decision science and information processing
 - Public health policy and programme evaluation
 
 ## Major grants and funded projects
@@ -59,18 +69,24 @@ Senior Lecturer in Health Economics · Newcastle Business School · The Universi
 - **Upscaling Field Epidemiology Training Programs in India**, World Bank, 2025. A$416,000. Lead.
 - University of Newcastle research and conference schemes, 2024–2025.
 
+## Teaching
+
+- **ECON2112 · Health Economics and Finance**, course coordinator and lecturer
+- **ECON3111 · Behavioural Economics**, course coordinator and lecturer
+- **ECON3011 · Health Economics and Finance**, course coordinator and lecturer
+
 ## Professional service
 
-Guest Editor for <em>Health Policy and Technology</em>. Reviewer for journals including <em>Journal of Health Economics</em>, <em>Health Economics</em>, <em>Social Science & Medicine</em>, <em>Value in Health</em>, <em>Journal of Choice Modelling</em>, <em>Theory and Decision</em> and <em>BMJ Open</em>.
+Guest Editor for <em>Health Policy and Technology</em>. Reviewer for journals including <em>Journal of Health Economics</em>, <em>Health Economics</em>, <em>Social Science &amp; Medicine</em>, <em>Value in Health</em>, <em>Journal of Choice Modelling</em>, <em>Theory and Decision</em> and <em>BMJ Open</em>.
 
-## Contact and profiles
+## Profiles and contact
 
 <div class="social-row">
-<a class="social-link" href="mailto:mesfin.genie@newcastle.edu.au" title="Email"><i class="bi bi-envelope"></i></a>
-<a class="social-link" href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-<a class="social-link" href="https://orcid.org/0000-0002-1744-4666" title="ORCID"><i class="ai ai-orcid"></i></a>
-<a class="social-link" href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-<a class="social-link" href="https://github.com/DrGenie" title="GitHub"><i class="bi bi-github"></i></a>
-<a class="social-link" href="https://www.newcastle.edu.au/profile/mesfin-genie" title="University profile"><i class="bi bi-building"></i></a>
+<a class="social-link" href="mailto:mesfin.genie@newcastle.edu.au" title="Email" aria-label="Email"><i class="bi bi-envelope"></i></a>
+<a class="social-link" href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+<a class="social-link" href="https://orcid.org/0000-0002-1744-4666" title="ORCID" aria-label="ORCID"><i class="ai ai-orcid"></i></a>
+<a class="social-link" href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" title="LinkedIn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+<a class="social-link" href="https://github.com/DrGenie" title="GitHub" aria-label="GitHub"><i class="bi bi-github"></i></a>
+<a class="social-link" href="https://www.newcastle.edu.au/profile/mesfin-genie" title="University profile" aria-label="University profile"><i class="bi bi-building"></i></a>
 </div>
 :::

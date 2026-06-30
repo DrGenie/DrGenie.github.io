@@ -16,6 +16,7 @@ project:
     - .nojekyll
     - robots.txt
     - assets/**
+    - cv/mesfin-genie-cv.pdf
     - eMANDEVA-DecisionAid-V18/**
     - farming-bca-tool-v18/**
 
@@ -29,7 +30,7 @@ website:
   navbar:
     pinned: true
     background: "#ffffff"
-    foreground: "#17352f"
+    foreground: "#173f36"
     title: "Mesfin Genie"
     left:
       - text: "Home"
