@@ -1,0 +1,40 @@
+---
+title: "Tools"
+page-layout: full
+---
+
+::: {.page-header}
+::: {.page-shell}
+<div class="eyebrow">Tools</div>
+
+# Decision-support and economic-evaluation tools
+
+Interactive applications developed to translate empirical research into transparent, usable analysis.
+:::
+:::
+
+::: {.section}
+::: {.page-shell}
+::: {.grid-2}
+::: {.tool-card}
+<div class="tool-kicker">Vaccine mandates and policy design</div>
+
+### eMANDEVA Decision Aid
+
+The eMANDEVA Decision Aid combines discrete-choice evidence with policy scenarios to assess expected public support, lives saved, benefit–cost outcomes and design trade-offs for prospective vaccine mandates.
+
+<a class="tool-link" data-open-new="true" href="https://mesfingenie.com/eMANDEVA-DecisionAid-V18/">Launch eMANDEVA <i class="bi bi-arrow-up-right"></i></a>
+:::
+
+::: {.tool-card}
+<div class="tool-kicker">Farm trials and soil management</div>
+
+### Farming BCA Tool
+
+The Farming BCA Tool estimates net present value, benefit–cost ratio, gross profit margin and return on investment for farm practices, with configurable discounting and sensitivity analysis.
+
+<a class="tool-link" data-open-new="true" href="https://mesfingenie.com/farming-bca-tool-v18/">Launch Farming BCA Tool <i class="bi bi-arrow-up-right"></i></a>
+:::
+:::
+:::
+:::

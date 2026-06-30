@@ -1,34 +1,76 @@
 ---
 title: "CV"
+page-layout: full
 ---
 
 ::: {.page-header}
-<div class="kicker">Curriculum vitae</div>
+::: {.page-shell}
+<div class="eyebrow">Curriculum vitae</div>
+
 # Mesfin Genie
-Senior Lecturer in Health Economics, Newcastle Business School, The University of Newcastle.
-:::
 
-::: {.content}
-::: {.grid-2}
-::: {.card}
-### Current appointment
-Senior Lecturer in Health Economics  
-Newcastle Business School  
-The University of Newcastle, Australia
-:::
-::: {.card}
-### Education
-PhD in Economics, Ca’ Foscari University of Venice  
-MSc in Health Economics and Management, University of Bologna  
-MSc in Economics, Addis Ababa University
+Senior Lecturer in Health Economics · Newcastle Business School · The University of Newcastle
 :::
 :::
 
-## Research areas
+::: {.prose}
+## Academic appointments
 
-Health economics; behavioural economics; discrete choice experiments; preference elicitation; eye tracking; vaccine policy; health technology assessment; decision support tools; applied econometrics.
+<div class="timeline">
+<div class="timeline-item">
+<h3>Senior Lecturer in Health Economics</h3>
+<p><strong>The University of Newcastle, Australia · 2023–present</strong><br>Newcastle Business School.</p>
+</div>
+<div class="timeline-item">
+<h3>Health Measurement and Regulatory Science Fellow</h3>
+<p><strong>Duke University, United States · 2023–2024</strong><br>Department of Population Health Sciences.</p>
+</div>
+<div class="timeline-item">
+<h3>Postdoctoral Research Fellow</h3>
+<p><strong>Auburn University, United States · 2022–2023</strong><br>Harrison College of Pharmacy.</p>
+</div>
+<div class="timeline-item">
+<h3>Research Fellow</h3>
+<p><strong>University of Aberdeen, United Kingdom · 2020–2022</strong><br>Health Economics Research Unit.</p>
+</div>
+<div class="timeline-item">
+<h3>Postdoctoral Research Fellow</h3>
+<p><strong>Ca’ Foscari University of Venice, Italy · 2019–2020</strong><br>Department of Economics.</p>
+</div>
+</div>
 
-## Profiles
+## Education
 
-[University profile](https://www.newcastle.edu.au/profile/mesfin-genie){.button .light} [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ){.button .light} [GitHub](https://github.com/DrGenie){.button .light}
+- **PhD in Economics**, Ca’ Foscari University of Venice, Italy, 2019
+- **MSc in Health Economics and Management**, University of Bologna, Italy
+- **MA in Economics**, Addis Ababa University, Ethiopia
+- **BA in Economics**, Jimma University, Ethiopia
+
+## Research fields
+
+- Health economics and health preference research
+- Choice modelling and discrete choice experiments
+- Behavioural economics and information processing
+- Public health policy and programme evaluation
+
+## Major grants and funded projects
+
+- **MandEval: Effectiveness and consequences of Australia’s COVID-19 vaccine mandates**, Medical Research Future Fund, 2023–2026. Total programme funding approximately A$4.57 million; University of Newcastle allocation A$808,440. Site lead.
+- **Upscaling Field Epidemiology Training Programs in India**, World Bank, 2025. A$416,000. Lead.
+- University of Newcastle research and conference schemes, 2024–2025.
+
+## Professional service
+
+Guest Editor for <em>Health Policy and Technology</em>. Reviewer for journals including <em>Journal of Health Economics</em>, <em>Health Economics</em>, <em>Social Science & Medicine</em>, <em>Value in Health</em>, <em>Journal of Choice Modelling</em>, <em>Theory and Decision</em> and <em>BMJ Open</em>.
+
+## Contact and profiles
+
+<div class="social-row">
+<a class="social-link" href="mailto:mesfin.genie@newcastle.edu.au" title="Email"><i class="bi bi-envelope"></i></a>
+<a class="social-link" href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+<a class="social-link" href="https://orcid.org/0000-0002-1744-4666" title="ORCID"><i class="ai ai-orcid"></i></a>
+<a class="social-link" href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+<a class="social-link" href="https://github.com/DrGenie" title="GitHub"><i class="bi bi-github"></i></a>
+<a class="social-link" href="https://www.newcastle.edu.au/profile/mesfin-genie" title="University profile"><i class="bi bi-building"></i></a>
+</div>
 :::

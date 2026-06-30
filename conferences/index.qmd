@@ -1,0 +1,140 @@
+---
+title: "Conferences"
+page-layout: full
+---
+
+::: {.page-header}
+::: {.page-shell}
+<div class="eyebrow">Conferences</div>
+
+# Presentations and conference publications
+
+Recent presentations and published conference outputs.
+:::
+:::
+
+::: {.prose}
+## Recent presentations
+
+<div class="timeline">
+<div class="timeline-item">
+<h3>International Conference on Choice Modelling</h3>
+<p><strong>Gold Coast, Australia · July 2026</strong><br>Attribute ordering, visual attention and choice behaviour in discrete choice experiments.</p>
+</div>
+<div class="timeline-item">
+<h3>CDIC 2026</h3>
+<p><strong>Melbourne, Australia · June 2026</strong><br><em>Community First or My Body First? Moral Values and Vaccine Mandate Preferences</em>; and <em>No Jab, No Access? Preferences for Vaccine Mandates in Europe and Australia</em>.</p>
+</div>
+<div class="timeline-item">
+<h3>ISPOR Annual Meeting</h3>
+<p><strong>Philadelphia, United States · May 2026</strong><br><em>Choosing with Concern for the Worse-Off: Equity and Efficiency in Health Value Assessment</em>.</p>
+</div>
+<div class="timeline-item">
+<h3>International Academy of Health Preference Research</h3>
+<p><strong>Singapore · October 2026</strong><br>Preferences and trade-offs for dementia support programme features: a discrete choice experiment in Australia.</p>
+</div>
+</div>
+
+## Published conference outputs
+
+<div class="publication-list">
+<div class="publication-item">
+<div class="publication-year">2025</div>
+<div>
+<div class="publication-title">PCR18 Are Discrete Choice Experiment Results Robust to Omitted Attributes? Evidence from a Vaccine Study</div>
+<div class="publication-authors">Mesfin Genie; Verity Watson; Stéphane Luchini; Michaël Schwarzinger</div>
+<div class="publication-meta"><em>Value in Health</em>, 28, S549–S550 · <span class="status">Published abstract</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2025.09.2491">DOI</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2025</div>
+<div>
+<div class="publication-title">MSR145 Do Framing and Attribute Number Influence Choice Consistency in a Preference-Based Value Assessment of Equity and Efficiency?</div>
+<div class="publication-authors">Mesfin Genie; Surachat Ngorsuraches</div>
+<div class="publication-meta"><em>Value in Health</em>, 28, S302–S303 · <span class="status">Published abstract</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2025.04.1296">DOI</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2024</div>
+<div>
+<div class="publication-title">Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments</div>
+<div class="publication-authors">Mesfin Genie; Shelby Reed; Juan Gonzalez; Semra Ozdemir</div>
+<div class="publication-meta"><em>Value in Health</em>, 27, S274 · <span class="status">Published abstract</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2024.03.1508">DOI</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2024</div>
+<div>
+<div class="publication-title">MSR75 Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments</div>
+<div class="publication-authors">Mesfin Genie; Shelby Reed; Juan Gonzalez; Semra Ozdemir</div>
+<div class="publication-meta"><em>Value in Health</em>, 27, S274 · <span class="status">Published abstract</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2024.03.1508">DOI</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2024</div>
+<div>
+<div class="publication-title">31st Annual Conference of the International Society for Quality of Life Research</div>
+<div class="publication-meta"><em>Quality of Life Research</em>, 33(Suppl 1), 1–235 · <span class="status">Published proceedings</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1007/s11136-024-03786-x">DOI</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2023</div>
+<div>
+<div class="publication-title">EPH155 Relative Effectiveness of Vaccination and Non-pharmaceutical Interventions on COVID-19 Infection and Deaths in the US</div>
+<div class="publication-authors">Asmita P. Khatiwada; Aregawi G. Gebremariam; Mesfin Genie; Tim C. Lai; Nabin Poudel; Surachat Ngorsuraches</div>
+<div class="publication-meta"><em>Value in Health</em>, 26, S192–S193 · <span class="status">Published abstract</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2023.03.1037">DOI</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2023</div>
+<div>
+<div class="publication-title">PCR95 Decision Consistency in a Discrete Choice Experiment: Does Numeracy Skill Matter?</div>
+<div class="publication-authors">Mesfin Genie; Surachat Ngorsuraches; Nabin Poudel</div>
+<div class="publication-meta"><em>Value in Health</em>, 26, S329 · <span class="status">Published abstract</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2023.03.1873">DOI</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2023</div>
+<div>
+<div class="publication-title">Relative Effectiveness of Vaccination and Non-pharmaceutical Interventions on COVID-19 Infection and Deaths in the US</div>
+<div class="publication-authors">Asmita P. Khatiwada; Aregawi G. Gebremariam; Mesfin Genie; Tim C. Lai; Nabin Poudel; Surachat Ngorsuraches</div>
+<div class="publication-meta"><em>Value in Health</em>, 26, S192–S193 · <span class="status">Published abstract</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2023.03.1037">DOI</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2021</div>
+<div>
+<div class="publication-title">Metastatic Prostate Cancer Patients’ Attitudes towards Treatment of the Local Tumour and Metastasis Evaluative Research (IP5-MATTER): A Multicentre, Discrete Choice Experiment Trial in Progress</div>
+<div class="publication-authors">Martin J. Connor; Mesfin G. Genie; Michael Gonzalez; and colleagues</div>
+<div class="publication-meta"><em>European Urology</em>, 79, S1217–S1218 · <span class="status">Published abstract</span></div>
+<div class="publication-links"><a href="https://www.newcastle.edu.au/profile/mesfin-genie#publications">University record</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2017</div>
+<div>
+<div class="publication-title">A Discrete Choice Experiment on Patients’ Time and Risk Preferences in Kidney Transplantation: Patients’ Age and Willingness to Wait for Better Organs</div>
+<div class="publication-authors">C. Silvestre; Mesfin Genie; Antonio Nicolò; Giacomo Pasini; and colleagues</div>
+<div class="publication-meta"><em>Transplant International</em>, 30, 308–309 · <span class="status">Published abstract</span></div>
+<div class="publication-links"><a href="https://www.newcastle.edu.au/profile/mesfin-genie#publications">University record</a></div>
+</div>
+</div>
+</div>
+:::

@@ -1,59 +1,60 @@
 ---
 title: "Research"
+page-layout: full
 ---
 
 ::: {.page-header}
-<div class="kicker">Research</div>
-# Health economics, preference evidence and behaviour
-My research develops and applies methods for understanding how people value health, process information, and make trade-offs under uncertainty.
+::: {.page-shell}
+<div class="eyebrow">Research</div>
+
+# Health preferences, behaviour and policy
+
+My research develops and applies methods for understanding health-related decisions, with particular attention to preference heterogeneity, information processing and the design of public policy.
+:::
 :::
 
-::: {.content}
+::: {.prose}
+## Health preferences and choice modelling
+
+I use discrete choice experiments and related stated-preference methods to examine how patients and the public value treatments, services and policy designs. The work spans kidney transplantation, metastatic prostate cancer, diabetes technology, loneliness support, telehealth, vaccine policy and broader public-health interventions.
+
+A central theme is heterogeneity: people differ in the outcomes they value, the risks they are willing to accept and the trade-offs they are prepared to make. My work develops models and empirical strategies that make those differences visible and policy-relevant.
+
+Selected publications include [The role of heterogeneity of patients’ preferences in kidney transplantation](https://doi.org/10.1016/j.jhealeco.2020.102331), [Priority for self or others?](https://doi.org/10.1016/j.jval.2025.10.011), and [Choice consistency in discrete choice experiments](https://doi.org/10.1016/j.jval.2024.07.001).
+
+## Behaviour in complex decisions
+
+I study what happens inside choice tasks: where people look, how they process cost and benefit information, whether feedback improves later choices, and how numeracy and attribute order shape decision quality. This programme combines choice modelling with eye tracking, experimental methods and behavioural economics.
+
+The methodological aim is to improve both the validity of stated-preference evidence and the interpretation of estimated preferences. Recent work examines attention to cost, aggregation and weighting of attributes, dominance-task feedback and robustness to changes in experimental design.
+
+Selected publications include [Keeping an eye on cost](https://doi.org/10.1002/hec.4658), [Weighting or aggregating?](https://doi.org/10.1002/hec.4245), [To pay or not to pay?](https://doi.org/10.1016/j.socscimed.2021.113822), and [Guidance or misdirection?](https://doi.org/10.1002/hec.70093).
+
+## Public health policy and evaluation
+
+My applied research examines vaccination policy, vaccine mandates, non-pharmaceutical interventions, preventive care, telehealth and programme evaluation. The work uses discrete choice experiments, quasi-experimental designs and economic evaluation to identify both behavioural responses and distributional consequences.
+
+I am a site lead on the MRFF-funded MandEval programme, which studies the effectiveness and consequences of vaccine mandates in Australia and internationally. I also led economic work for the World Bank business case on scaling Field Epidemiology Training Programs in India.
+
+Selected publications include [Are we ready for the next pandemic?](https://doi.org/10.1016/j.socscimed.2025.117687), [Time preferences and COVID-19 vaccination uptake](https://doi.org/10.1007/s10198-025-01801-7), and [Vaccine uptake in the context of mandate announcement and removal](https://doi.org/10.1016/j.vaccine.2026.128825).
+
+## Major programmes
+
 ::: {.grid-2}
-::: {.card}
-### Health economics and policy
-Economic evaluation, health technology assessment, public health policy, health service design, vaccine policy, and policy acceptability.
-:::
-::: {.card}
-### Choice modelling
-Discrete choice experiments, mixed logit, latent class models, preference heterogeneity, attribute non-attendance, equity-efficiency trade-offs, and willingness-to-pay or willingness-to-sacrifice measures.
-:::
-::: {.card}
-### Behavioural health economics
-Attention, numeracy, feedback, presentation effects, eye tracking, task engagement, information processing, and decision quality in health preference tasks.
-:::
-::: {.card}
-### Decision support
-Translation of statistical and econometric evidence into transparent online tools for policy evaluation, clinical decision support, and applied economic evaluation.
-:::
+::: {.feature-card}
+### MandEval
+
+**Medical Research Future Fund · 2023–2026**
+
+Effectiveness and consequences of Australia’s COVID-19 vaccine mandates, including uptake, equity, public preferences and policy design. Total programme funding: approximately A$4.57 million; University of Newcastle allocation: A$808,440.
 :::
 
-## Current research streams
+::: {.feature-card}
+### Field Epidemiology Training Programs in India
 
-::: {.grid-3}
-::: {.card}
-### Vaccine mandate evaluation
-Mandate design, exemptions, scope, thresholds, policy legitimacy, predicted support, and decision support tools for future public health emergencies.
-:::
-::: {.card}
-### Eye tracking and DCEs
-How visual attention shapes stated preferences, cost sensitivity, response quality and the interpretation of attribute importance.
-:::
-::: {.card}
-### Equity and value assessment
-How people trade off total health gain against priority to worse-off groups, fairness and distributional concerns.
-:::
-::: {.card}
-### Telehealth and access
-Preferences for telehealth models, continuity, distance, waiting time, data security and out-of-pocket costs.
-:::
-::: {.card}
-### Rare disease care
-Organisational models of care, coordination, access to innovation, continuity and patient-centred service design.
-:::
-::: {.card}
-### Applied benefit-cost analysis
-Economic tools for applied decision-making in agriculture, public policy and programme evaluation.
+**World Bank · 2025**
+
+Economic and implementation analysis supporting a business case for scaling Field Epidemiology Training Programs in India. University of Newcastle funding: A$416,000.
 :::
 :::
 :::

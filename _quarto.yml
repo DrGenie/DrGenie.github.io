@@ -1,51 +1,77 @@
+lang: en-AU
+
 project:
   type: website
   output-dir: _site
+  render:
+    - index.qmd
+    - research/index.qmd
+    - publications/index.qmd
+    - conferences/index.qmd
+    - tools/index.qmd
+    - teaching/index.qmd
+    - cv/index.qmd
+  resources:
+    - CNAME
+    - .nojekyll
+    - robots.txt
+    - assets/**
+    - eMANDEVA-DecisionAid-V18/**
+    - farming-bca-tool-v18/**
+
 website:
   title: "Mesfin Genie"
   site-url: "https://mesfingenie.com"
-  description: "Mesfin Genie, PhD — Senior Lecturer in Health Economics at the University of Newcastle."
-  favicon: assets/img/favicon.png
+  favicon: assets/favicon.png
   open-graph: true
   twitter-card: true
-  search: true
+  search: false
   navbar:
-    logo: assets/img/mg-mark.svg
-    title: false
     pinned: true
+    background: "#ffffff"
+    foreground: "#17352f"
+    title: "Mesfin Genie"
+    left:
+      - text: "Home"
+        href: /
+      - text: "Research"
+        href: /research/
+      - text: "Publications"
+        href: /publications/
+      - text: "Conferences"
+        href: /conferences/
+      - text: "Tools"
+        href: /tools/
+      - text: "Teaching"
+        href: /teaching/
+      - text: "CV"
+        href: /cv/
     right:
-      - text: Research
-        href: research/
-      - text: Publications
-        href: publications/
-      - text: Projects
-        href: projects/
-      - text: Software
-        href: software/
-      - text: Teaching
-        href: teaching/
-      - text: Supervision
-        href: supervision/
-      - text: CV
-        href: cv/
-      - text: Contact
-        href: contact/
+      - icon: linkedin
+        href: https://au.linkedin.com/in/mesfin-genie-ph-d-65634216
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/DrGenie
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:mesfin.genie@newcastle.edu.au
+        aria-label: Email
   page-footer:
     left: "© 2026 Mesfin Genie"
-    right:
-      - text: Google Scholar
-        href: https://scholar.google.com/citations?user=v2SXM_kAAAAJ
-      - text: University profile
-        href: https://www.newcastle.edu.au/profile/mesfin-genie
-      - text: GitHub
-        href: https://github.com/DrGenie
+    right: |
+      [University profile](https://www.newcastle.edu.au/profile/mesfin-genie){target="_blank"} · [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en){target="_blank"} · [ORCID](https://orcid.org/0000-0002-1744-4666){target="_blank"}
+
 format:
   html:
-    theme: [cosmo, assets/styles.scss]
+    theme: cosmo
+    css: assets/styles.css
     toc: false
-    page-layout: full
     smooth-scroll: true
-    link-external-newwindow: true
+    include-in-header: assets/head.html
+    include-after-body: assets/scripts.html
     anchor-sections: false
+    html-math-method: katex
+    link-external-newwindow: true
+
 execute:
   freeze: auto

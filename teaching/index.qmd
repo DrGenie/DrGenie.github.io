@@ -1,26 +1,42 @@
 ---
 title: "Teaching"
+page-layout: full
 ---
 
 ::: {.page-header}
-<div class="kicker">Teaching</div>
-# Health economics and behavioural economics teaching
-Courses at Newcastle Business School, with emphasis on applied economic reasoning, policy evaluation and evidence-based decision-making.
+::: {.page-shell}
+<div class="eyebrow">Teaching</div>
+
+# Teaching and supervision
+
+Undergraduate teaching in health economics and behavioural economics, alongside doctoral and research supervision in applied economics and health policy.
+:::
 :::
 
-::: {.content}
+::: {.prose}
+## Current courses
+
 ::: {.grid-2}
-::: {.card}
-### ECON2112 Health Economics and Finance
-Health systems, health financing, economic evaluation, demand for health care, insurance, provider behaviour, equity and applied policy analysis.
+::: {.feature-card}
+### ECON2112 · Health Economics and Finance
+
+Economic analysis of health, healthcare markets, insurance, provider behaviour, economic evaluation and health-policy design.
 :::
-::: {.card}
-### ECON3111 Behavioural Economics
-Behavioural decision-making, heuristics, biases, incentives, bounded rationality, experimental evidence and applications to health, public policy and markets.
+
+::: {.feature-card}
+### ECON3111 · Behavioural Economics
+
+Decision-making under risk and uncertainty, intertemporal choice, social preferences, behavioural public policy and experimental evidence.
 :::
 :::
 
-## Teaching philosophy
+## Additional teaching
 
-I teach economics as an applied way of thinking. Students learn to connect theory, data and policy rather than treating economic models as abstract exercises. Assessment and class activities emphasise interpretation, evidence, communication and independent reasoning.
+**ECON3011 · Health Economics and Finance**
+
+Course coordination and teaching in applied health economics, economic evaluation and health-system decision-making.
+
+## Research supervision
+
+Current supervision includes doctoral research on telehealth use and costs, climate change and agriculture, and the economic evaluation of crop drought-resilience strategies. Previous supervision includes research on health-system reform and the socioeconomic consequences of vaccine mandates.
 :::

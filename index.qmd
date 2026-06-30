@@ -1,140 +1,164 @@
 ---
 title: "Mesfin Genie"
+page-layout: full
+description: "Mesfin Genie is a Senior Lecturer in Health Economics at the University of Newcastle, specialising in health preferences, choice modelling, behavioural decision science and public health policy."
+image: assets/mesfin-genie-profile.webp
 ---
 
 ::: {.hero}
-::: {.hero-grid}
-::: {}
-<div class="kicker">Health economics · choice modelling · behavioural science</div>
+::: {.page-shell .hero-grid}
+::: {.profile-photo-wrap}
+![](assets/mesfin-genie-profile.webp){.profile-photo alt="Mesfin Genie"}
+:::
+
+::: {.hero-content}
+<div class="eyebrow">Health economist · choice modeller</div>
 
 # Mesfin Genie
 
-## Senior Lecturer in Health Economics  
-## Newcastle Business School · The University of Newcastle
+<div class="hero-role">Senior Lecturer in Health Economics</div>
+<div class="hero-affiliation">Newcastle Business School · The University of Newcastle, Australia</div>
 
-I study how patients, citizens and decision makers make trade-offs in health and public policy. My work combines discrete choice experiments, behavioural economics, eye tracking, econometrics, and decision support tools to generate evidence that is useful for policy, clinical practice, and health technology assessment.
+<div class="hero-copy">
+I study how patients, citizens and decision-makers make trade-offs in health and public policy. My research combines health economics, discrete choice experiments, behavioural decision science, eye tracking and applied econometrics.
 
-::: {.hero-actions}
-[Publications](publications/){.button .primary}
-[Research](research/){.button .secondary}
-[Software & tools](software/){.button .secondary}
-[CV](cv/){.button .secondary}
-:::
-:::
+I develop methods for understanding how people process information in complex choices and translate empirical evidence into practical tools for policy and programme design.
+</div>
 
-::: {.portrait-card}
-<div class="portrait">MG</div>
+<div class="hero-actions">
+<a class="button-primary" href="/publications/">Publications</a>
+<a class="button-secondary" href="/research/">Research</a>
+<a class="button-secondary" href="/cv/">Curriculum vitae</a>
+</div>
 
-::: {.meta-row}
-::: {.meta-box}
-<strong>Health economics</strong>
-Preference, policy and value assessment
-:::
-::: {.meta-box}
-<strong>Choice modelling</strong>
-DCEs, heterogeneity and behaviour
-:::
-::: {.meta-box}
-<strong>Decision tools</strong>
-Evidence translated into usable web apps
-:::
-::: {.meta-box}
-<strong>University of Newcastle</strong>
-Newcastle Business School
+<div class="social-row" aria-label="Academic and professional profiles">
+<a class="social-link" href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+<a class="social-link" href="https://orcid.org/0000-0002-1744-4666" title="ORCID" aria-label="ORCID"><i class="ai ai-orcid"></i></a>
+<a class="social-link" href="https://www.researchgate.net/profile/Mesfin-Genie" title="ResearchGate" aria-label="ResearchGate"><i class="ai ai-researchgate"></i></a>
+<a class="social-link" href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" title="LinkedIn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+<a class="social-link" href="https://github.com/DrGenie" title="GitHub" aria-label="GitHub"><i class="bi bi-github"></i></a>
+<a class="social-link" href="https://x.com/mesfin_genie" title="X" aria-label="X"><i class="bi bi-twitter"></i></a>
+<a class="social-link" href="https://www.newcastle.edu.au/profile/mesfin-genie" title="University profile" aria-label="University profile"><i class="bi bi-building"></i></a>
+<a class="social-link" href="mailto:mesfin.genie@newcastle.edu.au" title="Email" aria-label="Email"><i class="bi bi-envelope"></i></a>
+</div>
 :::
 :::
 :::
-:::
-:::
-
-::: {.content}
 
 ::: {.section}
-::: {.section-title}
-## Research at a glance
-My work connects methods development with applied policy questions in health, public health and behavioural decision-making.
+::: {.page-shell}
+::: {.section-heading}
+<div class="section-rule"></div>
+
+## Research
+
+My work centres on three connected areas.
 :::
 
 ::: {.grid-3}
-::: {.card}
-<div class="goldline"></div>
-### Preference evidence for policy
-Discrete choice experiments and preference elicitation for health services, vaccine policy, chronic disease care, and public health interventions.
+::: {.theme-card}
+### Health preferences and choice modelling
+
+Discrete choice experiments, preference heterogeneity, equity, value assessment and patient-centred decision-making.
 :::
 
-::: {.card}
-<div class="goldline"></div>
-### Behaviour inside choice tasks
-Eye tracking, information processing, feedback, numeracy, attention to cost, and decision quality in stated preference studies.
+::: {.theme-card}
+### Behaviour in complex decisions
+
+Attention, information processing, numeracy, feedback, attribute ordering and eye-tracking evidence within stated-preference studies.
 :::
 
-::: {.card}
-<div class="goldline"></div>
-### Decision support and translation
-Online tools that turn complex economic and preference evidence into transparent, usable outputs for policy and practice.
+::: {.theme-card}
+### Public health policy and evaluation
+
+Vaccination policy, mandates, telehealth, preventive care and the economic evaluation of health and public programmes.
 :::
+:::
+:::
+:::
+
+::: {.section .alt}
+::: {.page-shell}
+::: {.section-heading}
+<div class="section-rule"></div>
+
+## Recent publications
+:::
+
+<div class="publication-list">
+<div class="publication-item">
+<div class="publication-year">2026</div>
+<div>
+<div class="publication-title">Fit for purpose? Assessing the robustness of discrete choice experiment designs in the context of evolving health technologies</div>
+<div class="publication-authors">Mesfin G. Genie, Verity Watson, Michaël Schwarzinger and Stéphane Luchini</div>
+<div class="publication-meta"><em>Social Science & Medicine</em> · <span class="status">Published</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1016/j.socscimed.2026.119463">DOI</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2026</div>
+<div>
+<div class="publication-title">Guidance or misdirection? Unpacking the role of feedback in health preference assessments</div>
+<div class="publication-authors">Mesfin G. Genie, Shelby D. Reed and Semra Ozdemir</div>
+<div class="publication-meta"><em>Health Economics</em> · <span class="status">Published</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1002/hec.70093">DOI</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2026</div>
+<div>
+<div class="publication-title">Priority for self or others? Incorporating equity considerations in a preference-based health value assessment</div>
+<div class="publication-authors">Mesfin G. Genie and Surachat Ngorsuraches</div>
+<div class="publication-meta"><em>Value in Health</em> · <span class="status">Published</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2025.10.011">DOI</a></div>
+</div>
+</div>
+
+<div class="publication-item">
+<div class="publication-year">2026</div>
+<div>
+<div class="publication-title">Feeling lonely? Preferences for support programmes to reduce loneliness among older adults in Australia</div>
+<div class="publication-authors">Mesfin G. Genie, Allison W. Boyes and Francesco Paolucci</div>
+<div class="publication-meta"><em>Health Policy</em> · <span class="status">Published</span></div>
+<div class="publication-links"><a href="https://doi.org/10.1016/j.healthpol.2026.105587">DOI</a></div>
+</div>
+</div>
+</div>
+
+<p style="margin-top:1.4rem"><a class="button-secondary" href="/publications/">View all publications</a></p>
 :::
 :::
 
 ::: {.section}
-::: {.section-title}
-## Featured work
-Selected outputs from recent and current research streams.
+::: {.page-shell}
+::: {.section-heading}
+<div class="section-rule"></div>
+
+## Digital tools
 :::
 
 ::: {.grid-2}
-::: {.card}
-### Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments
-**Health Economics**, 2026.  
-A methodological study of feedback in dominance-structured health preference tasks.
-:::
-
-::: {.card}
-### Keeping an eye on cost
-**Health Economics**, 2023.  
-Eye-tracking evidence on attention to cost information in discrete choice experiments.
-:::
-
-::: {.card}
-### Priority for self or others?
-**Value in Health**, 2025.  
-Equity, distributional preferences and decision-making in health value assessment.
-:::
-
-::: {.card}
-### Heterogeneity of patients' preferences in kidney transplantation
-**Journal of Health Economics**, 2020.  
-Preference heterogeneity and treatment decision-making in kidney transplantation.
-:::
-:::
-:::
-
-::: {.section}
-::: {.section-title}
-## Decision tools
-Two live tools are integrated into the site and accessible directly from the Software page.
-:::
-
 ::: {.tool-card}
-::: {}
+<div class="tool-kicker">Vaccine policy</div>
+
 ### eMANDEVA Decision Aid
-A web-based decision aid for vaccine mandate evaluation and policy design.
-:::
-[Open tool](https://mesfingenie.com/eMANDEVA-DecisionAid-V18/){.button .dark}
+
+An interactive decision-support application for evaluating vaccine-mandate designs, expected public support, health benefits and policy trade-offs.
+
+<a class="tool-link" data-open-new="true" href="https://mesfingenie.com/eMANDEVA-DecisionAid-V18/">Open eMANDEVA <i class="bi bi-arrow-up-right"></i></a>
 :::
 
 ::: {.tool-card}
-::: {}
+<div class="tool-kicker">Economic evaluation</div>
+
 ### Farming BCA Tool
-A benefit-cost analysis tool for farm-trial and soil-management interventions.
-:::
-[Open tool](https://mesfingenie.com/farming-bca-tool-v18/){.button .dark}
-:::
-:::
 
-::: {.quote-band}
-## Research translated into decisions
-The site is structured around research, publications, projects, software and supervision, with clean URLs and no visible `.html` links in the navigation.
-:::
+A practical benefit–cost analysis platform for assessing farm-trial and soil-management interventions under alternative assumptions and sensitivity scenarios.
 
+<a class="tool-link" data-open-new="true" href="https://mesfingenie.com/farming-bca-tool-v18/">Open Farming BCA Tool <i class="bi bi-arrow-up-right"></i></a>
+:::
+:::
+:::
 :::
