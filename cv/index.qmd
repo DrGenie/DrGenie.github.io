@@ -1,109 +1,36 @@
 ---
-title: "CV"
+title: false
+pagetitle: "Curriculum Vitae | Mesfin Genie"
 page-layout: full
-description: "Curriculum vitae of Mesfin Genie."
+description: "Curriculum vitae of Mesfin Genie, Senior Lecturer in Health Economics."
+image: /assets/og-card.png
 ---
 
-::: {.page-header}
-::: {.page-shell .cv-header-grid}
-::: {.cv-header-copy}
-# Mesfin Genie
-
-Senior Lecturer in Health Economics · Newcastle Business School · The University of Newcastle
-:::
-
-::: {.cv-header-actions}
-[Download CV](mesfin-genie-cv.pdf){.button-primary target="_blank"}
-[Print page]{.button-secondary data-print-page="true"}
-:::
-:::
-:::
-
-::: {.prose .cv-page}
-## Academic appointments
-
-::: {.timeline}
-::: {.timeline-item}
-### Senior Lecturer in Health Economics
-
-**The University of Newcastle, Australia · 2026–present**  
-Newcastle Business School.
-:::
-
-::: {.timeline-item}
-### Lecturer in Health Economics
-
-**The University of Newcastle, Australia · 2023–2025**  
-Newcastle Business School.
-:::
-
-::: {.timeline-item}
-### Health Measurement and Regulatory Science Fellow
-
-**Duke University, United States · 2023–2024**  
-Duke Department of Population Health Sciences; concurrent fellowship.
-:::
-
-::: {.timeline-item}
-### Postdoctoral Research Fellow
-
-**Auburn University, United States · 2022–2023**  
-Harrison College of Pharmacy.
-:::
-
-::: {.timeline-item}
-### Research Fellow
-
-**University of Aberdeen, United Kingdom · 2020–2022**  
-Health Economics Research Unit.
-:::
-
-::: {.timeline-item}
-### Postdoctoral Research Fellow
-
-**Ca’ Foscari University of Venice, Italy · 2019–2020**  
-Department of Economics.
-:::
-:::
-
-## Education
-
-- **PhD in Economics**, Ca’ Foscari University of Venice, Italy, 2019
-- **MSc in Health Economics and Management**, University of Bologna, Italy
-- **MA in Economics**, Addis Ababa University, Ethiopia
-- **BA in Economics**, Jimma University, Ethiopia
-
-## Research fields
-
-- Health economics and health preference research
-- Choice modelling and discrete choice experiments
-- Behavioural decision science and information processing
-- Public health policy and programme evaluation
-
-## Major grants and funded projects
-
-- **MandEval: Effectiveness and consequences of Australia’s COVID-19 vaccine mandates**, Medical Research Future Fund, 2023–2026. University of Newcastle site lead.
-- **Upscaling Field Epidemiology Training Programs in India**, World Bank, 2025. Lead.
-- University of Newcastle research and conference schemes, 2024–2025.
-
-## Teaching
-
-- **ECON2112 · Health Economics and Finance**, course coordinator and lecturer
-- **ECON3111 · Behavioural Economics**, course coordinator and lecturer
-- **ECON3011 · Health Economics and Finance**, course coordinator and lecturer
-
-## Professional service
-
-Guest Editor for *Health Policy and Technology*. Reviewer for journals including *Journal of Health Economics*, *Health Economics*, *Social Science & Medicine*, *Value in Health*, *Journal of Choice Modelling*, *Theory and Decision* and *BMJ Open*.
-
-## Profiles and contact
-
-::: {.social-row}
-<a class="social-link" href="mailto:mesfin.genie@newcastle.edu.au" title="Email" aria-label="Email"><i class="bi bi-envelope"></i></a>
-<a class="social-link" href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-<a class="social-link" href="https://orcid.org/0000-0002-1744-4666" title="ORCID" aria-label="ORCID"><i class="ai ai-orcid"></i></a>
-<a class="social-link" href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" title="LinkedIn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-<a class="social-link" href="https://github.com/DrGenie" title="GitHub" aria-label="GitHub"><i class="bi bi-github"></i></a>
-<a class="social-link" href="https://www.newcastle.edu.au/profile/mesfin-genie" title="University profile" aria-label="University profile"><i class="bi bi-building"></i></a>
-:::
-:::
+```{=html}
+<main id="main-content">
+<header class="page-header"><div class="page-shell cv-header-grid"><div><h1>Curriculum vitae</h1><p>Mesfin Genie · Senior Lecturer in Health Economics · The University of Newcastle</p></div><div class="cv-header-actions"><a class="button-primary" href="/cv/mesfin-genie-cv.pdf" target="_blank">Download PDF CV</a><button class="button-secondary" type="button" data-print-page>Print page</button></div></div></header>
+<section class="prose cv-page">
+<h2>Academic appointments</h2>
+<div class="timeline">
+  <article class="timeline-item"><h3>Senior Lecturer in Health Economics</h3><p><strong>The University of Newcastle, Australia · 2026–present</strong><br>Newcastle Business School.</p></article>
+  <article class="timeline-item"><h3>Lecturer in Health Economics</h3><p><strong>The University of Newcastle, Australia · 2023–2025</strong><br>Newcastle Business School.</p></article>
+  <article class="timeline-item"><h3>Health Measurement and Regulatory Science Fellow</h3><p><strong>Duke University, United States · 2023–2024</strong><br>Duke Department of Population Health Sciences; concurrent fellowship.</p></article>
+  <article class="timeline-item"><h3>Postdoctoral Research Fellow</h3><p><strong>Auburn University, United States · 2022–2023</strong><br>Harrison College of Pharmacy.</p></article>
+  <article class="timeline-item"><h3>Research Fellow</h3><p><strong>University of Aberdeen, United Kingdom · 2020–2022</strong><br>Health Economics Research Unit.</p></article>
+  <article class="timeline-item"><h3>Postdoctoral Research Fellow</h3><p><strong>Ca’ Foscari University of Venice, Italy · 2019–2020</strong><br>Department of Economics.</p></article>
+</div>
+<h2>Education</h2>
+<ul class="cv-list"><li><strong>PhD in Economics</strong>, Ca’ Foscari University of Venice, Italy, 2019</li><li><strong>MSc in Health Economics and Management</strong>, University of Bologna, Italy, 2025</li><li><strong>MSc in Economics</strong>, Addis Ababa University, Ethiopia, 2010</li><li><strong>BA in Economics</strong>, Jimma University, Ethiopia, 2006</li></ul>
+<h2>Selected funded programmes</h2>
+<ul class="cv-list"><li><strong>MandEval</strong>, Medical Research Future Fund, MRF2019107, 2023–2026. Total programme value A$4,754,183.37; University of Newcastle component A$808,440. University of Newcastle lead and investigator.</li><li><strong>Scaling Field Epidemiology Training Programs in India</strong>, World Bank, 2025, A$416,000. Lead, University of Newcastle project team.</li></ul>
+<h2>Research areas</h2>
+<p>Health preferences and choice modelling; behavioural decision science; eye tracking and information processing; vaccination and public-health policy; economic evaluation.</p>
+<h2>Teaching</h2>
+<p>ECON2112 Health Economics and Finance; ECON3111 Behavioural Economics; ECON3011 Health Economics and Finance.</p>
+<h2>Tools</h2>
+<p><a href="/eMANDEVA-DecisionAid-V18/" target="_blank">eMANDEVAL Future</a> · <a href="/farming-bca-tool-v18/" target="_blank">SOIL CRC Benefit-Cost Analysis Tool</a></p>
+<h2>Profiles and contact</h2>
+<div class="profile-links"><a href="mailto:mesfin.genie@newcastle.edu.au">Email</a><a href="https://www.newcastle.edu.au/profile/mesfin-genie" target="_blank">University profile</a><a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" target="_blank">Google Scholar</a><a href="https://orcid.org/0000-0002-1744-4666" target="_blank">ORCID</a><a href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" target="_blank">LinkedIn</a><a href="https://github.com/DrGenie" target="_blank">GitHub</a><a href="https://x.com/mesfin_genie" target="_blank">X</a></div>
+</section>
+</main>
+```

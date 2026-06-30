@@ -15,8 +15,10 @@ project:
     - CNAME
     - .nojekyll
     - robots.txt
+    - sitemap.xml
     - assets/**
     - cv/mesfin-genie-cv.pdf
+    - cv/mesfin-genie-cv.tex
     - eMANDEVA-DecisionAid-V18/**
     - farming-bca-tool-v18/**
 
@@ -24,13 +26,19 @@ website:
   title: "Mesfin Genie"
   site-url: "https://mesfingenie.com"
   favicon: assets/favicon.png
-  open-graph: true
-  twitter-card: true
+  open-graph:
+    locale: en_AU
+    site-name: "Mesfin Genie"
+    image: /assets/og-card.png
+  twitter-card:
+    card-style: summary_large_image
+    creator: "@mesfin_genie"
+    image: /assets/og-card.png
   search: false
   navbar:
     pinned: true
-    background: "#fffdf9"
-    foreground: "#17263b"
+    background: "#f6f5f0"
+    foreground: "#143b32"
     title: "Mesfin Genie"
     left:
       - text: "Home"
@@ -47,19 +55,10 @@ website:
         href: /teaching/
       - text: "CV"
         href: /cv/
-    right:
-      - icon: linkedin
-        href: https://au.linkedin.com/in/mesfin-genie-ph-d-65634216
-        aria-label: LinkedIn
-      - icon: github
-        href: https://github.com/DrGenie
-        aria-label: GitHub
-      - icon: envelope
-        href: mailto:mesfin.genie@newcastle.edu.au
-        aria-label: Email
   page-footer:
     border: true
     left: "© 2026 Mesfin Genie"
+    center: "<span id='site-last-updated'>Last updated</span>"
     right: |
       [University profile](https://www.newcastle.edu.au/profile/mesfin-genie){target="_blank"} · [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en){target="_blank"} · [ORCID](https://orcid.org/0000-0002-1744-4666){target="_blank"}
 

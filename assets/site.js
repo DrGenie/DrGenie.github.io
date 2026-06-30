@@ -1,99 +1,29 @@
 
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('a[href^="http"]').forEach((link) => {
-    try {
-      const url = new URL(link.href, window.location.href);
-      if (url.origin !== window.location.origin) {
-        link.target = '_blank';
-        link.rel = 'noopener noreferrer';
-      }
-    } catch (_) {}
-  });
-
-  document.querySelectorAll('[data-print-page="true"]').forEach((button) => {
-    button.setAttribute('role', 'button');
-    button.setAttribute('tabindex', '0');
-    const print = () => window.print();
-    button.addEventListener('click', print);
-    button.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); print(); }
-    });
-  });
-
-  const host = document.querySelector('#publication-tools');
-  const records = Array.from(document.querySelectorAll('.publication-record[data-field]'));
-  if (!host || !records.length) return;
-
-  const years = [...new Set(records.map((record) => record.dataset.year))].sort((a,b) => Number(b)-Number(a));
-  host.innerHTML = `
-    <div class="publication-controls" aria-label="Publication filters">
-      <div class="publication-control">
-        <label for="publication-search">Search</label>
-        <input id="publication-search" type="search" placeholder="Title, author, journal or keyword" autocomplete="off">
-      </div>
-      <div class="publication-control">
-        <label for="publication-field">Field</label>
-        <select id="publication-field">
-          <option value="all">All fields</option>
-          <option value="preference">Preferences & choice</option>
-          <option value="public-health">Public health policy</option>
-          <option value="other">Other applied economics</option>
-        </select>
-      </div>
-      <div class="publication-control">
-        <label for="publication-year">Year</label>
-        <select id="publication-year">
-          <option value="all">All years</option>
-          ${years.map((year) => `<option value="${year}">${year}</option>`).join('')}
-        </select>
-      </div>
-      <div class="publication-control">
-        <label for="publication-type">Output</label>
-        <select id="publication-type">
-          <option value="all">All outputs</option>
-          <option value="journal">Journal articles</option>
-          <option value="working">Working papers</option>
-          <option value="chapter">Book chapter</option>
-          <option value="data">Data</option>
-        </select>
-      </div>
-      <button id="publication-reset" class="filter-reset" type="button">Reset</button>
-    </div>`;
-
-  const search = document.querySelector('#publication-search');
-  const field = document.querySelector('#publication-field');
-  const year = document.querySelector('#publication-year');
-  const type = document.querySelector('#publication-type');
-  const reset = document.querySelector('#publication-reset');
-  const empty = document.querySelector('#publication-empty');
-  const groups = Array.from(document.querySelectorAll('.publication-year-section'));
-  const sections = Array.from(document.querySelectorAll('[data-publication-section]'));
-
-  const applyFilters = () => {
-    const q = search.value.trim().toLowerCase();
-    const fv = field.value, yv = year.value, tv = type.value;
-    let visible = 0;
-    records.forEach((record) => {
-      const show = (!q || (record.dataset.search || '').includes(q)) &&
-        (fv === 'all' || record.dataset.field === fv) &&
-        (yv === 'all' || record.dataset.year === yv) &&
-        (tv === 'all' || record.dataset.type === tv);
-      record.hidden = !show;
-      if (show) visible += 1;
-    });
-    groups.forEach((group) => {
-      group.hidden = !Array.from(group.querySelectorAll('.publication-record')).some((record) => !record.hidden);
-    });
-    sections.forEach((section) => {
-      section.hidden = !Array.from(section.querySelectorAll('.publication-record')).some((record) => !record.hidden);
-    });
-    empty.hidden = visible !== 0;
-  };
-
-  search.addEventListener('input', applyFilters);
-  [field, year, type].forEach((control) => control.addEventListener('change', applyFilters));
-  reset.addEventListener('click', () => {
-    search.value = ''; field.value = 'all'; year.value = 'all'; type.value = 'all';
-    applyFilters(); search.focus();
-  });
-});
+(()=>{
+  'use strict';
+  const root=document.documentElement;
+  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function themeIcon(theme){return theme==='dark'?'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4a8 8 0 1 0 8 8h-2a6 6 0 1 1-6-6z"/></svg>':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10m0-5h1v3h-1zm0 17h1v3h-1zM2 12h3v1H2zm17 0h3v1h-3zM4.9 4.2 7 6.3l-.7.7-2.1-2.1zm12 12 2.1 2.1-.7.7-2.1-2.1zM19.1 4.9 17 7l-.7-.7 2.1-2.1zM7 17l-2.1 2.1-.7-.7 2.1-2.1z"/></svg>'}
+  function addSkipLink(){if(document.querySelector('.site-skip-link'))return;const a=document.createElement('a');a.className='site-skip-link';a.href='#main-content';a.textContent='Skip to main content';document.body.prepend(a);}
+  function addThemeToggle(){
+    const host=document.querySelector('.navbar-nav.ms-auto')||document.querySelector('.navbar .container-fluid'); if(!host)return;
+    const b=document.createElement('button'); b.type='button'; b.className='theme-toggle'; b.setAttribute('aria-label','Switch colour theme');
+    const update=()=>{const t=root.dataset.theme||'light';b.innerHTML=themeIcon(t);b.title=t==='dark'?'Use light mode':'Use dark mode';b.setAttribute('aria-pressed',String(t==='dark'));};
+    b.addEventListener('click',()=>{const t=(root.dataset.theme==='dark'?'light':'dark');root.dataset.theme=t;root.style.colorScheme=t;localStorage.setItem('mesfin-theme',t);update();});
+    update(); const li=document.createElement('li');li.className='nav-item d-flex align-items-center';li.appendChild(b);host.appendChild(li);
+  }
+  function externalLinks(){document.querySelectorAll('a[href^="http"]').forEach(a=>{if(new URL(a.href,location.href).origin!==location.origin){a.target='_blank';a.rel='noopener noreferrer';}})}
+  function reveals(){const nodes=[...document.querySelectorAll('.reveal')];if(!nodes.length)return;if(reduced||!('IntersectionObserver'in window)){nodes.forEach(n=>n.classList.add('is-visible'));return;}const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target)}}),{threshold:.12});nodes.forEach(n=>io.observe(n));}
+  async function buildInfo(){try{const r=await fetch('/assets/build-info.json',{cache:'no-store'});if(!r.ok)return;const d=await r.json();const e=document.getElementById('site-last-updated');if(e&&d.last_updated){const dt=new Date(d.last_updated+'T00:00:00Z');e.textContent='Last updated '+new Intl.DateTimeFormat('en-AU',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(dt);}}catch(_){}}
+  async function scholar(){try{const r=await fetch('/assets/scholar-metrics.json',{cache:'no-store'});if(!r.ok)return;const d=await r.json();if(d.status!=='verified'||![d.citations,d.h_index,d.i10_index].every(Number.isFinite))return;document.getElementById('scholar-citations').textContent=d.citations.toLocaleString('en-AU');document.getElementById('scholar-hindex').textContent=d.h_index;document.getElementById('scholar-i10').textContent=d.i10_index;document.getElementById('scholar-band').hidden=false;}catch(_){}}
+  function publicationFilters(){
+    const form=document.getElementById('publication-filters');if(!form)return;
+    const q=document.getElementById('publication-search'),field=document.getElementById('publication-field'),year=document.getElementById('publication-year'),type=document.getElementById('publication-type');
+    const items=[...document.querySelectorAll('.publication-record[data-search]')],groups=[...document.querySelectorAll('.publication-year-section')],sections=[...document.querySelectorAll('.publication-type-section')],empty=document.getElementById('publication-empty'),status=document.getElementById('publication-status'),count=document.getElementById('publication-count');
+    function apply(){const s=q.value.trim().toLowerCase(),f=field.value,y=year.value,t=type.value;let n=0;items.forEach(el=>{const show=(!s||el.dataset.search.includes(s))&&(f==='all'||el.dataset.field===f)&&(y==='all'||el.dataset.year===y)&&(t==='all'||el.dataset.type===t);el.hidden=!show;if(show)n++;});groups.forEach(g=>{const visible=[...g.querySelectorAll('.publication-record')].some(x=>!x.hidden);g.hidden=!visible;if(visible&&(s||f!=='all'||y!=='all'||t!=='all'))g.open=true;});sections.forEach(sec=>sec.hidden=![...sec.querySelectorAll('.publication-record')].some(x=>!x.hidden));empty.hidden=n!==0;status.textContent=`Showing ${n} of ${items.length} outputs`;count.textContent=n;}
+    form.addEventListener('input',apply);form.addEventListener('change',apply);form.addEventListener('reset',()=>setTimeout(apply,0));apply();
+  }
+  function printButton(){document.querySelectorAll('[data-print-page]').forEach(b=>b.addEventListener('click',()=>window.print()));}
+  async function outputCount(){try{const r=await fetch('/assets/publications.json');if(!r.ok)return;const d=await r.json();const e=document.getElementById('output-count');if(e&&Array.isArray(d))e.textContent=d.length;}catch(_){}}
+  document.addEventListener('DOMContentLoaded',()=>{addSkipLink();addThemeToggle();externalLinks();reveals();buildInfo();scholar();publicationFilters();printButton();outputCount();});
+})();

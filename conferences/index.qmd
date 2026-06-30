@@ -1,111 +1,33 @@
 ---
-title: "Conferences"
+title: false
+pagetitle: "Conferences | Mesfin Genie"
 page-layout: full
-description: "Conference presentations and published abstracts by Mesfin Genie."
+description: "Upcoming and recent conference presentations and published abstracts by Mesfin Genie."
+image: /assets/og-card.png
 ---
 
-::: {.page-header}
-::: {.page-shell}
-# Conferences
-
-Presentations and published conference abstracts.
-:::
-:::
-
-::: {.prose}
-## Upcoming presentations
-
-::: {.timeline}
-::: {.timeline-item}
-### International Conference on Choice Modelling
-
-**Gold Coast, Australia · 20–22 July 2026**  
-Attribute ordering, visual attention and choice behaviour in discrete choice experiments.
-:::
-
-::: {.timeline-item}
-### International Academy of Health Preference Research
-
-**Singapore · 5–7 October 2026**  
-Preferences and trade-offs for dementia support programme features: a discrete choice experiment in Australia.
-:::
-:::
-
-## Recent presentations
-
-::: {.timeline}
-::: {.timeline-item}
-### Choice Modelling Conference / CDIC 2026
-
-**Melbourne, Australia · 15–17 June 2026**  
-*Community First or My Body First? Moral Values and Vaccine Mandate Preferences*; and *No Jab, No Access? Preferences for Vaccine Mandates in Europe and Australia*.
-:::
-
-::: {.timeline-item}
-### ISPOR Annual Meeting
-
-**Philadelphia, United States · 17–20 May 2026**  
-*Choosing with Concern for the Worse-Off: Equity and Efficiency in Health Value Assessment*.
-:::
-:::
-
-## Published conference abstracts
-
-::: {.conference-list}
-::: {.publication-record}
-### [PCR18 Are Discrete Choice Experiment Results Robust to Omitted Attributes? Evidence from a Vaccine Study](https://doi.org/10.1016/j.jval.2025.09.2491){target="_blank"}
-
-**Mesfin Genie**; Verity Watson; Stéphane Luchini; Michaël Schwarzinger
-
-*Value in Health*, 28, S549–S550 · [Published abstract]{.status}
-:::
-
-::: {.publication-record}
-### [MSR145 Do Framing and Attribute Number Influence Choice Consistency in a Preference-Based Value Assessment of Equity and Efficiency?](https://doi.org/10.1016/j.jval.2025.04.1296){target="_blank"}
-
-**Mesfin Genie**; Surachat Ngorsuraches
-
-*Value in Health*, 28, S302–S303 · [Published abstract]{.status}
-:::
-
-::: {.publication-record}
-### [MSR75 Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments](https://doi.org/10.1016/j.jval.2024.03.1508){target="_blank"}
-
-**Mesfin Genie**; Shelby Reed; Juan Gonzalez; Semra Ozdemir
-
-*Value in Health*, 27, S274 · [Published abstract]{.status}
-:::
-
-::: {.publication-record}
-### [EPH155 Relative Effectiveness of Vaccination and Non-pharmaceutical Interventions on COVID-19 Infection and Deaths in the US](https://doi.org/10.1016/j.jval.2023.03.1037){target="_blank"}
-
-Asmita P. Khatiwada; Aregawi G. Gebremariam; **Mesfin Genie**; Tim C. Lai; Nabin Poudel; Surachat Ngorsuraches
-
-*Value in Health*, 26, S192–S193 · [Published abstract]{.status}
-:::
-
-::: {.publication-record}
-### [PCR95 Decision Consistency in a Discrete Choice Experiment: Does Numeracy Skill Matter?](https://doi.org/10.1016/j.jval.2023.03.1873){target="_blank"}
-
-**Mesfin Genie**; Surachat Ngorsuraches; Nabin Poudel
-
-*Value in Health*, 26, S329 · [Published abstract]{.status}
-:::
-
-::: {.publication-record}
-### Metastatic Prostate Cancer Patients’ Attitudes towards Treatment of the Local Tumour and Metastasis Evaluative Research (IP5-MATTER)
-
-Martin J. Connor; **Mesfin G. Genie**; Michael Gonzalez; and colleagues
-
-*European Urology*, 79, S1217–S1218 · [Published abstract]{.status}
-:::
-
-::: {.publication-record}
-### A Discrete Choice Experiment on Patients’ Time and Risk Preferences in Kidney Transplantation
-
-C. Silvestre; **Mesfin Genie**; Antonio Nicolò; Giacomo Pasini; and colleagues
-
-*Transplant International*, 30, 308–309 · [Published abstract]{.status}
-:::
-:::
-:::
+```{=html}
+<main id="main-content">
+<header class="page-header"><div class="page-shell"><h1>Conferences</h1><p>Selected presentations and published conference abstracts.</p></div></header>
+<section class="prose conference-page">
+<h2>Upcoming presentations</h2>
+<div class="timeline">
+  <article class="timeline-item"><span class="event-status">Paper presentation</span><h3>International Conference on Choice Modelling</h3><p><strong>Gold Coast, Australia · 20–22 July 2026</strong><br>Attribute ordering, visual attention and choice behaviour in discrete choice experiments.</p></article>
+  <article class="timeline-item"><span class="event-status">Podium presentation</span><h3>International Academy of Health Preference Research</h3><p><strong>Singapore · 5–7 October 2026</strong><br>Preferences and trade-offs for dementia support programme features: a discrete choice experiment in Australia.</p></article>
+</div>
+<h2>Recent presentations</h2>
+<div class="timeline">
+  <article class="timeline-item"><span class="event-status">Conference presentations</span><h3>Choice Modelling Conference / CDIC 2026</h3><p><strong>Melbourne, Australia · 15–17 June 2026</strong><br><em>Community First or My Body First?</em> and <em>No Jab, No Access?</em></p></article>
+  <article class="timeline-item"><span class="event-status">Poster</span><h3>ISPOR 2026</h3><p><strong>Philadelphia, United States · 17–20 May 2026</strong><br><em>Choosing with Concern for the Worse-Off: Equity and Efficiency in Health Value Assessment.</em></p></article>
+</div>
+<h2>Published conference abstracts</h2>
+<div class="conference-list">
+  <article class="publication-record"><h3><a href="https://doi.org/10.1016/j.jval.2025.09.2491" target="_blank">PCR18 Are Discrete Choice Experiment Results Robust to Omitted Attributes?</a></h3><div class="publication-authors"><strong>Mesfin Genie</strong>; Verity Watson; Stéphane Luchini; Michaël Schwarzinger</div><div class="publication-meta"><em>Value in Health</em>, 28, S549–S550 <span class="status">Published abstract</span></div><div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2025.09.2491" target="_blank">DOI ↗</a></div></article>
+  <article class="publication-record"><h3><a href="https://doi.org/10.1016/j.jval.2025.04.1296" target="_blank">MSR145 Do Framing and Attribute Number Influence Choice Consistency?</a></h3><div class="publication-authors"><strong>Mesfin Genie</strong>; Surachat Ngorsuraches</div><div class="publication-meta"><em>Value in Health</em>, 28, S302–S303 <span class="status">Published abstract</span></div><div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2025.04.1296" target="_blank">DOI ↗</a></div></article>
+  <article class="publication-record"><h3><a href="https://doi.org/10.1016/j.jval.2024.03.1508" target="_blank">MSR75 Guidance or Misdirection?</a></h3><div class="publication-authors"><strong>Mesfin Genie</strong>; Shelby Reed; Juan Gonzalez; Semra Ozdemir</div><div class="publication-meta"><em>Value in Health</em>, 27, S274 <span class="status">Published abstract</span></div><div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2024.03.1508" target="_blank">DOI ↗</a></div></article>
+  <article class="publication-record"><h3><a href="https://doi.org/10.1016/j.jval.2023.03.1037" target="_blank">EPH155 Relative Effectiveness of Vaccination and Non-pharmaceutical Interventions</a></h3><div class="publication-authors">Asmita P. Khatiwada; Aregawi G. Gebremariam; <strong>Mesfin Genie</strong>; Tim C. Lai; Nabin Poudel; Surachat Ngorsuraches</div><div class="publication-meta"><em>Value in Health</em>, 26, S192–S193 <span class="status">Published abstract</span></div><div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2023.03.1037" target="_blank">DOI ↗</a></div></article>
+  <article class="publication-record"><h3><a href="https://doi.org/10.1016/j.jval.2023.03.1873" target="_blank">PCR95 Decision Consistency in a Discrete Choice Experiment</a></h3><div class="publication-authors"><strong>Mesfin Genie</strong>; Surachat Ngorsuraches; Nabin Poudel</div><div class="publication-meta"><em>Value in Health</em>, 26, S329 <span class="status">Published abstract</span></div><div class="publication-links"><a href="https://doi.org/10.1016/j.jval.2023.03.1873" target="_blank">DOI ↗</a></div></article>
+</div>
+</section>
+</main>
+```

@@ -1,53 +1,17 @@
 ---
-title: "Tools"
+title: false
+pagetitle: "Tools | Mesfin Genie"
 page-layout: full
 description: "Interactive decision-support and economic-evaluation tools developed by Mesfin Genie."
+image: /assets/og-card.png
 ---
 
-::: {.page-header}
-::: {.page-shell}
-# Tools
-
-Interactive decision-support and economic-evaluation applications.
-:::
-:::
-
-::: {.section}
-::: {.page-shell}
-::: {.tool-page-grid}
-::: {.tool-page-card}
-<div class="tool-topline"><span>Vaccine policy · Version 18</span><span class="live-pill">Live</span></div>
-
-## eMANDEVA Decision Aid
-
-Evaluates prospective vaccine-mandate designs using expected public support, lives saved, benefit-cost outcomes and policy trade-offs.
-
-::: {.tool-tags}
-[Public support]{.tool-tag}
-[Lives saved]{.tool-tag}
-[Benefit–cost analysis]{.tool-tag}
-[Policy scenarios]{.tool-tag}
-:::
-
-[Launch eMANDEVA ↗](https://mesfingenie.com/eMANDEVA-DecisionAid-V18/){.button-primary target="_blank"}
-:::
-
-::: {.tool-page-card}
-<div class="tool-topline"><span>Farm economics · Version 18</span><span class="live-pill">Live</span></div>
-
-## Farming BCA Tool
-
-Evaluates farm practices and soil-management interventions under alternative assumptions and sensitivity scenarios.
-
-::: {.tool-tags}
-[Net present value]{.tool-tag}
-[Benefit–cost ratio]{.tool-tag}
-[Return on investment]{.tool-tag}
-[Sensitivity analysis]{.tool-tag}
-:::
-
-[Launch Farming BCA Tool ↗](https://mesfingenie.com/farming-bca-tool-v18/){.button-primary target="_blank"}
-:::
-:::
-:::
-:::
+```{=html}
+<main id="main-content">
+<header class="page-header"><div class="page-shell"><h1>Tools</h1><p>Interactive applications for policy design and economic evaluation.</p></div></header>
+<section class="section"><div class="page-shell tool-page-grid">
+  <article class="tool-page-card reveal"><div class="tool-topline"><span>Vaccine policy · Version 4.4.1</span><span class="live-pill">Live</span></div><h2>eMANDEVAL Future</h2><p>Compares prospective vaccine-mandate designs using predicted public support, expected lives saved, benefit-cost outcomes and policy trade-offs.</p><dl class="tool-credit"><div><dt>Developer</dt><dd>Mesfin Genie</dd></div><div><dt>Research programme</dt><dd>MandEval</dd></div></dl><a class="button-primary" href="/eMANDEVA-DecisionAid-V18/" target="_blank">Launch eMANDEVAL ↗</a></article>
+  <article class="tool-page-card reveal"><div class="tool-topline"><span>Farm economics · Version 2026.18</span><span class="live-pill">Live</span></div><h2>SOIL CRC Benefit-Cost Analysis Tool</h2><p>Evaluates farm practices and soil-management interventions using net present value, benefit-cost ratio, return on investment and sensitivity analysis.</p><dl class="tool-credit"><div><dt>Publisher and developer</dt><dd>Dr Frank Wogbe Agbola</dd></div><div><dt>Co-developer</dt><dd>Mesfin Genie</dd></div><div><dt>Project</dt><dd>CRC High Performance Soils Project 1.2.008</dd></div></dl><a class="button-primary" href="/farming-bca-tool-v18/" target="_blank">Launch SOIL CRC Benefit-Cost Analysis Tool ↗</a></article>
+</div></section>
+</main>
+```

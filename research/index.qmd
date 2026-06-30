@@ -1,55 +1,34 @@
 ---
-title: "Research"
+title: false
+pagetitle: "Research | Mesfin Genie"
 page-layout: full
-description: "Research by Mesfin Genie in health economics, choice modelling and public health policy."
+description: "Research by Mesfin Genie in health preferences, choice modelling, decision processes and public health policy."
+image: /assets/og-card.png
 ---
 
-::: {.page-header}
-::: {.page-shell}
-# Research
+```{=html}
+<main id="main-content">
+<header class="page-header"><div class="page-shell"><h1>Research</h1><p>I develop and apply methods for understanding health-related decisions and translating preference evidence into policy and programme design.</p></div></header>
+<section class="prose">
+  <h2>Health preferences and choice modelling</h2>
+  <p>I use discrete choice experiments and related stated-preference methods to examine how patients and the public value treatments, services and policy designs. Applications include kidney transplantation, metastatic prostate cancer, diabetes technology, loneliness support, telehealth, vaccination and public-health interventions.</p>
+  <p>A central theme is preference heterogeneity: people differ in the outcomes they value, the risks they accept and the trade-offs they make. My work develops empirical strategies that make those differences visible and policy-relevant.</p>
+  <p class="selected-work"><strong>Selected work</strong> · <a href="https://doi.org/10.1016/j.jhealeco.2020.102331" target="_blank">Kidney transplantation</a> · <a href="https://doi.org/10.1016/j.jval.2025.10.011" target="_blank">Equity and efficiency</a> · <a href="https://doi.org/10.1016/j.jval.2024.07.001" target="_blank">Choice consistency</a></p>
 
-I develop and apply methods for understanding health-related decisions and translating preference evidence into policy and programme design.
-:::
-:::
+  <h2>Decision processes</h2>
+  <p>I study how people process information in complex choice tasks: where they look, how they evaluate cost and benefit information, whether feedback improves subsequent choices, and how numeracy and attribute order shape decision quality. This programme combines choice modelling, behavioural economics, experiments and eye tracking.</p>
+  <p class="selected-work"><strong>Selected work</strong> · <a href="https://doi.org/10.1002/hec.4658" target="_blank">Eye tracking and cost</a> · <a href="https://doi.org/10.1002/hec.4245" target="_blank">Information processing</a> · <a href="https://doi.org/10.1002/hec.70093" target="_blank">Feedback and choice</a></p>
 
-::: {.prose}
-## Health preferences and choice modelling
-
-I use discrete choice experiments and related stated-preference methods to examine how patients and the public value treatments, services and policy designs. Applications include kidney transplantation, metastatic prostate cancer, diabetes technology, loneliness support, telehealth, vaccination and public-health interventions.
-
-A central theme is heterogeneity: people differ in the outcomes they value, the risks they are willing to accept and the trade-offs they are prepared to make. My work develops empirical strategies that make those differences visible and policy-relevant.
-
-**Selected work:** [The role of heterogeneity of patients’ preferences in kidney transplantation](https://doi.org/10.1016/j.jhealeco.2020.102331){target="_blank"}; [Priority for self or others?](https://doi.org/10.1016/j.jval.2025.10.011){target="_blank"}; [Choice consistency in discrete choice experiments](https://doi.org/10.1016/j.jval.2024.07.001){target="_blank"}.
-
-## Decision processes
-
-I study how people process information in complex choice tasks: where they look, how they evaluate cost and benefit information, whether feedback improves subsequent choices, and how numeracy and attribute order shape decision quality. This programme combines choice modelling, behavioural economics, experiments and eye tracking.
-
-**Selected work:** [Keeping an eye on cost](https://doi.org/10.1002/hec.4658){target="_blank"}; [Weighting or aggregating?](https://doi.org/10.1002/hec.4245){target="_blank"}; [To pay or not to pay?](https://doi.org/10.1016/j.socscimed.2021.113822){target="_blank"}; [Guidance or misdirection?](https://doi.org/10.1002/hec.70093){target="_blank"}.
-
-## Public health policy
-
-My applied research examines vaccination policy, vaccine mandates, non-pharmaceutical interventions, preventive care, telehealth and programme evaluation. The work uses discrete choice experiments, quasi-experimental designs and economic evaluation to identify behavioural responses, distributional consequences and policy trade-offs.
-
-**Selected work:** [Are we ready for the next pandemic?](https://doi.org/10.1016/j.socscimed.2025.117687){target="_blank"}; [Time preferences and COVID-19 vaccination uptake](https://doi.org/10.1007/s10198-025-01801-7){target="_blank"}; [Vaccine uptake in the context of mandate announcement and removal](https://doi.org/10.1016/j.vaccine.2026.128825){target="_blank"}.
-
-## Major programmes
-
-::: {.programme-grid}
-::: {.programme-card}
-### MandEval
-
-**Medical Research Future Fund · 2023–2026**
-
-Effectiveness and consequences of Australia’s COVID-19 vaccine mandates, including uptake, equity, public preferences and policy design.
-:::
-
-::: {.programme-card}
-### Field Epidemiology Training Programs in India
-
-**World Bank · 2025**
-
-Economic and implementation analysis supporting a business case for scaling Field Epidemiology Training Programs in India.
-:::
-:::
-:::
+  <h2>Public health policy</h2>
+  <p>My applied research examines vaccination policy, vaccine mandates, non-pharmaceutical interventions, preventive care, telehealth and programme evaluation. The work uses discrete choice experiments, quasi-experimental designs and economic evaluation to identify behavioural responses, distributional consequences and policy trade-offs.</p>
+  <p class="selected-work"><strong>Selected work</strong> · <a href="https://doi.org/10.1016/j.socscimed.2025.117687" target="_blank">Pandemic preferences</a> · <a href="https://doi.org/10.1007/s10198-025-01801-7" target="_blank">Time preferences and vaccination</a> · <a href="https://doi.org/10.1016/j.vaccine.2026.128825" target="_blank">Mandates and uptake</a></p>
+</section>
+<section class="section section-tint" aria-labelledby="programmes-heading"><div class="page-shell">
+  <div class="section-heading-row"><h2 id="programmes-heading">Funded programmes</h2></div>
+  <div class="programme-grid">
+    <article class="programme-card reveal"><div class="programme-kicker">Medical Research Future Fund · 2023–2026</div><h3>MandEval</h3><p>Effectiveness and consequences of Australia’s COVID-19 vaccine mandates. Total grant value <strong>A$4,754,183.37</strong> (MRF2019107); University of Newcastle component <strong>A$808,440</strong>.</p><p class="role-line">Role: University of Newcastle lead and investigator.</p><a href="https://www.grants.gov.au/Ga/Show/57849742-1674-4b10-b75a-47d575e5d430" target="_blank">Grant record ↗</a></article>
+    <article class="programme-card reveal"><div class="programme-kicker">World Bank · 2025</div><h3>Scaling Field Epidemiology Training Programs in India</h3><p>A <strong>A$416,000</strong> business-case project assessing feasible pathways, costs, workforce requirements and implementation conditions for national scale-up.</p><p class="role-line">Role: Lead, University of Newcastle project team.</p><a href="https://www.newcastle.edu.au/profile/mesfin-genie#grants" target="_blank">University record ↗</a></article>
+  </div>
+</div></section>
+</main>
+```
