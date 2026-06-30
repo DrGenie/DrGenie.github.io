@@ -1,14 +1,56 @@
 ---
-title: "Projects"
+title: "Projects & Grants"
 ---
 
-# Projects
+::: {.section-title}
+## Projects and grants
 
-<div class="grid grid-2">
-<div class="card"><h3>Vaccine mandate evaluation</h3><p>International preference evidence on future vaccine mandate policies, including mandate scope, exemptions, thresholds, lives saved and public support.</p></div>
-<div class="card"><h3>Eye tracking in DCEs</h3><p>Experimental work on attribute order, visual attention, scanpaths, information acquisition and choice behaviour in multi-attribute health decisions.</p></div>
-<div class="card"><h3>Loneliness support programmes</h3><p>Preference evidence and decision-support tools for support programmes to reduce loneliness among older adults in Australia.</p></div>
-<div class="card"><h3>Telehealth preferences</h3><p>Patient preferences for telehealth organisation, access, privacy, modality, travel and out-of-pocket costs.</p></div>
-<div class="card"><h3>Equity in value assessment</h3><p>Preference-based methods for incorporating priority to worse-off groups and equity–efficiency trade-offs.</p></div>
-<div class="card"><h3>Soil CRC BCA Tool</h3><p>Applied economic tools for benefit–cost analysis and reporting of long-term agricultural trials.</p></div>
-</div>
+Selected projects and funding listed on the University of Newcastle profile.
+:::
+
+::: {.metrics}
+::: {.metric}
+<div class="num">8</div><div class="label">Grants listed</div>
+:::
+::: {.metric}
+<div class="num">$1.24m</div><div class="label">Total listed funding</div>
+:::
+::: {.metric}
+<div class="num">$808k</div><div class="label">UoN MandEval funding</div>
+:::
+::: {.metric}
+<div class="num">2023–26</div><div class="label">MandEval period</div>
+:::
+:::
+
+::: {.grid-2}
+::: {.card}
+### MandEval: Effectiveness and consequences of Australia’s COVID-19 vaccine mandates
+**Funding:** Medical Research Future Fund  
+**Role:** Lead  
+**Period:** 2023–2026  
+**UoN listed amount:** $808,440  
+
+Preference evidence, quasi-experimental evaluation, public acceptability, and decision tools for vaccine mandate policy.
+:::
+
+::: {.card}
+### Upscaling FETP in India Business Case
+**Funding:** World Bank  
+**Role:** Lead  
+**Period:** 2025  
+**Listed amount:** $416,000  
+
+Business case and policy analysis for scaling Field Epidemiology Training Programs in India.
+:::
+
+::: {.card}
+### Eye tracking and information processing in DCEs
+Experimental work on attribute order, visual attention, cost processing, and decision quality in health preference studies.
+:::
+
+::: {.card}
+### Decision support and applied tools
+Development of web-based tools translating economic evaluation, preference evidence, and model outputs into practical decision support.
+:::
+:::

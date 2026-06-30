@@ -5,29 +5,39 @@ project:
 website:
   title: "Mesfin Genie"
   site-url: "https://mesfingenie.com"
-  description: "Mesfin Genie, PhD — Senior Lecturer in Health Economics at the University of Newcastle. Research in health economics, choice modelling, behavioural economics, health preference research, and policy evaluation."
-  favicon: assets/favicon.png
+  description: "Official academic website of Mesfin Genie, Senior Lecturer in Health Economics at the University of Newcastle."
   navbar:
     pinned: true
-    background: "#ffffff"
-    foreground: "#0b1f3a"
-    right:
-      - text: Research
+    logo: assets/mg-mark.svg
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
         href: research.qmd
-      - text: Publications
+      - text: "Publications"
         href: publications.qmd
-      - text: Projects
+      - text: "Projects & Grants"
         href: projects.qmd
-      - text: Software
+      - text: "Software"
         href: software.qmd
-      - text: Teaching
+      - text: "Teaching"
         href: teaching.qmd
-      - text: Supervision
+      - text: "Supervision"
         href: supervision.qmd
-      - text: CV
+      - text: "CV"
         href: cv.qmd
-      - text: Contact
+      - text: "Contact"
         href: contact.qmd
+    right:
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=v2SXM_kAAAAJ
+        aria-label: Google Scholar
+      - icon: github
+        href: https://github.com/DrGenie
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mesfin-genie-ph-d-65634216
+        aria-label: LinkedIn
   page-footer:
     left: "© 2026 Mesfin Genie"
     right: "Built with Quarto · Hosted on GitHub Pages"
@@ -36,15 +46,9 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: assets/styles.css
     toc: false
     page-layout: full
     smooth-scroll: true
     link-external-newwindow: true
-    include-in-header:
-      text: |
-        <meta name="author" content="Mesfin Genie">
-        <meta name="keywords" content="health economics, discrete choice experiments, choice modelling, behavioural economics, eye tracking, health preference research, vaccine mandates">
-        <script type="application/ld+json">
-        {"@context":"https://schema.org","@type":"Person","name":"Mesfin Genie","jobTitle":"Senior Lecturer in Health Economics","affiliation":{"@type":"CollegeOrUniversity","name":"The University of Newcastle"},"url":"https://mesfingenie.com","email":"mailto:mesfin.genie@newcastle.edu.au","knowsAbout":["Health economics","Discrete choice experiments","Behavioural economics","Health preference research","Eye tracking","Health policy"]}
-        </script>
+    code-copy: true

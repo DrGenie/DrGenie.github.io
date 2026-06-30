@@ -2,70 +2,122 @@
 title: "Mesfin Genie"
 ---
 
-<div class="hero">
-  <div class="hero-inner">
-    <div>
-      <div class="eyebrow">Health Economics · Choice Modelling · Behavioural Science</div>
-      <h1>Mesfin Genie, PhD</h1>
-      <h2>Senior Lecturer in Health Economics<br>Newcastle Business School · The University of Newcastle</h2>
-      <p>I study how patients, citizens and decision makers make trade-offs in complex health and policy settings. My work combines health economics, discrete choice experiments, behavioural economics, eye tracking, preference measurement, and applied policy evaluation.</p>
-      <div class="hero-buttons">
-        <a class="btn-site btn-primary" href="publications.html">Publications</a>
-        <a class="btn-site btn-secondary" href="research.html">Research areas</a>
-        <a class="btn-site btn-secondary" href="cv.html">CV</a>
-        <a class="btn-site btn-secondary" href="contact.html">Contact</a>
-      </div>
-    </div>
-    <div class="profile-card">
-      <div class="portrait-placeholder">MG</div>
-      <div class="profile-meta"><strong>Research focus</strong><br>Health preference research, discrete choice experiments, information processing, vaccine policy, health technology assessment, and decision support tools.</div>
-    </div>
-  </div>
-</div>
+::: {.hero-wrap}
+::: {.hero}
+::: {}
+<div class="eyebrow">Health Economics · Choice Modelling · Behavioural Science</div>
 
-<section class="section">
+# Mesfin Genie, PhD
 
+## Senior Lecturer in Health Economics  
+## Newcastle Business School · The University of Newcastle
+
+I study how patients, citizens and decision makers make trade-offs in complex health and policy settings. My work combines health economics, discrete choice experiments, behavioural economics, eye tracking, vaccine policy, health technology assessment, and applied policy evaluation.
+
+::: {.hero-actions}
+[Publications](publications.qmd){.btn-site .btn-primary}
+[Research](research.qmd){.btn-site .btn-secondary}
+[Projects](projects.qmd){.btn-site .btn-secondary}
+[CV](cv.qmd){.btn-site .btn-secondary}
+:::
+:::
+
+::: {.profile-panel}
+<div class="portrait">MG</div>
+<div class="panel-caption"><strong>Research focus.</strong> Health preference research, DCEs, information processing, vaccine policy, HTA, clinical outcome assessment, and decision support tools.</div>
+:::
+:::
+:::
+
+::: {.metrics}
+::: {.metric}
+<div class="num">41</div>
+<div class="label">Journal articles listed by UoN</div>
+:::
+::: {.metric}
+<div class="num">8</div>
+<div class="label">Grants listed by UoN</div>
+:::
+::: {.metric}
+<div class="num">$1.24m</div>
+<div class="label">Funding listed by UoN</div>
+:::
+::: {.metric}
+<div class="num">9</div>
+<div class="label">Current/past supervisions</div>
+:::
+:::
+
+::: {.section}
+::: {.section-title}
 ## Research at a glance
 
-<div class="grid grid-3">
-<div class="card"><div class="metric">Health</div><div class="metric-label">Preference research and policy evaluation</div></div>
-<div class="card"><div class="metric">DCE</div><div class="metric-label">Discrete choice experiments and choice modelling</div></div>
-<div class="card"><div class="metric">Behaviour</div><div class="metric-label">Attention, information processing and decision quality</div></div>
-</div>
+Selected areas that define my current programme of work.
+:::
 
-</section>
+::: {.grid-3}
+::: {.card}
+### Health economics and policy
+Economic evaluation, health-system reform, health technology assessment, vaccine policy, public preferences, and policy acceptability.
+:::
+::: {.card}
+### Choice modelling
+Discrete choice experiments, mixed logit, latent class models, heterogeneity, equity–efficiency trade-offs, WTP, and stated preference methods.
+:::
+::: {.card}
+### Behavioural health economics
+Attention, information processing, numeracy, feedback, eye tracking, decision quality, and choice architecture in health preference tasks.
+:::
+:::
+:::
 
-<section class="section">
-
-## Core research fields
-
-<div class="grid grid-3">
-<div class="card"><h3>Health economics and policy</h3><p>Economic evaluation, health system reform, public health policy, health technology assessment and policy acceptability.</p></div>
-<div class="card"><h3>Choice modelling</h3><p>Discrete choice experiments, mixed logit, latent class models, heterogeneity, equity–efficiency trade-offs and stated preference methods.</p></div>
-<div class="card"><h3>Behavioural health economics</h3><p>Attention, numeracy, feedback, attribute processing, eye tracking and decision quality in health preference tasks.</p></div>
-</div>
-
-</section>
-
-<section class="section">
-
+::: {.section}
+::: {.section-title}
 ## Selected recent work
 
-<div class="pub"><div class="pub-field">Health Economics</div><div class="pub-title">Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments</div><div class="pub-meta">Genie, Reed and Ozdemir · 2026 · Health Economics</div></div>
-<div class="pub"><div class="pub-field">Health Policy</div><div class="pub-title">Feeling lonely? Preferences for support programmes to reduce loneliness among older adults in Australia</div><div class="pub-meta">Genie, Boyes and Paolucci · 2026 · Health Policy</div></div>
-<div class="pub"><div class="pub-field">Health Economics</div><div class="pub-title">Keeping an eye on cost: What can eye tracking tell us about attention to cost information in discrete choice experiments?</div><div class="pub-meta">Genie · 2023 · Health Economics</div></div>
+Recent publications organised around choice modelling, vaccine policy, health preference methods, and applied health economics.
+:::
 
-</section>
+::: {.grid-2}
+::: {.card}
+### Health preference methods
+<div class="pub"><div class="pub-title">Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments</div><div class="pub-meta">Genie, Reed and Ozdemir · <em>Health Economics</em> · 2026</div></div>
+<div class="pub"><div class="pub-title">Fit for purpose? Assessing the robustness of discrete choice experiment designs in the context of evolving health technologies</div><div class="pub-meta">Genie, Watson, Schwarzinger and Luchini · <em>Social Science & Medicine</em> · 2026</div></div>
+:::
+::: {.card}
+### Vaccine policy and public preferences
+<div class="pub"><div class="pub-title">No Jab, No Access? Preferences for Vaccine Mandates in Europe and Australia</div><div class="pub-meta">Genie et al. · <em>Australian and New Zealand Journal of Public Health</em> · 2026</div></div>
+<div class="pub"><div class="pub-title">An open repository of COVID-19 vaccine mandate studies with a worked scoping review of quasi-experimental evidence</div><div class="pub-meta">Martinenghi et al. · <em>npj Vaccines</em> · 2026</div></div>
+:::
+:::
+:::
 
-<section class="section">
-
+::: {.section}
+::: {.section-title}
 ## Current priorities
 
-<div class="grid grid-2">
-<div class="card"><h3>Vaccine mandate evaluation</h3><p>Mandate design, public acceptability, international preference heterogeneity and decision tools for future pandemic policy.</p></div>
-<div class="card"><h3>Attention and choice</h3><p>Using eye tracking and experimental manipulations to understand how information presentation changes preferences and choice quality.</p></div>
-<div class="card"><h3>Decision support tools</h3><p>Online tools translating DCE and economic evaluation evidence into transparent policy and clinical decision support.</p></div>
-<div class="card"><h3>Equity and value assessment</h3><p>Incorporating concern for worse-off groups, distributional preferences and fairness into preference-based value assessment.</p></div>
-</div>
+The website is structured so these streams can expand into project pages, outputs, software, and policy-facing materials.
+:::
 
-</section>
+::: {.grid-4}
+:::
+
+::: {.grid-2}
+::: {.card}
+### MandEval and vaccine mandates
+Mandate design, public acceptability, quasi-experimental evidence, international preference heterogeneity, and decision tools for future pandemic policy.
+:::
+::: {.card}
+### Attention and choice
+Eye tracking, attribute ordering, information acquisition, early attention, and how presentation affects preference estimates and decision quality.
+:::
+::: {.card}
+### Decision support tools
+Online tools translating preference evidence and economic evaluation outputs into transparent policy, clinical, and agricultural decision support.
+:::
+::: {.card}
+### Equity and value assessment
+Incorporating concern for worse-off groups, distributional preferences, and fairness into preference-based value assessment.
+:::
+:::
+:::

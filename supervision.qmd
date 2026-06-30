@@ -2,21 +2,34 @@
 title: "Supervision"
 ---
 
-# Supervision
+::: {.section-title}
+## Supervision
 
-I welcome enquiries from students interested in health economics, discrete choice experiments, behavioural economics, eye tracking, health policy evaluation, telehealth, vaccination policy, clinical outcomes assessment and economic evaluation.
+Prospective HDR students are welcome in health economics, discrete choice experiments, eye tracking, clinical outcomes assessment, behavioural economics, and related areas.
+:::
 
-## Suitable topics
+::: {.metrics}
+::: {.metric}
+<div class="num">5</div><div class="label">Current supervisions listed</div>
+:::
+::: {.metric}
+<div class="num">4</div><div class="label">Completed supervisions listed</div>
+:::
+:::
 
-- Patient and public preferences in healthcare
-- Discrete choice experiments and stated preference methods
-- Eye tracking and information processing in health decisions
-- Behavioural health economics
-- Telehealth and digital health
-- Vaccine policy and public health mandates
-- Health technology assessment and value assessment
-- Applied economic evaluation and decision tools
-
-## Prospective students
-
-Please send a short research statement, CV, academic transcript, writing sample and any publications or working papers.
+::: {.grid-2}
+::: {.card}
+### Potential supervision areas
+<span class="tag">Health economics</span>
+<span class="tag">Discrete choice experiments</span>
+<span class="tag">Eye tracking</span>
+<span class="tag">Clinical outcomes assessment</span>
+<span class="tag">Vaccine policy</span>
+<span class="tag">Telehealth</span>
+<span class="tag">Economic evaluation</span>
+:::
+::: {.card}
+### Before contacting
+Please send a CV, academic transcripts/GPA, research interests, writing sample if available, and any publications or working papers.
+:::
+:::

@@ -1,14 +1,7 @@
-# Mesfin Genie premium Quarto website
+# Mesfin Genie executive academic website
 
-Upload all files in this folder to the GitHub repository `DrGenie/DrGenie.github.io`.
+Upload all files in this folder to the `DrGenie.github.io` repository. The included GitHub Actions workflow renders and publishes the Quarto site automatically.
 
-## How to update
+To add a photo, replace the MG placeholder by editing `index.qmd` or adding a real image to `assets/`.
 
-- Replace the MG placeholder with a professional photo by adding `assets/profile.jpg` and editing `index.qmd`.
-- Add the current CV as `assets/Mesfin_Genie_CV.pdf` and link it in `cv.qmd`.
-- Export your full Google Scholar BibTeX and replace `assets/publications.bib`.
-- Use `assets/publications_by_field.csv` to classify publications by field.
-
-## GitHub Pages
-
-The workflow in `.github/workflows/publish.yml` renders and publishes the Quarto site automatically.
+To make the publication list exhaustive, export BibTeX from Google Scholar and replace `assets/publications.bib`, then either use Quarto listings or keep the curated field-based list in `publications.qmd`.
