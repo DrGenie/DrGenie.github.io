@@ -1,21 +1,13 @@
 ---
+title: "Teaching"
 pagetitle: "Teaching | Mesfin Genie"
+title-block-style: none
 page-layout: full
 description: "Teaching and research supervision by Mesfin Genie."
 image: /assets/og-card.png
 ---
 
 ```{=html}
-<main id="main-content">
 <header class="page-header"><div class="page-shell"><p class="eyebrow">Teaching</p><h1>Health and behavioural economics</h1><p>Teaching and research supervision at Newcastle Business School.</p></div></header>
-<section class="content-section"><div class="page-shell narrow">
-<h2>Current courses</h2>
-<div class="course-grid">
-  <article class="course-card"><div class="course-code">ECON2112</div><h3>Health Economics and Finance</h3><p>Healthcare markets, insurance, provider behaviour, economic evaluation and health-policy design.</p></article>
-  <article class="course-card"><div class="course-code">ECON3111</div><h3>Behavioural Economics</h3><p>Decision-making under risk and uncertainty, intertemporal choice, social preferences, experiments and behavioural public policy.</p></article>
-</div>
-<h2>Additional teaching</h2><p><strong>ECON3011 · Health Economics and Finance</strong><br>Course coordination and teaching in applied health economics, economic evaluation and health-system decision-making.</p>
-<h2>Research supervision</h2><p>I supervise doctoral and master’s research in health economics, telehealth, discrete choice experiments, public-health policy, climate change and applied economic evaluation.</p><p>Prospective research students should send a CV, academic transcripts, a short research proposal and details of prior research experience to <a href="mailto:mesfin.genie@newcastle.edu.au">mesfin.genie@newcastle.edu.au</a>.</p>
-</div></section>
-</main>
+<section class="content-section"><div class="page-shell narrow"><h2>Current courses</h2><div class="course-grid"><article class="course-card"><div class="course-code">ECON2112</div><h3>Health Economics and Finance</h3><p>Healthcare markets, insurance, provider behaviour, economic evaluation and health-policy design.</p></article><article class="course-card"><div class="course-code">ECON3111</div><h3>Behavioural Economics</h3><p>Decision-making under risk and uncertainty, intertemporal choice, social preferences, experiments and behavioural public policy.</p></article></div><h2>Additional teaching</h2><p><strong>ECON3011 · Health Economics and Finance</strong><br>Course coordination and teaching in applied health economics, economic evaluation and health-system decision-making.</p><h2>Research supervision</h2><p>I supervise doctoral and master’s research in health economics, telehealth, discrete choice experiments, public-health policy, climate change and applied economic evaluation.</p><p>Prospective research students should send a CV, academic transcripts, a short research proposal and details of prior research experience to <a href="mailto:mesfin.genie@newcastle.edu.au">mesfin.genie@newcastle.edu.au</a>.</p></div></section>
 ```

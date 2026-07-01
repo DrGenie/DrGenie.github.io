@@ -1,16 +1,21 @@
-# Mesfin Genie — World Bank–inspired Quarto website
+# Mesfin Genie academic website
 
-This is the complete source for `mesfingenie.com`.
+This is the complete Quarto source for `https://mesfingenie.com/`.
+
+## Key changes in this version
+
+- Smaller circular profile portrait, optimised for desktop, tablet and mobile.
+- No Google Scholar scraping or unverified citation metrics.
+- Direct link to the verified public Google Scholar profile remains available.
+- Updated GitHub Actions runtime versions.
+- Clean Quarto build before every deployment.
 
 ## Upload
 
-1. Unzip the package.
-2. On macOS, press `Command + Shift + .` to show the hidden `.github` folder.
-3. Open the `DrGenie/DrGenie.github.io` repository in GitHub.
-4. Choose **Add file → Upload files**.
-5. Drag every item inside this folder to GitHub.
-6. Keep the existing `eMANDEVA-DecisionAid-V18` and `farming-bca-tool-v18` folders.
-7. Commit the upload.
-8. Wait for **Publish website** to finish with a green check.
+Upload the contents of this folder to `DrGenie/DrGenie.github.io`.
+Keep the existing application folders:
 
-The package includes a clean-build workflow, Quarto source, full publication filters, structured data, dark mode, the LaTeX CV source and the compiled PDF CV.
+- `eMANDEVA-DecisionAid-V18`
+- `farming-bca-tool-v18`
+
+The publishing workflow runs automatically after the commit.

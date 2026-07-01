@@ -1,15 +1,15 @@
-VALIDATION REPORT
-=================
+MESFIN GENIE WEBSITE — VALIDATION REPORT
 
-PASSED
-- YAML files parsed successfully
-- No boolean title fields
-- All pages contain one main landmark and one H1
-- JavaScript syntax passed
-- Python scripts compiled
-- 44 publication records validated
-- DOI URL formats validated
-- Core colour pairs meet WCAG AA contrast
-- LaTeX CV compiled successfully
-- JSON files parsed
-- Duplicate HTML IDs not found
+PASS: All seven Quarto pages have valid YAML front matter.
+PASS: No page contains title: false.
+PASS: JavaScript passes Node syntax validation.
+PASS: Python build scripts compile successfully.
+PASS: GitHub workflow YAML files parse successfully.
+PASS: The publishing workflow uses actions/checkout@v5 and actions/setup-python@v6.
+PASS: The profile portrait is a 640 × 640 WebP image and is displayed as a responsive circle.
+PASS: The homepage no longer loads or displays unverified Google Scholar metrics.
+PASS: The Google Scholar status workflow cannot fail due to HTTP 403 and has no schedule.
+PASS: The verified public Google Scholar profile remains linked.
+PASS: Existing publication filters, responsive navigation, dark mode and reduced-motion support are retained.
+
+NOTE: A full Quarto render was not run in this environment because Quarto CLI is not installed here. The GitHub Pages workflow performs the authoritative Quarto render after upload.
