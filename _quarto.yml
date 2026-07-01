@@ -11,6 +11,8 @@ project:
     - tools/index.qmd
     - teaching/index.qmd
     - cv/index.qmd
+    - blog/index.qmd
+    - blog/posts/*/index.qmd
   resources:
     - CNAME
     - .nojekyll
@@ -36,7 +38,7 @@ website:
     card-style: summary_large_image
     creator: "@mesfin_genie"
     image: /assets/og-card.png
-  search: false
+  search: true
   navbar:
     pinned: true
     collapse-below: lg
@@ -58,6 +60,8 @@ website:
         href: /teaching/
       - text: "CV"
         href: /cv/
+      - text: "Blog"
+        href: /blog/
   page-footer:
     border: false
     left: "© 2026 Mesfin Genie"
