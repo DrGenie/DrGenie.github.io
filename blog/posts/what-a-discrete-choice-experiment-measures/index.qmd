@@ -1,0 +1,19 @@
+---
+title: "What a discrete choice experiment actually measures"
+description: "A plain guide to what a DCE can tell you, and what it cannot."
+author: "Mesfin Genie"
+date: "2026-06-28"
+categories: [methods, choice modelling]
+---
+
+A discrete choice experiment, or DCE, asks people to choose between options described by a few features, which we call attributes. A health programme might be described by its cost, its waiting time, and its success rate. We show people several choices, change the attribute levels each time, and record what they pick. From those patterns we work out how much each attribute matters, and what people are willing to give up to get more of another.
+
+Three points help when you read a DCE.
+
+The first is that a DCE measures stated preferences, not observed behaviour. People tell us what they would choose in a described situation. This is a strength when we want to study options that do not exist yet, such as a new vaccine or a service that has not been funded. It is also a limitation, because what people say and what they do can differ. A good study is designed to make the choices realistic and to narrow that gap, but the gap does not vanish.
+
+The second is that the useful result is usually a trade-off, not a single number. The interesting finding is rarely that people like a higher success rate. It is how much waiting time, or how much cost, people will accept for a given gain in success. Trade-offs are what decisions are made of, so they are what a DCE is built to estimate.
+
+The third is that the average can mislead on its own. A DCE gives an average preference across the sample, but people differ, sometimes a lot. Two groups can produce the same average while wanting opposite things. I will come back to this in a separate post, because it is often the most important part of a study for policy.
+
+So when you read a DCE, look for what was on offer, which is the attributes and their levels, then what people traded off, and finally whether the study looked beyond the average. Those three things tell you most of what you need to know.

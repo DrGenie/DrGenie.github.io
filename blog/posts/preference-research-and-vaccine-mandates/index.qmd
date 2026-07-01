@@ -1,0 +1,15 @@
+---
+title: "What preference research adds to the vaccine mandate debate"
+description: "Mandates are usually argued in absolutes. Preference research shows the trade-offs."
+author: "Mesfin Genie"
+date: "2026-05-31"
+categories: [vaccination, policy]
+---
+
+Debates about vaccine mandates tend to be argued in absolutes. One side treats a mandate as obviously necessary, the other as obviously unacceptable. Much of my recent work sits in a different place and asks a more specific question: what design of a policy do people support, and what are they willing to accept in return for what.
+
+Preference research helps here because a mandate is not one thing. It is a bundle of choices. Who is covered, what the exemptions are, what the consequence of non-compliance is, how long it lasts, and what problem it is meant to solve. When you describe those features and ask people to choose between versions, support is not all-or-nothing. It moves with the design. Some features raise support, others lower it, and the balance differs across groups and across countries.
+
+This reframing is useful for decision-makers because it turns a yes-or-no argument into a set of adjustable levers. A policy can be made more acceptable, or less, by changing its design, and preference research shows which changes matter most. It also shows where support is shallow, so that a policy which looks acceptable on average may still face strong opposition in the groups most affected.
+
+I do not think preference research settles the ethics of mandates. Values, rights and context all matter, and they are not decided by a survey. What it does is replace a caricature of public opinion with something more accurate: not a single verdict, but a map of trade-offs. That map is a better starting point for a serious debate than the assumption that people are simply for or against.

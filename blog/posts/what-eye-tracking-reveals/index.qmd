@@ -1,0 +1,15 @@
+---
+title: "What eye tracking reveals about how we choose"
+description: "Using eye tracking to see how people read a choice task, and why it matters."
+author: "Mesfin Genie"
+date: "2026-06-14"
+categories: [behavioural science, methods]
+---
+
+When someone answers a choice question, we usually only see the answer. We do not see how they got there: what they read, what they skipped, and what they weighed. In some of my work I have used eye tracking to look at that middle step, by recording where people look while they complete a discrete choice experiment.
+
+The reason this is useful is that a preference estimate assumes people considered the information we gave them. If a large share of respondents barely look at the cost, or ignore an attribute, then a model that treats every attribute as fully considered describes something that did not happen. Watching attention directly is a way to check that assumption rather than hope it holds.
+
+A recurring finding is that attention is selective. People do not read every attribute equally, and how much they attend to something like cost is related to how they then choose. This does not mean the choices are careless. It means that processing is part of the story, and that design choices, such as how information is laid out and how many attributes we show, can change not just the answer but how people arrive at it.
+
+For me the practical lesson is about design as much as analysis. If we want choices that reflect genuine trade-offs, we should present information in a way people can process, keep tasks within reason, and check whether attention matches what the model assumes. Eye tracking is one way to do that checking. It does not fit every study, but when it does, it turns an assumption into something we can observe.

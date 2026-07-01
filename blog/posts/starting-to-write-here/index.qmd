@@ -1,0 +1,17 @@
+---
+title: "Starting to write here"
+description: "Why I am adding a blog, and what I plan to write about."
+author: "Mesfin Genie"
+date: "2026-07-01"
+categories: [news]
+---
+
+I am adding this blog to write short notes alongside my research.
+
+Most of my work is published in journals, which is the right place for full studies. But a lot of useful thinking sits outside those papers. How to set up a discrete choice experiment. Why one design choice changes what you can conclude. What a result means for a decision-maker, and what it does not mean. How the tools I build are meant to be used, and where their limits are.
+
+My plan is to keep posts short and practical. I will write about choice modelling and preference research, behavioural evidence in stated-preference studies, economic evaluation in health and public policy, and the occasional walkthrough of a method or a tool.
+
+I write for two readers at once. The first is a researcher or student who wants the method explained plainly. The second is someone who uses evidence to make decisions and wants to know what to trust and why. If a post is useful to both, it has done its job.
+
+If you would like me to write about a particular topic, or you have a question about one of my studies, please get in touch.

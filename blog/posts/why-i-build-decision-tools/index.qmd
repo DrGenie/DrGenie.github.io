@@ -1,0 +1,17 @@
+---
+title: "Why I build decision tools"
+description: "Turning preference studies into tools that decision-makers can actually use."
+author: "Mesfin Genie"
+date: "2026-05-24"
+categories: [tools, policy]
+---
+
+A study ends with a paper. A decision needs something more usable. Between the two there is a gap, and building tools is my attempt to close it.
+
+A preference study produces estimates: how much different features matter, how support changes with design, and what people are willing to pay or accept. Those estimates are useful, but they sit in tables and models that a busy decision-maker will not open. A tool takes the same estimates and lets someone ask their own question. What happens to support if we change this feature. What does this configuration cost, and what might it deliver. The analysis is the same. The difference is that the person facing the decision can explore it directly.
+
+I have built a few of these. One helps explore vaccine mandate designs and their likely public support and outcomes. Another supports benefit and cost analysis for agricultural trials. Another is being developed to help plan the scale-up of field epidemiology training. They are different topics, but the idea is the same: take evidence that already exists and make it something a non-specialist can use to think through options.
+
+Two principles guide how I build them. The first is that a tool should be honest about its limits. It should show what is an estimate, what is an assumption, and where the numbers come from, so that no one mistakes a model for a fact. The second is that it should be usable by the person who needs it, not only by the person who built it. If a tool needs its author in the room to be understood, it has not done its job.
+
+Tools do not replace studies, and they do not replace judgment. They make evidence easier to bring into a decision, at the moment the decision is being made. That is worth the effort.

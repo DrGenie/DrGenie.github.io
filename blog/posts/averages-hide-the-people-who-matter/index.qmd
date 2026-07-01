@@ -1,0 +1,17 @@
+---
+title: "Averages hide the people who matter"
+description: "Why preference heterogeneity, not the average, is often the real finding."
+author: "Mesfin Genie"
+date: "2026-06-21"
+categories: [choice modelling, policy]
+---
+
+When a study reports what people prefer, it usually reports an average. The average is easy to read and easy to quote. It is also the place where the most important information can go missing.
+
+Preferences differ across people. In health they often differ in ways that line up with who is affected by a decision. Older and younger people, people with and without a condition, and people in cities and in rural areas can weigh the same features very differently. When we collapse all of that into one number, we can end up describing a person who does not exist: the average of two groups who want opposite things.
+
+This matters for policy in a direct way. If a programme is designed around the average preference, it may fit no one well. It may also work against the people a policy is meant to help, if their preferences sit far from the middle. The question of who a policy is for, and how their preferences differ from everyone else's, is not a technical footnote. It is often the decision.
+
+In choice modelling we have tools for this. Mixed logit models let preference weights vary across people rather than fixing them at a single value. We can look at how preferences relate to characteristics we can observe, and we can describe the spread, not just the centre. None of this is exotic, and it changes what a study can say.
+
+My advice when reading any preference study is simple. Do not stop at the headline average. Ask whether the study looked at variation, who differs from the mean, and by how much. If the answer is only an average, treat it as a first sentence, not the whole story.
