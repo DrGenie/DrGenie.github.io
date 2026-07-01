@@ -1,103 +1,73 @@
-# Final version - what changed and how to deploy
+# Final update - deep repo check, fixes, and how to deploy
 
-This package contains the polished final version of your site. To avoid disturbing
-your three working tool apps, it does NOT include the tool folders
-(eMANDEVA-DecisionAid-V18, farming-bca-tool-v18, STEPS-FETP-DecisionAid-V20).
-You keep those exactly as they are.
+## Deep check of your repo (github.com/DrGenie/DrGenie.github.io) - findings
 
-## What changed in this version
+1. Your repo already contains the newer navy design (my previous version): brand
+   icons, STEPS card, the 42-outputs tile, and the conference reclassification.
+2. IMPORTANT: the three interactive tool folders were MISSING from the repo
+   (eMANDEVA-DecisionAid-V18, farming-bca-tool-v18, STEPS-FETP-DecisionAid-V20).
+   They only still work on the live site because the live site is an older build.
+   The moment the repo rebuilds, those tools would 404. This package restores
+   eMANDEVA and farming (recovered from your earlier upload). STEPS was never in
+   any file you sent me, so you must add your STEPS-FETP-DecisionAid-V20 folder to
+   the repo yourself (see step 3).
+3. Your live site (mesfingenie.com) is still the OLD green build, which means the
+   navy version in your repo has not actually deployed yet. Check that GitHub Pages
+   is set to deploy from GitHub Actions and that the "Publish website" action is
+   passing (see step 5).
+4. Removed a stray placeholder file (profile.jpg.README.txt) from the package.
 
-Content and accuracy
-- Moved the two ANZJPH papers ("Community First or My Body First?" and
-  "No Jab, No Access?") out of journal articles. They now appear on the
-  Conferences page under "Published conference papers", each linked to CDIC 2026
-  (Communicable Diseases and Immunisation Conference, cdic2026.com) and to the DOI.
-- Publications count updated from 44 to 42, and the homepage tile now reads 42.
-  The 2026 journal group now shows 13 articles.
-- The homepage "Recent publications" now features a journal article
-  (Social Science and Medicine) in place of the reclassified conference paper.
-- Two 2026 Value in Health abstracts are pre-wired on the Conferences page as a
-  commented block, ready for you to paste the titles and authors (see below).
+## What I changed this round
 
-Design and usability
-- Fixed the duplicate "Mesfin Genie" heading: the automatic Quarto title block is
-  now hidden, so your hero is the only title.
-- Replaced the hand-drawn profile icons with the official brand marks for Google
-  Scholar, ORCID, ResearchGate, LinkedIn, GitHub and X, plus university profile
-  and email. All are crisp inline SVG (no external icon fonts, so no speed cost).
-- Tightened the large white spaces: smaller hero and section padding, a smaller
-  maximum heading size, and tighter section spacing.
-- The Tools section and page now include the STEPS Decision Aid (World Bank FETP),
-  and the tools grid reflows cleanly for three tools on any screen size.
-- Consistent naming: eMANDEVAL Future is used throughout.
-
-Publications filters
-- The output-type and other dropdowns are verified against the data. "Book
-  chapter", "Working papers" and "Data and research outputs" all return their
-  records. The "No publications match" you saw was the older live build; this
-  version is correct.
-
-Google Scholar auto-update
-- Still active: metrics refresh daily through SerpAPI and never show fabricated
-  numbers. Setup is in step 5 below.
+- Conferences: the two ANZJPH items ("Community First..." and "No Jab, No
+  Access...") are now listed as conference ABSTRACTS (not papers), each linked to
+  CDIC 2026 (cdic2026.com).
+- Added the two 2026 Value in Health abstracts you sent: PCR4 (Choosing for the
+  Worse-Off) and PCR82 (MASLD/MASH testing in type 2 diabetes), linked to their
+  ScienceDirect pages. Author line shows "Mesfin G. Genie et al." - send me the
+  full author lists and page ranges and I will complete them.
+- Fixed the mislabelled CDIC entry: the 15-17 June 2026 Melbourne presentation now
+  correctly reads Communicable Diseases and Immunisation Conference (CDIC 2026)
+  and links to cdic2026.com (its real dates and city match exactly).
+- White space reduced across every tab: shorter page headers, tighter sections,
+  research blocks and section headings, and a more compact hero.
+- Device optimisation: refined layouts at 900px, 520px and 380px so the hero,
+  stats band, event cards, tools and icons all sit well on phones and tablets.
+- Profile photo and icons: the photo is a centred square in a circular frame, so
+  the crop is symmetric; the crop point was nudged for a natural head position,
+  and all profile icons are sized and centred consistently.
 
 ## Deploy, step by step
 
-Pushing to the main branch auto-builds and publishes your site. Here is the safe
-way to apply this update.
+1. Download and unzip this package.
 
-1. Download and unzip this package on your computer.
+2. In your website repository folder, copy in everything from this package and
+   choose replace/overwrite. This includes the assets, scripts, .github and page
+   folders, plus the eMANDEVA-DecisionAid-V18 and farming-bca-tool-v18 tool
+   folders (restored).
 
-2. Open your website repository folder (the one with _quarto.yml, index.qmd and
-   the assets folder).
+3. Add your STEPS tool folder. Copy your existing STEPS-FETP-DecisionAid-V20
+   folder into the repository root (the same level as index.qmd). Without it, the
+   STEPS tool link will 404 after the site rebuilds.
 
-3. Copy the contents of this package INTO your repository folder and choose
-   "replace/overwrite" when asked. Copy these items:
-   - _quarto.yml
-   - index.qmd
-   - the assets folder
-   - the scripts folder
-   - the .github folder
-   - the publications, conferences, research, teaching, cv, tools folders
-   - CNAME, robots.txt, sitemap.xml, .nojekyll, README.md
-   Do NOT delete anything else. Leave your three tool folders
-   (eMANDEVA-DecisionAid-V18, farming-bca-tool-v18, STEPS-FETP-DecisionAid-V20)
-   in place. This package intentionally omits them, so copy-and-overwrite will not
-   touch them.
-
-4. Commit and push. GitHub Desktop: review the changed files, write a summary like
-   "Final polish: conferences, brand icons, STEPS tool, spacing", Commit to main,
-   then Push origin. Command line:
+4. Commit and push to main:
    ```
    git add -A
-   git commit -m "Final polish: conferences, brand icons, STEPS tool, spacing"
+   git commit -m "Conferences fixes, CDIC, white space, device polish, restore tools"
    git push origin main
    ```
-   The "Publish website" action runs automatically. After it finishes (1 to 2
-   minutes), refresh https://mesfingenie.com with Ctrl/Cmd + Shift + R.
 
-5. One-time, to switch on live Scholar numbers:
-   - Sign up free at serpapi.com and copy your API key.
-   - In your repo on GitHub: Settings, then Secrets and variables, then Actions,
-     then New repository secret. Name it SERPAPI_KEY and paste the key.
-   - Settings, then Actions, then General, then Workflow permissions: choose
-     "Read and write permissions".
-   - Actions tab, "Update Google Scholar metrics", Run workflow. The citations and
-     h-index tiles then appear and refresh daily.
+5. Make sure it actually deploys. On GitHub: Settings, then Pages, and confirm
+   "Source" is "GitHub Actions". Then open the Actions tab and check that the
+   "Publish website" run is green. If Pages was set to "Deploy from a branch",
+   that is why your live site was stale - switch it to GitHub Actions and re-run.
 
-## The one thing I need from you
+6. After it deploys, hard refresh (Ctrl/Cmd + Shift + R) and check the three tools
+   open: /eMANDEVA-DecisionAid-V18/, /farming-bca-tool-v18/, /STEPS-FETP-DecisionAid-V20/.
 
-I could not read the two Value in Health 2026 abstracts because ScienceDirect
-blocks automated access, so I did not guess their titles. On the Conferences page
-there is a commented block with both links already in place. Send me, for each:
-the exact title, the author list, and the page range. I will drop them straight in.
-The two links you gave are:
-- https://www.sciencedirect.com/science/article/abs/pii/S1098301526019935
-- https://www.sciencedirect.com/science/article/abs/pii/S1098301526019157
+## Still to send me (optional, to finish)
 
-## Optional quick wins to push it higher
-
-- Turn on site search (search: true in _quarto.yml) so visitors can search across
-  all pages, not only filter publications.
-- Add a short plain-language research summary on the Research page.
-- Add one representative figure or screenshot per tool on the Tools page.
+- Full author lists and page ranges for the two Value in Health 2026 abstracts.
+- If you want the interactive tool apps themselves made fully mobile-friendly,
+  say so and send the tool source; that is separate from the main site styling
+  and I can optimise each app's layout.
