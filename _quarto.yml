@@ -21,6 +21,7 @@ project:
     - cv/mesfin-genie-cv.tex
     - eMANDEVA-DecisionAid-V18/**
     - farming-bca-tool-v18/**
+    - STEPS-FETP-DecisionAid-V20/**
 
 website:
   site-url: "https://mesfingenie.com"

@@ -1,74 +1,103 @@
-# Deploy guide and change summary
+# Final version - what changed and how to deploy
 
-This is your full site with the requested changes applied. Your existing GitHub
-Actions pipeline (`.github/workflows/publish.yml`) already renders Quarto and
-deploys to GitHub Pages on every push to `main`, so deploying is just replacing
-files and pushing.
+This package contains the polished final version of your site. To avoid disturbing
+your three working tool apps, it does NOT include the tool folders
+(eMANDEVA-DecisionAid-V18, farming-bca-tool-v18, STEPS-FETP-DecisionAid-V20).
+You keep those exactly as they are.
 
-## What changed
+## What changed in this version
 
-Homepage (`index.qmd`)
-- Removed the "Open to collaboration" pill and the 01 / 02 / 03 numbers on the
-  research cards. Both are common "template" tells and added visual noise.
-- Rewrote the credibility band so it reads as a research profile, not a
-  marketing dashboard: Citations and h-index (live from Google Scholar, shown
-  only once real numbers exist), 44 peer-reviewed and other outputs, A$4.75M
-  programme funding secured, and 4 countries of appointment. The vague
-  "6 academic appointments" and "2 live research tools" tiles were dropped.
-- Replaced the em dash in the intro sentence and the en dashes in the tool
-  descriptions with plain punctuation.
+Content and accuracy
+- Moved the two ANZJPH papers ("Community First or My Body First?" and
+  "No Jab, No Access?") out of journal articles. They now appear on the
+  Conferences page under "Published conference papers", each linked to CDIC 2026
+  (Communicable Diseases and Immunisation Conference, cdic2026.com) and to the DOI.
+- Publications count updated from 44 to 42, and the homepage tile now reads 42.
+  The 2026 journal group now shows 13 articles.
+- The homepage "Recent publications" now features a journal article
+  (Social Science and Medicine) in place of the reclassified conference paper.
+- Two 2026 Value in Health abstracts are pre-wired on the Conferences page as a
+  commented block, ready for you to paste the titles and authors (see below).
 
-Site-wide
-- Removed every long dash (em and en) from the page copy and replaced them with
-  hyphens or commas.
-- Google Scholar auto-update now works (see below).
-- Faster mobile load: the hero image that actually appears is now preloaded
-  (the previous preload pointed at a different file).
-- Mobile polish: credibility band reflows cleanly at any tile count, the hero
-  heading no longer risks overflow on small phones, and the profile links are
-  larger tap targets.
+Design and usability
+- Fixed the duplicate "Mesfin Genie" heading: the automatic Quarto title block is
+  now hidden, so your hero is the only title.
+- Replaced the hand-drawn profile icons with the official brand marks for Google
+  Scholar, ORCID, ResearchGate, LinkedIn, GitHub and X, plus university profile
+  and email. All are crisp inline SVG (no external icon fonts, so no speed cost).
+- Tightened the large white spaces: smaller hero and section padding, a smaller
+  maximum heading size, and tighter section spacing.
+- The Tools section and page now include the STEPS Decision Aid (World Bank FETP),
+  and the tools grid reflows cleanly for three tools on any screen size.
+- Consistent naming: eMANDEVAL Future is used throughout.
 
-Publications
-- Already ordered newest year first (2026 at the top, descending). Confirmed and
-  left in place. Search, theme, year and output-type filters all work.
+Publications filters
+- The output-type and other dropdowns are verified against the data. "Book
+  chapter", "Working papers" and "Data and research outputs" all return their
+  records. The "No publications match" you saw was the older live build; this
+  version is correct.
 
-## Deploy in 4 steps
+Google Scholar auto-update
+- Still active: metrics refresh daily through SerpAPI and never show fabricated
+  numbers. Setup is in step 5 below.
 
-1. Copy every file from this package over the matching files in your repository,
-   keeping the same folder layout (`assets/…`, `scripts/…`, `.github/…`, the
-   `.qmd` pages, and `_quarto.yml`).
-2. Commit and push to `main`:
-   ```bash
+## Deploy, step by step
+
+Pushing to the main branch auto-builds and publishes your site. Here is the safe
+way to apply this update.
+
+1. Download and unzip this package on your computer.
+
+2. Open your website repository folder (the one with _quarto.yml, index.qmd and
+   the assets folder).
+
+3. Copy the contents of this package INTO your repository folder and choose
+   "replace/overwrite" when asked. Copy these items:
+   - _quarto.yml
+   - index.qmd
+   - the assets folder
+   - the scripts folder
+   - the .github folder
+   - the publications, conferences, research, teaching, cv, tools folders
+   - CNAME, robots.txt, sitemap.xml, .nojekyll, README.md
+   Do NOT delete anything else. Leave your three tool folders
+   (eMANDEVA-DecisionAid-V18, farming-bca-tool-v18, STEPS-FETP-DecisionAid-V20)
+   in place. This package intentionally omits them, so copy-and-overwrite will not
+   touch them.
+
+4. Commit and push. GitHub Desktop: review the changed files, write a summary like
+   "Final polish: conferences, brand icons, STEPS tool, spacing", Commit to main,
+   then Push origin. Command line:
+   ```
    git add -A
-   git commit -m "Refine homepage, fix Scholar metrics, remove long dashes, mobile polish"
+   git commit -m "Final polish: conferences, brand icons, STEPS tool, spacing"
    git push origin main
    ```
-3. Watch the "Publish website" action finish in the GitHub Actions tab. Your site
-   updates at https://mesfingenie.com automatically.
-4. Hard refresh (Ctrl/Cmd + Shift + R) to clear the cache and confirm the changes.
+   The "Publish website" action runs automatically. After it finishes (1 to 2
+   minutes), refresh https://mesfingenie.com with Ctrl/Cmd + Shift + R.
 
-## Turn on live Google Scholar metrics
+5. One-time, to switch on live Scholar numbers:
+   - Sign up free at serpapi.com and copy your API key.
+   - In your repo on GitHub: Settings, then Secrets and variables, then Actions,
+     then New repository secret. Name it SERPAPI_KEY and paste the key.
+   - Settings, then Actions, then General, then Workflow permissions: choose
+     "Read and write permissions".
+   - Actions tab, "Update Google Scholar metrics", Run workflow. The citations and
+     h-index tiles then appear and refresh daily.
 
-Google Scholar blocks GitHub's servers directly, which is why the old updater was
-switched off. This version reads the same public profile through SerpAPI, which is
-not blocked and has a free tier that easily covers one lookup per day.
+## The one thing I need from you
 
-1. Sign up free at https://serpapi.com and copy your API key from the dashboard.
-2. In your repo: Settings, then Secrets and variables, then Actions, then New
-   repository secret. Name it exactly `SERPAPI_KEY` and paste the key.
-3. Settings, then Actions, then General, then Workflow permissions: select
-   "Read and write permissions" so the job can commit the updated numbers.
-4. Run it once now: Actions tab, "Update Google Scholar metrics", Run workflow.
-   After it succeeds, the Citations and h-index tiles appear on the homepage. It
-   then refreshes on its own every day.
+I could not read the two Value in Health 2026 abstracts because ScienceDirect
+blocks automated access, so I did not guess their titles. On the Conferences page
+there is a commented block with both links already in place. Send me, for each:
+the exact title, the author list, and the page range. I will drop them straight in.
+The two links you gave are:
+- https://www.sciencedirect.com/science/article/abs/pii/S1098301526019935
+- https://www.sciencedirect.com/science/article/abs/pii/S1098301526019157
 
-If you would rather not use SerpAPI, you can instead edit
-`assets/scholar-metrics.json` by hand whenever you like: set `citations`,
-`h_index` and `updated`, commit, and the tiles will show those values. No number
-is ever invented; the tiles stay hidden until a real value is present.
+## Optional quick wins to push it higher
 
-## One decision left to you
-
-The vaccine tool is called "eMANDEVAL Future" on the homepage but "eMANDEVA" in
-the folder name and elsewhere. Pick one public name and use it everywhere so it
-is not confusing when someone cites or bookmarks it.
+- Turn on site search (search: true in _quarto.yml) so visitors can search across
+  all pages, not only filter publications.
+- Add a short plain-language research summary on the Research page.
+- Add one representative figure or screenshot per tool on the Tools page.
