@@ -1,23 +1,12 @@
 ---
-pagetitle: "Tools | Mesfin Genie"
-description: "Decision-support tools developed by Dr Mesfin Genie: eMANDEVAL for vaccine-mandate policy, the SOIL CRC benefit-cost tool, and the STEPS FETP scale-up decision aid."
+title: "Tools"
 title-block-style: none
+pagetitle: "Tools | Mesfin Genie"
+description: "Interactive decision-support and economic-evaluation tools."
 page-layout: full
-image: /assets/og-card.png
+image: /assets/img/og-card.png
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell">
-<p class="eyebrow">Tools</p>
-<h1>Decision-support tools</h1>
-<p>Interactive applications that turn preference and economic evidence into analysis that decision-makers can use directly. Each page explains the problem, the users, the inputs and outputs, and the method behind the tool.</p>
-</div></header>
-
-<section class="content-section"><div class="page-shell narrow">
-<div class="tool-page-grid">
-<article class="tool-page-card"><div class="tool-meta">Vaccine policy</div><h2>eMANDEVAL Future</h2><p>Compares vaccine-mandate designs by predicted public support, expected health outcomes, and benefit-cost trade-offs.</p><a class="button-secondary" href="/tools/emandeval/">About this tool</a></article>
-<article class="tool-page-card"><div class="tool-meta">Economic evaluation</div><h2>SOIL CRC Benefit-Cost Analysis Tool</h2><p>Net present value, benefit-cost ratio, and sensitivity analysis for agricultural production trials.</p><a class="button-secondary" href="/tools/soil-crc-bca/">About this tool</a></article>
-<article class="tool-page-card"><div class="tool-meta">Field epidemiology</div><h2>STEPS FETP Scale-up Decision Aid</h2><p>Endorsement, perceived programme value, and costs for scaling Field Epidemiology Training Programmes in India.</p><a class="button-secondary" href="/tools/steps/">About this tool</a></article>
-</div>
-</div></section>
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Tools</p><h1>Decision support and economic evaluation</h1><p class="lead">Interactive applications that translate research evidence into practical policy, planning and economic-evaluation decisions.</p></div></header><section class="content-section"><div class="page-shell grid-3"><article class="tool-card"><div class="meta">Live · Version 4.4.1</div><h2>eMANDEVAL Future</h2><p>Prospective vaccine-mandate policy analysis. Researchers and policy analysts evaluating prospective vaccine-mandate designs.</p><p><strong>Outputs:</strong> Predicted public support, expected lives saved, benefit-cost outcomes and comparative policy trade-offs.</p><p><strong>Developers:</strong> Mesfin Genie</p><a class="button-primary" href="/eMANDEVA-DecisionAid-V18/" target="_blank" rel="noopener noreferrer">Launch tool ↗</a> <a class="button-secondary" href="/tools/emandelval-future/">Details</a></article><article class="tool-card"><div class="meta">Live · Version 2026.18</div><h2>SOIL CRC Benefit-Cost Analysis Tool</h2><p>Economic evaluation of farm-practice and soil-management interventions.. Agricultural researchers, extension teams and project partners comparing trial options.</p><p><strong>Outputs:</strong> Net present value, benefit-cost ratio, return on investment and sensitivity analysis.</p><p><strong>Developers:</strong> Project lead and publisher: Dr Frank Wogbe Agbola; developer/co-developer: Mesfin Genie</p><a class="button-primary" href="/farming-bca-tool-v18/" target="_blank" rel="noopener noreferrer">Launch tool ↗</a> <a class="button-secondary" href="/tools/soil-crc-bca-tool/">Details</a></article><article class="tool-card"><div class="meta">Pending source upload · Version not published in this repository</div><h2>STEPS Decision Aid</h2><p>Prioritisation and planning for field epidemiology training scale-up under budget constraints.. Field epidemiology training and workforce-planning teams.</p><p><strong>Outputs:</strong> Prioritised options, programme planning assumptions and budget-relevant scenarios.</p><p><strong>Developers:</strong> Mesfin Genie</p><a class="button-primary" href="/STEPS-FETP-DecisionAid-V20/" target="_blank" rel="noopener noreferrer">Launch tool ↗</a> <a class="button-secondary" href="/tools/steps-decision-aid/">Details</a></article></div></section>
 ```

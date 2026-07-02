@@ -1,0 +1,15 @@
+---
+title: "An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence"
+title-block-style: none
+pagetitle: "An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence | Mesfin Genie"
+description: "Publication page for An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence."
+page-layout: full
+image: /assets/img/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell narrow"><p class="eyebrow">Featured publication</p><h1>An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence</h1><p class="lead">Fabio I. Martinenghi; Tushar P. Ojha; Anaïs Thomasson; Bianca Devsam; Sarah Drislane; Stavros Vasiliadis; Chiara Berardi; Aregawi Gebremariam; Arianna Dipalma; Teresa Gavaruzzi; Jeremy K. Ward; Francesco Paolucci; Margie Danchin; <strong>Mesfin Genie</strong>; Katie Attwell; Christopher C. Blyth</p></div></header><section class="content-section"><div class="page-shell narrow"><p><strong>Citation:</strong> </p><p><a class="button-primary" href="https://doi.org/10.1038/s41541-026-01454-4" target="_blank" rel="noopener noreferrer">Open DOI or publisher page</a></p><h2>Plain-language summary</h2><p>This publication contributes to the evidence base on health preferences, behavioural decision-making or public-health policy. The full abstract and definitive bibliographic details are available from the DOI or official publisher record.</p><h2>BibTeX</h2><pre>@article{an_open_repository_of_covid_19_vaccine_mandate_studies_with_a_worked_s,
+  title = {An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence},
+  year = {2026}
+}</pre></div></section>
+```

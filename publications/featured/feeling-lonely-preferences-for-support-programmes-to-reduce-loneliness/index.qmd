@@ -1,0 +1,15 @@
+---
+title: "Feeling Lonely? Preferences for Support Programmes to Reduce Loneliness among Older Adults in Australia: A Discrete Choice Experiment"
+title-block-style: none
+pagetitle: "Feeling Lonely? Preferences for Support Programmes to Reduce Loneliness among Older Adults in Australia: A Discrete Choice Experiment | Mesfin Genie"
+description: "Publication page for Feeling Lonely? Preferences for Support Programmes to Reduce Loneliness among Older Adults in Australia: A Discrete Choice Experiment."
+page-layout: full
+image: /assets/img/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell narrow"><p class="eyebrow">Featured publication</p><h1>Feeling Lonely? Preferences for Support Programmes to Reduce Loneliness among Older Adults in Australia: A Discrete Choice Experiment</h1><p class="lead"><strong>Mesfin G. Genie</strong>; Allison W. Boyes; Francesco Paolucci</p></div></header><section class="content-section"><div class="page-shell narrow"><p><strong>Citation:</strong> </p><p><a class="button-primary" href="https://doi.org/10.1016/j.healthpol.2026.105587" target="_blank" rel="noopener noreferrer">Open DOI or publisher page</a></p><h2>Plain-language summary</h2><p>This publication contributes to the evidence base on health preferences, behavioural decision-making or public-health policy. The full abstract and definitive bibliographic details are available from the DOI or official publisher record.</p><h2>BibTeX</h2><pre>@article{feeling_lonely_preferences_for_support_programmes_to_reduce_loneliness,
+  title = {Feeling Lonely? Preferences for Support Programmes to Reduce Loneliness among Older Adults in Australia: A Discrete Choice Experiment},
+  year = {2026}
+}</pre></div></section>
+```

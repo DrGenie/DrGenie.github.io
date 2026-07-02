@@ -1,51 +1,12 @@
 ---
-pagetitle: "Behavioural economics teaching resources | Mesfin Genie"
-description: "Open teaching resources from ECON3111 Behavioural Economics: foundations and rational choice under certainty, and advanced choice under risk and uncertainty."
+title: "Behavioural economics resources"
 title-block-style: none
+pagetitle: "Behavioural economics resources | Mesfin Genie"
+description: "Public teaching resources for behavioural economics."
 page-layout: full
-image: /assets/og-card.png
+image: /assets/img/og-card.png
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell">
-<p class="eyebrow">Teaching resources</p>
-<h1>Behavioural economics</h1>
-<p>Selected lecture resources from ECON3111. Each preview is a clean slide deck. They are shared for study and reference; please cite appropriately and do not redistribute for commercial use.</p>
-</div></header>
-
-<section class="content-section"><div class="page-shell narrow">
-<div class="resource-grid">
-
-<article class="resource-card">
-<a href="/assets/teaching/econ3111-week1-foundations.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the Foundations and Rational Choice under Certainty slide deck (PDF)">
-<img src="/assets/teaching/week1-thumb.webp" width="720" height="405" alt="Title and learning-objectives slide for the Foundations and Rational Choice under Certainty lecture" loading="lazy">
-</a>
-<div class="resource-body">
-<div class="tool-kicker">ECON3111 · Lecture 1</div>
-<h3>Foundations and Rational Choice under Certainty</h3>
-<p>The neoclassical benchmark and why it matters; descriptive versus normative theories; preferences as relations; completeness and transitivity; and where behavioural evidence comes from. Includes worked activities and a validity map of methods.</p>
-<p><a href="/assets/teaching/econ3111-week1-foundations.pdf" target="_blank" rel="noopener noreferrer">Open slides (PDF)</a></p>
-</div>
-</article>
-
-<article class="resource-card">
-<a href="/assets/teaching/econ3111-week6-risk-uncertainty.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the Advanced Choice under Risk and Uncertainty slide deck (PDF)">
-<img src="/assets/teaching/week6-thumb.webp" width="720" height="405" alt="Learning-objectives slide for the Advanced Choice under Risk and Uncertainty lecture" loading="lazy">
-</a>
-<div class="resource-body">
-<div class="tool-kicker">ECON3111 · Lecture 6</div>
-<h3>Advanced Choice under Risk and Uncertainty</h3>
-<p>Expected utility as a benchmark and the independence idea; the Allais and Ellsberg paradoxes; probability weighting; prospect theory (reference dependence, loss aversion, weighted probabilities); and ambiguity with multiple priors. Includes worked numerical examples and exam practice.</p>
-<p><a href="/assets/teaching/econ3111-week6-risk-uncertainty.pdf" target="_blank" rel="noopener noreferrer">Open slides (PDF)</a></p>
-</div>
-</article>
-
-</div>
-
-<h2>Related reading on the blog</h2>
-<ul class="cv-list">
-<li><a href="/blog/">Behavioural insights blog</a>, including plain-language explainers on the certainty effect, probability weighting, loss aversion, and risk versus ambiguity.</li>
-</ul>
-
-</div></section>
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Behavioural economics resources</p><h1>Benchmarks first, behavioural mechanisms second</h1><p class="lead">These teaching notes translate selected ECON3111 materials into public learning resources. They emphasise clear benchmarks, real-world motivation, mathematical notation, worked examples, learning activities and exam-relevant synthesis.</p></div></header><section class="content-section"><div class="page-shell grid-2"><article class="resource-card"><img src="/assets/teaching/week1-foundations.webp" width="900" height="506" alt="Week 1 slide thumbnail"><h2>Foundations and rational choice under certainty</h2><p>Based on Week 1 material: descriptive versus normative claims, rational choice as a benchmark, preferences as relations, completeness, transitivity, utility representation, budget sets and why behavioural economics studies systematic deviations from the benchmark.</p><p><a href="/blog/posts/the-benchmark-before-bias/">Related blog post →</a></p></article><article class="resource-card"><img src="/assets/teaching/week6-risk-uncertainty.webp" width="900" height="506" alt="Week 6 slide thumbnail"><h2>Advanced choice under risk and uncertainty</h2><p>Based on Week 6 material: expected utility, independence, the Allais and Ellsberg paradoxes, probability weighting, prospect theory, loss aversion, ambiguity aversion and multiple-priors reasoning.</p><p><a href="/blog/posts/why-99-does-not-feel-like-100/">Related blog post →</a></p></article></div></section>
 ```

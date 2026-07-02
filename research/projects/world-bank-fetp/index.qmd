@@ -1,0 +1,12 @@
+---
+title: "Upscaling FETP in India Business Case"
+title-block-style: none
+pagetitle: "Upscaling FETP in India Business Case | Mesfin Genie"
+description: "A World Bank commissioned business-case project assessing feasible pathways, costs, workforce requirements and implementation conditions for field epidemiology training scale-up."
+page-layout: full
+image: /assets/img/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell narrow"><p class="eyebrow">Project</p><h1>Upscaling FETP in India Business Case</h1><p class="lead">A World Bank commissioned business-case project assessing feasible pathways, costs, workforce requirements and implementation conditions for field epidemiology training scale-up.</p></div></header><section class="content-section"><div class="page-shell narrow"><h2>Research question and relevance</h2><p>A World Bank commissioned business-case project assessing feasible pathways, costs, workforce requirements and implementation conditions for field epidemiology training scale-up.</p><h2>Methods and outputs</h2><p>Methods include health economics, applied econometrics, discrete choice experiments, stated-preference methods, decision-support modelling and policy translation where relevant.</p><p><a href="/publications/">Related publications</a> · <a href="/tools/">Related tools</a></p></div></section>
+```

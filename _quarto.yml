@@ -7,22 +7,19 @@ project:
     - index.qmd
     - about/index.qmd
     - research/index.qmd
-    - grants/index.qmd
+    - research/projects/*/index.qmd
     - publications/index.qmd
-    - conferences/index.qmd
+    - publications/featured/*/index.qmd
     - tools/index.qmd
-    - tools/emandeval/index.qmd
-    - tools/soil-crc-bca/index.qmd
-    - tools/steps/index.qmd
+    - tools/*/index.qmd
     - teaching/index.qmd
     - teaching/behavioural-economics/index.qmd
     - supervision/index.qmd
-    - talks/index.qmd
+    - talks-media/index.qmd
+    - blog/index.qmd
+    - blog/posts/*/index.qmd
     - cv/index.qmd
     - contact/index.qmd
-    - blog/index.qmd
-    - blog/editorial-calendar.qmd
-    - blog/posts/*/index.qmd
   resources:
     - CNAME
     - .nojekyll
@@ -36,17 +33,18 @@ project:
 
 website:
   site-url: "https://mesfingenie.com"
-  favicon: assets/favicon.png
+  favicon: assets/img/favicon.png
+  title: "Mesfin Genie"
   page-navigation: true
   back-to-top-navigation: true
   open-graph:
     locale: en_AU
     site-name: "Mesfin Genie"
-    image: /assets/og-card.png
+    image: /assets/img/og-card.png
   twitter-card:
     card-style: summary_large_image
     creator: "@mesfin_genie"
-    image: /assets/og-card.png
+    image: /assets/img/og-card.png
   search: true
   navbar:
     pinned: true
@@ -63,10 +61,10 @@ website:
         menu:
           - text: "Research areas"
             href: /research/
-          - text: "Grants and funding"
-            href: /grants/
-          - text: "Conferences"
-            href: /conferences/
+          - text: "Major projects"
+            href: /research/#major-projects
+          - text: "Data and code"
+            href: /research/#data-code-open-science
       - text: "Publications"
         href: /publications/
       - text: "Tools"
@@ -80,7 +78,7 @@ website:
           - text: "Research supervision"
             href: /supervision/
       - text: "Talks & Media"
-        href: /talks/
+        href: /talks-media/
       - text: "Blog"
         href: /blog/
       - text: "CV"
@@ -88,16 +86,16 @@ website:
       - text: "Contact"
         href: /contact/
   page-footer:
-    border: false
+    border: true
     left: "© 2026 Mesfin Genie"
-    center: "<span id='site-last-updated'>Last updated</span>"
+    center: "Last updated <span data-build-date></span>"
     right: |
       [University profile](https://www.newcastle.edu.au/profile/mesfin-genie){target="_blank"} · [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en){target="_blank"} · [ORCID](https://orcid.org/0000-0002-1744-4666){target="_blank"}
 
 format:
   html:
     theme: cosmo
-    css: assets/styles.css
+    css: assets/css/site.css
     toc: false
     smooth-scroll: true
     include-in-header: assets/head.html

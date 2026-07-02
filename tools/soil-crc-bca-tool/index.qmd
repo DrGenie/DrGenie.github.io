@@ -1,0 +1,12 @@
+---
+title: "SOIL CRC Benefit-Cost Analysis Tool"
+title-block-style: none
+pagetitle: "SOIL CRC Benefit-Cost Analysis Tool | Mesfin Genie"
+description: "Economic evaluation of farm-practice and soil-management interventions."
+page-layout: full
+image: /assets/img/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell narrow"><p class="eyebrow">Tool</p><h1>SOIL CRC Benefit-Cost Analysis Tool</h1><p class="lead">Economic evaluation of farm-practice and soil-management interventions..</p></div></header><section class="content-section"><div class="page-shell narrow"><h2>Practical problem</h2><p>Economic evaluation of farm-practice and soil-management interventions..</p><h2>Target users</h2><p>Agricultural researchers, extension teams and project partners comparing trial options.</p><h2>Inputs and outputs</h2><p><strong>Outputs:</strong> Net present value, benefit-cost ratio, return on investment and sensitivity analysis.</p><h2>Methodological basis</h2><p>Benefit-cost analysis and discounted cash-flow evaluation.</p><h2>Developers and attribution</h2><p>Project lead and publisher: Dr Frank Wogbe Agbola; developer/co-developer: Mesfin Genie</p><h2>Recommended citation</h2><p>Cite as SOIL CRC Benefit-Cost Analysis Tool, CRC High Performance Soils Project 1.2.008.</p><div class="callout"><strong>Limitations:</strong> The tool supports decision-making but does not replace contextual judgement, data verification or expert review.</div><p><a class="button-primary" href="/farming-bca-tool-v18/" target="_blank" rel="noopener noreferrer">Launch tool ↗</a></p></div></section>
+```

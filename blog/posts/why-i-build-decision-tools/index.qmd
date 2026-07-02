@@ -4,6 +4,8 @@ description: "Turning preference studies into tools that decision-makers can act
 author: "Mesfin Genie"
 date: "2026-05-24"
 categories: [tools, policy]
+page-layout: article
+image: /assets/img/og-card.png
 ---
 
 A study ends with a paper. A decision needs something more usable. Between the two there is a gap, and building tools is my attempt to close it.

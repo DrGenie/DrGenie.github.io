@@ -1,40 +1,12 @@
 ---
-pagetitle: "Teaching and supervision | Mesfin Genie"
-description: "Courses coordinated by Dr Mesfin Genie at the University of Newcastle, public teaching resources in behavioural economics, and research supervision."
+title: "Teaching"
 title-block-style: none
+pagetitle: "Teaching | Mesfin Genie"
+description: "Teaching portfolio and behavioural economics resources."
 page-layout: full
-image: /assets/og-card.png
+image: /assets/img/og-card.png
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell">
-<p class="eyebrow">Teaching and supervision</p>
-<h1>Teaching and supervision</h1>
-<p>Courses I coordinate at the University of Newcastle, open teaching resources, and doctoral and MPhil supervision.</p>
-</div></header>
-
-<section class="content-section"><div class="page-shell narrow">
-
-<h2>Courses</h2>
-<div class="event-list">
-<article class="publication-record"><div class="publication-title">ECON3111 Behavioural Economics</div><div class="publication-authors">Lecturer and Course Coordinator, The University of Newcastle</div><div class="publication-meta">Coordination: 24 February 2025 to 29 May 2026 · Teaching: 24 February 2025 to 25 June 2025</div><div class="publication-links"><a href="/teaching/behavioural-economics/">Teaching resources</a></div></article>
-<article class="publication-record"><div class="publication-title">ECON2112 Health Economics and Finance</div><div class="publication-authors">Lecturer and Course Coordinator, The University of Newcastle</div><div class="publication-meta">Coordination: 24 February 2025 to 29 May 2026 · Teaching: 24 February 2025 to 25 June 2025</div></article>
-<article class="publication-record"><div class="publication-title">ECON3011 Introduction to Health Economics and Finance</div><div class="publication-authors">Primary Course Coordinator, The University of Newcastle</div><div class="publication-meta">22 July 2024 to 29 November 2024</div></article>
-</div>
-
-<h2>Teaching resources</h2>
-<p>Open resources drawn from my behavioural economics teaching. They favour explicit learning objectives, a clear benchmark-versus-behaviour logic, worked numerical examples, and exam-relevant synthesis.</p>
-<p><a class="button-secondary" href="/teaching/behavioural-economics/">Behavioural economics resources</a></p>
-
-<h2>Research supervision</h2>
-<p>I supervise doctoral and MPhil candidates as principal and co-supervisor. The supervision page lists current and completed projects and explains what to include in a supervision enquiry.</p>
-<p><a class="button-secondary" href="/supervision/">Research supervision</a></p>
-
-</div></section>
-<script type="application/ld+json">[
-{"@context":"https://schema.org","@type":"Course","name":"ECON3111 Behavioural Economics","courseCode":"ECON3111","provider":{"@type":"CollegeOrUniversity","name":"The University of Newcastle"}},
-{"@context":"https://schema.org","@type":"Course","name":"ECON2112 Health Economics and Finance","courseCode":"ECON2112","provider":{"@type":"CollegeOrUniversity","name":"The University of Newcastle"}},
-{"@context":"https://schema.org","@type":"Course","name":"ECON3011 Introduction to Health Economics and Finance","courseCode":"ECON3011","provider":{"@type":"CollegeOrUniversity","name":"The University of Newcastle"}}
-]</script>
-
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Teaching</p><h1>Health economics and behavioural economics teaching</h1><p class="lead">An evidence-based teaching portfolio in health economics, finance and behavioural economics at the University of Newcastle.</p></div></header><section class="content-section"><div class="page-shell"><h2>Courses</h2><div class="grid-3"><article class="course-card"><div class="course-code">ECON3011</div><h3>Introduction to Health Economics and Finance</h3><p><strong>Primary Course Coordinator</strong>, The University of Newcastle</p><p>22 July 2024–29 November 2024</p><p>Foundations of health economics, health financing, demand for healthcare, insurance and introductory economic evaluation.</p></article><article class="course-card"><div class="course-code">ECON2112</div><h3>Health Economics and Finance</h3><p><strong>Lecturer and Course Coordinator / Primary Course Coordinator</strong>, The University of Newcastle</p><p>2025–2026 coordination; 2025 teaching record</p><p>Healthcare markets, provider and patient behaviour, public and private finance, economic evaluation and health-policy decisions.</p></article><article class="course-card"><div class="course-code">ECON3111</div><h3>Behavioural Economics</h3><p><strong>Lecturer and Course Coordinator / Primary Course Coordinator</strong>, The University of Newcastle</p><p>2025–2026 coordination; 2025 teaching record</p><p>Rational-choice benchmarks, behavioural mechanisms, decision-making under risk and uncertainty, experiments and behavioural public policy.</p></article></div></div></section><section class="content-section"><div class="page-shell"><div class="section-heading"><div><p class="eyebrow">Open teaching resources</p><h2>Behavioural economics</h2></div><a class="button-text" href="/teaching/behavioural-economics/">View resources →</a></div><div class="grid-2"><article class="resource-card"><img src="/assets/teaching/week1-foundations.webp" width="900" height="506" alt="Thumbnail of Week 1 behavioural economics teaching slide"><h3>Foundations and rational choice under certainty</h3><p>Benchmark models, preferences, utility, rational choice and the difference between normative and descriptive accounts of decision-making.</p></article><article class="resource-card"><img src="/assets/teaching/week6-risk-uncertainty.webp" width="900" height="506" alt="Thumbnail of Week 6 behavioural economics teaching slide"><h3>Advanced choice under risk and uncertainty</h3><p>Expected utility, Allais and Ellsberg paradoxes, prospect theory, probability weighting, loss aversion and ambiguity.</p></article></div></div></section>
 ```

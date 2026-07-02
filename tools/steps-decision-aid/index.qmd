@@ -1,0 +1,12 @@
+---
+title: "STEPS Decision Aid"
+title-block-style: none
+pagetitle: "STEPS Decision Aid | Mesfin Genie"
+description: "Prioritisation and planning for field epidemiology training scale-up under budget constraints."
+page-layout: full
+image: /assets/img/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell narrow"><p class="eyebrow">Tool</p><h1>STEPS Decision Aid</h1><p class="lead">Prioritisation and planning for field epidemiology training scale-up under budget constraints..</p></div></header><section class="content-section"><div class="page-shell narrow"><h2>Practical problem</h2><p>Prioritisation and planning for field epidemiology training scale-up under budget constraints..</p><h2>Target users</h2><p>Field epidemiology training and workforce-planning teams.</p><h2>Inputs and outputs</h2><p><strong>Outputs:</strong> Prioritised options, programme planning assumptions and budget-relevant scenarios.</p><h2>Methodological basis</h2><p>World Bank FETP business-case work.</p><h2>Developers and attribution</h2><p>Mesfin Genie</p><h2>Recommended citation</h2><p>Cite the relevant World Bank FETP project documentation where approved.</p><div class="callout"><strong>Limitations:</strong> The tool supports decision-making but does not replace contextual judgement, data verification or expert review.</div><p><a class="button-primary" href="/STEPS-FETP-DecisionAid-V20/" target="_blank" rel="noopener noreferrer">Launch tool ↗</a></p></div></section>
+```

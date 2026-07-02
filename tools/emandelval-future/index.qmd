@@ -1,0 +1,12 @@
+---
+title: "eMANDEVAL Future"
+title-block-style: none
+pagetitle: "eMANDEVAL Future | Mesfin Genie"
+description: "Prospective vaccine-mandate policy analysis"
+page-layout: full
+image: /assets/img/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell narrow"><p class="eyebrow">Tool</p><h1>eMANDEVAL Future</h1><p class="lead">Prospective vaccine-mandate policy analysis.</p></div></header><section class="content-section"><div class="page-shell narrow"><h2>Practical problem</h2><p>Prospective vaccine-mandate policy analysis.</p><h2>Target users</h2><p>Researchers and policy analysts evaluating prospective vaccine-mandate designs.</p><h2>Inputs and outputs</h2><p><strong>Outputs:</strong> Predicted public support, expected lives saved, benefit-cost outcomes and comparative policy trade-offs.</p><h2>Methodological basis</h2><p>Discrete choice evidence from the MandEval programme and scenario-based policy modelling.</p><h2>Developers and attribution</h2><p>Mesfin Genie</p><h2>Recommended citation</h2><p>Cite as eMANDEVAL Future, Mesfin Genie, MandEval research programme.</p><div class="callout"><strong>Limitations:</strong> The tool supports decision-making but does not replace contextual judgement, data verification or expert review.</div><p><a class="button-primary" href="/eMANDEVA-DecisionAid-V18/" target="_blank" rel="noopener noreferrer">Launch tool ↗</a></p></div></section>
+```

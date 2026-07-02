@@ -1,0 +1,15 @@
+---
+title: "Community First or My Body First? Moral Values and Vaccine Mandate Preferences"
+title-block-style: none
+pagetitle: "Community First or My Body First? Moral Values and Vaccine Mandate Preferences | Mesfin Genie"
+description: "Publication page for Community First or My Body First? Moral Values and Vaccine Mandate Preferences."
+page-layout: full
+image: /assets/img/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell narrow"><p class="eyebrow">Featured publication</p><h1>Community First or My Body First? Moral Values and Vaccine Mandate Preferences</h1><p class="lead"><strong>Mesfin Genie</strong>; Fabio I. Martinenghi; Francesco Paolucci; Jonathan Lake; Katie Attwell; Christopher C. Blyth; Margie Danchin; Teresa Gavaruzzi; Udo Evers</p></div></header><section class="content-section"><div class="page-shell narrow"><p><strong>Citation:</strong> </p><p><a class="button-primary" href="https://doi.org/10.1016/j.anzjph.2026.100496" target="_blank" rel="noopener noreferrer">Open DOI or publisher page</a></p><h2>Plain-language summary</h2><p>This publication contributes to the evidence base on health preferences, behavioural decision-making or public-health policy. The full abstract and definitive bibliographic details are available from the DOI or official publisher record.</p><h2>BibTeX</h2><pre>@article{community_first_or_my_body_first_moral_values_and_vaccine_mandate_pref,
+  title = {Community First or My Body First? Moral Values and Vaccine Mandate Preferences},
+  year = {2026}
+}</pre></div></section>
+```

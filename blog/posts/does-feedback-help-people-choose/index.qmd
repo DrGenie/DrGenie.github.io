@@ -4,6 +4,8 @@ description: "Giving respondents feedback in a preference task can guide them, o
 author: "Mesfin Genie"
 date: "2026-06-07"
 categories: [methods, behavioural science]
+page-layout: article
+image: /assets/img/og-card.png
 ---
 
 It is tempting to think that helping people during a choice task must improve it. If we tell respondents something about their earlier answers, or nudge them toward being consistent, surely the data get better. In recent work I looked at this more carefully, and the answer is not that simple.

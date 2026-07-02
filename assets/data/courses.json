@@ -1,0 +1,26 @@
+[
+  {
+    "code": "ECON3011",
+    "title": "Introduction to Health Economics and Finance",
+    "role": "Primary Course Coordinator",
+    "institution": "The University of Newcastle",
+    "dates": "22 July 2024–29 November 2024",
+    "focus": "Foundations of health economics, health financing, demand for healthcare, insurance and introductory economic evaluation."
+  },
+  {
+    "code": "ECON2112",
+    "title": "Health Economics and Finance",
+    "role": "Lecturer and Course Coordinator / Primary Course Coordinator",
+    "institution": "The University of Newcastle",
+    "dates": "2025–2026 coordination; 2025 teaching record",
+    "focus": "Healthcare markets, provider and patient behaviour, public and private finance, economic evaluation and health-policy decisions."
+  },
+  {
+    "code": "ECON3111",
+    "title": "Behavioural Economics",
+    "role": "Lecturer and Course Coordinator / Primary Course Coordinator",
+    "institution": "The University of Newcastle",
+    "dates": "2025–2026 coordination; 2025 teaching record",
+    "focus": "Rational-choice benchmarks, behavioural mechanisms, decision-making under risk and uncertainty, experiments and behavioural public policy."
+  }
+]

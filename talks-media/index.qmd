@@ -1,0 +1,12 @@
+---
+title: "Talks and Media"
+title-block-style: none
+pagetitle: "Talks and Media | Mesfin Genie"
+description: "Talks, webinar and conference materials by Dr Mesfin Genie."
+page-layout: full
+image: /assets/img/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Talks and media</p><h1>Talks, webinars and public engagement</h1><p class="lead">Selected talks, conference presentations and approved public materials.</p></div></header><section class="content-section"><div class="page-shell grid-2"><div><h2>Featured webinar</h2><p><strong>Introduction to the Discrete Choice Experiment as an evaluation tool for rare disease activities.</strong></p><p>The webinar introduces discrete choice experiments as an evaluation tool for rare disease activities.</p><p><a href="https://youtu.be/HO2qXJp-BFs?si=T820z7ajkOt3wHaN" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></p></div><div class="youtube-shell"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/HO2qXJp-BFs" title="Introduction to the Discrete Choice Experiment as an evaluation tool for rare disease activities" allowfullscreen></iframe></div></div></section><section class="content-section"><div class="page-shell"><h2>Selected presentations</h2><div class="grid-2"><article class="talk-card"><div class="meta">Upcoming presentation · July 2026</div><h3>International Conference on Choice Modelling</h3><p>Paper 110, eye-tracking discrete choice experiment.</p></article><article class="talk-card"><div class="meta">Upcoming podium · October 2026</div><h3>International Academy of Health Preference Research</h3><p>Dementia support programmes DCE.</p></article><article class="talk-card"><div class="meta">Recent presentation · June 2026</div><h3>CDIC 2026</h3><p>Vaccine mandate and policy-preference research.</p></article><article class="talk-card"><div class="meta">Recent poster · May 2026</div><h3>ISPOR 2026</h3><p>Choosing with concern for the worse-off.</p></article></div></div></section>
+```

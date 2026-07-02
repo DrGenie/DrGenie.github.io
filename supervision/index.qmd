@@ -1,42 +1,12 @@
 ---
-pagetitle: "Research supervision | Mesfin Genie"
-description: "Current and completed doctoral and MPhil supervision by Dr Mesfin Genie, and guidance for prospective research students."
+title: "Research supervision"
 title-block-style: none
+pagetitle: "Research supervision | Mesfin Genie"
+description: "Current, completed and recorded research supervision by Dr Mesfin Genie."
 page-layout: full
-image: /assets/og-card.png
+image: /assets/img/og-card.png
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell">
-<p class="eyebrow">Teaching and supervision</p>
-<h1>Research supervision</h1>
-<p>As a <strong>principal supervisor</strong> I take lead responsibility for a candidate's programme; as a <strong>co-supervisor</strong> I share supervision with a lead supervisor, usually contributing health-economics and choice-modelling expertise.</p>
-</div></header>
-
-<section class="content-section"><div class="page-shell narrow">
-
-<h2>Current supervision</h2>
-<div class="event-list">
-<article class="publication-record"><div class="publication-title">Understanding the Drivers of Telehealth Usage Among Patients in Australia and How It Reduces Costs Relative to In-Person Healthcare Services</div><div class="publication-meta">Principal Supervisor · Doctor of Philosophy · The University of Newcastle, Australia · Current</div></article>
-<article class="publication-record"><div class="publication-title">Economic Analysis of the Impact of Climate Change on the Agricultural Sector in the Solomon Islands</div><div class="publication-meta">Co-Supervisor · Doctor of Philosophy · The University of Newcastle, Australia · Expected 31 December 2028</div></article>
-<article class="publication-record"><div class="publication-title">Economic Modelling of the Impact of Novel Approaches for Crop Drought Resilience Using Long-Term Trials in Australia</div><div class="publication-meta">Co-Supervisor · Doctor of Philosophy · The University of Newcastle, Australia · Current</div></article>
-<article class="publication-record"><div class="publication-title">Gendered Ageism in the Workplace: Menopause and Female Labour Market Participation</div><div class="publication-meta">Co-Supervisor · Doctor of Philosophy · The University of Newcastle, Australia · Current</div></article>
-</div>
-
-<h2>Completed supervision</h2>
-<div class="event-list">
-<article class="publication-record"><div class="publication-title">Health Systems Reform Dynamics: Implications for Equity and Efficiency</div><div class="publication-meta">Co-Supervisor · Doctor of Philosophy · The University of Newcastle, Australia · Completed 13 March 2025</div></article>
-<article class="publication-record"><div class="publication-title">Socio-Economic and Behavioural Impacts of COVID-19 Vaccine Mandates: A Scoping Review</div><div class="publication-meta">Principal Supervisor · Master of Philosophy · The University of Newcastle, Australia · Recorded 10 November 2024</div></article>
-<article class="publication-record"><div class="publication-title">The Socio-Economic and Behavioural Impacts of Influenza Vaccine Mandates on Healthcare Workers: A Scoping Review</div><div class="publication-meta">Principal Supervisor · Master of Philosophy · The University of Newcastle, Australia · Recorded 10 November 2024</div></article>
-</div>
-<p class="grant-note">The two MPhil scoping reviews show a recorded date of 10 November 2024; this is listed as a record date pending confirmation that it is the completion date.</p>
-
-<h2>Supervision philosophy</h2>
-<p>I aim to help students ask a clear question, choose a method that can answer it, and communicate the result to the people who can use it. My areas of interest for supervision are health economics, discrete choice experiments, eye-tracking and information-processing methods, clinical outcomes assessment, behavioural economics, and health policy.</p>
-
-<h2>Prospective students</h2>
-<p>If you would like to discuss supervision, please send a CV setting out your academic qualifications, GPA or grading information, research experience, and any publications, along with a short note on the questions you would like to work on. Enquiries are welcome but supervision is selective and depends on fit with current projects.</p>
-<p><a class="button-secondary" href="/contact/">Contact for supervision enquiries</a></p>
-
-</div></section>
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Research supervision</p><h1>Supervising health economics and applied policy research</h1><p class="lead">Principal supervision means leading the supervision team. Co-supervision means contributing specialist expertise within the supervisory panel.</p></div></header><section class="content-section"><div class="page-shell"><h2>Current supervision</h2><div class="grid-2"><article class="supervision-card"><div class="meta">Doctor of Philosophy · Co-Supervisor</div><h3>Economic Analysis of the Impact of Climate Change on the Agricultural Sector in the Solomon Islands</h3><p>Expected 31 December 2028</p></article><article class="supervision-card"><div class="meta">Doctor of Philosophy · Co-Supervisor</div><h3>Economic modelling of the impact of novel approaches for crop drought resilience using long-term trials in Australia</h3><p>Current</p></article><article class="supervision-card"><div class="meta">Doctor of Philosophy · Co-Supervisor</div><h3>Gendered Ageism in the Workplace: Menopause and Female Labour Market Participation</h3><p>Current</p></article><article class="supervision-card"><div class="meta">Doctor of Philosophy · Principal Supervisor</div><h3>Understanding the Drivers of Telehealth Usage among Patients in Australia and How It Reduces Costs Relative to In-Person Healthcare Services</h3><p>Current</p></article></div><h2>Completed supervision</h2><div class="grid-2"><article class="supervision-card"><div class="meta">Doctor of Philosophy · Co-Supervisor</div><h3>Health Systems Reform Dynamics: Implications for Equity and Efficiency</h3><p>Completed 13 March 2025</p></article></div><h2>Recorded supervision</h2><div class="grid-2"><article class="supervision-card"><div class="meta">Master of Philosophy · Principal Supervisor</div><h3>Socio-economic and Behavioural Impacts of COVID-19 Vaccine Mandates: A Scoping Review</h3><p>Recorded 10 November 2024</p></article><article class="supervision-card"><div class="meta">Master of Philosophy · Principal Supervisor</div><h3>The Socio-economic and Behavioural Impacts of Influenza Vaccine Mandates on Healthcare Workers: A Scoping Review</h3><p>Recorded 10 November 2024</p></article></div><div class="callout"><strong>Prospective students:</strong> Please send a CV, academic transcripts, a short research proposal, and details of research experience and publications where applicable.</div></div></section>
 ```

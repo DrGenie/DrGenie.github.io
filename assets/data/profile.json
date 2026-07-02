@@ -1,0 +1,40 @@
+{
+  "name": "Dr Mesfin Genie",
+  "formal_name": "Mesfin Genie, PhD",
+  "position": "Continuing Senior Lecturer in Health Economics",
+  "institution": "Newcastle Business School, The University of Newcastle, Australia",
+  "email": "mesfin.genie@newcastle.edu.au",
+  "education": [
+    {
+      "degree": "PhD in Economics",
+      "institution": "Ca’ Foscari University of Venice, Italy",
+      "year": "2019"
+    },
+    {
+      "degree": "MSc in Health Economics and Management",
+      "institution": "University of Bologna, Italy",
+      "year": "2015"
+    },
+    {
+      "degree": "MSc in Economics",
+      "institution": "Addis Ababa University, Ethiopia",
+      "year": "2010"
+    },
+    {
+      "degree": "BA in Economics",
+      "institution": "Jimma University, Ethiopia",
+      "year": "2006"
+    }
+  ],
+  "profiles": {
+    "University profile": "https://www.newcastle.edu.au/profile/mesfin-genie",
+    "Google Scholar": "https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en",
+    "ORCID": "https://orcid.org/0000-0002-1744-4666",
+    "LinkedIn": "https://www.linkedin.com/in/mesfin-genie/",
+    "ResearchGate": "https://www.researchgate.net/profile/Mesfin-Genie",
+    "GitHub": "https://github.com/DrGenie",
+    "X": "https://x.com/mesfin_genie"
+  },
+  "bio50": "Dr Mesfin Genie is a Continuing Senior Lecturer in Health Economics at the University of Newcastle. His research uses health economics, behavioural economics, discrete choice experiments, eye tracking and decision-support tools to study healthcare decisions, public preferences and policy design.",
+  "bio120": "Dr Mesfin Genie is a Continuing Senior Lecturer in Health Economics at Newcastle Business School, The University of Newcastle, Australia. His research examines how patients and the public value healthcare, process information and respond to policy. He works across health economics, behavioural economics, stated-preference methods, discrete choice experiments, eye tracking, health measurement and decision-support tools. His applied work spans organ transplantation, diabetes, prostate cancer, dementia, loneliness, telemedicine, medical devices, health workforce, vaccines, mandates and public-health interventions."
+}

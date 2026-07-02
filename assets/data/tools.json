@@ -1,0 +1,41 @@
+[
+  {
+    "name": "eMANDEVAL Future",
+    "slug": "emandelval-future",
+    "url": "/eMANDEVA-DecisionAid-V18/",
+    "status": "Live",
+    "version": "Version 4.4.1",
+    "developer": "Mesfin Genie",
+    "problem": "Prospective vaccine-mandate policy analysis",
+    "users": "Researchers and policy analysts evaluating prospective vaccine-mandate designs.",
+    "outputs": "Predicted public support, expected lives saved, benefit-cost outcomes and comparative policy trade-offs.",
+    "basis": "Discrete choice evidence from the MandEval programme and scenario-based policy modelling.",
+    "citation": "Cite as eMANDEVAL Future, Mesfin Genie, MandEval research programme."
+  },
+  {
+    "name": "SOIL CRC Benefit-Cost Analysis Tool",
+    "slug": "soil-crc-bca-tool",
+    "url": "/farming-bca-tool-v18/",
+    "status": "Live",
+    "version": "Version 2026.18",
+    "developer": "Project lead and publisher: Dr Frank Wogbe Agbola; developer/co-developer: Mesfin Genie",
+    "problem": "Economic evaluation of farm-practice and soil-management interventions.",
+    "users": "Agricultural researchers, extension teams and project partners comparing trial options.",
+    "outputs": "Net present value, benefit-cost ratio, return on investment and sensitivity analysis.",
+    "basis": "Benefit-cost analysis and discounted cash-flow evaluation.",
+    "citation": "Cite as SOIL CRC Benefit-Cost Analysis Tool, CRC High Performance Soils Project 1.2.008."
+  },
+  {
+    "name": "STEPS Decision Aid",
+    "slug": "steps-decision-aid",
+    "url": "/STEPS-FETP-DecisionAid-V20/",
+    "status": "Pending source upload",
+    "version": "Version not published in this repository",
+    "developer": "Mesfin Genie",
+    "problem": "Prioritisation and planning for field epidemiology training scale-up under budget constraints.",
+    "users": "Field epidemiology training and workforce-planning teams.",
+    "outputs": "Prioritised options, programme planning assumptions and budget-relevant scenarios.",
+    "basis": "World Bank FETP business-case work.",
+    "citation": "Cite the relevant World Bank FETP project documentation where approved."
+  }
+]

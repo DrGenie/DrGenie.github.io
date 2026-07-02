@@ -4,6 +4,8 @@ description: "Why preference heterogeneity, not the average, is often the real f
 author: "Mesfin Genie"
 date: "2026-06-21"
 categories: [choice modelling, policy]
+page-layout: article
+image: /assets/img/og-card.png
 ---
 
 When a study reports what people prefer, it usually reports an average. The average is easy to read and easy to quote. It is also the place where the most important information can go missing.
