@@ -3,9 +3,7 @@ title: "Why I build decision tools"
 description: "Turning preference studies into tools that decision-makers can actually use."
 author: "Mesfin Genie"
 date: "2026-05-24"
-categories: [tools, policy]
-page-layout: article
-image: /assets/img/og-card.png
+categories: [Decision-support tools]
 ---
 
 A study ends with a paper. A decision needs something more usable. Between the two there is a gap, and building tools is my attempt to close it.

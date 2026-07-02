@@ -67,3 +67,24 @@
 .video-note{color:var(--muted);font-size:.9rem}
 .section-lead{max-width:70ch;color:var(--ink)}
 @media(max-width:560px){.grant-meta>div{grid-template-columns:1fr}}
+
+/* ===== Phase 2: restrained components ===== */
+.hero-secondary{margin:.6rem 0 0}
+.hero-secondary a{font-weight:600}
+.theme-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.6rem;margin:.4rem 0 0}
+.theme h3{color:var(--navy);font-size:1.08rem;margin:0 0 .35rem}
+.theme p{color:var(--muted)}
+.theme a{font-weight:600}
+.selected-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.8rem;margin:.4rem 0 0}
+.selected .selected-kind{text-transform:uppercase;letter-spacing:.06em;font-size:.72rem;font-weight:700;color:var(--blue);margin:0 0 .25rem}
+.selected h3{margin:0 0 .4rem;color:var(--navy);font-size:1.15rem}
+.selected p{color:var(--muted)}
+.tool-list{display:grid;gap:1.4rem}
+.tool-row{padding:1.2rem 0;border-top:1px solid var(--line)}
+.tool-row:first-child{border-top:0}
+.tool-row h2{margin:0 0 .35rem;font-size:1.2rem}
+.tool-row p{color:var(--muted);margin:0}
+.breadcrumb{max-width:var(--shell,1080px);margin:1.2rem auto 0;padding:0 clamp(1rem,4vw,2rem);font-size:.82rem;color:var(--muted)}
+.breadcrumb a{color:var(--blue);text-decoration:none}
+.breadcrumb a:hover{text-decoration:underline}
+.citation{background:var(--surface);border-left:3px solid var(--blue);padding:.8rem 1rem;border-radius:4px;font-size:.92rem}

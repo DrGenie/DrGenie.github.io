@@ -1,0 +1,45 @@
+---
+pagetitle: "An Open Repository of COVID-19 Vaccine Mandate Studies with ... | Publications | Mesfin Genie"
+description: "Evidence on vaccine mandates is scattered across many studies of varying design. This paper builds an open repository of COVID-19 vaccine-mandate stud"
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/publications/">Publications</a> / <span aria-current="page">An Open Repository of COVID-19 Vaccine M...</span></nav>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Publication · npj Vaccines · 2026</p>
+<h1>An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence</h1>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+<p class="citation"><strong>Fabio I. Martinenghi; Tushar P. Ojha; Anaïs Thomasson; Bianca Devsam; Sarah Drislane; Stavros Vasiliadis; Chiara Berardi; Aregawi Gebremariam; Arianna Dipalma; Teresa Gavaruzzi; Jeremy K. Ward; Francesco Paolucci; Margie Danchin; Mesfin Genie; Katie Attwell; Christopher C. Blyth</strong> (2026). An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence. <em>npj Vaccines</em>. <a href="https://doi.org/10.1038/s41541-026-01454-4" target="_blank" rel="noopener noreferrer">doi:10.1038/s41541-026-01454-4</a></p>
+
+<h2>In plain language</h2>
+<p>Evidence on vaccine mandates is scattered across many studies of varying design. This paper builds an open repository of COVID-19 vaccine-mandate studies and works through a scoping review of the quasi-experimental evidence, so that others can locate and build on it.</p>
+
+<h2>Research question</h2>
+<p>What quasi-experimental evidence exists on the effects of COVID-19 vaccine mandates, and how can that evidence be made findable and reusable?</p>
+
+<h2>Approach</h2>
+<p>An open, structured repository of studies together with a worked scoping review of quasi-experimental evidence.</p>
+
+<h2>Contribution</h2>
+<p>It turns a dispersed literature into a reusable resource and demonstrates how to review the quasi-experimental evidence transparently. Dr Genie is a co-author.</p>
+
+<h2>Why it matters</h2>
+<p>It supports cumulative, reproducible research on mandate effects and is listed among the public resources on the data and code page.</p>
+
+<h2>Read the paper</h2>
+<p>The full methods, results, and limitations are reported in the published article. Please read and cite the original.</p>
+<p><a class="button-primary" href="https://doi.org/10.1038/s41541-026-01454-4" target="_blank" rel="noopener noreferrer">View at publisher (DOI)</a></p>
+
+<h2>Related resources</h2>
+<ul class="cv-list">
+<li><a href="/research/projects/mandeval/">MandEval</a></li>
+<li><a href="/research/data-and-code/">Data and code</a></li>
+</ul>
+</div></section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence", "author": [{"@type": "Person", "name": "Fabio I. Martinenghi"}, {"@type": "Person", "name": "Tushar P. Ojha"}, {"@type": "Person", "name": "Anaïs Thomasson"}, {"@type": "Person", "name": "Bianca Devsam"}, {"@type": "Person", "name": "Sarah Drislane"}, {"@type": "Person", "name": "Stavros Vasiliadis"}, {"@type": "Person", "name": "Chiara Berardi"}, {"@type": "Person", "name": "Aregawi Gebremariam"}, {"@type": "Person", "name": "Arianna Dipalma"}, {"@type": "Person", "name": "Teresa Gavaruzzi"}, {"@type": "Person", "name": "Jeremy K. Ward"}, {"@type": "Person", "name": "Francesco Paolucci"}, {"@type": "Person", "name": "Margie Danchin"}, {"@type": "Person", "name": "Mesfin Genie"}, {"@type": "Person", "name": "Katie Attwell"}, {"@type": "Person", "name": "Christopher C. Blyth"}], "datePublished": "2026", "isPartOf": {"@type": "Periodical", "name": "npj Vaccines"}, "sameAs": "https://doi.org/10.1038/s41541-026-01454-4", "url": "https://doi.org/10.1038/s41541-026-01454-4"}</script>
+```

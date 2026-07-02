@@ -1,0 +1,46 @@
+---
+pagetitle: "No Jab, No Access? Preferences for Vaccine Mandates in Europ... | Publications | Mesfin Genie"
+description: "A vaccine mandate is a bundle of design choices, and public support depends on the design rather than being all-or-nothing. This work examines prefere"
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/publications/">Publications</a> / <span aria-current="page">No Jab, No Access? Preferences for Vacci...</span></nav>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Publication · Australian and New Zealand Journal of Public Health · 2026</p>
+<h1>No Jab, No Access? Preferences for Vaccine Mandates in Europe and Australia</h1>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+<p class="citation"><strong>Mesfin Genie; Fabio I. Martinenghi; Francesco Paolucci; Jonathan Lake; Katie Attwell; Christopher C. Blyth; Jessica Kaufman; Margie Danchin; Jeremy K. Ward; Teresa Gavaruzzi</strong> (2026). No Jab, No Access? Preferences for Vaccine Mandates in Europe and Australia. <em>Australian and New Zealand Journal of Public Health</em>. <a href="https://doi.org/10.1016/j.anzjph.2026.100450" target="_blank" rel="noopener noreferrer">doi:10.1016/j.anzjph.2026.100450</a></p>
+
+<h2>In plain language</h2>
+<p>A vaccine mandate is a bundle of design choices, and public support depends on the design rather than being all-or-nothing. This work examines preferences for mandate designs across European countries and Australia.</p>
+
+<h2>Research question</h2>
+<p>What vaccine-mandate designs does the public support across Europe and Australia, and what are people willing to accept in return for what?</p>
+
+<h2>Approach</h2>
+<p>A discrete choice experiment on vaccine-mandate designs. This output is a published conference abstract associated with the Communicable Diseases and Immunisation Conference (CDIC 2026).</p>
+
+<h2>Contribution</h2>
+<p>It maps how support for mandates shifts with design, and where it differs across settings, moving the debate beyond a simple for-or-against framing.</p>
+
+<h2>Why it matters</h2>
+<p>It informs the design of vaccine policies that are both effective and acceptable, and connects to the MandEval programme and the eMANDEVAL tool.</p>
+
+<h2>Read the paper</h2>
+<p>The full methods, results, and limitations are reported in the published article. Please read and cite the original.</p>
+<p><a class="button-primary" href="https://doi.org/10.1016/j.anzjph.2026.100450" target="_blank" rel="noopener noreferrer">View at publisher (DOI)</a></p>
+
+<h2>Related resources</h2>
+<ul class="cv-list">
+<li><a href="/research/projects/mandeval/">MandEval</a></li>
+<li><a href="/tools/emandeval/">eMANDEVAL Future</a></li>
+<li><a href="/blog/posts/preference-research-and-vaccine-mandates/">What preference research adds to the vaccine mandate debate</a></li>
+</ul>
+</div></section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "No Jab, No Access? Preferences for Vaccine Mandates in Europe and Australia", "author": [{"@type": "Person", "name": "Mesfin Genie"}, {"@type": "Person", "name": "Fabio I. Martinenghi"}, {"@type": "Person", "name": "Francesco Paolucci"}, {"@type": "Person", "name": "Jonathan Lake"}, {"@type": "Person", "name": "Katie Attwell"}, {"@type": "Person", "name": "Christopher C. Blyth"}, {"@type": "Person", "name": "Jessica Kaufman"}, {"@type": "Person", "name": "Margie Danchin"}, {"@type": "Person", "name": "Jeremy K. Ward"}, {"@type": "Person", "name": "Teresa Gavaruzzi"}], "datePublished": "2026", "isPartOf": {"@type": "Periodical", "name": "Australian and New Zealand Journal of Public Health"}, "sameAs": "https://doi.org/10.1016/j.anzjph.2026.100450", "url": "https://doi.org/10.1016/j.anzjph.2026.100450"}</script>
+```

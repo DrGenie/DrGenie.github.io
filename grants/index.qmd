@@ -39,10 +39,10 @@ image: /assets/og-card.png
 <dl class="grant-meta">
 <div><dt>Funder</dt><dd>The World Bank Group, International Bank for Reconstruction and Development</dd></div>
 <div><dt>Dates</dt><dd>10 March 2025 to 31 December 2025</dd></div>
-<div><dt>Total awarded</dt><dd>$416,000</dd></div>
+
 <div><dt>Team</dt><dd>Mesfin Genie, M. Wu, J. Henriquez, A. Gebremariam, A. Melia, and additional collaborators</dd></div>
 </dl>
-<p class="grant-note">Currency to be confirmed against the official record.</p>
+
 </article>
 </div>
 
@@ -60,18 +60,18 @@ image: /assets/og-card.png
 <dl class="grant-meta">
 <div><dt>Funder</dt><dd>Novartis</dd></div>
 <div><dt>Dates</dt><dd>20 September 2017 to 26 October 2017</dd></div>
-<div><dt>Award</dt><dd>$1,139</dd></div>
+
 </dl>
-<p class="grant-note">Currency to be confirmed before display.</p>
+
 </article>
 <article class="grant-item">
 <h3>Royal Economic Society Conference Grant</h3>
 <dl class="grant-meta">
 <div><dt>Funder</dt><dd>Royal Economic Society</dd></div>
 <div><dt>Dates</dt><dd>25 June 2017 to 25 July 2017</dd></div>
-<div><dt>Award</dt><dd>$626</dd></div>
+
 </dl>
-<p class="grant-note">Currency to be confirmed before display.</p>
+
 </article>
 </div>
 

@@ -83,6 +83,25 @@ if os.path.exists('assets/publications.json'):
         ok.append(f'publications.json parsed; {len(dois)} DOI-like strings, syntax OK')
     except Exception as e: issues.append(f'publications.json: {e}')
 
+
+# 8. alt text on images
+for q in qmds:
+    for img in re.findall(r'<img[^>]*>', open(q,encoding='utf-8').read()):
+        if 'alt=' not in img: issues.append(f'{q}: <img> without alt')
+        elif re.search(r'alt=""', img): issues.append(f'{q}: empty alt text')
+# 9. no public verification notes
+BAD=['to be confirmed','pending confirmation','being confirmed','coming soon','to confirm','being checked']
+for q in qmds:
+    low=open(q,encoding='utf-8').read().lower()
+    for b in BAD:
+        if b in low: issues.append(f'{q}: public verification note "{b}"')
+# 10. nav max 7
+import yaml as _y
+_d=_y.safe_load(open('_quarto.yml'))
+_n=len(_d['website']['navbar']['left'])
+if _n>7: issues.append(f'navbar has {_n} items (max 7)')
+else: ok.append(f'navigation has {_n} primary items')
+
 print("STATIC VALIDATION REPORT")
 print("="*50)
 print(f"Pages checked: {len(qmds)}")

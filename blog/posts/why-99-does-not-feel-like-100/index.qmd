@@ -1,23 +1,23 @@
 ---
-title: "Why 99% does not feel like 100%"
-description: "The certainty effect, Allais-style choices and why guaranteed outcomes receive special treatment."
+title: "Why 99% Does Not Feel Like 100%: The Certainty Effect"
+description: "A sure thing feels special, and the jump from 99% to 100% feels larger than the jump from 60% to 61%. Here is why, and what it means for decisions."
 author: "Mesfin Genie"
-date: "2026-07-01"
-categories: [", B, e, h, a, v, i, o, u, r, a, l,  , e, c, o, n, o, m, i, c, s, ", ,,  , ", T, e, a, c, h, i, n, g, "]
-page-layout: article
-image: /assets/img/og-card.png
+date: "2026-07-02"
+categories: [Behavioural economics in everyday life, Choice modelling explained]
 ---
 
-A small fall from certainty can feel much larger than the number suggests. The difference between 100% and 99% is one percentage point, but psychologically it can feel like moving from safety to risk.
+Imagine a clinic offers you a treatment that works for certain. Now imagine the same treatment, but it works 99 times out of 100. The one percent difference is small on paper, yet for many people the certain version feels far more attractive. That gap is the certainty effect, and it is one of the clearest ways that real choices depart from the standard model.
 
-Expected utility treats probabilities linearly: a probability multiplies utility. The Allais paradox shows why that benchmark can fail. Many people prefer a sure gain in one decision but switch toward a risky option when the common certainty component is removed. The pattern is difficult to reconcile with the independence axiom, because the shared consequence should not change the ranking.
+Start with the benchmark. Expected utility theory, the workhorse model of choice under risk, treats probabilities linearly. A move from 0.60 to 0.61 should matter exactly as much as a move from 0.99 to 1.00, because both are a one-point change in the chance of a good outcome. The model is clean and often useful, and it is the right place to begin.
 
-This is the certainty effect. It helps explain why guarantees, warranties and policy commitments can matter beyond their expected monetary value. It also motivates probability weighting in prospect theory, where decision weights are not treated as the same thing as objective probabilities.
+Now the behaviour. People routinely treat certainty as special. Consider a simple pair of choices. First, a sure A$300 against an 80% chance of A$400. Many people take the sure A$300, even though the gamble is worth A$320 on average. Second, a 25% chance of A$300 against a 20% chance of A$400. Here many of the same people switch to the A$400 option. The two problems have the same ratio of probabilities; only the presence of a sure thing has changed. Under expected utility the ranking should not flip, but it does. The pull of certainty in the first problem, and its absence in the second, drives the switch.
 
-The policy implication is not that people are irrational in a dismissive sense. It is that certainty has a special role in how options are evaluated. When communicating health risks or policy benefits, a change near certainty may be perceived very differently from an equal-sized change elsewhere.
+This is descriptive, not normative. The point is not that preferring certainty is irrational, nor that people should be argued out of it. The point is that a model which assumes linear probabilities will mispredict these choices, and that the error is systematic rather than random. Prospect theory captures the pattern with a probability weighting function in which the very top of the scale, near certainty, is treated differently from the middle.
 
-### References
+The practical implications are real. Framing an option as guaranteed, when it genuinely is, can change uptake more than a small change in the underlying odds. In health, "eliminates the risk" reads very differently from "reduces the risk to almost nothing," even when the numbers are close. That is useful to know when communicating, and it is something to watch for when a product or message leans on the word "guaranteed" to do heavy lifting.
 
-Allais, M. (1953). Le comportement de l'homme rationnel devant le risque. *Econometrica*. https://doi.org/10.2307/1907921
+The limitation is worth stating plainly. The certainty effect describes a tendency, not a law, and its size varies with context, stakes, and how a choice is presented. It tells us to be careful with near-certain probabilities; it does not tell us that people ignore probabilities in general.
 
-Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under risk. *Econometrica*. https://doi.org/10.2307/1914185
+If you want the mechanics behind this, the [ECON3111 resources on choice under risk and uncertainty](/teaching/behavioural-economics/) work through the certainty effect with numbers, and the post on [probability weighting](/blog/posts/insurance-and-lottery-tickets/) shows the other side of the same function.
+
+**Key references.** Kahneman, D. and Tversky, A. (1979). Prospect theory: an analysis of decision under risk. *Econometrica*. Tversky, A. and Kahneman, A. (1992). Advances in prospect theory: cumulative representation of uncertainty. *Journal of Risk and Uncertainty*.

@@ -1,0 +1,45 @@
+---
+pagetitle: "Guidance or Misdirection? Unpacking the Role of Feedback in ... | Publications | Mesfin Genie"
+description: "In stated-preference studies, researchers sometimes give respondents feedback about their earlier answers. This paper asks whether that feedback impro"
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/publications/">Publications</a> / <span aria-current="page">Guidance or Misdirection? Unpacking the ...</span></nav>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Publication · Health Economics · 2026</p>
+<h1>Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments</h1>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+<p class="citation"><strong>Mesfin G. Genie; Shelby D. Reed; Semra Ozdemir</strong> (2026). Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments. <em>Health Economics</em>. <a href="https://doi.org/10.1002/hec.70093" target="_blank" rel="noopener noreferrer">doi:10.1002/hec.70093</a></p>
+
+<h2>In plain language</h2>
+<p>In stated-preference studies, researchers sometimes give respondents feedback about their earlier answers. This paper asks whether that feedback improves the quality of the data or quietly changes the preferences being measured.</p>
+
+<h2>Research question</h2>
+<p>Does giving respondents feedback during a health-preference task help them answer better, or steer them towards a particular pattern of answers?</p>
+
+<h2>Approach</h2>
+<p>A health-preference assessment examining the role of feedback in how respondents complete preference tasks.</p>
+
+<h2>Contribution</h2>
+<p>It clarifies when feedback supports genuine preferences and when it risks manufacturing consistency, which matters for how preference studies are designed and reported.</p>
+
+<h2>Why it matters</h2>
+<p>It informs good practice in preference elicitation, including whether and how to use feedback and how to report it.</p>
+
+<h2>Read the paper</h2>
+<p>The full methods, results, and limitations are reported in the published article. Please read and cite the original.</p>
+<p><a class="button-primary" href="https://doi.org/10.1002/hec.70093" target="_blank" rel="noopener noreferrer">View at publisher (DOI)</a></p>
+
+<h2>Related resources</h2>
+<ul class="cv-list">
+<li><a href="/blog/posts/does-feedback-help-people-choose/">Does feedback help people make better choices?</a></li>
+<li><a href="/research/projects/health-preferences-dce/">Health preferences and discrete choice research</a></li>
+</ul>
+</div></section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "Guidance or Misdirection? Unpacking the Role of Feedback in Health Preference Assessments", "author": [{"@type": "Person", "name": "Mesfin G. Genie"}, {"@type": "Person", "name": "Shelby D. Reed"}, {"@type": "Person", "name": "Semra Ozdemir"}], "datePublished": "2026", "isPartOf": {"@type": "Periodical", "name": "Health Economics"}, "sameAs": "https://doi.org/10.1002/hec.70093", "url": "https://doi.org/10.1002/hec.70093"}</script>
+```

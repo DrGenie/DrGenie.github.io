@@ -3,7 +3,7 @@ title: "Risk versus Ambiguity: Why Unknown Probabilities Change Decisions"
 description: "Risk is when the odds are known. Ambiguity is when they are not. People treat the two very differently, and it matters for new health technologies."
 author: "Mesfin Genie"
 date: "2026-06-11"
-categories: [Choice modelling explained, Research methods and reproducibility]
+categories: [Choice modelling explained]
 ---
 
 There is an important difference between a bet where you know the odds and a bet where you do not. If I offer you a coin you have inspected, you can reason about a fifty-fifty chance. If I offer you a coin from my pocket and say only that it lands heads "somewhere between three and seven times in ten," you face something different. The first is risk. The second is ambiguity. People treat them differently, and the difference has practical weight.

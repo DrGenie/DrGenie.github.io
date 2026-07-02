@@ -1,0 +1,26 @@
+---
+pagetitle: "Decision-support and benefit-cost tools | Research | Mesfin Genie"
+description: "Turning preference and economic evidence into interactive decision-support and benefit-cost tools that decision-makers can use directly."
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/research/">Research</a> / <span aria-current="page">Decision-support and benefit-cost tools</span></nav>
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Research programme</p><h1>Decision-support and benefit-cost tools</h1></div></header>
+<section class="content-section"><div class="page-shell narrow">
+<h2>Overview</h2>
+<p>A study ends with a paper, but a decision needs something more usable. This strand of work turns preference estimates and economic evidence into interactive tools that non-specialists can use to explore options.</p>
+<h2>Approach</h2>
+<p>Each tool is transparent about which figures are estimates and which are assumptions, and is designed to be usable by the person who needs it, not only by its author.</p>
+<h2>Tools</h2>
+<ul class="cv-list">
+<li><a href="/tools/emandeval/">eMANDEVAL Future</a> for vaccine-mandate policy.</li>
+<li><a href="/tools/soil-crc-bca/">SOIL CRC Benefit-Cost Analysis Tool</a> for agricultural trials.</li>
+<li><a href="/tools/steps/">STEPS FETP Scale-up Decision Aid</a> for field-epidemiology training.</li>
+</ul>
+<h2>Related resources</h2>
+<ul class="cv-list"><li><a href="/tools/">All tools</a></li><li><a href="/blog/posts/why-i-build-decision-tools/">Why I build decision tools</a></li></ul>
+</div></section>
+```

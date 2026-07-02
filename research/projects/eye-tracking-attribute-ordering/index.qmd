@@ -1,0 +1,24 @@
+---
+pagetitle: "Eye tracking and attribute ordering | Research | Mesfin Genie"
+description: "Using eye tracking alongside discrete choice experiments to study how attribute order shapes attention and choice in multi-attribute decisions."
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/research/">Research</a> / <span aria-current="page">Eye tracking and attribute ordering</span></nav>
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Project</p><h1>Eye tracking and attribute ordering in multi-attribute choice</h1></div></header>
+<section class="content-section"><div class="page-shell narrow">
+<h2>The problem</h2>
+<p>A discrete choice experiment assumes people consider the attributes shown to them. In practice, attention is selective, and the order in which attributes appear may change what people notice and therefore what they choose.</p>
+<h2>Research questions</h2>
+<p>How does attribute ordering affect attention and choice in multi-attribute health decisions, and what does that mean for how we design and interpret choice experiments?</p>
+<h2>Methods and data</h2>
+<p>Eye-tracking measures of where and how long people look are combined with discrete choice experiments, so that attention can be observed directly rather than assumed.</p>
+<h2>Contribution</h2>
+<p>The work brings process evidence into preference measurement, helping to distinguish genuine trade-offs from artefacts of how information is presented.</p>
+<h2>Related resources</h2>
+<ul class="cv-list"><li><a href="/blog/posts/what-eye-tracking-reveals/">What eye tracking reveals about how we choose</a></li><li><a href="/research/projects/health-preferences-dce/">Health preferences and discrete choice research</a></li></ul>
+</div></section>
+```

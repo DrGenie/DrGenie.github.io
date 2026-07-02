@@ -1,12 +1,32 @@
 ---
-title: "MandEval"
+pagetitle: "MandEval | Research | Mesfin Genie"
+description: "MandEval evaluates the effectiveness and consequences of Australia's COVID-19 vaccine mandates, combining preference research and evidence synthesis."
 title-block-style: none
-pagetitle: "MandEval | Mesfin Genie"
-description: "Effectiveness and consequences of Australia’s COVID-19 vaccine mandates. The programme evaluates vaccine mandate policies, uptake, public preferences and policy design trade-offs."
 page-layout: full
-image: /assets/img/og-card.png
+image: /assets/og-card.png
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell narrow"><p class="eyebrow">Project</p><h1>MandEval</h1><p class="lead">Effectiveness and consequences of Australia’s COVID-19 vaccine mandates. The programme evaluates vaccine mandate policies, uptake, public preferences and policy design trade-offs.</p></div></header><section class="content-section"><div class="page-shell narrow"><h2>Research question and relevance</h2><p>Effectiveness and consequences of Australia’s COVID-19 vaccine mandates. The programme evaluates vaccine mandate policies, uptake, public preferences and policy design trade-offs.</p><h2>Methods and outputs</h2><p>Methods include health economics, applied econometrics, discrete choice experiments, stated-preference methods, decision-support modelling and policy translation where relevant.</p><p><a href="/publications/">Related publications</a> · <a href="/tools/">Related tools</a></p></div></section>
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/research/">Research</a> / <span aria-current="page">MandEval</span></nav>
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Project</p><h1>MandEval</h1></div></header>
+<section class="content-section"><div class="page-shell narrow">
+<h2>The problem</h2>
+<p>Australia introduced a range of COVID-19 vaccine mandates. Understanding whether they worked, what they cost, and how the public viewed them requires both careful evaluation and evidence on preferences. MandEval brings these together.</p>
+<h2>Research questions</h2>
+<p>How effective were Australia's COVID-19 vaccine mandates, what were their wider consequences, and what mandate designs does the public support?</p>
+<h2>Role and collaborators</h2>
+<p>Dr Mesfin Genie is an investigator on the programme, working with Professor Francesco Paolucci and collaborators across institutions.</p>
+<h2>Methods and data</h2>
+<p>The programme combines discrete choice experiments on mandate designs with structured synthesis of quasi-experimental evidence on mandate effects.</p>
+<h2>Outputs</h2>
+<ul class="cv-list">
+<li><a href="/publications/no-jab-no-access/">No Jab, No Access? Preferences for Vaccine Mandates in Europe and Australia</a></li>
+<li><a href="/publications/covid-mandate-repository/">An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review</a></li>
+<li><a href="/tools/emandeval/">eMANDEVAL Future</a>, a decision-support tool for mandate designs.</li>
+</ul>
+<h2>Funding and status</h2>
+<p>Funded by the Australian Department of Health and Aged Care through the MRFF Early to Mid-Career Researchers scheme (MRF2019107), 1 January 2023 to 31 December 2025. University of Newcastle component A$808,440; full multi-institution programme award A$4,754,183.37. <a href="https://www.grants.gov.au/Ga/Show/57849742-1674-4b10-b75a-47d575e5d430" target="_blank" rel="noopener noreferrer">Grant record</a>.</p>
+<h2>Related resources</h2>
+<ul class="cv-list"><li><a href="/tools/emandeval/">eMANDEVAL tool</a></li><li><a href="/blog/posts/preference-research-and-vaccine-mandates/">What preference research adds to the vaccine mandate debate</a></li></ul>
+</div></section>
 ```

@@ -20,3 +20,14 @@ Top-level and section pages:
 - `/contact/` Contact.
 
 Net new pages this pass: About, Grants, three tool detail pages, Behavioural economics resources, Supervision, Talks & Media, Contact, editorial calendar, and six cornerstone blog posts.
+
+## After Phase 2 (this pass)
+Primary navigation (7): Home · Research · Publications · Tools · Teaching & Supervision · Writing & Talks · About. Utility: CV. Footer: Contact + profiles.
+
+New this pass:
+- Research hub rebuilt (concise) with `/research/impact/` and `/research/data-and-code/`.
+- Project pages: `/research/projects/{mandeval, fetp-india, eye-tracking-attribute-ordering, health-preferences-dce, decision-support-tools}/`.
+- Flagship publication pages: `/publications/{fit-for-purpose, guidance-or-misdirection, priority-for-self-or-others, no-jab-no-access, covid-mandate-repository, feeling-lonely}/`.
+- Writing & Talks hub `/writing/`.
+
+Removed/merged: homepage metric strip and video player; standalone `/talks/` (folded into `/writing/`); blog placeholder post; public verification notes.

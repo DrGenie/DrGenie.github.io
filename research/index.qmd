@@ -1,15 +1,41 @@
 ---
-title: "Research"
-title-block-style: none
 pagetitle: "Research | Mesfin Genie"
-description: "Research themes, funded programmes, data and code by Dr Mesfin Genie."
+description: "Dr Mesfin Genie studies how patients and the public value healthcare, process information, and respond to policy, using choice modelling, behavioural experiments, and applied econometrics."
+title-block-style: none
 page-layout: full
-image: /assets/img/og-card.png
+image: /assets/og-card.png
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell"><p class="eyebrow">Research</p><h1>Evidence for healthcare, behaviour and policy decisions</h1><p class="lead">My research links preference evidence, behavioural mechanisms and applied policy analysis. The common question is how evidence can better reflect what patients and the public value, how they process information, and how policy designs can be made more acceptable and effective.</p></div></header>
-<section class="content-section"><div class="page-shell grid-3"><article class="research-card"><h2>Health preferences and behavioural economics</h2><p>Discrete choice experiments, health-preference research, preference heterogeneity, equity and behavioural mechanisms in health technology and public policy.</p><p><strong>Applications:</strong> organ transplantation, diabetes, prostate cancer, dementia, loneliness, telemedicine, medical devices, health workforce and vaccine policy.</p></article><article class="research-card"><h2>Information processing, attention and eye tracking</h2><p>Eye-tracking evidence is used to study attention, information acquisition, attribute ordering and whether people process multi-attribute choice tasks as models assume.</p><p><strong>Applications:</strong> cost attention, attribute non-attendance, choice architecture and design quality in stated-preference studies.</p></article><article class="research-card"><h2>Health measurement, clinical outcomes and policy evaluation</h2><p>Clinical outcomes, public-health interventions and decision-support tools are evaluated with attention to patient values, public preferences and implementation constraints.</p><p><strong>Applications:</strong> vaccine mandates, pandemic policies, field epidemiology training, telehealth and agricultural benefit-cost analysis.</p></article></div></section>
-<section class="content-section" id="major-projects"><div class="page-shell"><div class="section-heading"><div><p class="eyebrow">Major projects</p><h2>Funded and commissioned programmes</h2></div></div><div class="grid-2"><article class="card"><div class="meta">Australian Department of Health and Aged Care · 1 January 2023–31 December 2025</div><h3>MandEval: effectiveness and consequences of Australia’s COVID-19 vaccine mandates</h3><p>University of Newcastle component A$808,440; verified multi-institution programme A$4,754,183.37</p><p><strong>Role:</strong> University of Newcastle lead and investigator</p><a href="https://www.grants.gov.au/Ga/Show/57849742-1674-4b10-b75a-47d575e5d430" target="_blank" rel="noopener noreferrer">Source ↗</a></article><article class="card"><div class="meta">The World Bank Group, International Bank for Reconstruction and Development · 10 March 2025–31 December 2025</div><h3>Upscaling FETP in India Business Case</h3><p>A$416,000</p><p><strong>Role:</strong> Lead, University of Newcastle project team</p><a href="https://www.newcastle.edu.au/profile/mesfin-genie#grants" target="_blank" rel="noopener noreferrer">Source ↗</a></article></div></div></section>
-<section class="content-section" id="data-code-open-science"><div class="page-shell narrow"><h2>Data, code and open-science resources</h2><p>Public tools and resources are shared when release is approved and does not expose private, restricted or confidential data. Current public resources include the eMANDEVAL Future application, the SOIL CRC Benefit-Cost Analysis Tool, and published research outputs with DOI or institutional links on the Publications page.</p><p><a class="button-secondary" href="/tools/">View tools</a> <a class="button-secondary" href="/publications/">View publications</a></p></div></section>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Research</p>
+<h1>Research</h1>
+<p class="section-lead">I study how patients and the public value healthcare, how they process information when making decisions, and how they respond to policy. My work combines health and behavioural economics with discrete choice experiments, eye tracking, and decision-support tools.</p>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+
+<h2>Research themes</h2>
+<div class="theme-list">
+<article class="theme"><h3>Health preferences and behavioural economics</h3><p>Measuring what people value in health, and how real decisions depart from standard models. <a href="/research/projects/health-preferences-dce/">Explore</a></p></article>
+<article class="theme"><h3>Information processing, attention, and eye tracking</h3><p>Bringing process evidence into preference measurement to see how people actually read a choice. <a href="/research/projects/eye-tracking-attribute-ordering/">Explore</a></p></article>
+<article class="theme"><h3>Health measurement, outcomes, and policy evaluation</h3><p>Ensuring that policies, technologies, and tools reflect outcomes that patients and the public value. <a href="/research/projects/decision-support-tools/">Explore</a></p></article>
+</div>
+
+<h2>Selected projects</h2>
+<ul class="cv-list">
+<li><a href="/research/projects/mandeval/">MandEval</a>, effectiveness and consequences of Australia's COVID-19 vaccine mandates.</li>
+<li><a href="/research/projects/fetp-india/">FETP India business case</a>, scaling field-epidemiology training, with the World Bank.</li>
+<li><a href="/research/projects/eye-tracking-attribute-ordering/">Eye tracking and attribute ordering</a> in multi-attribute choice.</li>
+</ul>
+
+<h2>Explore further</h2>
+<ul class="cv-list">
+<li><a href="/research/impact/">Research impact</a>, how the work is translated into tools and policy-relevant evidence.</li>
+<li><a href="/research/data-and-code/">Data and code</a>, public resources and repositories.</li>
+<li><a href="/grants/">Grants and funding</a>.</li>
+<li><a href="/publications/">Publications</a>.</li>
+</ul>
+
+</div></section>
 ```

@@ -1,0 +1,29 @@
+---
+pagetitle: "Health preferences and discrete choice research | Research | Mesfin Genie"
+description: "A programme of discrete choice experiments measuring how patients and the public value health across many conditions and interventions."
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/research/">Research</a> / <span aria-current="page">Health preferences and discrete choice research</span></nav>
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Research programme</p><h1>Health preferences and discrete choice research</h1></div></header>
+<section class="content-section"><div class="page-shell narrow">
+<h2>Overview</h2>
+<p>Much of my work measures how patients and the public value health, using discrete choice experiments across a wide range of conditions and interventions. The aim is to ensure that health policies and technologies reflect outcomes that people actually value, and to improve the methods used to measure those values.</p>
+<h2>Questions</h2>
+<p>What do people value in health care and health policy, how do preferences differ across people, and how can preference methods be made more robust?</p>
+<h2>Methods</h2>
+<p>Discrete choice experiments, preference-based value assessment, and, increasingly, process measures such as eye tracking.</p>
+<h2>Selected publications</h2>
+<ul class="cv-list">
+<li><a href="/publications/fit-for-purpose/">Fit for Purpose? Robustness of DCE designs for evolving technologies</a></li>
+<li><a href="/publications/guidance-or-misdirection/">Guidance or Misdirection? The role of feedback in preference assessment</a></li>
+<li><a href="/publications/priority-for-self-or-others/">Priority for Self or Others? Equity in value assessment</a></li>
+<li><a href="/publications/feeling-lonely/">Feeling Lonely? Preferences for loneliness-support programmes</a></li>
+</ul>
+<h2>Related resources</h2>
+<ul class="cv-list"><li><a href="/blog/posts/what-a-discrete-choice-experiment-measures/">What a discrete choice experiment measures</a></li><li><a href="/publications/">All publications</a></li></ul>
+</div></section>
+```

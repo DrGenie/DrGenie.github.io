@@ -1,0 +1,23 @@
+---
+pagetitle: "Research impact | Research | Mesfin Genie"
+description: "How Dr Mesfin Genie's research is translated into decision-support tools, policy-relevant evidence, and open resources, described without overstatement."
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/research/">Research</a> / <span aria-current="page">Research impact</span></nav>
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Research</p><h1>Research impact</h1></div></header>
+<section class="content-section"><div class="page-shell narrow">
+<p class="section-lead">This page distinguishes outputs, engagement, and demonstrated use. It describes activity honestly rather than claiming impact without evidence.</p>
+<h2>Decision-support tools in use</h2>
+<p>Three interactive tools translate research into analysis that decision-makers can use directly: <a href="/tools/emandeval/">eMANDEVAL Future</a> for vaccine-mandate policy, the <a href="/tools/soil-crc-bca/">SOIL CRC Benefit-Cost Analysis Tool</a> for agricultural trials, and the <a href="/tools/steps/">STEPS FETP Scale-up Decision Aid</a> for field-epidemiology training.</p>
+<h2>Partner and policy engagement</h2>
+<p>The <a href="/research/projects/fetp-india/">FETP India business case</a> was commissioned by the World Bank Group. The <a href="/research/projects/mandeval/">MandEval</a> programme, funded through the MRFF, evaluates the effectiveness and consequences of Australia's COVID-19 vaccine mandates and produces evidence relevant to vaccine policy.</p>
+<h2>Open resources for the field</h2>
+<p>The <a href="/publications/covid-mandate-repository/">open repository of COVID-19 vaccine-mandate studies</a> makes a scattered literature findable and reusable. Public teaching resources in <a href="/teaching/behavioural-economics/">behavioural economics</a> support students and educators beyond Newcastle.</p>
+<h2>Contribution to research practice and training</h2>
+<p>Work on discrete choice experiment design and on feedback in preference assessment aims to improve how the field measures preferences. As Guest Editor for <em>Health Policy and Technology</em> and a reviewer for leading journals, and through doctoral and MPhil <a href="/supervision/">supervision</a>, this extends to the research community and the next generation of researchers.</p>
+</div></section>
+```
