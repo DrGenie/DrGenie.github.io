@@ -1,0 +1,23 @@
+---
+title: "The Allais Paradox and What It Reveals about Rational Choice"
+description: "A famous pair of choices that most people get 'wrong' by the standard model. The Allais paradox shows why the independence axiom is hard to keep."
+author: "Mesfin Genie"
+date: "2026-06-04"
+categories: [Choice modelling explained, Research methods and reproducibility]
+---
+
+In 1953 Maurice Allais posed a pair of choices that many careful people answer in a way the standard theory says they should not. It remains one of the sharpest tests of what we mean by rational choice under risk.
+
+Here is a version. In the first decision, choose between (1A) one million dollars for certain, and (1B) a gamble paying five million with probability 0.10, one million with probability 0.89, and nothing with probability 0.01. In the second decision, choose between (2A) one million with probability 0.11 and nothing otherwise, and (2B) five million with probability 0.10 and nothing otherwise. A very common pattern is to pick the certain 1A in the first decision and the larger prize 2B in the second.
+
+The benchmark says this pattern cannot come from stable preferences. Expected utility rests on the independence axiom, the "sure-thing" idea that an outcome shared by two options, with the same probability, should not affect which you prefer. In these two decisions there is a common component: a 0.89 chance of one million sits inside the first decision and can be stripped out to give the second. Independence says that removing this shared part should not flip your ranking. Yet for many people it does. Choosing 1A and 2B together implies two inequalities that contradict each other; no single utility function can satisfy both.
+
+So what does the paradox reveal? Not that people are foolish, but that the independence axiom, which looks innocuous, is a strong assumption about how we combine probabilities. The presence of a sure thing in the first decision does psychological work that a mere shared probability in the second does not. This is the certainty effect again, now stated as a violation of a specific axiom rather than as a feeling about guarantees.
+
+The distinction between description and prescription is central here. Independence has real normative appeal; many people, once the shared component is pointed out, feel some pull to revise their choice. That is exactly why the paradox is interesting. It is a place where a descriptive account of what people do and a normative account of what a consistent agent should do come apart, and where reasonable people disagree about which to trust.
+
+For teaching and for research design, the lesson is practical. If you build a model on independence, you should know that a well-known and reproducible pattern of choices violates it, and you should decide deliberately whether that matters for your question. Prospect theory and related models were built precisely to accommodate patterns like this.
+
+The [ECON3111 resources](/teaching/behavioural-economics/) work the Allais choices through step by step, including the contradictory inequalities.
+
+**Key references.** Allais, M. (1953). Le comportement de l'homme rationnel devant le risque. *Econometrica*. Kahneman, D. and Tversky, A. (1979). Prospect theory: an analysis of decision under risk. *Econometrica*.

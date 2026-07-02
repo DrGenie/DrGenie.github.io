@@ -1,0 +1,31 @@
+---
+pagetitle: "Talks and media | Mesfin Genie"
+description: "Featured webinar, conference presentations, and invited talks by Dr Mesfin Genie on health-preference research, behavioural economics, and decision-support tools."
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Talks and media</p>
+<h1>Talks and media</h1>
+<p>Selected talks and public engagement. Conference abstracts and presentations are listed on the <a href="/conferences/">conferences page</a>.</p>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+
+<h2>Featured webinar</h2>
+<div class="video-embed">
+  <div class="video-frame" id="webinar" data-embed="https://www.youtube-nocookie.com/embed/HO2qXJp-BFs?rel=0">
+    <button class="video-play" type="button" aria-label="Play the featured webinar (opens the YouTube player)">
+      <span class="video-play-icon" aria-hidden="true">&#9658;</span>
+      <span>Play webinar</span>
+    </button>
+  </div>
+</div>
+<p>A recorded webinar featuring Dr Mesfin Genie. The player loads only when you choose to play it, using the privacy-enhanced YouTube domain. You can also <a href="https://youtu.be/HO2qXJp-BFs" target="_blank" rel="noopener noreferrer">watch it directly on YouTube</a>.</p>
+<p class="grant-note">The exact title, channel, publication date, and duration of this recording are being confirmed and will be added here and to the page's structured data once verified.</p>
+
+</div></section>
+```

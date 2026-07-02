@@ -1,0 +1,13 @@
+person:
+  name: "Mesfin Genie"
+  formal: "Mesfin Genie, PhD"
+  prose: "Dr Mesfin Genie"
+  position: "Continuing Senior Lecturer in Health Economics"
+  school: "Newcastle Business School"
+  institution: "The University of Newcastle, Australia"
+  email: "mesfin.genie@newcastle.edu.au"
+site:
+  url: "https://mesfingenie.com"
+  metrics_verified: "July 2026"
+education:
+  bologna_year: 2015

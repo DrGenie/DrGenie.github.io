@@ -1,0 +1,21 @@
+---
+title: "The Ellsberg Paradox, Ambiguity Aversion, and New Health Technologies"
+description: "People prefer a bet with known odds to an equivalent bet with unknown odds. The Ellsberg paradox shows why, and why it matters for new technologies."
+author: "Mesfin Genie"
+date: "2026-05-28"
+categories: [Choice modelling explained, Health decisions and public policy]
+---
+
+Picture an urn with ninety balls. Thirty are red. The other sixty are black or yellow in some unknown mix. A ball is drawn at random. In the first decision, you can bet on red or bet on black, winning a fixed prize if your colour is drawn. In the second decision, you can bet on red-or-yellow, or on black-or-yellow. A common pattern is to bet on red in the first decision and on black-or-yellow in the second.
+
+That pattern, set out by Daniel Ellsberg in 1961, cannot be explained by any single set of probabilities. If you bet red because you think red is more likely than black, you should also think red-or-yellow is more likely than black-or-yellow, and bet accordingly in the second decision. The yellow outcome pays the same in both options within each decision, so by the sure-thing logic it should not drive the choice. Yet preferences flip. The only thing that has changed is that the known thirty-out-of-ninety red option is available in the first decision and buried in the second.
+
+The explanation is ambiguity aversion. People prefer the bet whose probability is known, thirty in ninety, to the bet whose probability is unknown, some unclear number of black balls. This is distinct from ordinary risk aversion. The known and unknown bets can have the same expected chance; what people are avoiding is not variance but the absence of a pinned-down probability. As I discussed in the [post on risk versus ambiguity](/blog/posts/risk-versus-ambiguity/), a natural way to model this is to treat beliefs as a set of plausible probabilities and to evaluate options cautiously.
+
+Why does a puzzle about coloured balls matter for health? Because new health technologies are close to the Ellsberg unknown urn. A new device, drug, or diagnostic often has an uncertain failure or success rate, especially early on. Faced with a familiar option whose performance is well characterised and a new option whose probabilities are not yet pinned down, decision-makers and patients may lean towards the familiar even when the new option is promising. That is ambiguity aversion operating in a real setting, and it can slow the uptake of genuinely better technologies.
+
+This is descriptive, and often sensible. Caution about unknown probabilities is reasonable when the stakes are high. The risk is that it becomes a blanket bias against anything new, or that it is exploited by dressing up an unknown as a known. The constructive response is to reduce ambiguity where possible, through evidence and transparent reporting, and to communicate honestly about what is known and what is not, including ranges rather than false point estimates.
+
+The [ECON3111 resources](/teaching/behavioural-economics/) include the Ellsberg payoff table and the multiple-priors model.
+
+**Key references.** Ellsberg, D. (1961). Risk, ambiguity, and the Savage axioms. *Quarterly Journal of Economics*. Gilboa, I. and Schmeidler, D. (1989). Maxmin expected utility with a non-unique prior. *Journal of Mathematical Economics*.

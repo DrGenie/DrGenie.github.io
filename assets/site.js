@@ -9,3 +9,22 @@ function filters(){const form=document.getElementById('publication-filters');if(
 form.addEventListener('input',apply);form.addEventListener('change',apply);form.addEventListener('reset',()=>setTimeout(apply,0));apply()}
 async function metrics(){const tiles=[...document.querySelectorAll('[data-metric-tile]')];if(!tiles.length)return;try{const r=await fetch('/assets/scholar-metrics.json',{cache:'no-store'});if(!r.ok)return;const d=await r.json();const map={citations:d.citations,hindex:d.h_index,i10:d.i10_index};tiles.forEach(t=>{const key=t.dataset.metricTile;const val=map[key];const el=t.querySelector('[data-metric]');if(val!=null&&el){el.textContent=Number(val).toLocaleString('en-AU');t.hidden=false}else{t.hidden=true}})}catch(_){}}
 document.addEventListener('DOMContentLoaded',()=>{skip();theme();external();reveal();buildInfo();metrics();filters()});})();
+/* Click-to-load YouTube (privacy-enhanced, no player until activated) */
+(function(){
+  function load(frame){
+    var url=frame.getAttribute('data-embed'); if(!url) return;
+    var ifr=document.createElement('iframe');
+    ifr.setAttribute('src',url+(url.indexOf('?')>-1?'&':'?')+'autoplay=1');
+    ifr.setAttribute('title','Featured webinar featuring Dr Mesfin Genie');
+    ifr.setAttribute('loading','lazy');
+    ifr.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+    ifr.setAttribute('allowfullscreen','');
+    ifr.setAttribute('referrerpolicy','strict-origin-when-cross-origin');
+    frame.innerHTML=''; frame.appendChild(ifr);
+  }
+  document.addEventListener('DOMContentLoaded',function(){
+    document.querySelectorAll('.video-frame .video-play').forEach(function(btn){
+      btn.addEventListener('click',function(){ load(btn.closest('.video-frame')); });
+    });
+  });
+})();

@@ -1,0 +1,79 @@
+---
+pagetitle: "Grants and funding | Mesfin Genie"
+description: "Competitive research grants, commissioned research, and conference support awarded to Dr Mesfin Genie, with precise funders, schemes, dates, and amounts."
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Research</p>
+<h1>Grants and funding</h1>
+<p>Records are grouped by type. Institutional allocations and whole-programme totals are reported separately and never combined.</p>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+
+<h2>Competitive research grants</h2>
+<div class="grant-list">
+<article class="grant-item">
+<h3>MandEval: effectiveness and consequences of Australia's COVID-19 vaccine mandates</h3>
+<dl class="grant-meta">
+<div><dt>Funder</dt><dd>Australian Department of Health and Aged Care</dd></div>
+<div><dt>Scheme</dt><dd>MRFF Early to Mid-Career Researchers</dd></div>
+<div><dt>Identifier</dt><dd>MRF2019107</dd></div>
+<div><dt>Dates</dt><dd>1 January 2023 to 31 December 2025</dd></div>
+<div><dt>University of Newcastle component</dt><dd>A$808,440</dd></div>
+<div><dt>Full multi-institution programme award</dt><dd>A$4,754,183.37</dd></div>
+</dl>
+<p class="grant-note">The A$808,440 is the University of Newcastle component. The A$4,754,183.37 figure is the full multi-institution programme award, not an individual award. People identified in the supplied record: Mesfin Genie and Francesco Paolucci.</p>
+<p><a href="https://www.grants.gov.au/Ga/Show/57849742-1674-4b10-b75a-47d575e5d430" target="_blank" rel="noopener noreferrer">Grant record</a></p>
+</article>
+</div>
+
+<h2>Commissioned research</h2>
+<div class="grant-list">
+<article class="grant-item">
+<h3>Upscaling FETP in India Business Case</h3>
+<dl class="grant-meta">
+<div><dt>Funder</dt><dd>The World Bank Group, International Bank for Reconstruction and Development</dd></div>
+<div><dt>Dates</dt><dd>10 March 2025 to 31 December 2025</dd></div>
+<div><dt>Total awarded</dt><dd>$416,000</dd></div>
+<div><dt>Team</dt><dd>Mesfin Genie, M. Wu, J. Henriquez, A. Gebremariam, A. Melia, and additional collaborators</dd></div>
+</dl>
+<p class="grant-note">Currency to be confirmed against the official record.</p>
+</article>
+</div>
+
+<h2>Travel and conference support</h2>
+<div class="grant-list">
+<article class="grant-item">
+<h3>ASHEcon / NIA support</h3>
+<dl class="grant-meta">
+<div><dt>Funder</dt><dd>American Society of Health Economists, jointly with the NIA-funded Center on the Demography and Economics of Health and Aging at Stanford University</dd></div>
+<div><dt>Dates</dt><dd>25 June 2019 to 26 July 2019</dd></div>
+</dl>
+</article>
+<article class="grant-item">
+<h3>Novartis Travel Grant</h3>
+<dl class="grant-meta">
+<div><dt>Funder</dt><dd>Novartis</dd></div>
+<div><dt>Dates</dt><dd>20 September 2017 to 26 October 2017</dd></div>
+<div><dt>Award</dt><dd>$1,139</dd></div>
+</dl>
+<p class="grant-note">Currency to be confirmed before display.</p>
+</article>
+<article class="grant-item">
+<h3>Royal Economic Society Conference Grant</h3>
+<dl class="grant-meta">
+<div><dt>Funder</dt><dd>Royal Economic Society</dd></div>
+<div><dt>Dates</dt><dd>25 June 2017 to 25 July 2017</dd></div>
+<div><dt>Award</dt><dd>$626</dd></div>
+</dl>
+<p class="grant-note">Currency to be confirmed before display.</p>
+</article>
+</div>
+
+</div></section>
+```

@@ -5,13 +5,23 @@ project:
   output-dir: _site
   render:
     - index.qmd
+    - about/index.qmd
     - research/index.qmd
+    - grants/index.qmd
     - publications/index.qmd
     - conferences/index.qmd
     - tools/index.qmd
+    - tools/emandeval/index.qmd
+    - tools/soil-crc-bca/index.qmd
+    - tools/steps/index.qmd
     - teaching/index.qmd
+    - teaching/behavioural-economics/index.qmd
+    - supervision/index.qmd
+    - talks/index.qmd
     - cv/index.qmd
+    - contact/index.qmd
     - blog/index.qmd
+    - blog/editorial-calendar.qmd
     - blog/posts/*/index.qmd
   resources:
     - CNAME
@@ -20,7 +30,6 @@ project:
     - sitemap.xml
     - assets/**
     - cv/mesfin-genie-cv.pdf
-    - cv/mesfin-genie-cv.tex
     - eMANDEVA-DecisionAid-V18/**
     - farming-bca-tool-v18/**
     - STEPS-FETP-DecisionAid-V20/**
@@ -48,20 +57,36 @@ website:
     left:
       - text: "Home"
         href: /
+      - text: "About"
+        href: /about/
       - text: "Research"
-        href: /research/
+        menu:
+          - text: "Research areas"
+            href: /research/
+          - text: "Grants and funding"
+            href: /grants/
+          - text: "Conferences"
+            href: /conferences/
       - text: "Publications"
         href: /publications/
-      - text: "Conferences"
-        href: /conferences/
       - text: "Tools"
         href: /tools/
-      - text: "Teaching"
-        href: /teaching/
-      - text: "CV"
-        href: /cv/
+      - text: "Teaching & Supervision"
+        menu:
+          - text: "Teaching"
+            href: /teaching/
+          - text: "Behavioural economics resources"
+            href: /teaching/behavioural-economics/
+          - text: "Research supervision"
+            href: /supervision/
+      - text: "Talks & Media"
+        href: /talks/
       - text: "Blog"
         href: /blog/
+      - text: "CV"
+        href: /cv/
+      - text: "Contact"
+        href: /contact/
   page-footer:
     border: false
     left: "© 2026 Mesfin Genie"

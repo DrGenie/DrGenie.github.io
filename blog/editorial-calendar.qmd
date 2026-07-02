@@ -1,0 +1,35 @@
+---
+pagetitle: "Editorial calendar | Blog | Mesfin Genie"
+description: "Planned topics for the behavioural insights blog."
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Blog</p>
+<h1>Editorial calendar</h1>
+<p>Cornerstone articles already published cover the certainty effect, probability weighting, loss aversion, risk versus ambiguity, the Allais paradox, and the Ellsberg paradox. Planned topics are listed below and will be written to the same standard rather than published as thin notes.</p>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+<h2>Planned topics</h2>
+<ul class="cv-list">
+<li>Defaults in superannuation, organ donation, and preventive health.</li>
+<li>Present bias and why beneficial health actions are delayed.</li>
+<li>Framing survival, mortality, treatment benefit, and vaccine information.</li>
+<li>Status quo bias in health plans, treatments, and technology adoption.</li>
+<li>Anchoring in prices, medical bills, and willingness-to-pay questions.</li>
+<li>Choice overload in health insurance and treatment decisions.</li>
+<li>Mental accounting and out-of-pocket healthcare spending.</li>
+<li>Social norms and public-health behaviour.</li>
+<li>Nudges, sludge, and the ethics of behavioural policy.</li>
+<li>Scarcity, cognitive load, and decision quality.</li>
+<li>The decoy effect in product, plan, and treatment choice.</li>
+<li>What eye tracking adds to discrete choice experiments.</li>
+<li>How attribute order can change attention and choices.</li>
+<li>What a discrete choice experiment can and cannot tell policymakers.</li>
+</ul>
+</div></section>
+```

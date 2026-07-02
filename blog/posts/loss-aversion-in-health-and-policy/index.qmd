@@ -1,0 +1,23 @@
+---
+title: "Loss Aversion in Health, Pricing, and Public Policy"
+description: "Losses tend to loom larger than equivalent gains. That simple asymmetry reshapes how people value treatments, prices, and policies."
+author: "Mesfin Genie"
+date: "2026-06-18"
+categories: [Behavioural economics in everyday life, Health decisions and public policy]
+---
+
+Ask someone how they would feel about losing A$100, then about gaining A$100. For most people the loss stings more than the gain pleases. That asymmetry, loss aversion, is one of the most reliable findings in behavioural economics, and it changes how we should read many everyday decisions.
+
+The benchmark evaluates outcomes by their final level. In the standard model a dollar is a dollar, and how you arrived at it does not matter. Prospect theory changes the reference point. Outcomes are judged as gains or losses relative to where you started or what you expected, and losses are weighted more heavily than equal-sized gains. A common working figure is that a loss feels roughly twice as significant as a gain of the same amount, though the exact number varies.
+
+This has direct consequences. Consider warranties. A repair bill is felt as a loss relative to the reference point of "no repair cost," and the pain of that loss makes paying a premium to avoid it more attractive than the expected cost alone would justify. The same logic helps explain why out-of-pocket health payments can feel heavier than a premium of the same size that is bundled into a regular deduction: one is coded as a loss at the moment of care, the other is a smaller, expected background cost.
+
+Framing follows from the same idea. "Nine out of ten patients keep their mobility" and "one in ten patients lose mobility" describe the same fact, but the loss frame lands harder. This is not a trick to be deployed casually; in health communication it is an ethical matter, because the frame that feels most persuasive is not always the one that helps a person decide well. The honest use of this knowledge is to present both frames, or to choose the frame that supports understanding rather than the one that maximises a desired response.
+
+It is worth separating description from prescription. Loss aversion describes how outcomes are experienced; it does not say that treating a loss as worse than a gain is a mistake. In many settings caution about losses is reasonable. The behavioural claim is that the asymmetry is systematic and predictable, so a model that ignores reference points will misjudge choices about prices, insurance, and treatment.
+
+The limits matter too. Reference points can shift, expectations adapt, and the size of loss aversion depends on the domain and the stakes. It is a strong regularity, not a universal constant.
+
+For the underlying model, see the [ECON3111 resources](/teaching/behavioural-economics/); for the way framing interacts with public-health messages, the work on [preference research and vaccine policy](/blog/posts/preference-research-and-vaccine-mandates/) is a useful companion.
+
+**Key references.** Kahneman, D. and Tversky, A. (1979). Prospect theory: an analysis of decision under risk. *Econometrica*. Tversky, A. and Kahneman, A. (1991). Loss aversion in riskless choice: a reference-dependent model. *Quarterly Journal of Economics*.

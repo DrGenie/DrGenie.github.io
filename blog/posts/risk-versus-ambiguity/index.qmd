@@ -1,0 +1,23 @@
+---
+title: "Risk versus Ambiguity: Why Unknown Probabilities Change Decisions"
+description: "Risk is when the odds are known. Ambiguity is when they are not. People treat the two very differently, and it matters for new health technologies."
+author: "Mesfin Genie"
+date: "2026-06-11"
+categories: [Choice modelling explained, Research methods and reproducibility]
+---
+
+There is an important difference between a bet where you know the odds and a bet where you do not. If I offer you a coin you have inspected, you can reason about a fifty-fifty chance. If I offer you a coin from my pocket and say only that it lands heads "somewhere between three and seven times in ten," you face something different. The first is risk. The second is ambiguity. People treat them differently, and the difference has practical weight.
+
+The benchmark tends to fold the two together. A standard approach says that if you do not know the probability, you should form a single best estimate and act on it as if it were known. Under that view, "between 0.3 and 0.7" simply becomes "about 0.5," and ambiguity disappears into a point estimate.
+
+The behaviour departs from this. Faced with unknown odds, many people act more cautiously than a single best guess would imply. They prefer the option whose probabilities are pinned down, even when a reasonable estimate of the ambiguous option looks just as good. This is ambiguity aversion, and it is not the same as ordinary risk aversion. Risk aversion is a dislike of variance when the odds are known; ambiguity aversion is a dislike of not knowing the odds at all.
+
+One way to model this is to allow beliefs to be a set of plausible probabilities rather than a single number, and to evaluate an option cautiously, for example by its worst case within that set. A project that returns a profit when successful and a loss when it fails might look attractive at the optimistic end of the range and unattractive at the pessimistic end. A decision-maker who weights the worst case may decline it, not because the average is bad, but because the downside under an unfavourable but plausible probability is bad.
+
+This is descriptive of how many people and organisations actually behave, and it is often reasonable in high-stakes settings where being wrong about the odds is costly. It becomes a problem only when caution about the unknown blocks good options that deserve a fair hearing, or when it is exploited by presenting a familiar-looking risk in place of a genuinely uncertain one.
+
+Ambiguity is common in health. New technologies have unknown failure rates, emerging diseases have unclear transmission, and small or novel markets offer little data. Recognising ambiguity, rather than papering over it with a single point estimate, leads to better communication and to decisions that are robust to being wrong about the numbers.
+
+The next post takes this into a concrete case: the [Ellsberg paradox and new health technologies](/blog/posts/the-ellsberg-paradox/).
+
+**Key references.** Ellsberg, D. (1961). Risk, ambiguity, and the Savage axioms. *Quarterly Journal of Economics*. Gilboa, I. and Schmeidler, D. (1989). Maxmin expected utility with a non-unique prior. *Journal of Mathematical Economics*.

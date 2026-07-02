@@ -1,13 +1,23 @@
 ---
-title: "Tools"
 pagetitle: "Tools | Mesfin Genie"
+description: "Decision-support tools developed by Dr Mesfin Genie: eMANDEVAL for vaccine-mandate policy, the SOIL CRC benefit-cost tool, and the STEPS FETP scale-up decision aid."
 title-block-style: none
 page-layout: full
-description: "Interactive decision-support and economic-evaluation tools developed by Mesfin Genie."
 image: /assets/og-card.png
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell"><p class="eyebrow">Tools</p><h1>Decision support and economic evaluation</h1><p>Interactive applications for policy analysis and applied research.</p></div></header>
-<section class="content-section"><div class="page-shell tool-page-grid"><article class="tool-page-card"><div class="tool-meta">Vaccine policy · Version 4.4.1 · Live</div><h2>eMANDEVAL Future</h2><p>Compares prospective vaccine-mandate designs using predicted public support, expected lives saved, benefit-cost outcomes and policy trade-offs.</p><dl class="tool-credit"><div><dt>Developer</dt><dd>Mesfin Genie</dd></div><div><dt>Research programme</dt><dd>MandEval</dd></div></dl><a class="button-primary" href="/eMANDEVA-DecisionAid-V18/" target="_blank" rel="noopener noreferrer">Launch eMANDEVAL ↗</a></article><article class="tool-page-card"><div class="tool-meta">Farm economics · Version 2026.18 · Live</div><h2>SOIL CRC Benefit-Cost Analysis Tool</h2><p>Evaluates farm practices and soil-management interventions using net present value, benefit-cost ratio, return on investment and sensitivity analysis.</p><dl class="tool-credit"><div><dt>Project lead and publisher</dt><dd>Dr Frank Wogbe Agbola</dd></div><div><dt>Developer</dt><dd>Mesfin Genie</dd></div><div><dt>Project</dt><dd>CRC High Performance Soils Project 1.2.008</dd></div></dl><a class="button-primary" href="/farming-bca-tool-v18/" target="_blank" rel="noopener noreferrer">Launch SOIL CRC tool ↗</a></article><article class="tool-page-card"><div class="tool-meta">Field epidemiology · Live</div><h2>STEPS Decision Aid</h2><p>Decision-support tool for prioritising and planning field epidemiology training activities under budget constraints, developed for the World Bank Field Epidemiology Training Programme (FETP).</p><dl class="tool-credit"><div><dt>Developer</dt><dd>Mesfin Genie</dd></div><div><dt>Programme</dt><dd>World Bank Field Epidemiology Training Programme (FETP)</dd></div></dl><a class="button-primary" href="/STEPS-FETP-DecisionAid-V20/" target="_blank" rel="noopener noreferrer">Launch STEPS ↗</a></article></div></section>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Tools</p>
+<h1>Decision-support tools</h1>
+<p>Interactive applications that turn preference and economic evidence into analysis that decision-makers can use directly. Each page explains the problem, the users, the inputs and outputs, and the method behind the tool.</p>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+<div class="tool-page-grid">
+<article class="tool-page-card"><div class="tool-meta">Vaccine policy</div><h2>eMANDEVAL Future</h2><p>Compares vaccine-mandate designs by predicted public support, expected health outcomes, and benefit-cost trade-offs.</p><a class="button-secondary" href="/tools/emandeval/">About this tool</a></article>
+<article class="tool-page-card"><div class="tool-meta">Economic evaluation</div><h2>SOIL CRC Benefit-Cost Analysis Tool</h2><p>Net present value, benefit-cost ratio, and sensitivity analysis for agricultural production trials.</p><a class="button-secondary" href="/tools/soil-crc-bca/">About this tool</a></article>
+<article class="tool-page-card"><div class="tool-meta">Field epidemiology</div><h2>STEPS FETP Scale-up Decision Aid</h2><p>Endorsement, perceived programme value, and costs for scaling Field Epidemiology Training Programmes in India.</p><a class="button-secondary" href="/tools/steps/">About this tool</a></article>
+</div>
+</div></section>
 ```

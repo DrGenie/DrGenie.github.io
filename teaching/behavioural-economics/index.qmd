@@ -1,0 +1,51 @@
+---
+pagetitle: "Behavioural economics teaching resources | Mesfin Genie"
+description: "Open teaching resources from ECON3111 Behavioural Economics: foundations and rational choice under certainty, and advanced choice under risk and uncertainty."
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Teaching resources</p>
+<h1>Behavioural economics</h1>
+<p>Selected lecture resources from ECON3111. Each preview is a clean slide deck. They are shared for study and reference; please cite appropriately and do not redistribute for commercial use.</p>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+<div class="resource-grid">
+
+<article class="resource-card">
+<a href="/assets/teaching/econ3111-week1-foundations.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the Foundations and Rational Choice under Certainty slide deck (PDF)">
+<img src="/assets/teaching/week1-thumb.webp" width="720" height="405" alt="Title and learning-objectives slide for the Foundations and Rational Choice under Certainty lecture" loading="lazy">
+</a>
+<div class="resource-body">
+<div class="tool-kicker">ECON3111 · Lecture 1</div>
+<h3>Foundations and Rational Choice under Certainty</h3>
+<p>The neoclassical benchmark and why it matters; descriptive versus normative theories; preferences as relations; completeness and transitivity; and where behavioural evidence comes from. Includes worked activities and a validity map of methods.</p>
+<p><a href="/assets/teaching/econ3111-week1-foundations.pdf" target="_blank" rel="noopener noreferrer">Open slides (PDF)</a></p>
+</div>
+</article>
+
+<article class="resource-card">
+<a href="/assets/teaching/econ3111-week6-risk-uncertainty.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open the Advanced Choice under Risk and Uncertainty slide deck (PDF)">
+<img src="/assets/teaching/week6-thumb.webp" width="720" height="405" alt="Learning-objectives slide for the Advanced Choice under Risk and Uncertainty lecture" loading="lazy">
+</a>
+<div class="resource-body">
+<div class="tool-kicker">ECON3111 · Lecture 6</div>
+<h3>Advanced Choice under Risk and Uncertainty</h3>
+<p>Expected utility as a benchmark and the independence idea; the Allais and Ellsberg paradoxes; probability weighting; prospect theory (reference dependence, loss aversion, weighted probabilities); and ambiguity with multiple priors. Includes worked numerical examples and exam practice.</p>
+<p><a href="/assets/teaching/econ3111-week6-risk-uncertainty.pdf" target="_blank" rel="noopener noreferrer">Open slides (PDF)</a></p>
+</div>
+</article>
+
+</div>
+
+<h2>Related reading on the blog</h2>
+<ul class="cv-list">
+<li><a href="/blog/">Behavioural insights blog</a>, including plain-language explainers on the certainty effect, probability weighting, loss aversion, and risk versus ambiguity.</li>
+</ul>
+
+</div></section>
+```
