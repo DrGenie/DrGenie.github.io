@@ -40,7 +40,6 @@ project:
     - CNAME
     - .nojekyll
     - robots.txt
-    - sitemap.xml
     - assets/**
     - cv/mesfin-genie-cv.pdf
     - eMANDEVA-DecisionAid-V18/**
