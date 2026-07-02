@@ -1,15 +1,41 @@
 ---
-title: "Research"
-title-block-style: none
 pagetitle: "Research | Mesfin Genie"
-description: "Research themes, major projects and open resources by Dr Mesfin Genie."
+description: "Dr Mesfin Genie studies how patients and the public value healthcare, process information, and respond to policy, using choice modelling, behavioural experiments, and applied econometrics."
+title-block-style: none
 page-layout: full
-image: /assets/img/og-card.png
+image: /assets/og-card.png
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell"><p class="eyebrow">Research</p><h1>Evidence for healthcare, behaviour and policy decisions</h1><p class="lead">My research examines what patients and the public value, how they process information, and how policy and service designs can respond to those preferences.</p></div></header>
-<section class="content-section"><div class="page-shell narrow prose"><h2>Health preferences and behavioural economics</h2><p>I use discrete choice experiments and related stated-preference methods to measure trade-offs, preference heterogeneity, equity considerations and behavioural mechanisms in healthcare decisions.</p><p><strong>Applications include:</strong> transplantation, diabetes, prostate cancer, dementia, loneliness, telemedicine, medical devices, health workforce and vaccine policy.</p><h2>Information processing, attention and eye tracking</h2><p>Eye-tracking evidence helps test whether people attend to and process choice information in the way standard models assume. This work studies attribute ordering, cost attention, selective processing and design quality in multi-attribute choice tasks.</p><h2>Health measurement, clinical outcomes and policy evaluation</h2><p>I combine patient and public preferences with applied economic evaluation to study clinical outcomes, public-health interventions, telehealth, preventive care and decision-support tools.</p></div></section>
-<section class="content-section" id="major-projects"><div class="page-shell"><div class="section-heading"><div><p class="eyebrow">Major projects</p><h2>Funded and commissioned programmes</h2></div></div><ul class="feature-list"><li><div class="meta">Australian Department of Health and Aged Care · MRFF MRF2019107 · 2023–2025</div><h3><a href="/research/projects/mandeval/">MandEval: effectiveness and consequences of Australia’s COVID-19 vaccine mandates</a></h3><p>University of Newcastle component A$808,440; full multi-institution programme A$4,754,183.37. University of Newcastle lead and investigator.</p></li><li><div class="meta">World Bank Group · 10 March–31 December 2025</div><h3><a href="/research/projects/world-bank-fetp/">Upscaling FETP in India business case</a></h3><p>A$416,000 commissioned project. Lead, University of Newcastle project team.</p></li><li><div class="meta">Choice architecture and methods</div><h3><a href="/research/projects/eye-tracking-choice/">Eye tracking and attribute ordering in multi-attribute health choices</a></h3><p>Research on attention, scan paths, attribute ordering and how information presentation affects stated choices.</p></li><li><div class="meta">Knowledge translation</div><h3><a href="/research/projects/decision-tools/">Decision-support and benefit-cost tools</a></h3><p>Interactive applications that make preference estimates and economic evaluation usable in policy and programme decisions.</p></li></ul></div></section>
-<section class="content-section"><div class="page-shell narrow"><p class="eyebrow">Open research</p><h2 class="page-section-title">Data, code and public resources</h2><p>Public resources are released only when sharing is approved and does not expose private, restricted or confidential information. Current resources include live decision-support tools and published datasets or outputs linked from the Publications page.</p><p><a class="button-secondary" href="/tools/">View tools</a> <a class="button-secondary" href="/publications/">View publications</a></p></div></section>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Research</p>
+<h1>Research</h1>
+<p class="section-lead">I study how patients and the public value healthcare, how they process information when making decisions, and how they respond to policy. My work combines health and behavioural economics with discrete choice experiments, eye tracking, and decision-support tools.</p>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+
+<h2>Research themes</h2>
+<div class="theme-list">
+<article class="theme"><h3>Health preferences and behavioural economics</h3><p>Measuring what people value in health, and how real decisions depart from standard models. <a href="/research/projects/health-preferences-dce/">Explore</a></p></article>
+<article class="theme"><h3>Information processing, attention, and eye tracking</h3><p>Bringing process evidence into preference measurement to see how people actually read a choice. <a href="/research/projects/eye-tracking-attribute-ordering/">Explore</a></p></article>
+<article class="theme"><h3>Health measurement, outcomes, and policy evaluation</h3><p>Ensuring that policies, technologies, and tools reflect outcomes that patients and the public value. <a href="/research/projects/decision-support-tools/">Explore</a></p></article>
+</div>
+
+<h2>Selected projects</h2>
+<ul class="cv-list">
+<li><a href="/research/projects/mandeval/">MandEval</a>, effectiveness and consequences of Australia's COVID-19 vaccine mandates.</li>
+<li><a href="/research/projects/fetp-india/">FETP India business case</a>, scaling field-epidemiology training, with the World Bank.</li>
+<li><a href="/research/projects/eye-tracking-attribute-ordering/">Eye tracking and attribute ordering</a> in multi-attribute choice.</li>
+</ul>
+
+<h2>Explore further</h2>
+<ul class="cv-list">
+<li><a href="/research/impact/">Research impact</a>, how the work is translated into tools and policy-relevant evidence.</li>
+<li><a href="/research/data-and-code/">Data and code</a>, public resources and repositories.</li>
+<li><a href="/grants/">Grants and funding</a>.</li>
+<li><a href="/publications/">Publications</a>.</li>
+</ul>
+
+</div></section>
 ```

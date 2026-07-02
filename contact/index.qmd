@@ -1,12 +1,40 @@
 ---
-title: "Contact"
-title-block-style: none
 pagetitle: "Contact | Mesfin Genie"
-description: "Contact Dr Mesfin Genie."
+description: "Contact Dr Mesfin Genie for research collaboration, supervision enquiries, and speaking, with verified academic and professional profiles."
+title-block-style: none
 page-layout: full
-image: /assets/img/og-card.png
+image: /assets/og-card.png
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell narrow"><p class="eyebrow">Contact</p><h1>Contact and collaboration</h1><p class="lead">For research collaboration, supervision enquiries, seminars, media or tool-related questions, please use the institutional email below.</p></div></header><section class="content-section"><div class="page-shell narrow"><h2>Email</h2><p><a class="button-primary" href="mailto:mesfin.genie@newcastle.edu.au">mesfin.genie@newcastle.edu.au</a></p><h2>Collaboration areas</h2><p>Health economics, discrete choice experiments, eye tracking, behavioural economics, clinical outcomes assessment, vaccine policy, telehealth, decision-support tools and economic evaluation.</p><h2>Professional profiles</h2><p><a href="https://www.newcastle.edu.au/profile/mesfin-genie" target="_blank" rel="noopener noreferrer">University profile</a> · <a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> · <a href="https://orcid.org/0000-0002-1744-4666" target="_blank" rel="noopener noreferrer">ORCID</a> · <a href="https://www.linkedin.com/in/mesfin-genie/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://www.researchgate.net/profile/Mesfin-Genie" target="_blank" rel="noopener noreferrer">ResearchGate</a> · <a href="https://github.com/DrGenie" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://x.com/mesfin_genie" target="_blank" rel="noopener noreferrer">X</a></p></div></section>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Contact</p>
+<h1>Contact and collaboration</h1>
+<p>Continuing Senior Lecturer in Health Economics, Newcastle Business School, The University of Newcastle, Australia.</p>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+
+<h2>Get in touch</h2>
+<p>The best way to reach me is by email: <a href="mailto:mesfin.genie@newcastle.edu.au">mesfin.genie@newcastle.edu.au</a>. My institutional profile is maintained by the University of Newcastle.</p>
+
+<h2>I am glad to hear about</h2>
+<ul class="cv-list">
+<li>Research collaboration in health economics, discrete choice experiments, eye tracking, and health policy.</li>
+<li>Supervision enquiries from prospective PhD and MPhil students (see the <a href="/supervision/">supervision page</a> for what to include).</li>
+<li>Invitations to speak on health-preference research, behavioural economics, and decision-support tools.</li>
+<li>Questions about the decision-support <a href="/tools/">tools</a>.</li>
+</ul>
+
+<h2>Profiles</h2>
+<ul class="cv-list">
+<li><a href="https://www.newcastle.edu.au/profile/mesfin-genie" target="_blank" rel="noopener noreferrer">University of Newcastle profile</a></li>
+<li><a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+<li><a href="https://orcid.org/0000-0002-1744-4666" target="_blank" rel="noopener noreferrer">ORCID</a></li>
+<li><a href="https://www.researchgate.net/profile/Mesfin-Genie" target="_blank" rel="noopener noreferrer">ResearchGate</a></li>
+<li><a href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+<li><a href="https://github.com/DrGenie" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+</ul>
+
+</div></section>
 ```

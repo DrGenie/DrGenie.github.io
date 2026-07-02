@@ -7,19 +7,35 @@ project:
     - index.qmd
     - about/index.qmd
     - research/index.qmd
-    - research/projects/*/index.qmd
+    - grants/index.qmd
     - publications/index.qmd
+    - conferences/index.qmd
     - tools/index.qmd
-    - tools/*/index.qmd
+    - tools/emandeval/index.qmd
+    - tools/soil-crc-bca/index.qmd
+    - tools/steps/index.qmd
     - teaching/index.qmd
     - teaching/behavioural-economics/index.qmd
     - supervision/index.qmd
-    - talks-media/index.qmd
-    - conferences/index.qmd
-    - blog/index.qmd
-    - blog/posts/*/index.qmd
     - cv/index.qmd
     - contact/index.qmd
+    - writing/index.qmd
+    - research/impact/index.qmd
+    - research/data-and-code/index.qmd
+    - research/projects/mandeval/index.qmd
+    - research/projects/fetp-india/index.qmd
+    - research/projects/eye-tracking-attribute-ordering/index.qmd
+    - research/projects/health-preferences-dce/index.qmd
+    - research/projects/decision-support-tools/index.qmd
+    - publications/fit-for-purpose/index.qmd
+    - publications/guidance-or-misdirection/index.qmd
+    - publications/priority-for-self-or-others/index.qmd
+    - publications/no-jab-no-access/index.qmd
+    - publications/covid-mandate-repository/index.qmd
+    - publications/feeling-lonely/index.qmd
+    - blog/index.qmd
+    - blog/editorial-calendar.qmd
+    - blog/posts/*/index.qmd
   resources:
     - CNAME
     - .nojekyll
@@ -29,78 +45,61 @@ project:
     - cv/mesfin-genie-cv.pdf
     - eMANDEVA-DecisionAid-V18/**
     - farming-bca-tool-v18/**
+    - STEPS-FETP-DecisionAid-V20/**
 
 website:
   site-url: "https://mesfingenie.com"
-  favicon: assets/img/favicon.png
-  title: "Mesfin Genie"
+  favicon: assets/favicon.png
   page-navigation: true
   back-to-top-navigation: true
   open-graph:
     locale: en_AU
     site-name: "Mesfin Genie"
-    image: /assets/img/og-card.png
+    image: /assets/og-card.png
   twitter-card:
     card-style: summary_large_image
     creator: "@mesfin_genie"
-    image: /assets/img/og-card.png
-  search:
-    location: navbar
-    type: overlay
+    image: /assets/og-card.png
+  search: true
   navbar:
     pinned: true
-    collapse-below: xl
-    background: "#ffffff"
-    foreground: "#002244"
+    collapse-below: lg
+    background: "#002244"
+    foreground: "#ffffff"
     title: "Mesfin Genie"
     left:
-      - text: "About"
-        href: /about/
+      - text: "Home"
+        href: /
       - text: "Research"
-        menu:
-          - text: "Research overview"
-            href: /research/
-          - text: "Major projects"
-            href: /research/#major-projects
-          - text: "Research supervision"
-            href: /supervision/
+        href: /research/
       - text: "Publications"
         href: /publications/
       - text: "Tools"
         href: /tools/
-      - text: "Teaching"
-        menu:
-          - text: "Teaching portfolio"
-            href: /teaching/
-          - text: "Behavioural economics resources"
-            href: /teaching/behavioural-economics/
-      - text: "Engagement"
-        menu:
-          - text: "Talks and media"
-            href: /talks-media/
-          - text: "Conferences"
-            href: /conferences/
-          - text: "Blog"
-            href: /blog/
-          - text: "Contact"
-            href: /contact/
+      - text: "Teaching & Supervision"
+        href: /teaching/
+      - text: "Writing & Talks"
+        href: /writing/
+      - text: "About"
+        href: /about/
+    right:
       - text: "CV"
         href: /cv/
   page-footer:
-    border: true
-    left: "© 2026 Mesfin Genie"
-    center: "Last updated <span data-build-date></span>"
+    left: |
+      Dr Mesfin Genie · Newcastle Business School, The University of Newcastle, Australia · [mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au)
+    center: |
+      [CV](/cv/) · [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0002-1744-4666) · [GitHub](https://github.com/DrGenie)
     right: |
-      [University profile](https://www.newcastle.edu.au/profile/mesfin-genie){target="_blank"} · [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en){target="_blank"} · [ORCID](https://orcid.org/0000-0002-1744-4666){target="_blank"}
+      © 2026 Mesfin Genie
 
 format:
   html:
     theme: cosmo
-    css: assets/css/site.css
+    css: assets/styles.css
     toc: false
     smooth-scroll: true
     include-in-header: assets/head.html
-    include-before-body: assets/body-start.html
     include-after-body: assets/scripts.html
     anchor-sections: false
     link-external-newwindow: true

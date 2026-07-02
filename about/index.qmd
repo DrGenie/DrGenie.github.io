@@ -1,13 +1,54 @@
 ---
-title: "About"
+pagetitle: "About | Mesfin Genie"
+description: "Dr Mesfin Genie is a Continuing Senior Lecturer in Health Economics at Newcastle Business School, The University of Newcastle, working on health preferences, behavioural economics, discrete choice experiments, eye tracking, and decision-support tools."
 title-block-style: none
-pagetitle: "About Dr Mesfin Genie"
-description: "Biography, expertise and professional background of Dr Mesfin Genie."
 page-layout: full
-image: /assets/img/og-card.png
+image: /assets/og-card.png
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell narrow"><p class="eyebrow">About</p><h1>Health economics, behavioural economics and decision evidence</h1><p class="lead">Dr Mesfin Genie is a Continuing Senior Lecturer in Health Economics at Newcastle Business School, The University of Newcastle, Australia.</p></div></header>
-<section class="content-section"><div class="page-shell split-grid"><div class="prose"><h2>Biography</h2><p>Dr Mesfin Genie studies how patients and the public value healthcare, process information and respond to policy. His work combines health economics, behavioural economics, stated-preference methods, discrete choice experiments, eye tracking, health measurement and decision-support tools.</p><p>He received his PhD in Economics from Ca’ Foscari University of Venice, where he used stated-preference methods to study healthcare decision-making. He has held research and teaching positions at Ca’ Foscari University of Venice, the Health Economics Research Unit at the University of Aberdeen, the Harrison School of Pharmacy at Auburn University, and the School of Medicine at Duke University.</p><h2>Research focus</h2><div class="inline-tags"><span class="tag">Health economics</span><span class="tag">Behavioural economics</span><span class="tag">Discrete choice experiments</span><span class="tag">Eye tracking</span><span class="tag">Health-preference research</span><span class="tag">Clinical outcomes assessment</span><span class="tag">Public-health policy</span><span class="tag">Decision-support tools</span></div><h2>Selected academic service</h2><p>Guest Editor for <em>Health Policy and Technology</em>, and reviewer for journals including <em>Journal of Health Economics</em>, <em>Health Economics</em>, <em>Value in Health</em>, <em>Social Science & Medicine</em>, <em>Journal of Choice Modelling</em>, <em>Theory and Decision</em>, and <em>BMJ Open</em>.</p></div><aside><h2>Education</h2><div class="timeline"><div class="timeline-item"><strong>2019</strong><br>PhD in Economics<br><span class="muted">Ca’ Foscari University of Venice, Italy</span></div><div class="timeline-item"><strong>2015</strong><br>MSc in Health Economics and Management<br><span class="muted">University of Bologna, Italy</span></div><div class="timeline-item"><strong>2010</strong><br>MSc in Economics<br><span class="muted">Addis Ababa University, Ethiopia</span></div><div class="timeline-item"><strong>2006</strong><br>BA in Economics<br><span class="muted">Jimma University, Ethiopia</span></div></div><h2>Prospective students</h2><p>I welcome enquiries in health economics, discrete choice experiments, eye-tracking methods, clinical outcomes assessment and behavioural economics. Please include a CV, grading information, research experience and publications where applicable.</p><p><a href="/supervision/">Supervision portfolio →</a></p></aside></div></section>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">About</p>
+<h1>Dr Mesfin Genie</h1>
+<p>Continuing Senior Lecturer in Health Economics, Newcastle Business School, The University of Newcastle, Australia.</p>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+
+<h2>Biography</h2>
+<p>Dr Mesfin Genie is a Continuing Senior Lecturer in Health Economics at Newcastle Business School, The University of Newcastle, Australia. His research examines how patients and the public value healthcare, how they process information when making health decisions, and how they respond to health policy. He combines health economics and behavioural economics with discrete choice experiments, eye tracking, health measurement, and decision-support tools.</p>
+
+<p>He received his PhD in Economics from Ca' Foscari University of Venice, Italy, where he used stated-preference methods to study healthcare decision-making. He earned an MSc in Health Economics and Management from the University of Bologna in 2015, an MSc in Economics from Addis Ababa University, and a BA in Economics from Jimma University. He has held research and teaching positions at Ca' Foscari University of Venice, the Health Economics Research Unit at the University of Aberdeen, the Harrison School of Pharmacy at Auburn University, and the School of Medicine at Duke University.</p>
+
+<p>His applied work spans organ transplantation, diabetes, prostate cancer, dementia, loneliness, telemedicine, medical devices, the health workforce, vaccines and vaccine mandates, and broader public-health interventions. International collaborations include work on equity and efficiency in value-based preference assessment, feedback and choice behaviour in heart-failure device decisions, pandemic-related attitudes and trade-offs, and eye-tracking studies of attribute ordering in multi-attribute choice.</p>
+
+<h2>Research focus</h2>
+<ul class="cv-list">
+<li><strong>Patient preferences and behavioural economics.</strong> Discrete choice experiments across a wide range of health conditions and interventions, with attention to preference heterogeneity, equity, and value.</li>
+<li><strong>Information processing in healthcare decisions.</strong> Integrating eye-tracking measures with discrete choice experiments to study attention, information acquisition, and multi-attribute choice.</li>
+<li><strong>Health measurement, clinical outcomes, and policy evaluation.</strong> Ensuring that health policies, technologies, and interventions reflect outcomes that patients and the public actually value.</li>
+</ul>
+
+<h2>Career timeline</h2>
+<div class="timeline">
+<article class="timeline-item"><h3>Continuing Senior Lecturer in Health Economics</h3><p><strong>The University of Newcastle, Australia · 2026-present</strong><br>Newcastle Business School.</p></article>
+<article class="timeline-item"><h3>Lecturer in Health Economics</h3><p><strong>The University of Newcastle, Australia · 2023-2025</strong><br>Newcastle Business School.</p></article>
+<article class="timeline-item"><h3>Health Measurement and Regulatory Science Fellow</h3><p><strong>Duke University, United States · 2023-2024</strong><br>School of Medicine (concurrent).</p></article>
+<article class="timeline-item"><h3>Postdoctoral Research Fellow</h3><p><strong>Auburn University, United States · 2022-2023</strong><br>Harrison School of Pharmacy.</p></article>
+<article class="timeline-item"><h3>Research Fellow</h3><p><strong>University of Aberdeen, United Kingdom · 2020-2022</strong><br>Health Economics Research Unit.</p></article>
+<article class="timeline-item"><h3>Postdoctoral Research Fellow</h3><p><strong>Ca' Foscari University of Venice, Italy · 2019-2020</strong><br>Department of Economics.</p></article>
+</div>
+
+<h2>Selected academic service</h2>
+<p>Guest Editor for <em>Health Policy and Technology</em>. Reviewer for journals including the <em>Journal of Health Economics</em>, <em>Health Economics</em>, <em>Value in Health</em>, <em>Social Science &amp; Medicine</em>, the <em>Journal of Choice Modelling</em>, <em>Theory and Decision</em>, and <em>BMJ Open</em>.</p>
+
+<h2>Research expertise</h2>
+<p class="tag-row"><span class="tag">Eye tracking</span><span class="tag">Behavioural economics</span><span class="tag">Clinical outcomes assessment</span><span class="tag">Discrete choice experiments</span><span class="tag">Health-preference research</span><span class="tag">Health economics</span><span class="tag">Stated-preference methods</span><span class="tag">Public-health policy</span><span class="tag">Decision-support tools</span></p>
+
+<h2>Prospective students</h2>
+<p>I welcome enquiries from prospective PhD and MPhil students interested in health economics, discrete choice experiments, eye-tracking methods, clinical outcomes assessment, behavioural economics, and related areas. If you would like to discuss supervision, please send a CV that sets out your academic qualifications, your GPA or grading information, any research experience, and publications where applicable, together with a short note on the questions you would like to work on. I take on a small number of students and look for a clear fit between your interests and my current projects.</p>
+
+<p><a class="button-primary" href="/cv/">View full CV</a> <a class="button-secondary" href="/contact/">Contact and collaboration</a></p>
+
+</div></section>
 ```

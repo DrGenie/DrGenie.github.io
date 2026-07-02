@@ -1,13 +1,27 @@
 ---
-title: "Blog"
-title-block-style: none
 pagetitle: "Blog | Mesfin Genie"
-description: "Research notes and teaching explainers by Dr Mesfin Genie."
+description: "Notes on health economics, choice modelling, behavioural science and research methods by Mesfin Genie."
+image: /assets/og-card.png
 page-layout: full
-image: /assets/img/og-card.png
+listing:
+  id: posts
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  categories: true
+  fields: [date, title, description, categories, reading-time]
+  feed: true
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell"><p class="eyebrow">Blog</p><h1>Research notes and teaching explainers</h1><p class="lead">Short, substantive writing on health economics, choice modelling, behavioural evidence and policy translation.</p></div></header>
-<section class="content-section"><div class="page-shell narrow"><ul class="feature-list"><li><div class="meta">2 July 2026 · Behavioural economics</div><h3><a href="/blog/posts/the-benchmark-before-bias/">The benchmark before bias</a></h3><p>Why behavioural economics starts with rational choice rather than replacing it.</p></li><li><div class="meta">1 July 2026 · Behavioural economics</div><h3><a href="/blog/posts/why-99-does-not-feel-like-100/">Why 99% does not feel like 100%</a></h3><p>The certainty effect, Allais-style choices and why guaranteed outcomes receive special treatment.</p></li><li><div class="meta">28 June 2026 · Choice modelling</div><h3><a href="/blog/posts/what-a-discrete-choice-experiment-measures/">What a discrete choice experiment actually measures</a></h3><p>A plain guide to what a DCE can tell you, and what it cannot.</p></li><li><div class="meta">21 June 2026 · Choice modelling</div><h3><a href="/blog/posts/averages-hide-the-people-who-matter/">Averages hide the people who matter</a></h3><p>Why preference heterogeneity, not only the average, is often the real finding.</p></li><li><div class="meta">14 June 2026 · Eye tracking</div><h3><a href="/blog/posts/what-eye-tracking-reveals/">What eye tracking reveals about how we choose</a></h3><p>Using eye tracking to observe information acquisition in a discrete choice experiment.</p></li><li><div class="meta">7 June 2026 · Research methods</div><h3><a href="/blog/posts/does-feedback-help-people-choose/">Does feedback help people make better choices?</a></h3><p>Why feedback can clarify a task, but can also steer respondents.</p></li><li><div class="meta">31 May 2026 · Public health policy</div><h3><a href="/blog/posts/preference-research-and-vaccine-mandates/">What preference research adds to the vaccine mandate debate</a></h3><p>How choice evidence turns an all-or-nothing debate into a map of policy trade-offs.</p></li><li><div class="meta">24 May 2026 · Decision tools</div><h3><a href="/blog/posts/why-i-build-decision-tools/">Why I build decision tools</a></h3><p>Turning research estimates into tools that decision-makers can use.</p></li></ul></div></section>
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Blog</p><h1>Notes and commentary</h1><p>Short, practical pieces on health economics, discrete choice experiments, behavioural science and research methods. Occasional notes on tools and teaching.</p></div></header>
+<div class="page-shell blog-listing">
+```
+
+:::{#posts}
+:::
+
+```{=html}
+</div>
 ```

@@ -1,31 +1,63 @@
 ---
-title: "Home"
+pagetitle: "Mesfin Genie · Health Economist"
 title-block-style: none
-pagetitle: "Dr Mesfin Genie | Health Economist"
-description: "Dr Mesfin Genie is a Continuing Senior Lecturer in Health Economics at The University of Newcastle."
 page-layout: full
-image: /assets/img/og-card.png
+description: "Dr Mesfin Genie is a Continuing Senior Lecturer in Health Economics at the University of Newcastle. He studies how patients and the public value healthcare, process information, and respond to policy."
+image: /assets/og-card.png
 ---
 
 ```{=html}
-<div id="main-content">
-<section class="hero"><div class="page-shell hero-grid"><div><p class="eyebrow">Health economics · Behavioural economics · Choice modelling</p><h1>Dr Mesfin Genie</h1><p class="hero-role">Continuing Senior Lecturer in Health Economics</p><p class="hero-inst">Newcastle Business School, The University of Newcastle, Australia</p><p class="lead">I study how patients and the public value healthcare, process information and respond to policy, using discrete choice experiments, behavioural methods, eye tracking and applied economic evaluation.</p><div class="button-row"><a class="button-primary" href="/research/">Explore research</a><a class="button-secondary" href="/publications/">View publications</a><a class="button-secondary" href="/cv/mesfin-genie-cv.pdf" target="_blank" rel="noopener noreferrer">Download CV</a></div><div class="profile-links"><a href="https://www.newcastle.edu.au/profile/mesfin-genie" target="_blank" rel="noopener noreferrer">University profile</a><a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a><a href="https://orcid.org/0000-0002-1744-4666" target="_blank" rel="noopener noreferrer">ORCID</a><a href="https://www.linkedin.com/in/mesfin-genie/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div><div><div class="portrait-card"><img src="/assets/img/mesfin-genie-profile.webp" width="640" height="640" alt="Portrait of Dr Mesfin Genie" loading="eager"></div></div></div></section>
-```
-
-{{< include assets/generated/evidence-strip.html >}}
-
-```{=html}
-<section class="content-section"><div class="page-shell"><div class="section-heading"><div><p class="eyebrow">Research</p><h2>Three connected lines of enquiry</h2></div><a class="button-text" href="/research/">Research overview →</a></div><div class="theme-grid"><article class="theme-item"><h3>Health preferences and behavioural economics</h3><p>How patients and the public value healthcare, make trade-offs and respond to policy design.</p></article><article class="theme-item"><h3>Information processing and eye tracking</h3><p>How attention, presentation and attribute order shape multi-attribute health choices.</p></article><article class="theme-item"><h3>Health measurement and policy evaluation</h3><p>How clinical outcomes, public preferences and economic evidence can improve decisions.</p></article></div></div></section>
-<section class="content-section"><div class="page-shell split-grid"><div><p class="eyebrow">Major programmes</p><h2 class="page-section-title">Research with policy and practical applications</h2><ul class="feature-list"><li><div class="meta">MandEval · Vaccine mandates</div><h3><a href="/research/projects/mandeval/">Effectiveness and consequences of Australia’s COVID-19 vaccine mandates</a></h3><p>Preference research, policy evaluation and decision support across Australia and international comparators.</p></li><li><div class="meta">World Bank · Field epidemiology</div><h3><a href="/research/projects/world-bank-fetp/">Upscaling FETP in India business case</a></h3><p>Economic and decision evidence for planning field epidemiology training capacity.</p></li><li><div class="meta">Attention and choice</div><h3><a href="/research/projects/eye-tracking-choice/">Eye tracking in multi-attribute health choices</a></h3><p>Testing how people acquire and use information in discrete choice experiments.</p></li></ul></div><div><p class="eyebrow">Selected work</p><h2 class="page-section-title">Recent publications</h2>
-```
-
-{{< include assets/generated/recent-publications.html >}}
-
-```{=html}
-<p><a class="button-text" href="/publications/">Search all publications →</a></p></div></div></section>
-<section class="content-section compact"><div class="page-shell"><div class="section-heading"><div><p class="eyebrow">Tools</p><h2>Research translated into decisions</h2></div><a class="button-text" href="/tools/">Tool documentation →</a></div><div class="tool-list"><div class="tool-row"><div class="meta">Vaccine policy · Live</div><div><h3>eMANDEVAL Future</h3><p>Explore prospective mandate designs using predicted support, expected lives saved and benefit-cost outcomes.</p></div><a class="button-secondary" href="/eMANDEVA-DecisionAid-V18/" target="_blank" rel="noopener noreferrer">Launch ↗</a></div><div class="tool-row"><div class="meta">Farm economics · Live</div><div><h3>SOIL CRC Benefit-Cost Analysis Tool</h3><p>Compare farm practices using net present value, benefit-cost ratio, return on investment and sensitivity analysis.</p></div><a class="button-secondary" href="/farming-bca-tool-v18/" target="_blank" rel="noopener noreferrer">Launch ↗</a></div></div></div></section>
-<section class="content-section"><div class="page-shell split-grid"><div><p class="eyebrow">Talks and media</p><h2 class="page-section-title">Featured webinar</h2><p><strong>Introduction to the Discrete Choice Experiment as an evaluation tool for rare disease activities.</strong></p><p>The webinar introduces discrete choice experiments and how they can support evaluation in rare disease activities.</p><p><a href="/talks-media/">Webinar details and presentations →</a></p></div><div class="youtube-placeholder" data-youtube-id="HO2qXJp-BFs" data-youtube-title="Introduction to the Discrete Choice Experiment as an evaluation tool for rare disease activities"><button type="button" aria-label="Play the featured webinar">▶ Play webinar</button></div></div></section>
-<section class="content-section"><div class="page-shell split-grid"><div><p class="eyebrow">Teaching and supervision</p><h2 class="page-section-title">Courses, open resources and research students</h2><p>I coordinate health economics and behavioural economics courses and share selected public teaching resources. I also supervise doctoral and MPhil research in health economics, choice modelling, telehealth, public policy and economic evaluation.</p><p><a href="/teaching/">Teaching portfolio →</a> · <a href="/supervision/">Research supervision →</a></p></div><div><p class="eyebrow">Latest writing</p><h2 class="page-section-title">Research notes and explainers</h2><ul class="compact-list"><li><h3><a href="/blog/posts/why-99-does-not-feel-like-100/">Why 99% does not feel like 100%</a></h3><p>The certainty effect and why guaranteed outcomes receive special treatment.</p></li><li><h3><a href="/blog/posts/what-a-discrete-choice-experiment-measures/">What a discrete choice experiment actually measures</a></h3><p>What stated choices can tell policymakers, and what they cannot.</p></li><li><h3><a href="/blog/posts/what-eye-tracking-reveals/">What eye tracking reveals about how we choose</a></h3><p>Why attention and information processing matter in preference research.</p></li></ul><p><a href="/blog/">All writing →</a></p></div></div></section>
-<section class="content-section contact-band"><div class="page-shell narrow"><p class="eyebrow" style="color:#8fd3ff">Contact</p><h2>Research, collaboration and supervision</h2><p>For collaboration, seminars, media, research supervision or decision-tool discussions, please contact me through my institutional email.</p><p><a class="button-secondary" href="mailto:mesfin.genie@newcastle.edu.au">mesfin.genie@newcastle.edu.au</a></p></div></section>
+<section class="hero" aria-labelledby="hero-title"><div class="page-shell hero-grid">
+<div class="portrait-frame reveal"><img src="/assets/mesfin-genie-profile-square.webp" alt="Portrait of Dr Mesfin Genie" width="640" height="640" fetchpriority="high"></div>
+<div class="hero-copy reveal">
+<h1 id="hero-title">Mesfin Genie</h1>
+<p class="hero-role">Continuing Senior Lecturer in Health Economics</p>
+<p class="hero-affiliation">Newcastle Business School, The University of Newcastle, Australia</p>
+<p class="hero-value">I study how patients and the public value healthcare, process information, and respond to policy, using choice modelling, behavioural experiments, and applied econometrics.</p>
+<div class="hero-actions">
+<a class="button-primary" href="/research/">Explore research</a>
+<a class="button-secondary" href="/publications/">View publications</a>
+<a class="button-secondary" href="/cv/mesfin-genie-cv.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
 </div>
+<p class="hero-secondary"><a href="/contact/">Collaboration and supervision enquiries →</a></p>
+</div>
+</div></section>
+
+<section class="section" aria-labelledby="focus-heading"><div class="page-shell">
+<div class="section-heading"><div><p class="eyebrow">Research focus</p><h2 id="focus-heading">Three questions I work on</h2></div><a href="/research/">Research →</a></div>
+<div class="theme-list">
+<article class="theme"><h3>Health preferences and behavioural economics</h3><p>How people value health, and how real decisions depart from standard models. <a href="/research/projects/health-preferences-dce/">Explore</a></p></article>
+<article class="theme"><h3>Information processing, attention, and eye tracking</h3><p>Bringing process evidence into preference measurement to see how people read a choice. <a href="/research/projects/eye-tracking-attribute-ordering/">Explore</a></p></article>
+<article class="theme"><h3>Health measurement, outcomes, and policy evaluation</h3><p>Making sure policies and tools reflect outcomes that patients and the public value. <a href="/research/projects/decision-support-tools/">Explore</a></p></article>
+</div>
+</div></section>
+
+<section class="section section-muted" aria-labelledby="selected-heading"><div class="page-shell">
+<div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="selected-heading">A project, a paper, and a tool</h2></div></div>
+<div class="selected-list">
+<article class="selected"><p class="selected-kind">Project</p><h3><a href="/research/projects/mandeval/">MandEval</a></h3><p>Evaluating the effectiveness and consequences of Australia's COVID-19 vaccine mandates, and what mandate designs the public supports, by combining discrete choice experiments with evidence synthesis.</p></article>
+<article class="selected"><p class="selected-kind">Publication</p><h3><a href="/publications/fit-for-purpose/">Fit for Purpose?</a></h3><p>Whether discrete choice experiment designs stay reliable when the health technologies they describe are changing, and how to keep a design fit for purpose (<em>Social Science &amp; Medicine</em>, 2026).</p></article>
+<article class="selected"><p class="selected-kind">Tool</p><h3><a href="/tools/steps/">STEPS decision aid</a></h3><p>Turning a discrete choice experiment and cost model into a tool that helps plan the scale-up of field-epidemiology training, developed with the World Bank.</p></article>
+</div>
+</div></section>
+
+<section class="section" aria-labelledby="translate-heading"><div class="page-shell narrow">
+<div class="section-heading"><div><p class="eyebrow">From research to decisions</p><h2 id="translate-heading">Research translated into decisions</h2></div></div>
+<p class="section-lead">Much of my work is built to be used. Preference estimates for vaccine mandates are packaged into <a href="/tools/emandeval/">eMANDEVAL Future</a> so that policymakers can compare designs. A discrete choice experiment for the <a href="/research/projects/fetp-india/">World Bank FETP business case</a> underpins the <a href="/tools/steps/">STEPS decision aid</a> for planning training scale-up. And an <a href="/publications/covid-mandate-repository/">open repository of vaccine-mandate studies</a> turns a scattered literature into a resource others can reuse. <a href="/research/impact/">More on research impact →</a></p>
+</div></section>
+
+<section class="section section-muted" aria-labelledby="teach-heading"><div class="page-shell narrow">
+<div class="section-heading"><div><p class="eyebrow">Teaching and supervision</p><h2 id="teach-heading">Teaching and research students</h2></div><a href="/teaching/">Teaching &amp; Supervision →</a></div>
+<p class="section-lead">I coordinate ECON3111 Behavioural Economics, ECON2112 Health Economics and Finance, and ECON3011 Introduction to Health Economics and Finance, and share open <a href="/teaching/behavioural-economics/">behavioural economics resources</a>. I welcome enquiries from prospective PhD and MPhil students; see <a href="/supervision/">research supervision</a> for what to include.</p>
+</div></section>
+
+<section class="section" aria-labelledby="writing-heading"><div class="page-shell narrow">
+<div class="section-heading"><div><p class="eyebrow">Writing and talks</p><h2 id="writing-heading">Featured writing</h2></div><a href="/writing/">Writing &amp; Talks →</a></div>
+<p class="section-lead"><a href="/blog/posts/why-99-does-not-feel-like-100/">Why 99% does not feel like 100%</a> explains the certainty effect: why a guaranteed outcome feels special and how that shapes health decisions. A recorded webinar is also available. <a href="https://youtu.be/HO2qXJp-BFs" target="_blank" rel="noopener noreferrer">Watch the webinar ↗</a></p>
+</div></section>
+
+<section class="contact-strip"><div class="page-shell contact-grid">
+<div><p class="eyebrow">Contact</p><h2>Research, collaboration, and supervision</h2><p>mesfin.genie@newcastle.edu.au</p></div>
+<a class="button-primary" href="/contact/">Get in touch</a>
+</div></section>
 ```

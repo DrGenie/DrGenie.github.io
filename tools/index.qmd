@@ -1,13 +1,23 @@
 ---
-title: "Tools"
-title-block-style: none
 pagetitle: "Tools | Mesfin Genie"
-description: "Interactive decision-support and economic-evaluation tools developed through collaborative research."
+description: "Three decision-support tools by Dr Mesfin Genie: eMANDEVAL for vaccine-mandate policy, a benefit-cost tool for agricultural trials, and STEPS for field-epidemiology training."
+title-block-style: none
 page-layout: full
-image: /assets/img/og-card.png
+image: /assets/og-card.png
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell"><p class="eyebrow">Tools</p><h1>Decision support and economic evaluation</h1><p class="lead">Two live applications that translate research evidence into policy and economic-evaluation decisions.</p></div></header>
-<section class="content-section"><div class="page-shell"><div class="tool-row"><div class="meta">Live · Version 4.4.1</div><div><h2>eMANDEVAL Future</h2><p>For researchers and policy analysts comparing prospective vaccine-mandate designs. The tool reports predicted public support, expected lives saved, benefit-cost outcomes and policy trade-offs.</p><p><strong>Developer:</strong> Mesfin Genie · <a href="/tools/emandelval-future/">Methods, limitations and citation</a></p></div><a class="button-primary" href="/eMANDEVA-DecisionAid-V18/" target="_blank" rel="noopener noreferrer">Launch tool ↗</a></div><div class="tool-row"><div class="meta">Live · Version 2026.18</div><div><h2>SOIL CRC Benefit-Cost Analysis Tool</h2><p>For agricultural researchers and project teams comparing farm-practice and soil-management interventions using net present value, benefit-cost ratio, return on investment and sensitivity analysis.</p><p><strong>Attribution:</strong> Project lead and publisher, Dr Frank Wogbe Agbola; developer/co-developer, Mesfin Genie · <a href="/tools/soil-crc-bca-tool/">Methods, limitations and citation</a></p></div><a class="button-primary" href="/farming-bca-tool-v18/" target="_blank" rel="noopener noreferrer">Launch tool ↗</a></div></div></section>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Tools</p>
+<h1>Decision-support tools</h1>
+<p class="section-lead">Interactive tools that turn preference and economic evidence into analysis decision-makers can use directly. Each tool page explains the problem, the users, the inputs and outputs, and the method.</p>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+<div class="tool-list">
+<article class="tool-row"><h2><a href="/tools/emandeval/">eMANDEVAL Future</a></h2><p>Compares vaccine-mandate designs by predicted public support and outcomes. For public-health policymakers and researchers.</p></article>
+<article class="tool-row"><h2><a href="/tools/soil-crc-bca/">SOIL CRC Benefit-Cost Analysis Tool</a></h2><p>Net present value, benefit-cost ratio, and sensitivity analysis for agricultural trials. For researchers and partners evaluating production trials.</p></article>
+<article class="tool-row"><h2><a href="/tools/steps/">STEPS FETP Scale-up Decision Aid</a></h2><p>Endorsement, value, and costs for scaling field-epidemiology training. For planners and partners of FETP scale-up in India.</p></article>
+</div>
+</div></section>
 ```
