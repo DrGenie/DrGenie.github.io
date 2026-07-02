@@ -9,6 +9,16 @@ for q in qmd:
     if 'Pending source upload' in txt: errors.append(f'{q}: contains placeholder status')
     h1=len(re.findall(r'<h1(?:\s|>)',txt,re.I))+len(re.findall(r'^#\s+',txt,re.M))
     if h1>1: errors.append(f'{q}: contains {h1} H1 headings')
+    # Quarto include targets are resolved relative to the .qmd file.
+    for target in re.findall(r'\{\{<\s*include\s+([^ >]+)\s*>\}\}', txt):
+        include_path = (q.parent / target).resolve()
+        try:
+            include_path.relative_to(root.resolve())
+        except ValueError:
+            errors.append(f'{q}: include escapes project root: {target}')
+            continue
+        if not include_path.is_file():
+            errors.append(f'{q}: missing include target relative to page: {target}')
 for name in ['profile','publications','grants','courses','supervision','talks','tools']:
     json.loads((root/'assets/data'/f'{name}.json').read_text(encoding='utf-8'))
 pubs=json.loads((root/'assets/data/publications.json').read_text(encoding='utf-8'))

@@ -14,3 +14,8 @@
 - Fixed malformed blog-category metadata.
 - Added a validation step before every Quarto render.
 - Retained all verified content, DOI links, live tools, teaching resources, supervision records, webinar, CV and structured metadata.
+## 2026-07-02 — GitHub Pages render-path correction
+
+- Corrected the Publications page include path from `assets/generated/publications-list.html` to `../assets/generated/publications-list.html`, because Quarto resolves include directives relative to the current `.qmd` file.
+- Extended source validation to check every Quarto include target relative to its page, preventing this deployment error from recurring.
+

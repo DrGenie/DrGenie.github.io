@@ -12,7 +12,7 @@ image: /assets/img/og-card.png
 <section class="content-section"><div class="page-shell"><div class="pub-summary"><p><strong><span data-pub-count>44</span></strong> outputs shown</p><p><a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></p></div><div class="pub-toolbar" data-publication-toolbar aria-label="Publication search and filters"></div><p data-pub-empty hidden>No publications match the selected filters.</p>
 ```
 
-{{< include assets/generated/publications-list.html >}}
+{{< include ../assets/generated/publications-list.html >}}
 
 ```{=html}
 </div></section>
