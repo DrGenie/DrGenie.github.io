@@ -24,18 +24,5 @@
     "outputs": "Net present value, benefit-cost ratio, return on investment and sensitivity analysis.",
     "basis": "Benefit-cost analysis and discounted cash-flow evaluation.",
     "citation": "Cite as SOIL CRC Benefit-Cost Analysis Tool, CRC High Performance Soils Project 1.2.008."
-  },
-  {
-    "name": "STEPS Decision Aid",
-    "slug": "steps-decision-aid",
-    "url": "/STEPS-FETP-DecisionAid-V20/",
-    "status": "Pending source upload",
-    "version": "Version not published in this repository",
-    "developer": "Mesfin Genie",
-    "problem": "Prioritisation and planning for field epidemiology training scale-up under budget constraints.",
-    "users": "Field epidemiology training and workforce-planning teams.",
-    "outputs": "Prioritised options, programme planning assumptions and budget-relevant scenarios.",
-    "basis": "World Bank FETP business-case work.",
-    "citation": "Cite the relevant World Bank FETP project documentation where approved."
   }
 ]

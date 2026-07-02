@@ -3,7 +3,9 @@ title: "What a discrete choice experiment actually measures"
 description: "A plain guide to what a DCE can tell you, and what it cannot."
 author: "Mesfin Genie"
 date: "2026-06-28"
-categories: [Choice modelling explained, Research methods and reproducibility]
+categories: [methods, choice modelling]
+page-layout: article
+image: /assets/img/og-card.png
 ---
 
 A discrete choice experiment, or DCE, asks people to choose between options described by a few features, which we call attributes. A health programme might be described by its cost, its waiting time, and its success rate. We show people several choices, change the attribute levels each time, and record what they pick. From those patterns we work out how much each attribute matters, and what people are willing to give up to get more of another.

@@ -3,7 +3,9 @@ title: "What eye tracking reveals about how we choose"
 description: "Using eye tracking to see how people read a choice task, and why it matters."
 author: "Mesfin Genie"
 date: "2026-06-14"
-categories: [Attention and eye tracking]
+categories: [behavioural science, methods]
+page-layout: article
+image: /assets/img/og-card.png
 ---
 
 When someone answers a choice question, we usually only see the answer. We do not see how they got there: what they read, what they skipped, and what they weighed. In some of my work I have used eye tracking to look at that middle step, by recording where people look while they complete a discrete choice experiment.

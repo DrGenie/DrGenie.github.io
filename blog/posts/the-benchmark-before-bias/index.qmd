@@ -3,8 +3,9 @@ title: "The benchmark before bias"
 description: "Why behavioural economics starts with rational choice rather than replacing it."
 author: "Mesfin Genie"
 date: "2026-07-02"
-categories: [Behavioural economics in everyday life, Choice modelling explained]
-image: /assets/og-card.png
+categories: [Behavioural economics, Teaching]
+page-layout: article
+image: /assets/img/og-card.png
 ---
 
 A useful behavioural-economics lecture usually starts with the benchmark. In choice under certainty, the benchmark describes preferences as an ordering over alternatives and asks whether that ordering is complete and transitive. The point is not to claim that people are always rational. The point is to define the model clearly enough that deviations become interpretable.

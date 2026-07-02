@@ -1,10 +1,16 @@
-# Deployment instructions
+# Clean replacement deployment
 
-1. Unzip the package.
-2. Open the folder and press Cmd+Shift+. to reveal `.github`.
-3. Upload every file and folder inside the package to `DrGenie/DrGenie.github.io`.
-4. Preserve the existing live application folders: `eMANDEVA-DecisionAid-V18` and `farming-bca-tool-v18`.
-5. Commit directly to `main`.
-6. Open GitHub Actions and wait for `Publish website` to finish green.
-7. Hard-refresh `https://mesfingenie.com/` with Cmd+Shift+R.
-8. Check the main pages, publication filters, PDF CV and tool links.
+The safest web-only method is to make one backup branch, clean the source tree in GitHub's web editor, upload the replacement package, and then let the validated GitHub Action deploy it.
+
+## Files to preserve
+
+Preserve the complete contents of these two live application folders:
+
+- `eMANDEVA-DecisionAid-V18/`
+- `farming-bca-tool-v18/`
+
+Everything else in the repository can be replaced by this package.
+
+## Required deployment checks
+
+The `Publish website` workflow must pass: prepare generated content, validate source data and pages, render, upload and deploy.

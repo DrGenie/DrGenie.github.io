@@ -3,7 +3,9 @@ title: "What preference research adds to the vaccine mandate debate"
 description: "Mandates are usually argued in absolutes. Preference research shows the trade-offs."
 author: "Mesfin Genie"
 date: "2026-05-31"
-categories: [Health decisions and public policy]
+categories: [vaccination, policy]
+page-layout: article
+image: /assets/img/og-card.png
 ---
 
 Debates about vaccine mandates tend to be argued in absolutes. One side treats a mandate as obviously necessary, the other as obviously unacceptable. Much of my recent work sits in a different place and asks a more specific question: what design of a policy do people support, and what are they willing to accept in return for what.

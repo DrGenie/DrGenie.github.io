@@ -1,19 +1,25 @@
 # Validation report
 
-Completed locally:
+Date: 2 July 2026
 
-- YAML/front-matter scan: no `title: false` found.
-- Duplicate-H1 scan: no page intentionally defines more than one visible H1.
-- JavaScript syntax: `assets/js/site.js` created as dependency-free vanilla JS.
-- Python scripts: build and validation scripts compile.
-- Publication DOI syntax: checked for DOI-pattern consistency where DOI is available.
-- PDF CV: compiled with XeLaTeX.
-- Responsive CSS: breakpoints at 980px and 700px.
-- Accessibility features: skip link, semantic main landmark, labelled publication controls, visible focus, reduced-motion support, alt text for images.
+## Passed locally
 
-Not completed inside this container:
+- JSON parsing for profile, publications, grants, courses, supervision, talks and tools.
+- YAML front-matter parsing for all Quarto pages.
+- Python syntax compilation for build and validation scripts.
+- JavaScript syntax validation with Node.js.
+- Publication DOI-format validation.
+- Duplicate publication-title and DOI checks.
+- Required-file checks.
+- Duplicate-H1 source scan.
+- Placeholder-status scan.
+- Generated-publication HTML parsing and link-attribute checks.
+- Sitemap generation.
 
-- Quarto render, because the Quarto CLI is not installed in the execution environment.
-- Lighthouse/axe browser audits, because a browser audit runner is not available in the execution environment.
+The local source validation reports 27 Quarto pages and 44 publication records.
 
-The GitHub Actions workflow performs the authoritative Quarto render after upload.
+## Authoritative render
+
+The package includes a GitHub Actions workflow pinned to Quarto 1.9.38. The workflow generates derived content, validates the source, performs a clean Quarto render and deploys only after every preceding step passes.
+
+A Quarto executable was not available in the artifact container, so the authoritative Quarto render occurs in GitHub Actions after upload. No claim is made here that Lighthouse was run locally.
