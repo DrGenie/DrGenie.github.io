@@ -107,6 +107,7 @@ website:
       <div class="wb-footer-bottom"><span>© 2026 Mesfin Genie</span><span>Newcastle Business School, The University of Newcastle</span></div>
       </div>
 
+format:
   html:
     theme: cosmo
     css: assets/styles.css
