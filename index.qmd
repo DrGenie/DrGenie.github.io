@@ -1,0 +1,63 @@
+---
+pagetitle: "Mesfin Genie · Health Economist"
+title-block-style: none
+page-layout: full
+description: "Dr Mesfin Genie is a Continuing Senior Lecturer in Health Economics at the University of Newcastle. He studies how patients and the public value healthcare, process information, and respond to policy."
+image: /assets/og-card.png
+---
+
+```{=html}
+<section class="hero" aria-labelledby="hero-title"><div class="page-shell hero-grid">
+<div class="portrait-frame reveal"><img src="/assets/mesfin-genie-profile-square.webp" alt="Portrait of Dr Mesfin Genie" width="640" height="640" fetchpriority="high"></div>
+<div class="hero-copy reveal">
+<h1 id="hero-title">Mesfin Genie</h1>
+<p class="hero-role">Continuing Senior Lecturer in Health Economics</p>
+<p class="hero-affiliation">Newcastle Business School, The University of Newcastle, Australia</p>
+<p class="hero-value">I study how patients and the public value healthcare, process information, and respond to policy, using choice modelling, behavioural experiments, and applied econometrics.</p>
+<div class="hero-actions">
+<a class="button-primary" href="/research/">Explore research</a>
+<a class="button-secondary" href="/publications/">View publications</a>
+<a class="button-secondary" href="/cv/mesfin-genie-cv.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+</div>
+<p class="hero-secondary"><a href="/contact/">Collaboration and supervision enquiries →</a></p>
+</div>
+</div></section>
+
+<section class="section" aria-labelledby="focus-heading"><div class="page-shell">
+<div class="section-heading"><div><p class="eyebrow">Research focus</p><h2 id="focus-heading">Three questions I work on</h2></div><a href="/research/">Research →</a></div>
+<div class="theme-list">
+<article class="theme"><h3>Health preferences and behavioural economics</h3><p>How people value health, and how real decisions depart from standard models. <a href="/research/projects/health-preferences-dce/">Explore</a></p></article>
+<article class="theme"><h3>Information processing, attention, and eye tracking</h3><p>Bringing process evidence into preference measurement to see how people read a choice. <a href="/research/projects/eye-tracking-attribute-ordering/">Explore</a></p></article>
+<article class="theme"><h3>Health measurement, outcomes, and policy evaluation</h3><p>Making sure policies and tools reflect outcomes that patients and the public value. <a href="/research/projects/decision-support-tools/">Explore</a></p></article>
+</div>
+</div></section>
+
+<section class="section section-muted" aria-labelledby="selected-heading"><div class="page-shell">
+<div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="selected-heading">A project, a paper, and a tool</h2></div></div>
+<div class="selected-list">
+<article class="selected"><p class="selected-kind">Project</p><h3><a href="/research/projects/mandeval/">MandEval</a></h3><p>Evaluating the effectiveness and consequences of Australia's COVID-19 vaccine mandates, and what mandate designs the public supports, by combining discrete choice experiments with evidence synthesis.</p></article>
+<article class="selected"><p class="selected-kind">Publication</p><h3><a href="/publications/fit-for-purpose/">Fit for Purpose?</a></h3><p>Whether discrete choice experiment designs stay reliable when the health technologies they describe are changing, and how to keep a design fit for purpose (<em>Social Science &amp; Medicine</em>, 2026).</p></article>
+<article class="selected"><p class="selected-kind">Tool</p><h3><a href="/tools/steps/">STEPS decision aid</a></h3><p>Turning a discrete choice experiment and cost model into a tool that helps plan the scale-up of field-epidemiology training, developed with the World Bank.</p></article>
+</div>
+</div></section>
+
+<section class="section" aria-labelledby="translate-heading"><div class="page-shell narrow">
+<div class="section-heading"><div><p class="eyebrow">From research to decisions</p><h2 id="translate-heading">Research translated into decisions</h2></div></div>
+<p class="section-lead">Much of my work is built to be used. Preference estimates for vaccine mandates are packaged into <a href="/tools/emandeval/">eMANDEVAL Future</a> so that policymakers can compare designs. A discrete choice experiment for the <a href="/research/projects/fetp-india/">World Bank FETP business case</a> underpins the <a href="/tools/steps/">STEPS decision aid</a> for planning training scale-up. And an <a href="/publications/covid-mandate-repository/">open repository of vaccine-mandate studies</a> turns a scattered literature into a resource others can reuse. <a href="/research/impact/">More on research impact →</a></p>
+</div></section>
+
+<section class="section section-muted" aria-labelledby="teach-heading"><div class="page-shell narrow">
+<div class="section-heading"><div><p class="eyebrow">Teaching and supervision</p><h2 id="teach-heading">Teaching and research students</h2></div><a href="/teaching/">Teaching &amp; Supervision →</a></div>
+<p class="section-lead">I coordinate ECON3111 Behavioural Economics, ECON2112 Health Economics and Finance, and ECON3011 Introduction to Health Economics and Finance, and share open <a href="/teaching/behavioural-economics/">behavioural economics resources</a>. I welcome enquiries from prospective PhD and MSc students; see <a href="/supervision/">research supervision</a> for what to include.</p>
+</div></section>
+
+<section class="section" aria-labelledby="writing-heading"><div class="page-shell narrow">
+<div class="section-heading"><div><p class="eyebrow">Writing and talks</p><h2 id="writing-heading">Featured writing</h2></div><a href="/writing/">Writing &amp; Talks →</a></div>
+<p class="section-lead"><a href="/blog/posts/why-99-does-not-feel-like-100/">Why 99% does not feel like 100%</a> explains the certainty effect: why a guaranteed outcome feels special and how that shapes health decisions. A recorded webinar is also available. <a href="https://youtu.be/HO2qXJp-BFs" target="_blank" rel="noopener noreferrer">Watch the webinar ↗</a></p>
+</div></section>
+
+<section class="contact-strip"><div class="page-shell contact-grid">
+<div><p class="eyebrow">Contact</p><h2>Research, collaboration, and supervision</h2><p>mesfin.genie@newcastle.edu.au</p></div>
+<a class="button-primary" href="/contact/">Get in touch</a>
+</div></section>
+```

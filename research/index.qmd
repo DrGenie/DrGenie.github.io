@@ -1,0 +1,41 @@
+---
+pagetitle: "Research | Mesfin Genie"
+description: "Dr Mesfin Genie studies how patients and the public value healthcare, process information, and respond to policy, using choice modelling, behavioural experiments, and applied econometrics."
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Research</p>
+<h1>Research</h1>
+<p class="section-lead">I study how patients and the public value healthcare, how they process information when making decisions, and how they respond to policy. My work combines health and behavioural economics with discrete choice experiments, eye tracking, and decision-support tools.</p>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+
+<h2>Research themes</h2>
+<div class="theme-list">
+<article class="theme"><h3>Health preferences and behavioural economics</h3><p>Measuring what people value in health, and how real decisions depart from standard models. <a href="/research/projects/health-preferences-dce/">Explore</a></p></article>
+<article class="theme"><h3>Information processing, attention, and eye tracking</h3><p>Bringing process evidence into preference measurement to see how people actually read a choice. <a href="/research/projects/eye-tracking-attribute-ordering/">Explore</a></p></article>
+<article class="theme"><h3>Health measurement, outcomes, and policy evaluation</h3><p>Ensuring that policies, technologies, and tools reflect outcomes that patients and the public value. <a href="/research/projects/decision-support-tools/">Explore</a></p></article>
+</div>
+
+<h2>Selected projects</h2>
+<ul class="cv-list">
+<li><a href="/research/projects/mandeval/">MandEval</a>, effectiveness and consequences of Australia's COVID-19 vaccine mandates.</li>
+<li><a href="/research/projects/fetp-india/">FETP India business case</a>, scaling field-epidemiology training, with the World Bank.</li>
+<li><a href="/research/projects/eye-tracking-attribute-ordering/">Eye tracking and attribute ordering</a> in multi-attribute choice.</li>
+</ul>
+
+<h2>Explore further</h2>
+<ul class="cv-list">
+<li><a href="/research/impact/">Research impact</a>, how the work is translated into tools and policy-relevant evidence.</li>
+<li><a href="/research/data-and-code/">Data and code</a>, public resources and repositories.</li>
+<li><a href="/grants/">Grants and funding</a>.</li>
+<li><a href="/publications/">Publications</a>.</li>
+</ul>
+
+</div></section>
+```

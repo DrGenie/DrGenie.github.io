@@ -1,0 +1,26 @@
+---
+pagetitle: "Data and code | Research | Mesfin Genie"
+description: "Public datasets, code, interactive tools, and open resources associated with Dr Mesfin Genie's research."
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/research/">Research</a> / <span aria-current="page">Data and code</span></nav>
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Research</p><h1>Data and code</h1></div></header>
+<section class="content-section"><div class="page-shell narrow">
+<p class="section-lead">Public resources associated with my research. Restricted or confidential data are not listed.</p>
+<h2>Code and repositories</h2>
+<ul class="cv-list"><li><a href="https://github.com/DrGenie" target="_blank" rel="noopener noreferrer">GitHub (DrGenie)</a>, including the source for the interactive tools below and this website.</li></ul>
+<h2>Open resources</h2>
+<ul class="cv-list"><li><a href="/publications/covid-mandate-repository/">An open repository of COVID-19 vaccine-mandate studies</a>, with a worked scoping review of quasi-experimental evidence (published in <em>npj Vaccines</em>).</li></ul>
+<h2>Interactive tools</h2>
+<ul class="cv-list">
+<li><a href="/tools/emandeval/">eMANDEVAL Future</a>, vaccine-mandate policy analysis.</li>
+<li><a href="/tools/soil-crc-bca/">SOIL CRC Benefit-Cost Analysis Tool</a>, agricultural trial appraisal.</li>
+<li><a href="/tools/steps/">STEPS FETP Scale-up Decision Aid</a>, field-epidemiology training scale-up.</li>
+</ul>
+<p class="section-lead">For access to study data associated with specific papers, please see the data-availability statement in the relevant article or contact me.</p>
+</div></section>
+```

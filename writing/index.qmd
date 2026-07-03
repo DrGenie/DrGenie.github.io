@@ -1,0 +1,24 @@
+---
+pagetitle: "Writing & Talks | Mesfin Genie"
+description: "Essays on behavioural economics and health decisions, the recorded webinar, and conference presentations by Dr Mesfin Genie."
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <span aria-current="page">Writing &amp; Talks</span></nav>
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Writing & Talks</p><h1>Writing and talks</h1></div></header>
+<section class="content-section"><div class="page-shell narrow">
+<p class="section-lead">Plain-language writing on behavioural economics and health decisions, a recorded talk, and conference presentations.</p>
+<h2>Writing</h2>
+<p>Short, practical essays explaining behavioural economics, choice modelling, and health decisions, including cornerstone pieces on the certainty effect, probability weighting, loss aversion, and risk versus ambiguity.</p>
+<p><a class="button-secondary" href="/blog/">Read the essays</a></p>
+<h2>Talks and webinar</h2>
+<p>A recorded webinar featuring Dr Mesfin Genie is available on YouTube. It opens in a new tab rather than loading a player here.</p>
+<p><a class="button-secondary" href="https://youtu.be/HO2qXJp-BFs" target="_blank" rel="noopener noreferrer">Watch the recorded webinar ↗</a></p>
+<h2>Conference presentations</h2>
+<p>Selected conference presentations and published conference abstracts, including work presented at ISPOR and the Communicable Diseases and Immunisation Conference.</p>
+<p><a class="button-secondary" href="/conferences/">Conference presentations</a></p>
+</div></section>
+```

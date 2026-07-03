@@ -1,0 +1,68 @@
+# Single source of truth for biographical facts. Human-verified.
+name: Mesfin Genie
+formal_name: Mesfin Genie, PhD
+prose_name: Dr Mesfin Genie
+position: Continuing Senior Lecturer in Health Economics
+school: Newcastle Business School
+institution: The University of Newcastle, Australia
+country: Australia
+email: mesfin.genie@newcastle.edu.au
+profiles:
+  google_scholar: https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en
+  orcid: https://orcid.org/0000-0002-1744-4666
+  researchgate: https://www.researchgate.net/profile/Mesfin-Genie
+  linkedin: https://au.linkedin.com/in/mesfin-genie-ph-d-65634216
+  github: https://github.com/DrGenie
+  x: https://x.com/mesfin_genie
+  university: https://www.newcastle.edu.au/profile/mesfin-genie
+education:
+  - degree: PhD in Economics
+    institution: Ca' Foscari University of Venice
+    country: Italy
+    year: 2019
+    note: Stated-preference methods for healthcare decision-making.
+  - degree: MSc in Health Economics and Management
+    institution: University of Bologna
+    country: Italy
+    year: 2015
+  - degree: MSc in Economics
+    institution: Addis Ababa University
+    country: Ethiopia
+  - degree: BA in Economics
+    institution: Jimma University
+    country: Ethiopia
+appointments:
+  - role: Continuing Senior Lecturer in Health Economics
+    org: Newcastle Business School, The University of Newcastle
+    country: Australia
+    years: 2026-present
+  - role: Lecturer in Health Economics
+    org: Newcastle Business School, The University of Newcastle
+    country: Australia
+    years: 2023-2025
+  - role: Health Measurement and Regulatory Science Fellow
+    org: Duke University, School of Medicine
+    country: United States
+    years: 2023-2024
+  - role: Postdoctoral Research Fellow
+    org: Auburn University, Harrison School of Pharmacy
+    country: United States
+    years: 2022-2023
+  - role: Research Fellow
+    org: University of Aberdeen, Health Economics Research Unit
+    country: United Kingdom
+    years: 2020-2022
+  - role: Postdoctoral Research Fellow
+    org: Ca' Foscari University of Venice, Department of Economics
+    country: Italy
+    years: 2019-2020
+expertise:
+  - Eye tracking
+  - Behavioural economics
+  - Clinical outcomes assessment
+  - Discrete choice experiments
+  - Health-preference research
+  - Health economics
+  - Stated-preference methods
+  - Public-health policy
+  - Decision-support tools

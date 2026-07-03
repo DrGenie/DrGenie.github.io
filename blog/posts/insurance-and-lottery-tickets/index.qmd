@@ -1,0 +1,23 @@
+---
+title: "Why People Buy Both Insurance and Lottery Tickets"
+description: "The same person often buys insurance and a lottery ticket. Probability weighting explains how both can be attractive at once."
+author: "Mesfin Genie"
+date: "2026-06-25"
+categories: [Choice modelling explained, Health decisions and public policy]
+---
+
+Here is a small puzzle. A lottery ticket is a bet that pays badly on average, yet millions of people buy one. Insurance is also a bet that pays badly on average, from the buyer's point of view, yet millions of people buy that too. The same person often does both. If people simply disliked risk, they would avoid the lottery. If they simply liked risk, they would skip the insurance. How can both be attractive at once?
+
+The benchmark struggles here. A single risk attitude, captured by the curvature of a utility function, cannot easily produce a taste for a long-shot gain and a taste for protection against a long-shot loss in the same person. Something other than the size of the outcomes is doing the work.
+
+That something is how we treat probabilities. A robust finding is that people tend to overweight small probabilities and underweight moderate to large ones. A one-in-a-million jackpot feels more likely than one in a million; a small chance of a house fire also feels more likely than the raw number suggests. Overweighting the small chance of a large gain makes the lottery ticket feel worth it. Overweighting the small chance of a large loss makes the insurance feel worth it. The two behaviours are two faces of the same weighting.
+
+A quick illustration. Suppose a lottery pays A$2,000 with probability 0.01, and the alternative is A$30 for certain. On average the lottery is worth A$20, less than the sure A$30. But if that one percent chance is treated as if it were five percent, the lottery can feel worth about A$100 in decision terms, and it wins. Nothing about the payoffs changed; only the weight on the probability did.
+
+This is a descriptive account of choices, not an endorsement of either purchase. Insurance can be entirely sensible when a loss would be ruinous, and buying the occasional ticket for entertainment is a personal matter. The behavioural point is narrower: a model that assumes probabilities enter linearly will misread both markets, and consumer protection that focuses only on the true odds may miss how the odds are perceived.
+
+For policy this matters in two directions. Where small risks are overweighted, people may over-insure against minor losses or be drawn to lottery-like products that are poor value. Where larger risks are underweighted, people may under-prepare for events that are quite likely over a long horizon. Good communication works with this, presenting probabilities in ways that are easier to gauge rather than assuming the raw number lands accurately.
+
+The [certainty effect](/blog/posts/why-99-does-not-feel-like-100/) is the near-certainty end of the same weighting function, and the [ECON3111 resources](/teaching/behavioural-economics/) work through the arithmetic.
+
+**Key references.** Kahneman, D. and Tversky, A. (1979). Prospect theory: an analysis of decision under risk. *Econometrica*. Tversky, A. and Kahneman, A. (1992). Advances in prospect theory: cumulative representation of uncertainty. *Journal of Risk and Uncertainty*.

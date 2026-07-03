@@ -1,0 +1,45 @@
+---
+pagetitle: "Priority for Self or Others? Incorporating Equity Considerat... | Publications | Mesfin Genie"
+description: "Preference-based value assessment usually summarises how much people value health outcomes. This paper examines how concerns about fairness, including"
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/publications/">Publications</a> / <span aria-current="page">Priority for Self or Others? Incorporati...</span></nav>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Publication · Value in Health · 2026</p>
+<h1>Priority for Self or Others? Incorporating Equity Considerations in a Preference-Based Health Value Assessment</h1>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+<p class="citation"><strong>Mesfin G. Genie; Surachat Ngorsuraches</strong> (2026). Priority for Self or Others? Incorporating Equity Considerations in a Preference-Based Health Value Assessment. <em>Value in Health</em>. <a href="https://doi.org/10.1016/j.jval.2025.10.011" target="_blank" rel="noopener noreferrer">doi:10.1016/j.jval.2025.10.011</a></p>
+
+<h2>In plain language</h2>
+<p>Preference-based value assessment usually summarises how much people value health outcomes. This paper examines how concerns about fairness, including priority for those who are worse off, can be brought into that assessment rather than left outside it.</p>
+
+<h2>Research question</h2>
+<p>How should equity considerations be incorporated into preference-based assessments of health value?</p>
+
+<h2>Approach</h2>
+<p>A preference-based health value assessment that incorporates equity considerations.</p>
+
+<h2>Contribution</h2>
+<p>It advances how equity can be represented within value assessment, connecting preference measurement to distributional concerns.</p>
+
+<h2>Why it matters</h2>
+<p>It is relevant to health-technology assessment and priority setting, where efficiency and equity both matter.</p>
+
+<h2>Read the paper</h2>
+<p>The full methods, results, and limitations are reported in the published article. Please read and cite the original.</p>
+<p><a class="button-primary" href="https://doi.org/10.1016/j.jval.2025.10.011" target="_blank" rel="noopener noreferrer">View at publisher (DOI)</a></p>
+
+<h2>Related resources</h2>
+<ul class="cv-list">
+<li><a href="/blog/posts/averages-hide-the-people-who-matter/">Averages hide the people who matter</a></li>
+<li><a href="/research/projects/health-preferences-dce/">Health preferences and discrete choice research</a></li>
+</ul>
+</div></section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "Priority for Self or Others? Incorporating Equity Considerations in a Preference-Based Health Value Assessment", "author": [{"@type": "Person", "name": "Mesfin G. Genie"}, {"@type": "Person", "name": "Surachat Ngorsuraches"}], "datePublished": "2026", "isPartOf": {"@type": "Periodical", "name": "Value in Health"}, "sameAs": "https://doi.org/10.1016/j.jval.2025.10.011", "url": "https://doi.org/10.1016/j.jval.2025.10.011"}</script>
+```

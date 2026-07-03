@@ -1,0 +1,44 @@
+---
+pagetitle: "Feeling Lonely? Preferences for Support Programmes to Reduce... | Publications | Mesfin Genie"
+description: "Loneliness among older adults is a growing policy concern, and programmes to reduce it can be designed in many ways. This paper uses a discrete choice"
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/publications/">Publications</a> / <span aria-current="page">Feeling Lonely? Preferences for Support ...</span></nav>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Publication · Health Policy · 2026</p>
+<h1>Feeling Lonely? Preferences for Support Programmes to Reduce Loneliness among Older Adults in Australia: A Discrete Choice Experiment</h1>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+<p class="citation"><strong>Mesfin G. Genie; Allison W. Boyes; Francesco Paolucci</strong> (2026). Feeling Lonely? Preferences for Support Programmes to Reduce Loneliness among Older Adults in Australia: A Discrete Choice Experiment. <em>Health Policy</em>. <a href="https://doi.org/10.1016/j.healthpol.2026.105587" target="_blank" rel="noopener noreferrer">doi:10.1016/j.healthpol.2026.105587</a></p>
+
+<h2>In plain language</h2>
+<p>Loneliness among older adults is a growing policy concern, and programmes to reduce it can be designed in many ways. This paper uses a discrete choice experiment to learn which programme features older Australians value.</p>
+
+<h2>Research question</h2>
+<p>What features of loneliness-support programmes do older adults in Australia most prefer?</p>
+
+<h2>Approach</h2>
+<p>A discrete choice experiment eliciting older adults’ preferences for loneliness-support programmes in Australia.</p>
+
+<h2>Contribution</h2>
+<p>It provides preference evidence to guide the design of loneliness-support programmes so that they reflect what older people actually want.</p>
+
+<h2>Why it matters</h2>
+<p>It is directly useful to programme designers and to policymakers allocating support for older adults.</p>
+
+<h2>Read the paper</h2>
+<p>The full methods, results, and limitations are reported in the published article. Please read and cite the original.</p>
+<p><a class="button-primary" href="https://doi.org/10.1016/j.healthpol.2026.105587" target="_blank" rel="noopener noreferrer">View at publisher (DOI)</a></p>
+
+<h2>Related resources</h2>
+<ul class="cv-list">
+<li><a href="/research/projects/health-preferences-dce/">Health preferences and discrete choice research</a></li>
+</ul>
+</div></section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "Feeling Lonely? Preferences for Support Programmes to Reduce Loneliness among Older Adults in Australia: A Discrete Choice Experiment", "author": [{"@type": "Person", "name": "Mesfin G. Genie"}, {"@type": "Person", "name": "Allison W. Boyes"}, {"@type": "Person", "name": "Francesco Paolucci"}], "datePublished": "2026", "isPartOf": {"@type": "Periodical", "name": "Health Policy"}, "sameAs": "https://doi.org/10.1016/j.healthpol.2026.105587", "url": "https://doi.org/10.1016/j.healthpol.2026.105587"}</script>
+```

@@ -1,0 +1,45 @@
+---
+pagetitle: "Fit for Purpose? Assessing the Robustness of Discrete Choice... | Publications | Mesfin Genie"
+description: "Discrete choice experiments (DCEs) describe options using a fixed set of attributes and levels. When the technology being studied evolves quickly, a d"
+title-block-style: none
+page-layout: full
+image: /assets/og-card.png
+---
+
+```{=html}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/publications/">Publications</a> / <span aria-current="page">Fit for Purpose? Assessing the Robustnes...</span></nav>
+<header class="page-header"><div class="page-shell">
+<p class="eyebrow">Publication · Social Science & Medicine · 2026</p>
+<h1>Fit for Purpose? Assessing the Robustness of Discrete Choice Experiment Designs in the Context of Evolving Health Technologies</h1>
+</div></header>
+
+<section class="content-section"><div class="page-shell narrow">
+<p class="citation"><strong>Mesfin G. Genie; Verity Watson; Michaël Schwarzinger; Stéphane Luchini</strong> (2026). Fit for Purpose? Assessing the Robustness of Discrete Choice Experiment Designs in the Context of Evolving Health Technologies. <em>Social Science & Medicine</em>. <a href="https://doi.org/10.1016/j.socscimed.2026.119463" target="_blank" rel="noopener noreferrer">doi:10.1016/j.socscimed.2026.119463</a></p>
+
+<h2>In plain language</h2>
+<p>Discrete choice experiments (DCEs) describe options using a fixed set of attributes and levels. When the technology being studied evolves quickly, a design chosen at the outset can become a poor description of the real choice. This paper examines how well DCE designs hold up under those conditions and what it takes to keep a design fit for purpose.</p>
+
+<h2>Research question</h2>
+<p>How robust are discrete choice experiment designs when the health technologies they describe are themselves changing?</p>
+
+<h2>Approach</h2>
+<p>A methodological study of discrete choice experiment design, assessing how design choices perform when the attributes and levels that describe an evolving health technology change.</p>
+
+<h2>Contribution</h2>
+<p>It offers guidance for designing discrete choice experiments that remain reliable when the subject matter is a moving target, which is increasingly common for new health technologies.</p>
+
+<h2>Why it matters</h2>
+<p>Researchers commissioning preference studies on fast-moving technologies can use the paper to anticipate where a design may lose validity and to plan accordingly.</p>
+
+<h2>Read the paper</h2>
+<p>The full methods, results, and limitations are reported in the published article. Please read and cite the original.</p>
+<p><a class="button-primary" href="https://doi.org/10.1016/j.socscimed.2026.119463" target="_blank" rel="noopener noreferrer">View at publisher (DOI)</a></p>
+
+<h2>Related resources</h2>
+<ul class="cv-list">
+<li><a href="/research/projects/health-preferences-dce/">Health preferences and discrete choice research</a></li>
+<li><a href="/blog/posts/what-a-discrete-choice-experiment-measures/">What a discrete choice experiment can and cannot tell policymakers</a></li>
+</ul>
+</div></section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "Fit for Purpose? Assessing the Robustness of Discrete Choice Experiment Designs in the Context of Evolving Health Technologies", "author": [{"@type": "Person", "name": "Mesfin G. Genie"}, {"@type": "Person", "name": "Verity Watson"}, {"@type": "Person", "name": "Michaël Schwarzinger"}, {"@type": "Person", "name": "Stéphane Luchini"}], "datePublished": "2026", "isPartOf": {"@type": "Periodical", "name": "Social Science & Medicine"}, "sameAs": "https://doi.org/10.1016/j.socscimed.2026.119463", "url": "https://doi.org/10.1016/j.socscimed.2026.119463"}</script>
+```

@@ -1,0 +1,27 @@
+---
+pagetitle: "Blog | Mesfin Genie"
+description: "Notes on health economics, choice modelling, behavioural science and research methods by Mesfin Genie."
+image: /assets/og-card.png
+page-layout: full
+listing:
+  id: posts
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  categories: true
+  fields: [date, title, description, categories, reading-time]
+  feed: true
+---
+
+```{=html}
+<header class="page-header"><div class="page-shell"><p class="eyebrow">Blog</p><h1>Notes and commentary</h1><p>Short, practical pieces on health economics, discrete choice experiments, behavioural science and research methods. Occasional notes on tools and teaching.</p></div></header>
+<div class="page-shell blog-listing">
+```
+
+:::{#posts}
+:::
+
+```{=html}
+</div>
+```
