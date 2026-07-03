@@ -1,5 +1,4 @@
 lang: en-AU
-
 project:
   type: website
   output-dir: _site
