@@ -40,7 +40,6 @@ project:
     - CNAME
     - .nojekyll
     - robots.txt
-    - sitemap.xml
     - assets/**
     - cv/mesfin-genie-cv.pdf
     - eMANDEVA-DecisionAid-V18/**
@@ -87,13 +86,28 @@ website:
         href: /cv/
   page-footer:
     left: |
-      Dr Mesfin Genie · Newcastle Business School, The University of Newcastle, Australia · [mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au)
-    center: |
-      [CV](/cv/) · [Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0002-1744-4666) · [GitHub](https://github.com/DrGenie)
-    right: |
-      © 2026 Mesfin Genie
+      <div class="wb-footer"><div class="wb-footer-grid">
+        <div class="wb-foot-brand">
+          <p class="wb-foot-name">Dr Mesfin Genie</p>
+          <p>Continuing Senior Lecturer in Health Economics<br>Newcastle Business School, The University of Newcastle, Australia</p>
+          <p><a href="mailto:mesfin.genie@newcastle.edu.au">mesfin.genie@newcastle.edu.au</a></p>
+        </div>
+        <div class="wb-foot-col">
+          <h3>Explore</h3>
+          <ul><li><a href="/research/">Research</a></li><li><a href="/publications/">Publications</a></li><li><a href="/tools/">Tools</a></li><li><a href="/teaching/">Teaching &amp; Supervision</a></li><li><a href="/writing/">Writing &amp; Talks</a></li><li><a href="/cv/">CV</a></li></ul>
+        </div>
+        <div class="wb-foot-col">
+          <h3>Connect</h3>
+          <ul><li><a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a></li><li><a href="https://orcid.org/0000-0002-1744-4666" target="_blank" rel="noopener noreferrer">ORCID</a></li><li><a href="https://www.researchgate.net/profile/Mesfin-Genie" target="_blank" rel="noopener noreferrer">ResearchGate</a></li><li><a href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" target="_blank" rel="noopener noreferrer">LinkedIn</a></li><li><a href="https://github.com/DrGenie" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://x.com/mesfin_genie" target="_blank" rel="noopener noreferrer">X</a></li></ul>
+        </div>
+        <div class="wb-foot-col wb-foot-share">
+          <h3>Share this site</h3>
+          <div class="share-bar" data-share="site" data-share-title="Dr Mesfin Genie, Health Economist"></div>
+        </div>
+      </div>
+      <div class="wb-footer-bottom"><span>© 2026 Mesfin Genie</span><span>Newcastle Business School, The University of Newcastle</span></div>
+      </div>
 
-format:
   html:
     theme: cosmo
     css: assets/styles.css

@@ -48,7 +48,7 @@ image: /assets/og-card.png
 
 <section class="section section-muted" aria-labelledby="teach-heading"><div class="page-shell narrow">
 <div class="section-heading"><div><p class="eyebrow">Teaching and supervision</p><h2 id="teach-heading">Teaching and research students</h2></div><a href="/teaching/">Teaching &amp; Supervision →</a></div>
-<p class="section-lead">I coordinate ECON3111 Behavioural Economics, ECON2112 Health Economics and Finance, and ECON3011 Introduction to Health Economics and Finance, and share open <a href="/teaching/behavioural-economics/">behavioural economics resources</a>. I welcome enquiries from prospective PhD and MPhil students; see <a href="/supervision/">research supervision</a> for what to include.</p>
+<p class="section-lead">I coordinate ECON3111 Behavioural Economics, ECON2112 Health Economics and Finance, and ECON3011 Introduction to Health Economics and Finance, and share open <a href="/teaching/behavioural-economics/">behavioural economics resources</a>. I welcome enquiries from prospective PhD and MSc students; see <a href="/supervision/">research supervision</a> for what to include.</p>
 </div></section>
 
 <section class="section" aria-labelledby="writing-heading"><div class="page-shell narrow">

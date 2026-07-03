@@ -115,3 +115,45 @@ a:hover{color:var(--navy)}
 .section-heading h2::after,.content-section h2:first-of-type::after{content:"";display:block;width:52px;height:4px;background:var(--gold);margin-top:.55rem;border-radius:2px}
 /* Hero role in World Bank blue */
 .hero-role{color:var(--blue);font-weight:700}
+
+/* Collapsible authors */
+.author-me{color:var(--navy);font-weight:800}
+.authors-toggle{background:none;border:0;color:var(--blue);font-weight:700;cursor:pointer;padding:0;font-size:.86rem;font-family:inherit}
+.authors-toggle:hover{text-decoration:underline;color:var(--navy)}
+.authors-toggle::before{content:"· "}
+
+/* ===== World Bank footer ===== */
+.nav-footer{background:var(--navy);color:#e8eef4;padding:0;border-top:4px solid var(--gold)}
+.nav-footer .nav-footer-left,.nav-footer .nav-footer-center,.nav-footer .nav-footer-right{width:100%;margin:0;text-align:left}
+.wb-footer{max-width:1180px;margin:0 auto;padding:2.6rem clamp(1rem,4vw,2rem) 1.4rem}
+.wb-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.1fr;gap:2rem}
+.wb-footer a{color:#cfe0f0;text-decoration:none}
+.wb-footer a:hover{color:#fff;text-decoration:underline}
+.wb-foot-name{font-weight:800;font-size:1.15rem;color:#fff;margin:0 0 .5rem}
+.wb-foot-brand p{margin:.2rem 0;color:#b9cbdd;font-size:.92rem;line-height:1.55}
+.wb-foot-col h3{color:#fff;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;margin:.1rem 0 .7rem;font-weight:700}
+.wb-foot-col ul{list-style:none;margin:0;padding:0}
+.wb-foot-col li{margin:.36rem 0;font-size:.92rem}
+.wb-footer-bottom{max-width:1180px;margin:0 auto;padding:1rem clamp(1rem,4vw,2rem);border-top:1px solid rgba(255,255,255,.16);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font-size:.82rem;color:#9fb3c8}
+@media(max-width:820px){.wb-footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.wb-footer-grid{grid-template-columns:1fr}}
+
+/* ===== Share buttons ===== */
+.share-bar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+.share-btn{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);color:#fff;cursor:pointer;transition:background .15s,transform .15s;padding:0}
+.share-btn svg{width:17px;height:17px;fill:currentColor}
+.share-btn:hover{background:var(--gold);color:var(--navy);transform:translateY(-2px)}
+.share-copy.copied{background:#2ecc71;color:#04321a}
+/* Share bar on light backgrounds (blog articles) */
+.article-share{margin:2.4rem 0 .5rem;padding-top:1.4rem;border-top:1px solid var(--line);display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.article-share-label{font-weight:700;color:var(--navy);font-size:.92rem}
+.article-share .share-btn{background:var(--soft);border:1px solid var(--line);color:var(--navy)}
+.article-share .share-btn:hover{background:var(--blue);color:#fff;border-color:var(--blue)}
+
+/* ===== World Bank polish / less busy ===== */
+/* accent rule only on major section headings, not every h2 (calmer interior pages) */
+.content-section h2:first-of-type::after{content:none}
+.content-section h2{margin-top:2.2rem}
+.content-section h2:first-of-type{margin-top:0}
+.narrow p,.narrow li{max-width:72ch}
+main.content a:not(.button-primary):not(.button-secondary):not(.authors-toggle):not(.share-btn){text-underline-offset:2px}

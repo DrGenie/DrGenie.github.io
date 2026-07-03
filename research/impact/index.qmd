@@ -18,6 +18,6 @@ image: /assets/og-card.png
 <h2>Open resources for the field</h2>
 <p>The <a href="/publications/covid-mandate-repository/">open repository of COVID-19 vaccine-mandate studies</a> makes a scattered literature findable and reusable. Public teaching resources in <a href="/teaching/behavioural-economics/">behavioural economics</a> support students and educators beyond Newcastle.</p>
 <h2>Contribution to research practice and training</h2>
-<p>Work on discrete choice experiment design and on feedback in preference assessment aims to improve how the field measures preferences. As Guest Editor for <em>Health Policy and Technology</em> and a reviewer for leading journals, and through doctoral and MPhil <a href="/supervision/">supervision</a>, this extends to the research community and the next generation of researchers.</p>
+<p>Work on discrete choice experiment design and on feedback in preference assessment aims to improve how the field measures preferences. As Guest Editor for <em>Health Policy and Technology</em> and a reviewer for leading journals, and through doctoral and MSc <a href="/supervision/">supervision</a>, this extends to the research community and the next generation of researchers.</p>
 </div></section>
 ```

@@ -81,3 +81,13 @@ Individual files:
 2. Open the Actions tab and confirm the Publish website run is green.
 3. Hard-refresh https://mesfingenie.com (Ctrl/Cmd + Shift + R) and check the pages,
    the three tools, and the new World Bank styling.
+
+## GitHub Actions workflow (already fixed in this package)
+This package ships a corrected `.github/workflows/publish.yml` that no longer calls
+`scripts/prepare_build.py` or `scripts/validate_site.py`. Your site is pure static
+Quarto, so the workflow just checks out, renders with Quarto, and deploys. If you
+replace files with Method A or B, the fixed workflow is installed automatically.
+If you use the web UI, also open `.github/workflows/publish.yml` and replace its
+contents with the version provided in chat. The scheduled `update-scholar-metrics.yml`
+workflow is optional and only runs if you have set a SERPAPI_KEY secret; it does not
+affect the website deploy.

@@ -1,6 +1,6 @@
 ---
 pagetitle: "Research supervision | Mesfin Genie"
-description: "Current and completed doctoral and MPhil supervision by Dr Mesfin Genie, and guidance for prospective research students."
+description: "Current and completed doctoral and MSc supervision by Dr Mesfin Genie, and guidance for prospective research students."
 title-block-style: none
 page-layout: full
 image: /assets/og-card.png
@@ -24,11 +24,7 @@ image: /assets/og-card.png
 </div>
 
 <h2>Completed supervision</h2>
-<div class="event-list"><article class="publication-record"><div class="publication-title">Health Systems Reform Dynamics: Implications for Equity and Efficiency</div><div class="publication-meta">Co-Supervisor · Doctor of Philosophy · The University of Newcastle, Australia · Completed 13 March 2025</div></article></div><h2>Recorded supervision</h2><p class="section-lead">Master of Philosophy scoping reviews on which I was principal supervisor, shown under a neutral status.</p><div class="event-list"><article class="publication-record"><div class="publication-title">Socio-Economic and Behavioural Impacts of COVID-19 Vaccine Mandates: A Scoping Review</div><div class="publication-meta">Principal Supervisor · Master of Philosophy · The University of Newcastle, Australia</div></article><article class="publication-record"><div class="publication-title">The Socio-Economic and Behavioural Impacts of Influenza Vaccine Mandates on Healthcare Workers: A Scoping Review</div><div class="publication-meta">Principal Supervisor · Master of Philosophy · The University of Newcastle, Australia</div></article></div></article>
-</div>
-
-
-<h2>Supervision philosophy</h2>
+<div class="event-list"><article class="publication-record"><div class="publication-title">Health Systems Reform Dynamics: Implications for Equity and Efficiency</div><div class="publication-meta">Co-Supervisor · Doctor of Philosophy · The University of Newcastle, Australia · Completed 13 March 2025</div></article><article class="publication-record"><div class="publication-title">Socio-Economic and Behavioural Impacts of COVID-19 Vaccine Mandates: A Scoping Review</div><div class="publication-meta">Principal Supervisor · Master of Science (MSc) · The University of Newcastle, Australia</div></article><article class="publication-record"><div class="publication-title">The Socio-Economic and Behavioural Impacts of Influenza Vaccine Mandates on Healthcare Workers: A Scoping Review</div><div class="publication-meta">Principal Supervisor · Master of Science (MSc) · The University of Newcastle, Australia</div></article></div><h2>Supervision philosophy</h2>
 <p>I aim to help students ask a clear question, choose a method that can answer it, and communicate the result to the people who can use it. My areas of interest for supervision are health economics, discrete choice experiments, eye-tracking and information-processing methods, clinical outcomes assessment, behavioural economics, and health policy.</p>
 
 <h2>Prospective students</h2>

@@ -10,7 +10,7 @@ image: /assets/og-card.png
 <header class="page-header"><div class="page-shell">
 <p class="eyebrow">Teaching and supervision</p>
 <h1>Teaching and supervision</h1>
-<p>Courses I coordinate at the University of Newcastle, open teaching resources, and doctoral and MPhil supervision.</p>
+<p>Courses I coordinate at the University of Newcastle, open teaching resources, and doctoral and MSc supervision.</p>
 </div></header>
 
 <section class="content-section"><div class="page-shell narrow">
@@ -27,7 +27,7 @@ image: /assets/og-card.png
 <p><a class="button-secondary" href="/teaching/behavioural-economics/">Behavioural economics resources</a></p>
 
 <h2>Research supervision</h2>
-<p>I supervise doctoral and MPhil candidates as principal and co-supervisor. The supervision page lists current and completed projects and explains what to include in a supervision enquiry.</p>
+<p>I supervise doctoral and MSc candidates as principal and co-supervisor. The supervision page lists current and completed projects and explains what to include in a supervision enquiry.</p>
 <p><a class="button-secondary" href="/supervision/">Research supervision</a></p>
 
 </div></section>
