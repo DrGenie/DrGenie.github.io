@@ -1,1 +1,0 @@
-Replace this with your official profile image named profile.jpg, or remove the image line in index.qmd.
