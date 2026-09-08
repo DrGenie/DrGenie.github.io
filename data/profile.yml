@@ -2,7 +2,8 @@
 name: Mesfin Genie
 formal_name: Mesfin Genie, PhD
 prose_name: Dr Mesfin Genie
-position: Continuing Senior Lecturer in Health Economics
+position: Senior Lecturer in Health Economics
+appointment_type: Continuing
 school: Newcastle Business School
 institution: The University of Newcastle, Australia
 country: Australia
@@ -32,7 +33,8 @@ education:
     institution: Jimma University
     country: Ethiopia
 appointments:
-  - role: Continuing Senior Lecturer in Health Economics
+  - role: Senior Lecturer in Health Economics
+    appointment_type: Continuing
     org: Newcastle Business School, The University of Newcastle
     country: Australia
     years: 2026-present
