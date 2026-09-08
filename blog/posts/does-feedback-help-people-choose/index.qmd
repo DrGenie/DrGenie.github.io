@@ -13,3 +13,7 @@ Feedback can help. It can focus attention, remind people what they said, and red
 The distinction I find useful is between helping someone answer the question we asked and quietly changing the question. Feedback that reduces confusion, or that clarifies what a task involves, tends to help. Feedback that signals a right way to answer tends to guide people toward it, and we should be honest that we have then measured something partly of our own making.
 
 None of this is an argument against supporting respondents. It is an argument for being deliberate. If we add feedback, we should be clear about what it is meant to do, test whether it changes the results, and report that it was used. Cleaner data are not the goal. Data that reflect real preferences are the goal, and sometimes those are a little messier.
+
+```{=html}
+<div class="share" data-share></div>
+```

@@ -1,68 +1,107 @@
 # Deploy
 
-1. Unzip.
-2. In `DrGenie.github.io`, delete everything except the `.git` folder, then copy
-   in everything here, including the hidden `.github`, `.nojekyll` and
-   `.gitignore`.
-3. `git add -A && git commit -m "Rebuild site" && git push`
+## Read this first: I had deleted 16 of your blog posts
 
-Settings → Pages → Source must be **GitHub Actions**. Nothing else to configure,
-nothing to edit.
+My earlier rebuilds carried across one blog post and silently dropped the other
+sixteen — the Allais paradox, the Ellsberg paradox, loss aversion, the power of
+free, the tyranny of the default, and the rest. They are real writing, around
+five hundred words each, and losing them would have been the most damaging thing
+in this whole exercise.
 
-## Fixed in this version
+All seventeen are back, renumbered into the new theme, each with a share row, and
+the RSS feed carries all seventeen. Also restored: your conferences page, the
+ECON3111 teaching resources page, `blog/editorial-calendar.qmd`, and the
+`update-scholar-metrics.yml` workflow that refreshes your Scholar figures every
+Monday.
 
-**The papers were printing as raw code.** Pandoc treats indented HTML inside a
-`.qmd` as an indented code block, so every paper on the live page appeared as
-visible markup instead of a formatted entry. Every raw HTML block in the site is
-now inside a `{=html}` passthrough fence. All 44 papers render as real elements,
-with author lists, venues and 43 DOI links.
+Both restored pages were written in the old theme's markup, using classes like
+`page-shell` and `event-card` that no longer exist. I rewrote them in the new
+design language, keeping every date, title, venue and link.
 
-That bug reached you because my checks counted strings in the output, and the
-markup string is present either way. The build is now tested against a real DOM:
-the choice task, the papers filter and the share row are each driven through
-their actual behaviour, 20 assertions, all passing.
+## Using the web uploader
 
-## Sharing
+You can, but it needs two extra steps, because "Add files via upload" only adds.
+It never deletes, and it will not create a file whose name begins with a dot.
 
-Every page carries `og:image`, `twitter:image`, `og:title` and `og:description`
-as absolute URLs, so a link pasted into LinkedIn, X, Bluesky, Slack, WhatsApp or
-Teams unfurls with your card image and the page's own title rather than a bare
-link.
+**Step 1 — delete these first, in the web interface.** Open each one and use the
+"..." menu, then Delete. For folders, open the folder and choose Delete directory.
 
-Blog posts carry a share row: LinkedIn, X, Bluesky, Email and Copy link, each an
-outlined control with an icon and a label. Copy link uses the clipboard API with
-a fallback for older browsers and confirms with a "Copied" state. The footer and
-the About page carry the same treatment for Email, Scholar, ORCID, GitHub,
-ResearchGate, LinkedIn, X and your university profile.
+    CHANGELOG.md
+    REPLACE-AND-CLEANUP.md
+    UPDATE-DEPLOY.md
+    _variables.yml
+    docs/                                    (whole folder)
+    contact/                                 (whole folder)
+    publications/covid-mandate-repository/   (whole folder)
+    publications/feeling-lonely/             (whole folder)
+    publications/fit-for-purpose/            (whole folder)
+    publications/guidance-or-misdirection/   (whole folder)
+    publications/no-jab-no-access/           (whole folder)
+    publications/priority-for-self-or-others/ (whole folder)
+    eMANDEVA-DecisionAid-V18/README.md
 
-The icons are drawn for this site rather than copied from the platforms. Brand
-logos are trademarks, and a set of glyphs drawn in the site's own line weight
-sits better with the rest of the page than five mismatched corporate marks.
+Nothing else needs deleting. Everything else in this zip lands on the same path
+as the file it replaces, so the upload overwrites it.
 
-## Devices
+**Step 2 — upload.** Unzip, then drag the *contents* of the folder onto
+`github.com/DrGenie/DrGenie.github.io/upload/main`. Not the folder itself, the
+files and folders inside it. Commit.
 
-Type steps down at 700px and again at 400px rather than the layout changing
-shape, so the page reads the same on a phone as on a desktop. Every tappable
-control is at least 42–46px. Hover styles apply only where a pointer exists, so
-nothing stays highlighted after a tap. Long author lists and DOI strings wrap
-instead of widening the page. The choice table gets an extra step at 430px, and
-landscape phones reclaim vertical space from the header. The homepage portrait is
-priority-loaded; the About one is lazy.
+**Step 3 — check the dotfiles arrived.** In the file list, look for `.github`,
+`.gitignore` and `.nojekyll`. If any is missing, use Add file → Create new file
+and type the name exactly, including the leading dot, with the content from this
+zip. For `.github/workflows/publish.yml`, type that whole path as the filename
+and GitHub creates the folders.
 
-## Papers
+Your existing `publish.yml` already works, so if it does not upload, the site
+still builds. `.nojekyll` and `.gitignore` are optional with Actions deployment.
 
-All 44 items from `assets/publications.json`, checked against your Google
-Scholar record and your university staff profile. Every journal named on that
-profile — Journal of Health Economics, Health Economics, Social Science &
-Medicine, Empirical Economics, Health Policy, European Journal of Health
-Economics, Journal of Health Politics Policy and Law, Value in Health, npj
-Vaccines, Health Policy and Technology, BMJ Open, The Bone & Joint Journal — is
-present. Filter by area; the counts partition exactly (16 preferences, 22 public
-health, 6 other).
+If any of that sounds fragile, it is. GitHub Desktop is easier: clone, delete
+everything except the `.git` folder, copy this zip's contents in, commit, push.
 
-## Tools
+Settings → Pages → Source must be **GitHub Actions**.
 
-`eMANDEVA-DecisionAid-V18/`, `farming-bca-tool-v18/` and
-`STEPS-FETP-DecisionAid-V20/` are vendored in from their own repositories and
-serve from your domain. Previously those folders held only a README and all
-three links were dead.
+## The mobile problem, and what caused it
+
+Quarto lays pages out on a CSS grid. In the version currently live, that grid gives
+the content column a **500px minimum width**, so on any phone narrower than 500px
+the page overflows sideways and the side margins collapse to nothing, leaving
+every line of text flush against both screen edges.
+
+I caused it twice over. I set Quarto's `$grid-sidebar-width`, `$grid-margin-width`
+and `$grid-column-gutter-width` to zero to take control of the layout, which also
+deleted the media queries Quarto uses to collapse that grid on small screens. And
+`main.content` had vertical padding but no horizontal padding at all — invisible
+on desktop, where the grid margins covered for it.
+
+Fixed by leaving Quarto's grid alone apart from the body width, and giving the
+content column, header and footer a real gutter that grows from 20px on a phone
+to 36px on a laptop, all aligned to the same edge.
+
+Four more bugs found in the same pass: a `padding` shorthand was silently zeroing
+the footer gutter; the navbar gutter targeted `.container-fluid` when Quarto's
+wrapper is `.navbar-container`; `table { display: block }` was destroying table
+layout; and the homepage portrait, floated at 112px beside text in a 320px column,
+left about four words per line, so below 560px it now sits above the name.
+
+## Typography
+
+Spectral throughout, one family at four weights. Body scales fluidly from 16.5px
+to 19px with the viewport, line height 1.68, measure about 66 characters. To
+change the typeface, edit two places: the font link in `_includes/head.html` and
+`$font-family-sans-serif` at the top of `custom.scss`.
+
+## Verified in this build
+
+49 pages render with no warnings. All 41 site pages pass lang, viewport, image alt
+text, single h1, meta description, and carry no leftover markup from the old
+theme. No broken internal links. 44 papers with 43 DOIs. 17 blog posts, 17 RSS
+items. Twenty behavioural assertions pass against a real DOM covering the choice
+task, the papers filter and the share row. Your three tool applications are
+vendored in and serve from your own domain.
+
+## What I cannot check
+
+I have no browser here, so layout is verified by reading compiled CSS rather than
+by looking at the page. That is exactly how the missing gutter escaped me. Open
+the site on your phone, and send a screenshot if anything still looks wrong.

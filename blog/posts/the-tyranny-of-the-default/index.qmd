@@ -17,3 +17,7 @@ This gives whoever sets the default real power, which is why it deserves care. A
 For anyone designing a form, a service, or a policy, the practical point is simple: there is no neutral default. Whatever you preset will become what most people get. Choosing it well is part of the job, not an afterthought.
 
 **Key reference.** Johnson, E. J., and Goldstein, D. (2003). Do defaults save lives? *Science*.
+
+```{=html}
+<div class="share" data-share></div>
+```

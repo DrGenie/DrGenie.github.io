@@ -24,7 +24,11 @@ $accent:       #7c2233;   // links, current-page marker, selected option
 $accent-deep:  #5a1725;
 $accent-soft:  #f4e8ea;
 
-$measure:      68ch;
+$measure:      66ch;
+
+// Horizontal breathing room on every edge of the page. Grows with the viewport
+// so a phone gets 20px and a laptop 36px.
+$gutter:       clamp(20px, 5.5vw, 36px);
 
 // Bootstrap / Quarto variable overrides ------------------------------------
 
@@ -62,11 +66,10 @@ $code-bg:                 $tint;
 $navbar-padding-y:        0.85rem;
 $navbar-brand-font-size:  1rem;
 
-// Quarto grid: a single, narrow, left-of-centre reading column.
+// Quarto's grid. Only the body width is set. Zeroing the sidebar, margin and
+// gutter variables also deletes Quarto's responsive breakpoints, which leaves
+// the content column stuck at a 500px minimum and overflowing every phone.
 $grid-body-width:         760px;
-$grid-sidebar-width:      0px;
-$grid-margin-width:       0px;
-$grid-column-gutter-width: 0px;
 
 $toc-color:               $muted;
 $toc-active-border:       $accent;
@@ -78,7 +81,14 @@ $toc-active-border:       $accent;
 // 1. Base
 // ---------------------------------------------------------------------------
 
-html { -webkit-text-size-adjust: 100%; }
+html {
+  -webkit-text-size-adjust: 100%;
+  overflow-x: clip;                 // safety net; nothing should overflow anyway
+
+  // Scales smoothly from 16.5px on a small phone to 19px on a laptop, rather
+  // than jumping at two breakpoints.
+  --bs-root-font-size: #{clamp(16.5px, 15.72px + 0.328vw, 19px)};
+}
 
 body {
   font-optical-sizing: auto;
@@ -94,8 +104,6 @@ body {
   outline-offset: 3px;
   border-radius: 1px;
 }
-
-p, li { max-width: $measure; }
 
 p { margin: 0 0 1.1em; }
 
@@ -214,11 +222,12 @@ h4 {
 
 .navbar .navbar-title { color: $ink-strong; }
 
+.navbar > .navbar-container,
 .navbar > .container-fluid,
 .navbar > .container {
-  max-width: 860px;
-  padding-left: 24px;
-  padding-right: 24px;
+  max-width: 736px;
+  padding-left: $gutter !important;
+  padding-right: $gutter !important;
 }
 
 .navbar-brand {
@@ -273,9 +282,12 @@ h4 {
 // ---------------------------------------------------------------------------
 
 main.content {
+  max-width: 736px;                              // ~66 characters plus gutters
+  margin-inline: auto;
   padding-top: 3.4rem;
   padding-bottom: 5rem;
-  max-width: 760px;
+  padding-left: $gutter;
+  padding-right: $gutter;
 }
 
 #quarto-content > * { padding-top: 0; }
@@ -568,8 +580,20 @@ header#title-block-header.quarto-title-block.default .description { display: non
 
 .intro h1 { max-width: 100%; }
 
-@media (max-width: 620px) {
-  .intro-portrait { width: 104px; height: 104px; margin-left: 1.1rem; }
+@media (max-width: 700px) {
+  .intro-portrait { width: 112px; height: 112px; margin-left: 1.3rem; }
+}
+
+// Floating an image beside text stops working once the text column is narrow
+// enough that only three or four words fit per line.
+@media (max-width: 560px) {
+  .intro-portrait {
+    float: none;
+    display: block;
+    width: 96px;
+    height: 96px;
+    margin: 0 0 1.3rem;
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -650,7 +674,15 @@ blockquote {
   max-width: $measure;
 }
 
+.table-wrap {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 table {
+  max-width: 100%;
   font-size: 0.92rem;
   margin: 1.6rem 0;
   width: 100%;
@@ -685,9 +717,11 @@ hr {
 // ---------------------------------------------------------------------------
 
 .nav-footer {
+  max-width: 736px;
+  margin-inline: auto;
   background: $paper;
   border-top: 1px solid $rule;
-  padding: 1.6rem 0 2.4rem;
+  padding: 1.6rem $gutter 2.4rem;   // shorthand last, or it resets the gutter
   font-size: 0.85rem;
   color: $muted;
   min-height: 0;
@@ -847,14 +881,12 @@ hr {
 }
 
 @media (max-width: 700px) {
-  :root { --bs-root-font-size: 17px; }
   h1, .title { font-size: 2.05rem; }
   h2 { font-size: 1.4rem; margin-top: 2.6rem; }
   .standfirst { font-size: 1.03rem; }
 }
 
 @media (max-width: 400px) {
-  :root { --bs-root-font-size: 16.25px; }
   h1, .title { font-size: 1.82rem; letter-spacing: -0.012em; }
 }
 
@@ -902,6 +934,13 @@ img, svg, table, pre, iframe { max-width: 100%; }
   .ct-pick { font-size: 0.8rem; padding: 0.5rem 0.2rem; margin: 0 0.12rem; }
   .ct-stem { font-size: 0.95rem; }
   .ct-scale { font-size: 0.72rem; }
+}
+
+@media (max-width: 360px) {
+  .ct-grid, .ct-actions { grid-template-columns: 4.6rem 1fr 1fr; }
+  .ct-cell { padding: 0.4rem 0.28rem; font-size: 0.76rem; }
+  .ct-frame { padding: 0.9rem 0.8rem 1rem; }
+  .share-btn, .iconlink { padding-left: 0.6rem; padding-right: 0.6rem; font-size: 0.82rem; }
 }
 
 // Landscape phones: reclaim vertical space.

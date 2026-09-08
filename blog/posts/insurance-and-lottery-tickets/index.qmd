@@ -21,3 +21,7 @@ For policy this matters in two directions. Where small risks are overweighted, p
 The [certainty effect](/blog/posts/why-99-does-not-feel-like-100/) is the near-certainty end of the same weighting function, and the [ECON3111 resources](/teaching/behavioural-economics/) work through the arithmetic.
 
 **Key references.** Kahneman, D. and Tversky, A. (1979). Prospect theory: an analysis of decision under risk. *Econometrica*. Tversky, A. and Kahneman, A. (1992). Advances in prospect theory: cumulative representation of uncertainty. *Journal of Risk and Uncertainty*.
+
+```{=html}
+<div class="share" data-share></div>
+```

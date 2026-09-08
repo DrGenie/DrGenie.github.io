@@ -21,3 +21,7 @@ The limits matter too. Reference points can shift, expectations adapt, and the s
 For the underlying model, see the [ECON3111 resources](/teaching/behavioural-economics/); for the way framing interacts with public-health messages, the work on [preference research and vaccine policy](/blog/posts/preference-research-and-vaccine-mandates/) is a useful companion.
 
 **Key references.** Kahneman, D. and Tversky, A. (1979). Prospect theory: an analysis of decision under risk. *Econometrica*. Tversky, A. and Kahneman, A. (1991). Loss aversion in riskless choice: a reference-dependent model. *Quarterly Journal of Economics*.
+
+```{=html}
+<div class="share" data-share></div>
+```

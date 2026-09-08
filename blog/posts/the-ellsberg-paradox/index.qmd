@@ -19,3 +19,7 @@ This is descriptive, and often sensible. Caution about unknown probabilities is 
 The [ECON3111 resources](/teaching/behavioural-economics/) include the Ellsberg payoff table and the multiple-priors model.
 
 **Key references.** Ellsberg, D. (1961). Risk, ambiguity, and the Savage axioms. *Quarterly Journal of Economics*. Gilboa, I. and Schmeidler, D. (1989). Maxmin expected utility with a non-unique prior. *Journal of Mathematical Economics*.
+
+```{=html}
+<div class="share" data-share></div>
+```

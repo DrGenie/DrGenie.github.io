@@ -21,6 +21,8 @@ project:
     - tools/soil-crc-bca/index.qmd
     - about/index.qmd
     - teaching/index.qmd
+    - teaching/behavioural-economics/index.qmd
+    - conferences/index.qmd
     - supervision/index.qmd
     - grants/index.qmd
     - writing/index.qmd

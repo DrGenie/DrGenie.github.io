@@ -15,3 +15,7 @@ I have built a few of these. One helps explore vaccine mandate designs and their
 Two principles guide how I build them. The first is that a tool should be honest about its limits. It should show what is an estimate, what is an assumption, and where the numbers come from, so that no one mistakes a model for a fact. The second is that it should be usable by the person who needs it, not only by the person who built it. If a tool needs its author in the room to be understood, it has not done its job.
 
 Tools do not replace studies, and they do not replace judgment. They make evidence easier to bring into a decision, at the moment the decision is being made. That is worth the effort.
+
+```{=html}
+<div class="share" data-share></div>
+```

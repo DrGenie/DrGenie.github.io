@@ -21,3 +21,7 @@ Ambiguity is common in health. New technologies have unknown failure rates, emer
 The next post takes this into a concrete case: the [Ellsberg paradox and new health technologies](/blog/posts/the-ellsberg-paradox/).
 
 **Key references.** Ellsberg, D. (1961). Risk, ambiguity, and the Savage axioms. *Quarterly Journal of Economics*. Gilboa, I. and Schmeidler, D. (1989). Maxmin expected utility with a non-unique prior. *Journal of Mathematical Economics*.
+
+```{=html}
+<div class="share" data-share></div>
+```

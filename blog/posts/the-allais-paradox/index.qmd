@@ -21,3 +21,7 @@ For teaching and for research design, the lesson is practical. If you build a mo
 The [ECON3111 resources](/teaching/behavioural-economics/) work the Allais choices through step by step, including the contradictory inequalities.
 
 **Key references.** Allais, M. (1953). Le comportement de l'homme rationnel devant le risque. *Econometrica*. Kahneman, D. and Tversky, A. (1979). Prospect theory: an analysis of decision under risk. *Econometrica*.
+
+```{=html}
+<div class="share" data-share></div>
+```

@@ -15,3 +15,7 @@ This matters for policy in a direct way. If a programme is designed around the a
 In choice modelling we have tools for this. Mixed logit models let preference weights vary across people rather than fixing them at a single value. We can look at how preferences relate to characteristics we can observe, and we can describe the spread, not just the centre. None of this is exotic, and it changes what a study can say.
 
 My advice when reading any preference study is simple. Do not stop at the headline average. Ask whether the study looked at variation, who differs from the mean, and by how much. If the answer is only an average, treat it as a first sentence, not the whole story.
+
+```{=html}
+<div class="share" data-share></div>
+```

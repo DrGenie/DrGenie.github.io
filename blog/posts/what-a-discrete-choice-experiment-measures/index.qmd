@@ -17,3 +17,7 @@ The second is that the useful result is usually a trade-off, not a single number
 The third is that the average can mislead on its own. A DCE gives an average preference across the sample, but people differ, sometimes a lot. Two groups can produce the same average while wanting opposite things. I will come back to this in a separate post, because it is often the most important part of a study for policy.
 
 So when you read a DCE, look for what was on offer, which is the attributes and their levels, then what people traded off, and finally whether the study looked beyond the average. Those three things tell you most of what you need to know.
+
+```{=html}
+<div class="share" data-share></div>
+```

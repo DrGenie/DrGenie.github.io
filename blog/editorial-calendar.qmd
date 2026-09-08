@@ -1,8 +1,6 @@
 ---
 pagetitle: "Editorial calendar | Blog | Mesfin Genie"
 description: "Planned topics for the behavioural insights blog."
-title-block-style: none
-page-layout: full
 image: /assets/og-card.png
 ---
 

@@ -13,3 +13,7 @@ Preference research helps here because a mandate is not one thing. It is a bundl
 This reframing is useful for decision-makers because it turns a yes-or-no argument into a set of adjustable levers. A policy can be made more acceptable, or less, by changing its design, and preference research shows which changes matter most. It also shows where support is shallow, so that a policy which looks acceptable on average may still face strong opposition in the groups most affected.
 
 I do not think preference research settles the ethics of mandates. Values, rights and context all matter, and they are not decided by a survey. What it does is replace a caricature of public opinion with something more accurate: not a single verdict, but a map of trade-offs. That map is a better starting point for a serious debate than the assumption that people are simply for or against.
+
+```{=html}
+<div class="share" data-share></div>
+```

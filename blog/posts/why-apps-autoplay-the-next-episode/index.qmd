@@ -15,3 +15,7 @@ None of this requires us to be foolish. It works precisely because these tendenc
 The useful response is not guilt but design awareness. If continuing is automatic, you can add your own friction: a timer, an episode limit, autoplay switched off. If stopping is effortful, notice that the effort was put there on purpose. The same insight that helps a health service lift take-up by removing hassle can, in other hands, keep you on a platform longer than you meant to stay. Knowing which frictions were designed, and by whom, is a quietly powerful skill.
 
 **Related reading.** For the underlying tendency to favour the present, see the posts on defaults and on the certainty effect; the mechanics are the same ones studied in health and policy.
+
+```{=html}
+<div class="share" data-share></div>
+```

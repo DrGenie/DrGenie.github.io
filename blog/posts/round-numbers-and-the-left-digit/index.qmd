@@ -17,3 +17,7 @@ There is also a pull towards round numbers themselves. We set goals at 10,000 st
 The practical lesson cuts both ways. As a consumer, it is worth pausing when a price sits just under a round threshold, because the gap you feel is larger than the gap that exists. And in health communication, how a number is written, single digit or double, just over or just under a round figure, can change how it lands, so it deserves the same care as the number itself.
 
 **Key reference.** Thomas, M., Simon, D. H., and Kadiyali, V. (2010). The price precision effect. *Marketing Science*; and the broader literature on left-digit bias.
+
+```{=html}
+<div class="share" data-share></div>
+```
