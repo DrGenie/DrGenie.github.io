@@ -10,11 +10,13 @@ one is where the understanding is.
 
 ## Courses
 
+```{=html}
 <ul class="plain-list">
 <li><strong>ECON3111 Behavioural Economics</strong><span class="pl-meta">Lecturer and Course Coordinator, The University of Newcastle</span></li>
 <li><strong>ECON2112 Health Economics and Finance</strong><span class="pl-meta">Lecturer and Course Coordinator, The University of Newcastle</span></li>
 <li><strong>ECON3011 Introduction to Health Economics and Finance</strong><span class="pl-meta">Primary Course Coordinator, The University of Newcastle</span></li>
 </ul>
+```
 
 ## Open teaching material
 

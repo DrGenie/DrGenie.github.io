@@ -5,10 +5,12 @@ description: "Public repositories, datasets and analysis code."
 
 Where the underlying material can be released, it is.
 
+```{=html}
 <ul class="plain-list">
 <li><a href="https://github.com/DrGenie">github.com/DrGenie</a><span class="pl-meta">Analysis code, tool source, and the repositories behind the published work.</span></li>
 <li>COVID-19 vaccine mandate study repository<span class="pl-meta">An open, extensible collection of mandate studies with a worked scoping review of the quasi-experimental evidence. Published in <em>npj Vaccines</em>.</span></li>
 </ul>
+```
 
 If you want data or code for a specific paper and cannot find it, ask me directly
 at [mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au). Some

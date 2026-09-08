@@ -8,6 +8,7 @@ economists.
 
 ## Essays
 
+```{=html}
 <ul class="rec-list">
 <li class="rec">
   <div class="rec-year">Essay</div>
@@ -18,6 +19,7 @@ economists.
   </div>
 </li>
 </ul>
+```
 
 [All posts](/blog/), or subscribe by [RSS](/blog/index.xml).
 

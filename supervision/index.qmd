@@ -9,20 +9,24 @@ students.
 
 ## Current
 
+```{=html}
 <ul class="plain-list">
 <li>Understanding the drivers of telehealth usage among patients in Australia, and how it reduces costs relative to in-person services<span class="pl-meta">PhD, Principal Supervisor</span></li>
 <li>Economic analysis of the impact of climate change on the agricultural sector in the Solomon Islands<span class="pl-meta">PhD, Co-Supervisor, expected 2028</span></li>
 <li>Economic modelling of novel approaches to crop drought resilience, using long-term trials in Australia<span class="pl-meta">PhD, Co-Supervisor</span></li>
 <li>Gendered ageism in the workplace: menopause and female labour market participation<span class="pl-meta">PhD, Co-Supervisor</span></li>
 </ul>
+```
 
 ## Completed
 
+```{=html}
 <ul class="plain-list">
 <li>Health systems reform dynamics: implications for equity and efficiency<span class="pl-meta">PhD, Co-Supervisor, completed March 2025</span></li>
 <li>Socio-economic and behavioural impacts of COVID-19 vaccine mandates: a scoping review<span class="pl-meta">MPhil, Principal Supervisor</span></li>
 <li>The socio-economic and behavioural impacts of influenza vaccine mandates on healthcare workers: a scoping review<span class="pl-meta">MPhil, Principal Supervisor</span></li>
 </ul>
+```
 
 ## Before you write to me
 

@@ -7,7 +7,7 @@ image: /assets/og-card.png
 ::: {.intro}
 
 ```{=html}
-<img src="/assets/mesfin-genie-profile-square.webp" alt="Mesfin Genie" class="intro-portrait" width="300" height="300">
+<img src="/assets/mesfin-genie-profile-square.webp" alt="Mesfin Genie" class="intro-portrait" width="300" height="300" decoding="async" fetchpriority="high">
 ```
 
 # Mesfin Genie
@@ -89,12 +89,17 @@ Ca' Foscari Venice and posts at Aberdeen, Auburn and Duke.
 </div>
 ```
 
+```{=html}
 <p class="note" style="margin-top:1rem;">The tools under [Tools](/tools/) run the same machinery on estimated coefficients rather than on your three answers.</p>
+```
 
 ## Recent papers
 
+```{=html}
 <ul class="rec-list">
+```
 
+```{=html}
 <li class="rec">
   <div class="rec-year">2026</div>
   <div class="rec-body">
@@ -103,7 +108,9 @@ Ca' Foscari Venice and posts at Aberdeen, Auburn and Duke.
     <p class="rec-finding">A choice experiment describes a technology as it stood when the design was written. When the technology moves, the design can quietly stop measuring the thing it was built to measure. This sets out when that happens and what to do about it.</p>
   </div>
 </li>
+```
 
+```{=html}
 <li class="rec">
   <div class="rec-year">2026</div>
   <div class="rec-body">
@@ -113,7 +120,9 @@ Ca' Foscari Venice and posts at Aberdeen, Auburn and Duke.
     <p class="rec-links"><a href="/publications/">Details and links</a></p>
   </div>
 </li>
+```
 
+```{=html}
 <li class="rec">
   <div class="rec-year">2025</div>
   <div class="rec-body">
@@ -122,7 +131,9 @@ Ca' Foscari Venice and posts at Aberdeen, Auburn and Duke.
     <p class="rec-finding">The design for measuring what mandates did to uptake, and what happened when they were lifted, across Australia and comparable countries.</p>
   </div>
 </li>
+```
 
+```{=html}
 <li class="rec">
   <div class="rec-year">2025</div>
   <div class="rec-body">
@@ -131,15 +142,23 @@ Ca' Foscari Venice and posts at Aberdeen, Auburn and Duke.
     <p class="rec-finding">A policy that raises vaccination this month may only be moving next month's vaccinations forward. This separates the two, which matters a great deal for whether a mandate is judged to have worked.</p>
   </div>
 </li>
+```
 
+```{=html}
 </ul>
+```
 
+```{=html}
 <p class="note"><a href="/publications/">All papers</a>, or the current list on <a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ">Google Scholar</a>.</p>
+```
 
 ## Tools
 
+```{=html}
 <ul class="rec-list">
+```
 
+```{=html}
 <li class="rec">
   <div class="rec-year">Policy</div>
   <div class="rec-body">
@@ -147,7 +166,9 @@ Ca' Foscari Venice and posts at Aberdeen, Auburn and Duke.
     <p class="rec-finding">Compare vaccine mandate designs against public preference estimates, and see which combinations hold support and which lose it.</p>
   </div>
 </li>
+```
 
+```{=html}
 <li class="rec">
   <div class="rec-year">Costing</div>
   <div class="rec-body">
@@ -155,7 +176,9 @@ Ca' Foscari Venice and posts at Aberdeen, Auburn and Duke.
     <p class="rec-finding">Plan the scale-up of field-epidemiology training, built on a discrete choice experiment and a cost model developed with the World Bank.</p>
   </div>
 </li>
+```
 
+```{=html}
 <li class="rec">
   <div class="rec-year">Appraisal</div>
   <div class="rec-body">
@@ -163,8 +186,11 @@ Ca' Foscari Venice and posts at Aberdeen, Auburn and Duke.
     <p class="rec-finding">Benefit–cost appraisal for soil and farming interventions, with the assumptions exposed rather than buried.</p>
   </div>
 </li>
+```
 
+```{=html}
 </ul>
+```
 
 ## Students and teaching
 

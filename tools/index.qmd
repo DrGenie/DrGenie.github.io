@@ -9,8 +9,11 @@ much of the conclusion depends on which assumption.
 
 They run in the browser. Nothing you enter is sent anywhere.
 
+```{=html}
 <ul class="rec-list">
+```
 
+```{=html}
 <li class="rec">
   <div class="rec-year">Policy</div>
   <div class="rec-body">
@@ -18,7 +21,9 @@ They run in the browser. Nothing you enter is sent anywhere.
     <p class="rec-finding">Compare vaccine mandate designs against public preference estimates. Change who a mandate covers, what the exemptions are and what follows from declining, and see which combinations hold public support.</p>
   </div>
 </li>
+```
 
+```{=html}
 <li class="rec">
   <div class="rec-year">Costing</div>
   <div class="rec-body">
@@ -26,7 +31,9 @@ They run in the browser. Nothing you enter is sent anywhere.
     <p class="rec-finding">Plan the scale-up of field-epidemiology training on a discrete choice experiment and cost model developed for a World Bank business case. Vary intake, duration and delivery mode, and see cost and enrolment move together.</p>
   </div>
 </li>
+```
 
+```{=html}
 <li class="rec">
   <div class="rec-year">Appraisal</div>
   <div class="rec-body">
@@ -34,8 +41,11 @@ They run in the browser. Nothing you enter is sent anywhere.
     <p class="rec-finding">Benefit–cost appraisal for soil and farming interventions, with discount rate, time horizon and adoption assumptions exposed rather than fixed.</p>
   </div>
 </li>
+```
 
+```{=html}
 </ul>
+```
 
 ## Using and citing them
 

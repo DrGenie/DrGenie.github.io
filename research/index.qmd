@@ -39,6 +39,7 @@ estimates rather than summarising them in a report nobody opens.
 
 ## Projects
 
+```{=html}
 <ul class="plain-list">
 <li><a href="/research/projects/mandeval/">MandEval</a> — the effects and side effects of Australia's COVID-19 vaccine mandates, and what mandate designs the public will accept.</li>
 <li><a href="/research/projects/fetp-india/">FETP business case</a> — scaling field-epidemiology training, with the World Bank.</li>
@@ -46,12 +47,15 @@ estimates rather than summarising them in a report nobody opens.
 <li><a href="/research/projects/health-preferences-dce/">Health preferences</a> — the choice experiment programme across clinical areas.</li>
 <li><a href="/research/projects/decision-support-tools/">Decision-support tools</a> — turning estimates into instruments.</li>
 </ul>
+```
 
 ## Also here
 
+```{=html}
 <ul class="plain-list">
 <li><a href="/research/impact/">Impact</a> — where the work has been used.</li>
 <li><a href="/research/data-and-code/">Data and code</a> — public repositories.</li>
 <li><a href="/grants/">Grants</a> — funded programmes.</li>
 <li><a href="/publications/">Papers</a> — the full list.</li>
 </ul>
+```

@@ -70,6 +70,10 @@ it lands.
 **A tool.** Create `tools/<id>/index.qmd`, add it to `render` and `resources` in
 `_quarto.yml`, and put the application folder at the repository root.
 
+**Share row.** Any page with `<div class="share" data-share></div>` inside a
+`{=html}` block gets the share controls built into it. Links are assembled from
+the live URL and page title, so there is nothing to update per page.
+
 **Changing the choice task.** `BIDS` and `BOUNDS` at the top of
 `_includes/scripts.html` define the bid tree and the intervals it implies. If you
 change the four-week wait difference, change `WEEKS` too or the per-week figures
@@ -81,3 +85,18 @@ Visible keyboard focus throughout. `prefers-reduced-motion` respected. The
 choice-task result is `aria-live`. The papers filter operates on a list fully
 present in the HTML, so the page works without JavaScript and is indexed whole.
 One web font request, no analytics, no third-party scripts, no tracking.
+
+
+## Writing raw HTML in a .qmd
+
+Always wrap it in a passthrough fence:
+
+    ```{=html}
+    <ul class="rec-list">
+      <li class="rec">...</li>
+    </ul>
+    ```
+
+Without the fence, Pandoc treats indented HTML lines as an indented code block
+and prints your markup on the page as text instead of rendering it. Every raw
+HTML block in this repository is fenced for that reason.

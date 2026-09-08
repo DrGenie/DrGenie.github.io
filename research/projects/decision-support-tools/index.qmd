@@ -24,11 +24,13 @@ It exposes the sensitivity of the conclusion instead of asserting the conclusion
 
 Three are public:
 
+```{=html}
 <ul class="plain-list">
 <li><a href="/tools/emandeval/">eMANDEVAL</a> — mandate design against public preference estimates.</li>
 <li><a href="/tools/steps/">STEPS</a> — costing and planning for field-epidemiology training scale-up.</li>
 <li><a href="/tools/soil-crc-bca/">Farming benefit–cost tool</a> — appraisal for soil and farming interventions.</li>
 </ul>
+```
 
 Building them has its own lesson. A tool forces every assumption into the open,
 because it has to be entered somewhere. Assumptions that survive a paper's
