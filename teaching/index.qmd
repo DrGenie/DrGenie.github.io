@@ -20,9 +20,9 @@ one is where the understanding is.
 
 ## Open teaching material
 
-Some behavioural economics material is public, including the
-[certainty effect](/blog/posts/why-99-does-not-feel-like-100/) explainer and its
-recorded webinar. Use it in your own teaching if it is useful; attribution is
+[Behavioural economics resources](/teaching/behavioural-economics/) from ECON3111
+are public, as is the [certainty effect](/blog/posts/why-99-does-not-feel-like-100/)
+explainer and its recorded webinar. Use it in your own teaching if it is useful; attribution is
 appreciated and permission is not required.
 
 ## Supervision
