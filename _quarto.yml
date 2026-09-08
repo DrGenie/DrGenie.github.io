@@ -82,7 +82,9 @@ website:
 format:
   html:
     theme: cosmo
-    css: assets/styles.css
+    css:
+      - assets/styles.css
+      - assets/editorial-overrides.css
     toc: false
     smooth-scroll: true
     include-in-header: assets/head.html
