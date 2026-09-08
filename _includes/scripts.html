@@ -163,4 +163,77 @@
 
   apply("all");
 })();
+
+/* ---------------------------------------------------------------------------
+   Share row
+
+   Any element with data-share gets a share row built into it. Links are
+   assembled from the live URL and the page title, so nothing is hard-coded per
+   page. The copy button uses the async clipboard API with a select-and-copy
+   fallback for older browsers and for pages served without a secure context.
+--------------------------------------------------------------------------- */
+(function () {
+  var host = document.querySelector("[data-share]");
+  if (!host) return;
+
+  var url = location.href.split("#")[0];
+  var title = (document.title || "").replace(/\s+–\s+Mesfin Genie$/, "");
+  var eu = encodeURIComponent(url);
+  var et = encodeURIComponent(title);
+
+  var ICON = {
+    linkedin: '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="2" width="12" height="12" rx="2"/><path d="M5 7v4M5 5.2v.1M8 11V8.6a1.4 1.4 0 0 1 2.8 0V11"/></svg>',
+    x:        '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg>',
+    bluesky:  '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.2 10.5A2.2 2.2 0 1 1 4.6 6 3.4 3.4 0 0 1 8 3.4 3.4 3.4 0 0 1 11.4 6a2.2 2.2 0 1 1 .4 4.5z"/></svg>',
+    mail:     '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3.5" width="12" height="9" rx="1"/><path d="M2.4 4.4L8 9l5.6-4.6"/></svg>',
+    link:     '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6.6 9.4a2.6 2.6 0 0 0 3.7 0l2-2a2.6 2.6 0 0 0-3.7-3.7l-.8.8"/><path d="M9.4 6.6a2.6 2.6 0 0 0-3.7 0l-2 2a2.6 2.6 0 0 0 3.7 3.7l.8-.8"/></svg>'
+  };
+
+  var targets = [
+    ["linkedin", "LinkedIn", "https://www.linkedin.com/sharing/share-offsite/?url=" + eu],
+    ["x",        "X",        "https://x.com/intent/tweet?url=" + eu + "&text=" + et],
+    ["bluesky",  "Bluesky",  "https://bsky.app/intent/compose?text=" + et + "%20" + eu],
+    ["mail",     "Email",    "mailto:?subject=" + et + "&body=" + eu]
+  ];
+
+  var html = '<p class="share-label">Share this page</p><ul class="share-row">';
+  targets.forEach(function (t) {
+    html += '<li><a class="share-btn" href="' + t[2] + '" rel="noopener noreferrer" target="_blank">' +
+            ICON[t[0]] + '<span>' + t[1] + '</span></a></li>';
+  });
+  html += '<li><button type="button" class="share-btn" id="share-copy">' + ICON.link +
+          '<span>Copy link</span></button></li></ul>';
+  host.innerHTML = html;
+
+  var copy = document.getElementById("share-copy");
+  copy.addEventListener("click", function () {
+    function done() {
+      var label = copy.querySelector("span");
+      var was = label.textContent;
+      label.textContent = "Copied";
+      copy.classList.add("is-copied");
+      setTimeout(function () {
+        label.textContent = was;
+        copy.classList.remove("is-copied");
+      }, 1800);
+    }
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(url).then(done, fallback);
+    } else {
+      fallback();
+    }
+    function fallback() {
+      var ta = document.createElement("textarea");
+      ta.value = url;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); done(); } catch (e) { /* nothing to do */ }
+      document.body.removeChild(ta);
+    }
+  });
+})();
+
 </script>

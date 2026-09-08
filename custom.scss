@@ -726,3 +726,189 @@ hr {
   body { background: #fff; font-size: 11pt; }
   a { text-decoration: none; color: #000; }
 }
+
+// ---------------------------------------------------------------------------
+// 13. Share row
+//
+// Authored glyphs rather than brand marks: reproducing platform logos means
+// reproducing trademarks, and a set of shapes drawn in the site's own language
+// sits better with everything around it anyway.
+// ---------------------------------------------------------------------------
+
+.share {
+  margin: 3rem 0 0;
+  padding-top: 1.4rem;
+  border-top: 1px solid $rule;
+}
+
+.share-label {
+  font-size: 0.86rem;
+  color: $muted;
+  margin: 0 0 0.7rem;
+}
+
+.share-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  min-height: 44px;                 // comfortable touch target
+  padding: 0.4rem 0.85rem;
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: $ink-strong;
+  background: $paper-2;
+  border: 1px solid $rule;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(124, 34, 51, 0.12);
+
+  svg {
+    width: 15px;
+    height: 15px;
+    flex: 0 0 15px;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  &.is-copied {
+    background: $accent;
+    border-color: $accent;
+    color: #fff;
+  }
+}
+
+@media (hover: hover) {
+  .share-btn:hover {
+    border-color: $accent;
+    color: $accent;
+    background: $accent-soft;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 14. Icon links (footer and About)
+// ---------------------------------------------------------------------------
+
+.iconlinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.1rem 0 0;
+}
+
+.iconlink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 42px;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.87rem;
+  color: $ink;
+  border: 1px solid $rule;
+  border-radius: 2px;
+  text-decoration: none;
+
+  svg {
+    width: 14px; height: 14px; flex: 0 0 14px;
+    stroke: currentColor; fill: none;
+    stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;
+  }
+}
+
+@media (hover: hover) {
+  .iconlink:hover { border-color: $accent; color: $accent; }
+}
+
+// ---------------------------------------------------------------------------
+// 15. Small screens and touch
+//
+// Type steps down rather than the layout reflowing into something different,
+// so the page reads the same on a phone as on a desktop.
+// ---------------------------------------------------------------------------
+
+@media (max-width: 900px) {
+  main.content { padding-top: 2.4rem; padding-bottom: 3.4rem; }
+}
+
+@media (max-width: 700px) {
+  :root { --bs-root-font-size: 17px; }
+  h1, .title { font-size: 2.05rem; }
+  h2 { font-size: 1.4rem; margin-top: 2.6rem; }
+  .standfirst { font-size: 1.03rem; }
+}
+
+@media (max-width: 400px) {
+  :root { --bs-root-font-size: 16.25px; }
+  h1, .title { font-size: 1.82rem; letter-spacing: -0.012em; }
+}
+
+// Long author lists and DOI strings must never widen the page.
+.rec-title, .rec-authors, .rec-venue, .rec-links, .plain-list li, td, th {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+img, svg, table, pre, iframe { max-width: 100%; }
+
+// Touch targets: the navigation and the filter are the two places a finger
+// lands most often.
+.navbar .navbar-nav .nav-link {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  -webkit-tap-highlight-color: rgba(124, 34, 51, 0.12);
+}
+
+.filter button {
+  min-height: 42px;
+  -webkit-tap-highlight-color: rgba(124, 34, 51, 0.12);
+}
+
+.ct-pick, a.open {
+  min-height: 46px;
+  -webkit-tap-highlight-color: rgba(124, 34, 51, 0.12);
+}
+
+// Hover effects only where a pointer exists, so nothing sticks after a tap.
+@media (hover: none) {
+  .navbar .navbar-nav .nav-link:hover,
+  .rec-title a:hover,
+  a:hover { color: inherit; }
+  a.open:hover { background: $ink-strong; border-color: $ink-strong; color: $paper; }
+  .ct-pick:hover { background: $paper-2; border-color: $ink; color: $ink-strong; }
+}
+
+// The choice table is the tightest thing on the page; give it one more step.
+@media (max-width: 430px) {
+  .ct-grid, .ct-actions { grid-template-columns: 5.4rem 1fr 1fr; }
+  .ct-cell { padding: 0.45rem 0.35rem; font-size: 0.8rem; line-height: 1.32; }
+  .ct-attr { font-size: 0.76rem; }
+  .ct-pick { font-size: 0.8rem; padding: 0.5rem 0.2rem; margin: 0 0.12rem; }
+  .ct-stem { font-size: 0.95rem; }
+  .ct-scale { font-size: 0.72rem; }
+}
+
+// Landscape phones: reclaim vertical space.
+@media (max-height: 460px) and (orientation: landscape) {
+  .navbar { padding-top: 0.55rem; padding-bottom: 0.55rem; }
+  main.content { padding-top: 1.6rem; }
+}
+
+// Anchored headings should not hide under the header.
+h1, h2, h3 { scroll-margin-top: 5rem; }

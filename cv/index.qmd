@@ -7,6 +7,7 @@ description: "Curriculum vitae for Mesfin Genie, health economist at the Univers
 
 ## Appointments
 
+```{=html}
 <ul class="plain-list">
 <li>Senior Lecturer in Health Economics, Newcastle Business School, The University of Newcastle<span class="pl-meta">Continuing, 2026 to present</span></li>
 <li>Lecturer in Health Economics, Newcastle Business School, The University of Newcastle<span class="pl-meta">2023 to 2025</span></li>
@@ -15,15 +16,18 @@ description: "Curriculum vitae for Mesfin Genie, health economist at the Univers
 <li>Research Fellow, Health Economics Research Unit, University of Aberdeen<span class="pl-meta">2020 to 2022</span></li>
 <li>Postdoctoral Research Fellow, Department of Economics, Ca' Foscari University of Venice<span class="pl-meta">2019 to 2020</span></li>
 </ul>
+```
 
 ## Education
 
+```{=html}
 <ul class="plain-list">
 <li>PhD in Economics, Ca' Foscari University of Venice<span class="pl-meta">2019. Stated-preference methods for healthcare decision-making.</span></li>
 <li>MSc in Health Economics and Management, University of Bologna<span class="pl-meta">2015</span></li>
 <li>MSc in Economics, Addis Ababa University</li>
 <li>BA in Economics, Jimma University</li>
 </ul>
+```
 
 ## Fields
 
@@ -33,6 +37,7 @@ policy, decision-support tools.
 
 ## Elsewhere on this site
 
+```{=html}
 <ul class="plain-list">
 <li><a href="/publications/">Papers</a></li>
 <li><a href="/grants/">Grants</a></li>
@@ -40,3 +45,4 @@ policy, decision-support tools.
 <li><a href="/supervision/">Supervision</a></li>
 <li><a href="/tools/">Tools</a></li>
 </ul>
+```

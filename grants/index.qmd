@@ -27,11 +27,13 @@ With M. Wu, J. Henriquez, A. Gebremariam, A. Melia and collaborators.
 
 ## Travel and conference support
 
+```{=html}
 <ul class="plain-list">
 <li>American Society of Health Economists, jointly with the NIA-funded Center on the Demography and Economics of Health and Aging at Stanford University<span class="pl-meta">2019</span></li>
 <li>Novartis Travel Grant<span class="pl-meta">2017, $1,139</span></li>
 <li>Royal Economic Society Conference Grant<span class="pl-meta">2017, $626</span></li>
 </ul>
+```
 
 ::: {.note}
 Currency denominations on the FETP and travel awards are recorded as supplied and

@@ -48,3 +48,7 @@ empirically instead of choosing them by intuition.
 
 There is a recorded webinar covering this in more detail:
 [watch it](https://youtu.be/HO2qXJp-BFs).
+
+```{=html}
+<div class="share" data-share></div>
+```
