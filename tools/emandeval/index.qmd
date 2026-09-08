@@ -12,22 +12,17 @@ image: /assets/og-card.png
 <h1>eMANDEVAL Future</h1>
 <p>Prospective analysis of vaccine-mandate policy designs.</p>
 </div></header>
-
 <section class="content-section"><div class="page-shell narrow">
-<h2>The problem</h2>
-<p>Vaccine mandates are bundles of design choices, and public support, health benefits, and costs move together. Comparing designs "by eye" is difficult. eMANDEVAL lets users explore how design choices change predicted support and outcomes.</p>
-<h2>Intended users</h2>
-<p>Public-health policymakers, researchers, and partner agencies considering mandate designs.</p>
-<h2>Inputs and outputs</h2>
-<p>Users select mandate design features; the tool returns predicted public support, expected health outcomes, and benefit-cost comparisons across alternative designs.</p>
-<h2>Methodological basis</h2>
-<p>Predictions draw on preference estimates from discrete choice experiments on vaccine-mandate designs, developed within the MandEval programme of work.</p>
-<h2>Developer</h2>
-<p>Developed by Dr Mesfin Genie, Newcastle Business School, the University of Newcastle.</p>
-<h2>Limitations</h2>
-<p>Estimates are based on stated preferences and modelling assumptions and are intended to inform, not to determine, policy decisions.</p>
-<p><a class="button-primary" href="/eMANDEVA-DecisionAid-V18/" target="_blank" rel="noopener noreferrer">Open the tool</a></p>
+<div class="tool-facts">
+<div class="tool-fact"><h2>Problem</h2><p>Vaccine mandates combine multiple design choices, while public support, health benefits, and costs move together. Comparing alternatives by eye is difficult.</p></div>
+<div class="tool-fact"><h2>Users</h2><p>Public-health policymakers, researchers, and partner agencies considering mandate designs.</p></div>
+<div class="tool-fact"><h2>Inputs and outputs</h2><p>Users specify mandate features; the underlying tool is designed to return predicted public support, expected health outcomes, and benefit-cost comparisons across alternative designs.</p></div>
+<div class="tool-fact"><h2>Evidence base</h2><p>Predictions draw on preference estimates from discrete choice experiments on vaccine-mandate designs developed within the MandEval programme.</p></div>
+<div class="tool-fact"><h2>Developer</h2><p>Developed by Dr Mesfin Genie, Newcastle Business School, The University of Newcastle.</p></div>
+<div class="tool-fact"><h2>Limitations</h2><p>Estimates are based on stated preferences and modelling assumptions and are intended to inform, not determine, policy decisions.</p></div>
+</div>
+<p class="tool-notice"><strong>Application availability.</strong> The deployable standalone application files are not currently present in this GitHub repository, so this page intentionally does not expose a broken launch link.</p>
+<p class="inline-links"><a href="/research/projects/mandeval/">MandEval project</a><a href="/publications/no-jab-no-access/">Related publication</a></p>
 </div></section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"eMANDEVAL Future","applicationCategory":"Decision support tool","operatingSystem":"Web","url":"https://mesfingenie.com/eMANDEVA-DecisionAid-V18/","author":{"@type":"Person","name":"Mesfin Genie"}}</script>
-
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"eMANDEVAL Future","applicationCategory":"Decision support tool","operatingSystem":"Web","author":{"@type":"Person","name":"Mesfin Genie"}}</script>
 ```
