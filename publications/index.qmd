@@ -3,11 +3,10 @@ title: "Papers"
 description: "Peer-reviewed work in health economics, choice modelling, behavioural decision science and public health policy."
 ---
 
-Forty-four entries, newest first. Where a paper has a one-sentence plain-English
-finding it is because that sentence is worth more than the abstract; the rest are
-being written. The maintained list with citation counts is on
-[Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en),
-and the authoritative record is on [ORCID](https://orcid.org/0000-0002-1744-4666).
+Forty-four items, newest first, each linked to its DOI. Filter by area, or search
+the page. Citation counts are on
+[Google Scholar](https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en);
+the authoritative record is on [ORCID](https://orcid.org/0000-0002-1744-4666).
 
 ```{=html}
 <div class="filter" id="paper-filter">
@@ -18,14 +17,6 @@ and the authoritative record is on [ORCID](https://orcid.org/0000-0002-1744-4666
 </div>
 ```
 
-<!--
-  TO ADD A FINDING
-  Insert a line inside <div class="rec-body"> after the venue:
-      <p class="rec-finding">One sentence saying what the paper found.</p>
-  That sentence is the thing that makes this page better than everyone else's
-  publication list. It has to be yours.
--->
-
 <ul class="rec-list">
 
 <li class="rec" data-topic="public-health">
@@ -34,7 +25,7 @@ and the authoritative record is on [ORCID](https://orcid.org/0000-0002-1744-4666
     <p class="rec-title">An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence</p>
     <p class="rec-authors">Fabio I. Martinenghi; Tushar P. Ojha; Anaïs Thomasson; Bianca Devsam; Sarah Drislane; Stavros Vasiliadis; Chiara Berardi; Aregawi Gebremariam; Arianna Dipalma; Teresa Gavaruzzi; Jeremy K. Ward; Francesco Paolucci; Margie Danchin; <strong>Mesfin Genie</strong>; Katie Attwell; Christopher C. Blyth</p>
     <p class="rec-venue">npj Vaccines, 11, 01454</p>
-    <p class="rec-finding">The mandate evidence sits across four disciplines in formats that do not compare. We assembled it into an open repository others can extend, and reviewed what the quasi-experimental subset actually establishes.</p>
+    <p class="rec-finding">The mandate evidence sits across four disciplines in formats that do not compare. We assembled it into an open repository others can extend, and reviewed what the quasi-experimental subset establishes.</p>
     <p class="rec-links"><a href="https://doi.org/10.1038/s41541-026-01454-4">DOI</a></p>
   </div>
 </li>
@@ -65,6 +56,7 @@ and the authoritative record is on [ORCID](https://orcid.org/0000-0002-1744-4666
     <p class="rec-title">Fit for Purpose? Assessing the Robustness of Discrete Choice Experiment Designs in the Context of Evolving Health Technologies</p>
     <p class="rec-authors"><strong>Mesfin G. Genie</strong>; Verity Watson; Michaël Schwarzinger; Stéphane Luchini</p>
     <p class="rec-venue">Social Science &amp; Medicine, 404, 119463</p>
+    <p class="rec-finding">A choice experiment describes a technology as it stood when the design was fixed. When the technology moves, the design can stop measuring what it was built to measure.</p>
     <p class="rec-links"><a href="https://doi.org/10.1016/j.socscimed.2026.119463">DOI</a></p>
   </div>
 </li>
@@ -145,6 +137,7 @@ and the authoritative record is on [ORCID](https://orcid.org/0000-0002-1744-4666
     <p class="rec-title">Time Preferences and COVID-19 Vaccination Uptake</p>
     <p class="rec-authors">Arthur E. Attema; Marcello Antonini; <strong>Mesfin Genie</strong>; Aleksandra Torbica; Francesco Paolucci</p>
     <p class="rec-venue">The European Journal of Health Economics, 27, 47–63</p>
+    <p class="rec-finding">A survey across 22 countries between July 2022 and June 2023 elicited discount rates and present bias by choice list, and related them to vaccination behaviour.</p>
     <p class="rec-links"><a href="https://doi.org/10.1007/s10198-025-01801-7">DOI</a></p>
   </div>
 </li>
@@ -245,6 +238,7 @@ and the authoritative record is on [ORCID](https://orcid.org/0000-0002-1744-4666
     <p class="rec-title">Vaccinating Now or Vaccinating Later: Separating Pull-Forward and Net Effects Using a Dynamic Regression Discontinuity Design</p>
     <p class="rec-authors">Fabio I. Martinenghi; <strong>Mesfin Genie</strong>; Katie Attwell; Huong Le; Hannah C. Moore; Aregawi G. Gebremariam; Bette Liu; Francesco Paolucci; Christopher C. Blyth</p>
     <p class="rec-venue">arXiv (Working paper)</p>
+    <p class="rec-finding">A policy that raises vaccination this month may only be moving next month's vaccinations forward. Separating pull-forward from net effect changes whether the policy is judged to have worked.</p>
     <p class="rec-links"><a href="https://doi.org/10.48550/arXiv.2509.22714">DOI</a></p>
   </div>
 </li>
@@ -405,6 +399,7 @@ and the authoritative record is on [ORCID](https://orcid.org/0000-0002-1744-4666
     <p class="rec-title">Weighting or Aggregating? Investigating Information Processing in Multi-attribute Choices</p>
     <p class="rec-authors"><strong>Mesfin G. Genie</strong>; Nicolas Krucien; Mandy Ryan</p>
     <p class="rec-venue">Health Economics, 30, 1291–1305</p>
+    <p class="rec-finding">Choice analysis assumes people consider every attribute and trade them off against each other. This tests that assumption against how respondents actually process a multi-attribute task.</p>
     <p class="rec-links"><a href="https://doi.org/10.1002/hec.4245">DOI</a></p>
   </div>
 </li>
