@@ -49,7 +49,7 @@ website:
   site-url: "https://mesfingenie.com"
   favicon: assets/favicon.png
   page-navigation: true
-  back-to-top-navigation: true
+  back-to-top-navigation: false
   open-graph:
     locale: en_AU
     site-name: "Mesfin Genie"
@@ -58,33 +58,26 @@ website:
     card-style: summary_large_image
     creator: "@mesfin_genie"
     image: /assets/og-card.png
-  search: true
+  search: false
   navbar:
     pinned: true
     collapse-below: lg
-    background: "#002244"
-    foreground: "#ffffff"
+    background: "#fbfaf7"
+    foreground: "#171717"
     title: "Mesfin Genie"
     left:
-      - text: "Home"
-        href: /
       - text: "Research"
         href: /research/
       - text: "Publications"
         href: /publications/
       - text: "Tools"
         href: /tools/
-      - text: "Teaching & Supervision"
+      - text: "Teaching"
         href: /teaching/
-      - text: "Writing & Talks"
-        href: /writing/
-      - text: "About"
-        href: /about/
-    right:
       - text: "CV"
         href: /cv/
   page-footer:
-    left: '<div class="wb-footer"><div class="wb-footer-grid"><div class="wb-foot-brand"><p class="wb-foot-name">Dr Mesfin Genie</p><p>Continuing Senior Lecturer in Health Economics<br>Newcastle Business School, The University of Newcastle, Australia</p><p><a href="mailto:mesfin.genie@newcastle.edu.au">mesfin.genie@newcastle.edu.au</a></p></div><div class="wb-foot-col"><h3>Explore</h3><ul><li><a href="/research/">Research</a></li><li><a href="/publications/">Publications</a></li><li><a href="/tools/">Tools</a></li><li><a href="/teaching/">Teaching &amp; Supervision</a></li><li><a href="/writing/">Writing &amp; Talks</a></li><li><a href="/cv/">CV</a></li></ul></div><div class="wb-foot-col"><h3>Connect</h3><ul><li><a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a></li><li><a href="https://orcid.org/0000-0002-1744-4666" target="_blank" rel="noopener noreferrer">ORCID</a></li><li><a href="https://www.researchgate.net/profile/Mesfin-Genie" target="_blank" rel="noopener noreferrer">ResearchGate</a></li><li><a href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" target="_blank" rel="noopener noreferrer">LinkedIn</a></li><li><a href="https://github.com/DrGenie" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://x.com/mesfin_genie" target="_blank" rel="noopener noreferrer">X</a></li></ul></div><div class="wb-foot-col wb-foot-share"><h3>Share this site</h3><div class="share-bar" data-share="site" data-share-title="Dr Mesfin Genie, Health Economist"></div></div></div><div class="wb-footer-bottom"><span>&copy; 2026 Mesfin Genie</span><span>Newcastle Business School, The University of Newcastle</span></div></div>'
+    left: '<div class="editorial-footer"><div><a class="footer-email" href="mailto:mesfin.genie@newcastle.edu.au">mesfin.genie@newcastle.edu.au</a><p>Senior Lecturer in Health Economics<br>Newcastle Business School · The University of Newcastle</p></div><div class="footer-links"><a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://orcid.org/0000-0002-1744-4666" target="_blank" rel="noopener noreferrer">ORCID ↗</a><a href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/DrGenie" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div><div class="footer-meta"><span>Newcastle, Australia</span><span>&copy; 2026 Mesfin Genie</span></div></div>'
 
 format:
   html:
