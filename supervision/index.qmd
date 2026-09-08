@@ -1,38 +1,52 @@
 ---
-pagetitle: "Research supervision | Mesfin Genie"
-description: "Current and completed doctoral and MSc supervision by Dr Mesfin Genie, with guidance for prospective research students."
-title-block-style: none
-page-layout: full
-image: /assets/og-card.png
+title: "Research supervision"
+description: "Current and completed higher-degree supervision, and what to send if you want to work with me."
 ---
 
-```{=html}
-<header class="page-header"><div class="page-shell">
-<p class="eyebrow">Teaching and supervision</p>
-<h1>Research supervision</h1>
-<p>I supervise research in health economics, choice modelling, behavioural economics, eye tracking, clinical outcomes assessment, and health policy.</p>
-</div></header>
-<section class="content-section"><div class="page-shell narrow">
-<h2>Current</h2>
-<div class="editorial-list">
-<article class="editorial-row"><p class="editorial-label">Principal · PhD</p><h3>Telehealth usage, costs, and in-person healthcare in Australia</h3><p>The University of Newcastle · Current</p></article>
-<article class="editorial-row"><p class="editorial-label">Co-supervisor · PhD</p><h3>Climate change and the agricultural sector in the Solomon Islands</h3><p>The University of Newcastle · Expected 2028</p></article>
-<article class="editorial-row"><p class="editorial-label">Co-supervisor · PhD</p><h3>Economic modelling of novel approaches for crop drought resilience</h3><p>The University of Newcastle · Current</p></article>
-<article class="editorial-row"><p class="editorial-label">Co-supervisor · PhD</p><h3>Gendered ageism, menopause, and female labour-market participation</h3><p>The University of Newcastle · Current</p></article>
-</div>
+I supervise PhD and Master's students working on health economics, preference
+measurement, behavioural economics and applied econometrics. I am open to new
+students.
 
-<h2>Completed</h2>
-<div class="editorial-list">
-<article class="editorial-row"><p class="editorial-label">Co-supervisor · PhD</p><h3>Health Systems Reform Dynamics: Implications for Equity and Efficiency</h3><p>The University of Newcastle · Completed March 2025</p></article>
-<article class="editorial-row"><p class="editorial-label">Principal · MSc</p><h3>Socio-Economic and Behavioural Impacts of COVID-19 Vaccine Mandates: A Scoping Review</h3><p>The University of Newcastle</p></article>
-<article class="editorial-row"><p class="editorial-label">Principal · MSc</p><h3>The Socio-Economic and Behavioural Impacts of Influenza Vaccine Mandates on Healthcare Workers: A Scoping Review</h3><p>The University of Newcastle</p></article>
-</div>
+## Current
 
-<h2>How I supervise</h2>
-<p>I aim to help students sharpen a clear research question, choose a method that can answer it, and communicate the result to people who can use it. As principal supervisor I take lead responsibility for the candidate's programme; as co-supervisor I usually contribute health-economics, behavioural, or choice-modelling expertise.</p>
+<ul class="plain-list">
+<li>Understanding the drivers of telehealth usage among patients in Australia, and how it reduces costs relative to in-person services<span class="pl-meta">PhD, Principal Supervisor</span></li>
+<li>Economic analysis of the impact of climate change on the agricultural sector in the Solomon Islands<span class="pl-meta">PhD, Co-Supervisor, expected 2028</span></li>
+<li>Economic modelling of novel approaches to crop drought resilience, using long-term trials in Australia<span class="pl-meta">PhD, Co-Supervisor</span></li>
+<li>Gendered ageism in the workplace: menopause and female labour market participation<span class="pl-meta">PhD, Co-Supervisor</span></li>
+</ul>
 
-<h2>Prospective students</h2>
-<p>If you would like to discuss supervision, please send a CV setting out your academic qualifications, GPA or grading information, research experience, and any publications, together with a short note on the questions you would like to work on. Supervision is selective and depends on fit with current projects.</p>
-<p class="inline-links"><a href="/contact/">Contact for supervision enquiries</a><a href="/research/">Research areas</a></p>
-</div></section>
-```
+## Completed
+
+<ul class="plain-list">
+<li>Health systems reform dynamics: implications for equity and efficiency<span class="pl-meta">PhD, Co-Supervisor, completed March 2025</span></li>
+<li>Socio-economic and behavioural impacts of COVID-19 vaccine mandates: a scoping review<span class="pl-meta">MPhil, Principal Supervisor</span></li>
+<li>The socio-economic and behavioural impacts of influenza vaccine mandates on healthcare workers: a scoping review<span class="pl-meta">MPhil, Principal Supervisor</span></li>
+</ul>
+
+## Before you write to me
+
+Most enquiries I receive could be answered from a template, and I answer those
+with a template. The ones I answer properly do three things.
+
+**Name a question, not a field.** "I want to work on health economics" tells me
+nothing. "I want to know whether patients in this setting weigh X against Y the
+way clinical guidelines assume" tells me whether I can help.
+
+**Say why me.** Point to a specific paper or tool of mine and what you would do
+next with it. If nothing of mine connects to your question, I am probably the
+wrong supervisor, and you will be glad to have found that out early.
+
+**Attach the evidence.** CV with qualifications and results, any publications, and
+English language results if relevant.
+
+Send it to [mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au).
+I read everything that meets those three conditions.
+
+## Admission and funding
+
+Admission and scholarships at Newcastle run through the University's Higher Degree
+by Research process on its own timetable, separately from my agreement to
+supervise. Check the University's
+[research degree pages](https://www.newcastle.edu.au/research-and-innovation/graduate-research)
+for current deadlines before planning around a start date.

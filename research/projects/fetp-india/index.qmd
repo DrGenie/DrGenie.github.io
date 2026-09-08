@@ -1,28 +1,25 @@
 ---
-pagetitle: "FETP India business case | Research | Mesfin Genie"
-description: "A World Bank-commissioned business case for scaling up Field Epidemiology Training Programmes in India, supported by the STEPS decision aid."
-title-block-style: none
-page-layout: full
-image: /assets/og-card.png
+title: "Field-epidemiology training: the business case"
+description: "A discrete choice experiment and cost model supporting a World Bank business case for scaling field-epidemiology training."
 ---
 
-```{=html}
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/research/">Research</a> / <span aria-current="page">FETP India business case</span></nav>
-<header class="page-header"><div class="page-shell"><p class="eyebrow">Project</p><h1>Upscaling FETP in India</h1></div></header>
-<section class="content-section"><div class="page-shell narrow">
-<h2>The problem</h2>
-<p>Scaling up Field Epidemiology Training Programmes (FETP) strengthens a country's capacity to detect and respond to disease, but scale-up must be planned within a budget and justified with a clear business case.</p>
-<h2>Research questions</h2>
-<p>How should FETP scale-up in India be prioritised and planned so that cost, stakeholder endorsement, and expected health benefit are balanced?</p>
-<h2>Role, team, and partner</h2>
-<p>Commissioned by the World Bank Group. Dr Mesfin Genie contributed to the business case and led the supporting decision aid, working with M. Wu, J. Henriquez, A. Gebremariam, A. Melia, and collaborators.</p>
-<h2>Methods and data</h2>
-<p>A discrete choice experiment with stakeholders, combined with cost templates and epidemiological multipliers, underpins a transparent planning model.</p>
-<h2>Outputs</h2>
-<ul class="cv-list"><li><a href="/tools/steps/">STEPS FETP Scale-up Decision Aid</a></li></ul>
-<h2>Funding and status</h2>
-<p>Commissioned research for the World Bank Group (International Bank for Reconstruction and Development), 10 March 2025 to 31 December 2025.</p>
-<h2>Related resources</h2>
-<ul class="cv-list"><li><a href="/tools/steps/">STEPS decision aid</a></li></ul>
-</div></section>
-```
+Outbreak detection depends on trained field epidemiologists, and training them is
+expensive enough that scale-up decisions get made on intuition. This project built
+the evidence for one: a discrete choice experiment on what makes a training
+programme attractive to the people who would enrol, combined with a cost model for
+what different scale-up paths would take.
+
+The two halves matter together. A programme that is cheap per graduate but that
+nobody wants to join does not produce graduates. The choice experiment prices the
+programme features that drive enrolment; the cost model prices delivering them.
+
+The result is [STEPS](/tools/steps/), which lets a planner change the scale-up
+assumptions and see the consequences, rather than reading a single recommended
+scenario.
+
+Developed with the World Bank.
+
+## Related
+
+- [STEPS decision aid](/tools/steps/)
+- [Impact](/research/impact/)

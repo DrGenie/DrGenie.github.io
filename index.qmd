@@ -1,48 +1,175 @@
 ---
-pagetitle: "Mesfin Genie · Health Economist"
-title-block-style: none
-page-layout: full
-description: "Mesfin Genie is a Senior Lecturer in Health Economics at the University of Newcastle. He studies how people value healthcare, process information, and respond to policy."
+pagetitle: "Mesfin Genie"
+description: "Mesfin Genie is a health economist at the University of Newcastle. He measures what patients and the public value in healthcare, and how they read the information they are given."
 image: /assets/og-card.png
 ---
 
+::: {.intro}
+
 ```{=html}
-<section class="hero" aria-labelledby="hero-title"><div class="page-shell hero-grid">
-<div class="hero-copy">
-<p class="eyebrow">Health economics · behavioural decision science</p>
-<h1 id="hero-title">Mesfin Genie</h1>
-<p class="hero-role">Senior Lecturer in Health Economics</p>
-<p class="hero-value">I study how people value healthcare, process information, and respond to policy, using choice modelling, behavioural experiments, and applied econometrics.</p>
-<p class="hero-affiliation">Newcastle Business School · The University of Newcastle · Australia</p>
-<div class="hero-actions editorial-links">
-<a href="/research/">Research →</a>
-<a href="/publications/">Publications →</a>
-<a href="/cv/mesfin-genie-cv.pdf" target="_blank" rel="noopener noreferrer">CV ↗</a>
-</div>
-</div>
-<div class="portrait-frame"><img src="/assets/mesfin-genie-profile-square.webp" alt="Portrait of Mesfin Genie" width="640" height="800" fetchpriority="high"></div>
-</div></section>
-
-<section class="section" aria-labelledby="focus-heading"><div class="page-shell">
-<div class="section-heading editorial-heading"><p class="eyebrow">Research</p><h2 id="focus-heading">Research areas.</h2></div>
-<div class="theme-list editorial-list">
-<article class="theme"><h3><a href="/research/projects/health-preferences-dce/">Health preferences &amp; behavioural economics <span aria-hidden="true">→</span></a></h3><p>How people value healthcare, and how observed decisions depart from standard models.</p></article>
-<article class="theme"><h3><a href="/research/projects/eye-tracking-attribute-ordering/">Choice, attention &amp; information processing <span aria-hidden="true">→</span></a></h3><p>How people read, weight, and act on information in multi-attribute choices.</p></article>
-<article class="theme"><h3><a href="/research/projects/decision-support-tools/">Health policy &amp; decision tools <span aria-hidden="true">→</span></a></h3><p>How preference and economic evidence can be translated into policy analysis and practical decision support.</p></article>
-</div>
-</div></section>
-
-<section class="section" aria-labelledby="selected-heading"><div class="page-shell">
-<div class="section-heading editorial-heading"><p class="eyebrow">Selected work</p><h2 id="selected-heading">Recent research.</h2></div>
-<div class="selected-list editorial-list">
-<article class="selected"><p class="selected-kind">2026 · Paper</p><h3><a href="/publications/fit-for-purpose/">Fit for Purpose? <span aria-hidden="true">→</span></a></h3><p>Assessing whether discrete choice experiment designs remain robust as health technologies evolve.</p></article>
-<article class="selected"><p class="selected-kind">2026 · Paper</p><h3><a href="/publications/feeling-lonely/">Feeling Lonely? <span aria-hidden="true">→</span></a></h3><p>Preferences for programmes designed to reduce loneliness among older adults in Australia.</p></article>
-<article class="selected"><p class="selected-kind">Programme</p><h3><a href="/research/projects/mandeval/">MandEval <span aria-hidden="true">→</span></a></h3><p>Evidence on vaccine mandates, combining policy evaluation with preference research.</p></article>
-<article class="selected"><p class="selected-kind">Tool</p><h3><a href="/tools/steps/">STEPS <span aria-hidden="true">→</span></a></h3><p>Decision support for planning the scale-up of field epidemiology training in India.</p></article>
-</div>
-</div></section>
-
-<section class="section home-contact" aria-labelledby="contact-heading"><div class="page-shell contact-editorial">
-<p class="eyebrow">Contact</p><div><h2 id="contact-heading"><a href="mailto:mesfin.genie@newcastle.edu.au">mesfin.genie@newcastle.edu.au</a></h2><p>Research collaboration, speaking, and supervision enquiries.</p></div>
-</div></section>
+<img src="/assets/mesfin-genie-profile-square.webp" alt="Mesfin Genie" class="intro-portrait" width="300" height="300">
 ```
+
+# Mesfin Genie
+
+::: {.standfirst}
+Senior Lecturer in Health Economics, Newcastle Business School, University of Newcastle
+:::
+
+I measure what people are willing to give up. Patients trade waiting time against
+cost, side effects against survival, privacy against convenience; governments make
+the same trades on their behalf and rarely say so out loud. My work puts numbers on
+those trades using discrete choice experiments, and then asks a harder question:
+whether the numbers mean what we think they mean when a person has only skimmed
+half the information in front of them. That second question is why I run eye
+trackers alongside surveys.
+
+Most of it ends up somewhere concrete. Vaccine mandate preferences became a tool
+policymakers can open in a browser. A World Bank choice experiment became a costing
+model for scaling up field-epidemiology training. I am at Newcastle after a PhD at
+Ca' Foscari Venice and posts at Aberdeen, Auburn and Duke.
+
+[Papers](/publications/), [tools](/tools/), [CV](/cv/), or write to me at
+[mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au).
+
+:::
+
+## Answer three questions and I will price your patience
+
+```{=html}
+<div class="ct" id="choice-task">
+  <div class="ct-frame">
+
+    <div id="ct-ask">
+      <p class="ct-q">Question <span id="ct-n">1</span> of 3</p>
+      <p class="ct-stem">You need to see a specialist. Two clinics can take you, and they are alike in every way except these two. Which do you book?</p>
+
+      <div class="ct-grid">
+        <div class="ct-cell ct-head"><span class="visually-hidden">Attribute</span></div>
+        <div class="ct-cell ct-head">Clinic A</div>
+        <div class="ct-cell ct-head">Clinic B</div>
+
+        <div class="ct-cell ct-attr">Wait for an appointment</div>
+        <div class="ct-cell ct-val">2 weeks</div>
+        <div class="ct-cell ct-val">6 weeks</div>
+
+        <div class="ct-cell ct-attr">Cost to you</div>
+        <div class="ct-cell ct-val" id="ct-bid">$80</div>
+        <div class="ct-cell ct-val">No cost</div>
+      </div>
+
+      <div class="ct-actions">
+        <span></span>
+        <button type="button" class="ct-pick" data-pick="A">Book Clinic A</button>
+        <button type="button" class="ct-pick" data-pick="B">Book Clinic B</button>
+      </div>
+
+      <div class="ct-dots" aria-hidden="true">
+        <span class="ct-dot"></span>
+        <span class="ct-dot"></span>
+        <span class="ct-dot"></span>
+      </div>
+    </div>
+
+    <div id="ct-out" class="ct-result" tabindex="-1" aria-live="polite">
+      <p class="ct-q">What your three answers imply</p>
+      <p class="ct-answer" id="ct-answer"></p>
+
+      <div class="ct-figure">
+        <div class="ct-bar"><div class="ct-band" id="ct-band"></div></div>
+        <div class="ct-scale"><span>$0</span><span>$150</span><span>$300 or more</span></div>
+      </div>
+
+      <p class="note">Each question raised or lowered the price depending on the answer before it, so three choices bracket the point where you switch. That is the whole logic of stated-preference work, run on one person. A real discrete choice experiment does it across hundreds of respondents and six or seven attributes at once, and estimates the switching point instead of bracketing it, which is what makes the number transferable to someone other than you.</p>
+
+      <button type="button" class="ct-restart" id="ct-restart">Start again</button>
+    </div>
+
+  </div>
+</div>
+```
+
+<p class="note" style="margin-top:1rem;">The tools under [Tools](/tools/) run the same machinery on estimated coefficients rather than on your three answers.</p>
+
+## Recent papers
+
+<ul class="rec-list">
+
+<li class="rec">
+  <div class="rec-year">2026</div>
+  <div class="rec-body">
+    <p class="rec-title">Fit for purpose? Discrete choice experiment designs for changing health technologies</p>
+    <p class="rec-venue">Social Science &amp; Medicine</p>
+    <p class="rec-finding">A choice experiment describes a technology as it stood when the design was written. When the technology moves, the design can quietly stop measuring the thing it was built to measure. This sets out when that happens and what to do about it.</p>
+  </div>
+</li>
+
+<li class="rec">
+  <div class="rec-year">2026</div>
+  <div class="rec-body">
+    <p class="rec-title">An open repository of COVID-19 vaccine mandate studies, with a worked scoping review of quasi-experimental evidence</p>
+    <p class="rec-venue">npj Vaccines</p>
+    <p class="rec-finding">The mandate literature is scattered across disciplines and hard to compare. We assembled it into a repository that others can query and extend, and used it to review what the quasi-experimental studies actually establish.</p>
+    <p class="rec-links"><a href="/publications/">Details and links</a></p>
+  </div>
+</li>
+
+<li class="rec">
+  <div class="rec-year">2025</div>
+  <div class="rec-body">
+    <p class="rec-title">Impact of vaccine mandates and removals on COVID-19 vaccine uptake in Australia and international comparators: a study protocol</p>
+    <p class="rec-venue">BMJ Open</p>
+    <p class="rec-finding">The design for measuring what mandates did to uptake, and what happened when they were lifted, across Australia and comparable countries.</p>
+  </div>
+</li>
+
+<li class="rec">
+  <div class="rec-year">2025</div>
+  <div class="rec-body">
+    <p class="rec-title">Vaccinating now or vaccinating later: separating pull-forward and net effects using a dynamic regression discontinuity design</p>
+    <p class="rec-venue">Working paper</p>
+    <p class="rec-finding">A policy that raises vaccination this month may only be moving next month's vaccinations forward. This separates the two, which matters a great deal for whether a mandate is judged to have worked.</p>
+  </div>
+</li>
+
+</ul>
+
+<p class="note"><a href="/publications/">All papers</a>, or the current list on <a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ">Google Scholar</a>.</p>
+
+## Tools
+
+<ul class="rec-list">
+
+<li class="rec">
+  <div class="rec-year">Policy</div>
+  <div class="rec-body">
+    <p class="rec-title"><a href="/tools/emandeval/">eMANDEVAL</a></p>
+    <p class="rec-finding">Compare vaccine mandate designs against public preference estimates, and see which combinations hold support and which lose it.</p>
+  </div>
+</li>
+
+<li class="rec">
+  <div class="rec-year">Costing</div>
+  <div class="rec-body">
+    <p class="rec-title"><a href="/tools/steps/">STEPS</a></p>
+    <p class="rec-finding">Plan the scale-up of field-epidemiology training, built on a discrete choice experiment and a cost model developed with the World Bank.</p>
+  </div>
+</li>
+
+<li class="rec">
+  <div class="rec-year">Appraisal</div>
+  <div class="rec-body">
+    <p class="rec-title"><a href="/tools/soil-crc-bca/">Farming benefit–cost tool</a></p>
+    <p class="rec-finding">Benefit–cost appraisal for soil and farming interventions, with the assumptions exposed rather than buried.</p>
+  </div>
+</li>
+
+</ul>
+
+## Students and teaching
+
+I teach behavioural economics and health economics at Newcastle, and supervise
+students working on choice experiments, eye tracking and clinical outcomes
+measurement. If you are thinking about a PhD or a Master's project, read
+[what to send me](/supervision/) before writing; it will save us both a round of
+email. Course details are under [teaching](/teaching/).

@@ -1,23 +1,50 @@
 ---
-title: "Why 99% Does Not Feel Like 100%: The Certainty Effect"
-description: "A sure thing feels special, and the jump from 99% to 100% feels larger than the jump from 60% to 61%. Here is why, and what it means for decisions."
+title: "Why 99% does not feel like 100%"
+description: "The certainty effect: why eliminating the last sliver of risk is worth more than removing an equivalent sliver in the middle, and what that does to health decisions."
 author: "Mesfin Genie"
-date: "2026-07-02"
-categories: [Behavioural economics in everyday life, Choice modelling explained]
+date: "2025-06-01"
+categories: [behavioural economics, risk]
 ---
 
-Imagine a clinic offers you a treatment that works for certain. Now imagine the same treatment, but it works 99 times out of 100. The one percent difference is small on paper, yet for many people the certain version feels far more attractive. That gap is the certainty effect, and it is one of the clearest ways that real choices depart from the standard model.
+Expected utility theory has a tidy prediction about probability. A one-percentage-
+point reduction in risk is a one-percentage-point reduction in risk, and it should
+be worth the same whether it takes you from 60% to 59% or from 1% to 0%.
 
-Start with the benchmark. Expected utility theory, the workhorse model of choice under risk, treats probabilities linearly. A move from 0.60 to 0.61 should matter exactly as much as a move from 0.99 to 1.00, because both are a one-point change in the chance of a good outcome. The model is clean and often useful, and it is the right place to begin.
+People do not behave that way, and they are consistent about not behaving that way.
+The move from 1% to 0% is valued far above the move from 60% to 59%. Certainty
+itself carries a premium. Kahneman and Tversky called it the certainty effect, and
+it is one of the most reliably reproduced findings in decision research.
 
-Now the behaviour. People routinely treat certainty as special. Consider a simple pair of choices. First, a sure A$300 against an 80% chance of A$400. Many people take the sure A$300, even though the gamble is worth A$320 on average. Second, a 25% chance of A$300 against a 20% chance of A$400. Here many of the same people switch to the A$400 option. The two problems have the same ratio of probabilities; only the presence of a sure thing has changed. Under expected utility the ranking should not flip, but it does. The pull of certainty in the first problem, and its absence in the second, drives the switch.
+## Why it matters in health
 
-This is descriptive, not normative. The point is not that preferring certainty is irrational, nor that people should be argued out of it. The point is that a model which assumes linear probabilities will mispredict these choices, and that the error is systematic rather than random. Prospect theory captures the pattern with a probability weighting function in which the very top of the scale, near certainty, is treated differently from the middle.
+Almost every health decision is a probability statement. A treatment reduces
+recurrence risk. A screening test has a false-negative rate. A vaccine is
+effective at some percentage. If the value people place on a risk reduction is
+non-linear in the probability, then three things follow.
 
-The practical implications are real. Framing an option as guaranteed, when it genuinely is, can change uptake more than a small change in the underlying odds. In health, "eliminates the risk" reads very differently from "reduces the risk to almost nothing," even when the numbers are close. That is useful to know when communicating, and it is something to watch for when a product or message leans on the word "guaranteed" to do heavy lifting.
+**Willingness to pay is not proportional to risk reduction.** A treatment that
+eliminates a small risk can command a price well out of proportion to the expected
+harm it prevents. That is not irrationality to be corrected. It is a preference,
+and cost-effectiveness analysis that assumes linearity will misprice it.
 
-The limitation is worth stating plainly. The certainty effect describes a tendency, not a law, and its size varies with context, stakes, and how a choice is presented. It tells us to be careful with near-certain probabilities; it does not tell us that people ignore probabilities in general.
+**Communication format changes decisions.** "Reduces your risk from 2% to 1%" and
+"halves your risk" describe the same fact and produce different choices. Neither
+framing is neutral, so there is no option to avoid framing; there is only the
+choice of which framing to use, made deliberately or by accident.
 
-If you want the mechanics behind this, the [ECON3111 resources on choice under risk and uncertainty](/teaching/behavioural-economics/) work through the certainty effect with numbers, and the post on [probability weighting](/blog/posts/insurance-and-lottery-tickets/) shows the other side of the same function.
+**Partial protection is undersold.** A vaccine described as 95% effective is
+frequently heard as *it might not work*, and the residual 5% does more work in the
+listener's mind than the 95%. Public health messaging that leads with an
+effectiveness percentage is leaning on a number that people process in a
+predictably skewed way.
 
-**Key references.** Kahneman, D. and Tversky, A. (1979). Prospect theory: an analysis of decision under risk. *Econometrica*. Tversky, A. and Kahneman, A. (1992). Advances in prospect theory: cumulative representation of uncertainty. *Journal of Risk and Uncertainty*.
+## What to do about it
+
+Not much can be done about the underlying preference, and it is not obvious that
+anything should be. The practical response is to stop assuming linearity where the
+evidence says there is none: use elicitation methods that can detect the
+non-linearity, model it rather than average it away, and test message framings
+empirically instead of choosing them by intuition.
+
+There is a recorded webinar covering this in more detail:
+[watch it](https://youtu.be/HO2qXJp-BFs).

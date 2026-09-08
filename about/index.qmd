@@ -1,49 +1,62 @@
 ---
-pagetitle: "About | Mesfin Genie"
-description: "Dr Mesfin Genie is a Senior Lecturer in Health Economics at Newcastle Business School, The University of Newcastle, working on health preferences, behavioural economics, discrete choice experiments, eye tracking, and decision-support tools."
-title-block-style: none
-page-layout: full
-image: /assets/og-card.png
+title: "About"
+description: "Mesfin Genie is a Senior Lecturer in Health Economics at Newcastle Business School, University of Newcastle."
 ---
 
 ```{=html}
-<header class="page-header"><div class="page-shell">
-<p class="eyebrow">About</p>
-<h1>Mesfin Genie</h1>
-<p>Senior Lecturer in Health Economics, Newcastle Business School, The University of Newcastle, Australia.</p>
-</div></header>
-
-<section class="content-section"><div class="page-shell narrow">
-<h2>Biography</h2>
-<p>Dr Mesfin Genie is a Senior Lecturer in Health Economics at Newcastle Business School, The University of Newcastle, Australia. His research examines how patients and the public value healthcare, how they process information when making health decisions, and how they respond to health policy. He combines health economics and behavioural economics with discrete choice experiments, eye tracking, health measurement, and decision-support tools.</p>
-<p>He received his PhD in Economics from Ca' Foscari University of Venice, Italy, where he used stated-preference methods to study healthcare decision-making. He earned an MSc in Health Economics and Management from the University of Bologna in 2015, an MSc in Economics from Addis Ababa University, and a BA in Economics from Jimma University. He has held research and teaching positions at Ca' Foscari University of Venice, the Health Economics Research Unit at the University of Aberdeen, the Harrison School of Pharmacy at Auburn University, and the School of Medicine at Duke University.</p>
-<p>His applied work spans organ transplantation, diabetes, prostate cancer, dementia, loneliness, telemedicine, medical devices, the health workforce, vaccines and vaccine mandates, and broader public-health interventions.</p>
-
-<h2>Research focus</h2>
-<div class="editorial-list">
-<article class="editorial-row"><p class="editorial-label">01</p><h3>Patient preferences and behavioural economics</h3><p>Discrete choice experiments across health conditions and interventions, with particular interest in preference heterogeneity, equity, and value.</p></article>
-<article class="editorial-row"><p class="editorial-label">02</p><h3>Information processing in healthcare decisions</h3><p>Integrating eye-tracking measures with choice experiments to study attention, information acquisition, and multi-attribute choice.</p></article>
-<article class="editorial-row"><p class="editorial-label">03</p><h3>Health measurement, outcomes, and policy evaluation</h3><p>Ensuring that policies, technologies, and interventions reflect outcomes that patients and the public actually value.</p></article>
-</div>
-
-<h2>Career</h2>
-<div class="timeline">
-<article class="timeline-item"><h3>Senior Lecturer in Health Economics</h3><p><strong>The University of Newcastle, Australia · 2026-present</strong><br>Continuing appointment, Newcastle Business School.</p></article>
-<article class="timeline-item"><h3>Lecturer in Health Economics</h3><p><strong>The University of Newcastle, Australia · 2023-2025</strong><br>Newcastle Business School.</p></article>
-<article class="timeline-item"><h3>Health Measurement and Regulatory Science Fellow</h3><p><strong>Duke University, United States · 2023-2024</strong><br>School of Medicine, concurrent.</p></article>
-<article class="timeline-item"><h3>Postdoctoral Research Fellow</h3><p><strong>Auburn University, United States · 2022-2023</strong><br>Harrison School of Pharmacy.</p></article>
-<article class="timeline-item"><h3>Research Fellow</h3><p><strong>University of Aberdeen, United Kingdom · 2020-2022</strong><br>Health Economics Research Unit.</p></article>
-<article class="timeline-item"><h3>Postdoctoral Research Fellow</h3><p><strong>Ca' Foscari University of Venice, Italy · 2019-2020</strong><br>Department of Economics.</p></article>
-</div>
-
-<h2>Academic service</h2>
-<p>Guest Editor for <em>Health Policy and Technology</em>. Reviewer for journals including the <em>Journal of Health Economics</em>, <em>Health Economics</em>, <em>Value in Health</em>, <em>Social Science &amp; Medicine</em>, the <em>Journal of Choice Modelling</em>, <em>Theory and Decision</em>, and <em>BMJ Open</em>.</p>
-
-<h2>Methods and expertise</h2>
-<p class="tag-row"><span class="tag">Health economics</span><span class="tag">Discrete choice experiments</span><span class="tag">Behavioural economics</span><span class="tag">Eye tracking</span><span class="tag">Health-preference research</span><span class="tag">Clinical outcomes assessment</span><span class="tag">Public-health policy</span><span class="tag">Decision-support tools</span></p>
-
-<h2>Prospective students</h2>
-<p>I welcome enquiries from prospective PhD and MSc students interested in health economics, discrete choice experiments, eye-tracking methods, clinical outcomes assessment, behavioural economics, and related areas. Please send a CV with academic qualifications, grading information, research experience, publications where applicable, and a short note on the questions you would like to work on.</p>
-<p class="inline-links"><a href="/cv/">View CV</a><a href="/supervision/">Research supervision</a><a href="/contact/">Contact</a></p>
-</div></section>
+<img src="/assets/mesfin-genie-profile-square.webp" alt="Mesfin Genie" class="intro-portrait" width="300" height="300">
 ```
+
+I am a Senior Lecturer in Health Economics at Newcastle Business School, the
+University of Newcastle, Australia.
+
+My PhD in Economics is from Ca' Foscari University of Venice, where I used stated
+preference methods to study how people make healthcare decisions. Before that I
+took an MSc in Health Economics and Management at the University of Bologna, an
+MSc in Economics at Addis Ababa University, and a BA in Economics at Jimma
+University. I was a postdoctoral fellow at Ca' Foscari, then a Research Fellow at the Health
+Economics Research Unit in Aberdeen, a postdoctoral fellow at the Harrison School
+of Pharmacy at Auburn, and a Health Measurement and Regulatory Science Fellow at
+Duke University School of Medicine. I joined Newcastle as a Lecturer in 2023 and
+have been a Senior Lecturer since 2026.
+
+The through-line is preference measurement: what people are willing to trade, how
+reliably we can measure it, and what happens to the measurement when the person
+answering has not read everything we put in front of them. The last of those is
+why I use eye tracking, and why a fair amount of my work is about method rather
+than about any one clinical question.
+
+I also build things. Estimates that stay in a paper reach a narrow audience;
+estimates in a working tool reach whoever has the decision. Three of those tools
+are [public](/tools/).
+
+## Service
+
+Guest Editor, *Health Policy and Technology*. Reviewer for the *Journal of Health
+Economics*, *Health Economics*, *Value in Health*, *Social Science & Medicine*, the
+*Journal of Choice Modelling*, *Theory and Decision*, and *BMJ Open*.
+
+I coordinate health economics and preference research activity at Newcastle and
+work with early-career researchers across the group.
+
+## Elsewhere
+
+<ul class="plain-list">
+<li><a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ">Google Scholar</a></li>
+<li><a href="https://orcid.org/0000-0002-1744-4666">ORCID</a> <span class="pl-meta">0000-0002-1744-4666</span></li>
+<li><a href="https://github.com/DrGenie">GitHub</a></li>
+<li><a href="https://www.researchgate.net/profile/Mesfin-Genie">ResearchGate</a></li>
+<li><a href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216">LinkedIn</a></li>
+<li><a href="https://x.com/mesfin_genie">X</a></li>
+<li><a href="https://www.newcastle.edu.au/profile/mesfin-genie">University staff profile</a></li>
+</ul>
+
+## Contact
+
+[mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au)
+
+Newcastle Business School, University of Newcastle, Newcastle NSW, Australia
+
+For collaboration, write with the question you want answered rather than the
+method you want to use; the method is usually the easier half. For supervision,
+please read [what to send](/supervision/) first.

@@ -1,96 +1,95 @@
 lang: en-AU
+
 project:
   type: website
   output-dir: _site
   render:
     - index.qmd
-    - about/index.qmd
+    - 404.qmd
     - research/index.qmd
-    - grants/index.qmd
-    - publications/index.qmd
-    - conferences/index.qmd
-    - tools/index.qmd
-    - tools/emandeval/index.qmd
-    - tools/soil-crc-bca/index.qmd
-    - tools/steps/index.qmd
-    - teaching/index.qmd
-    - teaching/behavioural-economics/index.qmd
-    - supervision/index.qmd
-    - cv/index.qmd
-    - contact/index.qmd
-    - writing/index.qmd
     - research/impact/index.qmd
     - research/data-and-code/index.qmd
+    - research/projects/health-preferences-dce/index.qmd
+    - research/projects/eye-tracking-attribute-ordering/index.qmd
+    - research/projects/decision-support-tools/index.qmd
     - research/projects/mandeval/index.qmd
     - research/projects/fetp-india/index.qmd
-    - research/projects/eye-tracking-attribute-ordering/index.qmd
-    - research/projects/health-preferences-dce/index.qmd
-    - research/projects/decision-support-tools/index.qmd
-    - publications/fit-for-purpose/index.qmd
-    - publications/guidance-or-misdirection/index.qmd
-    - publications/priority-for-self-or-others/index.qmd
-    - publications/no-jab-no-access/index.qmd
-    - publications/covid-mandate-repository/index.qmd
-    - publications/feeling-lonely/index.qmd
+    - publications/index.qmd
+    - tools/index.qmd
+    - tools/emandeval/index.qmd
+    - tools/steps/index.qmd
+    - tools/soil-crc-bca/index.qmd
+    - about/index.qmd
+    - teaching/index.qmd
+    - supervision/index.qmd
+    - grants/index.qmd
+    - writing/index.qmd
+    - cv/index.qmd
     - blog/index.qmd
-    - blog/editorial-calendar.qmd
     - blog/posts/*/index.qmd
   resources:
     - CNAME
     - .nojekyll
     - robots.txt
     - assets/**
-    - cv/mesfin-genie-cv.pdf
     - eMANDEVA-DecisionAid-V18/**
     - farming-bca-tool-v18/**
     - STEPS-FETP-DecisionAid-V20/**
+    #
+    # cv/mesfin-genie-cv.pdf does not need a line here: Quarto copies local
+    # files that a page links to.
 
 website:
+  title: "Mesfin Genie"
   site-url: "https://mesfingenie.com"
   favicon: assets/favicon.png
-  page-navigation: true
+  page-navigation: false
   back-to-top-navigation: false
+  search: false
   open-graph:
     locale: en_AU
-    site-name: "Mesfin Genie"
-    image: /assets/og-card.png
   twitter-card:
     card-style: summary_large_image
     creator: "@mesfin_genie"
-    image: /assets/og-card.png
-  search: false
+
   navbar:
-    pinned: true
+    pinned: false
     collapse-below: lg
-    background: "#fbfaf7"
-    foreground: "#171717"
+    background: "#fbfbf9"
+    foreground: "#16232b"
     title: "Mesfin Genie"
     left:
       - text: "Research"
         href: /research/
-      - text: "Publications"
+      - text: "Papers"
         href: /publications/
       - text: "Tools"
         href: /tools/
-      - text: "Teaching"
-        href: /teaching/
+      - text: "About"
+        href: /about/
+    right:
       - text: "CV"
         href: /cv/
+
   page-footer:
-    left: '<div class="editorial-footer"><div><a class="footer-email" href="mailto:mesfin.genie@newcastle.edu.au">mesfin.genie@newcastle.edu.au</a><p>Senior Lecturer in Health Economics<br>Newcastle Business School · The University of Newcastle</p></div><div class="footer-links"><a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a><a href="https://orcid.org/0000-0002-1744-4666" target="_blank" rel="noopener noreferrer">ORCID ↗</a><a href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/DrGenie" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div><div class="footer-meta"><span>Newcastle, Australia</span><span>&copy; 2026 Mesfin Genie</span></div></div>'
+    left: |
+      <div class="foot">
+        <p>Mesfin Genie, Newcastle Business School, University of Newcastle, Australia</p>
+        <p><a href="mailto:mesfin.genie@newcastle.edu.au">mesfin.genie@newcastle.edu.au</a><span class="foot-sep">|</span><a href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ">Google&nbsp;Scholar</a><span class="foot-sep">|</span><a href="https://orcid.org/0000-0002-1744-4666">ORCID</a><span class="foot-sep">|</span><a href="https://github.com/DrGenie">GitHub</a></p>
+      </div>
 
 format:
   html:
-    theme: cosmo
-    css:
-      - assets/styles.css
-      - assets/editorial-overrides.css
+    theme: custom.scss
     toc: false
-    smooth-scroll: true
-    include-in-header: assets/head.html
-    include-after-body: assets/scripts.html
+    page-layout: article
+    smooth-scroll: false
     anchor-sections: false
     link-external-newwindow: true
+    link-external-icon: false
+    include-in-header: _includes/head.html
+    include-after-body: _includes/scripts.html
+    title-block-banner: false
 
 execute:
   freeze: auto

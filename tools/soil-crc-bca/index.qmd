@@ -1,27 +1,22 @@
 ---
-pagetitle: "SOIL CRC Benefit-Cost Analysis Tool | Mesfin Genie"
-description: "A benefit-cost analysis tool for agricultural production trials, reporting net present value, benefit-cost ratio, return on investment, and sensitivity analysis."
-title-block-style: none
-page-layout: full
-image: /assets/og-card.png
+title: "SOIL CRC Benefit–Cost Analysis Tool"
+description: "Benefit–cost appraisal for farm-trial and soil-management interventions, with the assumptions exposed."
 ---
 
-```{=html}
-<header class="page-header"><div class="page-shell">
-<p class="eyebrow">Tool · Economic evaluation</p>
-<h1>SOIL CRC Benefit-Cost Analysis Tool</h1>
-<p>Benefit-cost analysis for farm-practice and soil-management trials.</p>
-</div></header>
-<section class="content-section"><div class="page-shell narrow">
-<div class="tool-facts">
-<div class="tool-fact"><h2>Problem</h2><p>Deciding whether an agricultural trial or soil-management intervention is worth its cost requires transparent economic appraisal under uncertainty.</p></div>
-<div class="tool-fact"><h2>Users</h2><p>Researchers and partners evaluating agricultural production trials.</p></div>
-<div class="tool-fact"><h2>Inputs and outputs</h2><p>Users supply trial assumptions and costs; the underlying tool is designed to return net present value, benefit-cost ratio, return on investment, and sensitivity analysis under alternative scenarios.</p></div>
-<div class="tool-fact"><h2>Method</h2><p>Standard benefit-cost analysis with user-supplied assumptions and explicit sensitivity ranges.</p></div>
-<div class="tool-fact"><h2>Credits</h2><p>Project lead and publisher: Dr Frank Wogbe Agbola. Developed with Dr Mesfin Genie.</p></div>
-<div class="tool-fact"><h2>Limitations</h2><p>Results depend on the assumptions entered and are intended to support appraisal and discussion.</p></div>
-</div>
-<p class="tool-notice"><strong>Application availability.</strong> The deployable standalone application files are not currently present in this GitHub repository, so this page intentionally does not expose a broken launch link.</p>
-</div></section>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"SOIL CRC Benefit-Cost Analysis Tool","applicationCategory":"Economic evaluation tool","operatingSystem":"Web","author":{"@type":"Person","name":"Mesfin Genie"}}</script>
-```
+Assessing whether a farm trial or soil-management intervention is worth its cost
+means committing to a discount rate, a time horizon and an adoption path. Reported
+as a single ratio, those commitments disappear from view, and much of the ratio
+comes from them rather than from the intervention.
+
+This tool exposes them. Set the assumptions and sensitivity ranges yourself, and
+it returns net present value, benefit–cost ratio, return on investment and a
+sensitivity analysis. The useful output is often not the central estimate but the
+range of assumptions under which the conclusion flips.
+
+For researchers and partners evaluating agricultural production trials.
+
+[Open the tool](/farming-bca-tool-v18/){.open}
+
+::: {.note}
+Project lead and publisher: Dr Frank Wogbe Agbola. Tool developed by Mesfin Genie.
+:::

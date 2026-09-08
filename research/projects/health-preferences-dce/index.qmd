@@ -1,29 +1,41 @@
 ---
-pagetitle: "Health preferences and discrete choice research | Research | Mesfin Genie"
-description: "A programme of discrete choice experiments measuring how patients and the public value health across many conditions and interventions."
-title-block-style: none
-page-layout: full
-image: /assets/og-card.png
+title: "Health preferences and behavioural economics"
+description: "Discrete choice experiments across clinical and policy settings, and what they reveal about where real decisions depart from the standard model."
 ---
 
-```{=html}
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/research/">Research</a> / <span aria-current="page">Health preferences and discrete choice research</span></nav>
-<header class="page-header"><div class="page-shell"><p class="eyebrow">Research programme</p><h1>Health preferences and discrete choice research</h1></div></header>
-<section class="content-section"><div class="page-shell narrow">
-<h2>Overview</h2>
-<p>Much of my work measures how patients and the public value health, using discrete choice experiments across a wide range of conditions and interventions. The aim is to ensure that health policies and technologies reflect outcomes that people actually value, and to improve the methods used to measure those values.</p>
-<h2>Questions</h2>
-<p>What do people value in health care and health policy, how do preferences differ across people, and how can preference methods be made more robust?</p>
-<h2>Methods</h2>
-<p>Discrete choice experiments, preference-based value assessment, and, increasingly, process measures such as eye tracking.</p>
-<h2>Selected publications</h2>
-<ul class="cv-list">
-<li><a href="/publications/fit-for-purpose/">Fit for Purpose? Robustness of DCE designs for evolving technologies</a></li>
-<li><a href="/publications/guidance-or-misdirection/">Guidance or Misdirection? The role of feedback in preference assessment</a></li>
-<li><a href="/publications/priority-for-self-or-others/">Priority for Self or Others? Equity in value assessment</a></li>
-<li><a href="/publications/feeling-lonely/">Feeling Lonely? Preferences for loneliness-support programmes</a></li>
-</ul>
-<h2>Related resources</h2>
-<ul class="cv-list"><li><a href="/blog/posts/what-a-discrete-choice-experiment-measures/">What a discrete choice experiment measures</a></li><li><a href="/publications/">All publications</a></li></ul>
-</div></section>
-```
+A discrete choice experiment shows a person a series of made-up options and asks
+which they would take. Repeated across enough people and enough combinations, the
+pattern of answers identifies how much each feature of the option is worth in the
+currency of the others. It is the closest thing health economics has to a price
+for something that is never priced.
+
+I have run these across organ transplantation, diabetes, prostate cancer,
+dementia, loneliness, telehealth, medical devices, health workforce training and
+vaccination policy. The clinical settings vary. The methodological questions
+recur.
+
+## What keeps coming back
+
+**Heterogeneity is not a nuisance.** Averaging across people who want genuinely
+different things produces a number that describes nobody. The interesting work is
+in characterising the groups rather than smoothing over them.
+
+**Consistency is informative.** How reliably a person answers is not just
+measurement error to be minimised. It varies systematically with the task, with
+how the task is presented, and with the person, and it carries information about
+how much confidence a coefficient deserves.
+
+**Equity does not sum.** Adding up individual willingness to pay assumes a
+distributional judgement most people would reject if it were stated plainly. Work
+on equity and efficiency in value-based preference assessment tries to make that
+judgement explicit rather than implicit in the arithmetic.
+
+**Feedback changes choices.** In work on heart-failure device decisions, telling
+people something about their earlier answers alters the answers that follow.
+Whether that is learning or anchoring is an empirical question, and it matters for
+how choice tasks should be built.
+
+## Related
+
+- [Attention and information processing](/research/projects/eye-tracking-attribute-ordering/)
+- [Papers](/publications/)

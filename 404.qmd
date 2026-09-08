@@ -1,0 +1,11 @@
+---
+title: "Page not found"
+description: "That page does not exist on mesfingenie.com."
+---
+
+That address does not exist here. It may have moved when the site was rebuilt.
+
+Try [papers](/publications/), [research](/research/), [tools](/tools/), or
+[about](/about/). If you followed a link from somewhere and it should work, tell
+me at [mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au) and I
+will redirect it.

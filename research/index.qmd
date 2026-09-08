@@ -1,39 +1,57 @@
 ---
-pagetitle: "Research | Mesfin Genie"
-description: "Mesfin Genie studies how people value healthcare, process information, and respond to policy, using choice modelling, behavioural experiments, and applied econometrics."
-title-block-style: none
-page-layout: full
-image: /assets/og-card.png
+title: "Research"
+description: "Measuring what patients and the public value in healthcare, how they process the information they are given, and what follows for policy."
 ---
 
-```{=html}
-<header class="page-header"><div class="page-shell">
-<p class="eyebrow">Research</p>
-<h1>Research</h1>
-<p class="section-lead">I study how people value healthcare, how they process information when making decisions, and how they respond to policy. My work combines health and behavioural economics with discrete choice experiments, eye tracking, applied econometrics, and decision-support tools.</p>
-</div></header>
+Three strands, and they feed each other. The first measures preferences. The
+second asks whether the measurement is picking up what we claim it is. The third
+takes whatever survives the first two and puts it in front of someone who has a
+decision to make.
 
-<section class="content-section"><div class="page-shell narrow">
-<h2>Research areas</h2>
-<div class="theme-list">
-<article class="theme"><h3><a href="/research/projects/health-preferences-dce/">Health preferences &amp; behavioural economics <span aria-hidden="true">→</span></a></h3><p>Measuring what people value in health and healthcare, and how observed decisions depart from standard models.</p></article>
-<article class="theme"><h3><a href="/research/projects/eye-tracking-attribute-ordering/">Choice, attention &amp; information processing <span aria-hidden="true">→</span></a></h3><p>Using process evidence to understand how people read, weight, and act on information in multi-attribute choices.</p></article>
-<article class="theme"><h3><a href="/research/projects/decision-support-tools/">Health policy &amp; decision tools <span aria-hidden="true">→</span></a></h3><p>Translating preference and economic evidence into policy analysis, implementation choices, and practical decision support.</p></article>
-</div>
+## Preferences and behavioural economics
 
-<h2>Selected projects</h2>
-<div class="theme-list">
-<article class="theme"><h3><a href="/research/projects/mandeval/">MandEval <span aria-hidden="true">→</span></a></h3><p>Effectiveness and consequences of vaccine mandates, together with public preferences for alternative mandate designs.</p></article>
-<article class="theme"><h3><a href="/research/projects/fetp-india/">FETP India <span aria-hidden="true">→</span></a></h3><p>Economic and preference evidence for scaling field-epidemiology training, developed with the World Bank.</p></article>
-<article class="theme"><h3><a href="/research/projects/eye-tracking-attribute-ordering/">Eye tracking &amp; attribute ordering <span aria-hidden="true">→</span></a></h3><p>How attribute position changes attention, information processing, and estimated preferences in discrete choice experiments.</p></article>
-</div>
+Discrete choice experiments across organ transplantation, diabetes, prostate
+cancer, dementia, loneliness, telehealth, medical devices, health workforce and
+vaccination. The recurring interest is in where observed choices depart from the
+standard model: heterogeneity that is not noise, inconsistency that is not error,
+and equity concerns that a simple sum of individual utilities cannot represent.
 
-<h2>Research resources</h2>
-<ul class="cv-list">
-<li><a href="/research/impact/">Research impact</a></li>
-<li><a href="/research/data-and-code/">Data and code</a></li>
-<li><a href="/grants/">Grants and funding</a></li>
-<li><a href="/publications/">Publications</a></li>
+[Read more](/research/projects/health-preferences-dce/)
+
+## Attention and information processing
+
+A choice model assumes people read the alternatives. Eye tracking says they often
+do not, and that what they skip is patterned rather than random. Attribute order
+alone moves estimates. This strand brings process evidence into preference
+measurement, so that a coefficient can be read alongside evidence about whether
+anyone looked at the attribute it belongs to.
+
+[Read more](/research/projects/eye-tracking-attribute-ordering/)
+
+## Measurement, outcomes and policy
+
+Whether the outcomes we measure are the ones people care about, and whether the
+evidence reaches the person deciding. In practice this means economic evaluation,
+outcome measure development, and building decision-support tools that carry the
+estimates rather than summarising them in a report nobody opens.
+
+[Read more](/research/projects/decision-support-tools/)
+
+## Projects
+
+<ul class="plain-list">
+<li><a href="/research/projects/mandeval/">MandEval</a> — the effects and side effects of Australia's COVID-19 vaccine mandates, and what mandate designs the public will accept.</li>
+<li><a href="/research/projects/fetp-india/">FETP business case</a> — scaling field-epidemiology training, with the World Bank.</li>
+<li><a href="/research/projects/eye-tracking-attribute-ordering/">Attribute ordering and attention</a> — what moves when you reorder a choice task.</li>
+<li><a href="/research/projects/health-preferences-dce/">Health preferences</a> — the choice experiment programme across clinical areas.</li>
+<li><a href="/research/projects/decision-support-tools/">Decision-support tools</a> — turning estimates into instruments.</li>
 </ul>
-</div></section>
-```
+
+## Also here
+
+<ul class="plain-list">
+<li><a href="/research/impact/">Impact</a> — where the work has been used.</li>
+<li><a href="/research/data-and-code/">Data and code</a> — public repositories.</li>
+<li><a href="/grants/">Grants</a> — funded programmes.</li>
+<li><a href="/publications/">Papers</a> — the full list.</li>
+</ul>

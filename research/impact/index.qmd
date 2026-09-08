@@ -1,23 +1,30 @@
 ---
-pagetitle: "Research impact | Research | Mesfin Genie"
-description: "How Dr Mesfin Genie's research is translated into decision-support tools, policy-relevant evidence, and open resources, described without overstatement."
-title-block-style: none
-page-layout: full
-image: /assets/og-card.png
+title: "Impact"
+description: "Where the research has been used outside the literature."
 ---
 
-```{=html}
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/research/">Research</a> / <span aria-current="page">Research impact</span></nav>
-<header class="page-header"><div class="page-shell"><p class="eyebrow">Research</p><h1>Research impact</h1></div></header>
-<section class="content-section"><div class="page-shell narrow">
-<p class="section-lead">This page distinguishes outputs, engagement, and demonstrated use. It describes activity honestly rather than claiming impact without evidence.</p>
-<h2>Decision-support tools in use</h2>
-<p>Three interactive tools translate research into analysis that decision-makers can use directly: <a href="/tools/emandeval/">eMANDEVAL Future</a> for vaccine-mandate policy, the <a href="/tools/soil-crc-bca/">SOIL CRC Benefit-Cost Analysis Tool</a> for agricultural trials, and the <a href="/tools/steps/">STEPS FETP Scale-up Decision Aid</a> for field-epidemiology training.</p>
-<h2>Partner and policy engagement</h2>
-<p>The <a href="/research/projects/fetp-india/">FETP India business case</a> was commissioned by the World Bank Group. The <a href="/research/projects/mandeval/">MandEval</a> programme, funded through the MRFF, evaluates the effectiveness and consequences of Australia's COVID-19 vaccine mandates and produces evidence relevant to vaccine policy.</p>
-<h2>Open resources for the field</h2>
-<p>The <a href="/publications/covid-mandate-repository/">open repository of COVID-19 vaccine-mandate studies</a> makes a scattered literature findable and reusable. Public teaching resources in <a href="/teaching/behavioural-economics/">behavioural economics</a> support students and educators beyond Newcastle.</p>
-<h2>Contribution to research practice and training</h2>
-<p>Work on discrete choice experiment design and on feedback in preference assessment aims to improve how the field measures preferences. As Guest Editor for <em>Health Policy and Technology</em> and a reviewer for leading journals, and through doctoral and MSc <a href="/supervision/">supervision</a>, this extends to the research community and the next generation of researchers.</p>
-</div></section>
-```
+Research reaches a decision or it does not. These are the places where it has.
+
+## Policy tools in public use
+
+[eMANDEVAL](/tools/emandeval/) takes preference estimates for vaccine mandate
+design and makes them comparable across designs, so that a policymaker weighing
+options can see which combinations retain public support. [STEPS](/tools/steps/)
+does the same for field-epidemiology training scale-up, on a cost model and choice
+experiment developed for a World Bank business case. The [farming benefit–cost
+tool](/tools/soil-crc-bca/) applies the approach to soil and farming
+interventions.
+
+## A literature made usable
+
+The COVID-19 vaccine mandate evidence was spread across epidemiology, economics,
+political science and public health, in formats that did not compare. The [open
+repository](/research/data-and-code/) collects it, with a worked scoping review of
+the quasi-experimental studies, and is maintained so others can extend it rather
+than rebuild it.
+
+## Advising and review
+
+Guest Editor for *Health Policy and Technology*. Reviewer for the *Journal of
+Health Economics*, *Health Economics*, *Value in Health*, *Social Science &
+Medicine*, the *Journal of Choice Modelling*, *Theory and Decision* and *BMJ Open*.

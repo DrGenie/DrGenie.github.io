@@ -1,36 +1,28 @@
 ---
-pagetitle: "Teaching and supervision | Mesfin Genie"
-description: "Courses coordinated by Dr Mesfin Genie at the University of Newcastle, public behavioural-economics resources, and research supervision."
-title-block-style: none
-page-layout: full
-image: /assets/og-card.png
+title: "Teaching"
+description: "Behavioural economics and health economics at the University of Newcastle."
 ---
 
-```{=html}
-<header class="page-header"><div class="page-shell">
-<p class="eyebrow">Teaching</p>
-<h1>Teaching and supervision</h1>
-<p>Health economics and behavioural economics teaching at The University of Newcastle, together with open teaching resources and research supervision.</p>
-</div></header>
-<section class="content-section"><div class="page-shell narrow">
-<h2>Courses</h2>
-<div class="editorial-list">
-<article class="editorial-row"><p class="editorial-label">ECON3111</p><h3>Behavioural Economics</h3><p>Lecturer and Course Coordinator. <a href="/teaching/behavioural-economics/">Selected teaching resources →</a></p></article>
-<article class="editorial-row"><p class="editorial-label">ECON2112</p><h3>Health Economics and Finance</h3><p>Lecturer and Course Coordinator, The University of Newcastle.</p></article>
-<article class="editorial-row"><p class="editorial-label">ECON3011</p><h3>Introduction to Health Economics and Finance</h3><p>Primary Course Coordinator, The University of Newcastle.</p></article>
-</div>
+I teach behavioural economics and health economics. The courses use current
+research rather than textbook summaries of it, and each one makes students handle
+data at some point, because the gap between reading a coefficient and producing
+one is where the understanding is.
 
-<h2>Teaching resources</h2>
-<p>Selected resources from behavioural economics teaching use explicit learning objectives, a benchmark-versus-behaviour structure, worked numerical examples, and assessment-relevant synthesis.</p>
-<p class="inline-links"><a href="/teaching/behavioural-economics/">Behavioural economics resources</a><a href="/blog/">Related writing</a></p>
+## Courses
 
-<h2>Research supervision</h2>
-<p>I supervise doctoral and MSc research as principal and co-supervisor, especially where projects involve health economics, discrete choice experiments, behavioural methods, eye tracking, clinical outcomes assessment, or health policy.</p>
-<p class="inline-links"><a href="/supervision/">Research supervision</a><a href="/contact/">Supervision enquiries</a></p>
-</div></section>
-<script type="application/ld+json">[
-{"@context":"https://schema.org","@type":"Course","name":"ECON3111 Behavioural Economics","courseCode":"ECON3111","provider":{"@type":"CollegeOrUniversity","name":"The University of Newcastle"}},
-{"@context":"https://schema.org","@type":"Course","name":"ECON2112 Health Economics and Finance","courseCode":"ECON2112","provider":{"@type":"CollegeOrUniversity","name":"The University of Newcastle"}},
-{"@context":"https://schema.org","@type":"Course","name":"ECON3011 Introduction to Health Economics and Finance","courseCode":"ECON3011","provider":{"@type":"CollegeOrUniversity","name":"The University of Newcastle"}}
-]</script>
-```
+<ul class="plain-list">
+<li><strong>ECON3111 Behavioural Economics</strong><span class="pl-meta">Lecturer and Course Coordinator, The University of Newcastle</span></li>
+<li><strong>ECON2112 Health Economics and Finance</strong><span class="pl-meta">Lecturer and Course Coordinator, The University of Newcastle</span></li>
+<li><strong>ECON3011 Introduction to Health Economics and Finance</strong><span class="pl-meta">Primary Course Coordinator, The University of Newcastle</span></li>
+</ul>
+
+## Open teaching material
+
+Some behavioural economics material is public, including the
+[certainty effect](/blog/posts/why-99-does-not-feel-like-100/) explainer and its
+recorded webinar. Use it in your own teaching if it is useful; attribution is
+appreciated and permission is not required.
+
+## Supervision
+
+See [research supervision](/supervision/).

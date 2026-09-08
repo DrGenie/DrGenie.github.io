@@ -1,18 +1,29 @@
 ---
-pagetitle: "Writing & Talks | Mesfin Genie"
-description: "Plain-language writing on behavioural economics and health decisions, recorded talks, and conference presentations by Dr Mesfin Genie."
-title-block-style: none
-page-layout: full
-image: /assets/og-card.png
+title: "Writing and talks"
+description: "Essays on health and behavioural economics, plus recorded talks and webinars."
 ---
 
-```{=html}
-<header class="page-header"><div class="page-shell"><p class="eyebrow">Writing and talks</p><h1>Ideas beyond the journal article</h1><p>Plain-language writing on behavioural economics and health decisions, recorded talks, and conference presentations.</p></div></header>
-<section class="content-section"><div class="page-shell narrow">
-<div class="editorial-list">
-<article class="editorial-row"><p class="editorial-label">Writing</p><h3><a href="/blog/">Behavioural insights and research notes <span>→</span></a></h3><p>Short pieces explaining choice, uncertainty, incentives, preference measurement, and research methods without stripping away the underlying economics.</p></article>
-<article class="editorial-row"><p class="editorial-label">Talk</p><h3><a href="https://youtu.be/HO2qXJp-BFs" target="_blank" rel="noopener noreferrer">Recorded webinar <span>↗</span></a></h3><p>A recorded presentation featuring Dr Mesfin Genie, hosted on YouTube.</p></article>
-<article class="editorial-row"><p class="editorial-label">Conferences</p><h3><a href="/conferences/">Presentations and published abstracts <span>→</span></a></h3><p>Conference papers, podium presentations, posters, and published conference abstracts.</p></article>
-</div>
-</div></section>
-```
+Occasional writing, mostly explaining one idea at a time to people who are not
+economists.
+
+## Essays
+
+<ul class="rec-list">
+<li class="rec">
+  <div class="rec-year">Essay</div>
+  <div class="rec-body">
+    <p class="rec-title"><a href="/blog/posts/why-99-does-not-feel-like-100/">Why 99% does not feel like 100%</a></p>
+    <p class="rec-finding">Removing the last one percent of a risk is worth far more to people than removing a middling one percent, and standard expected-utility reasoning cannot account for the difference. What that does to health decisions, and to the policies built on them.</p>
+    <p class="rec-links"><a href="https://youtu.be/HO2qXJp-BFs">Recorded webinar</a></p>
+  </div>
+</li>
+</ul>
+
+[All posts](/blog/), or subscribe by [RSS](/blog/index.xml).
+
+## Talks
+
+I speak on discrete choice experiments, eye tracking in preference research, and
+the evaluation of vaccine mandates, to academic and to policy audiences. For
+invitations, write to
+[mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au).

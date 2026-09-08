@@ -1,24 +1,49 @@
 ---
-pagetitle: "Tools | Mesfin Genie"
-description: "Decision-support tools by Dr Mesfin Genie for vaccine policy, agricultural benefit-cost analysis, and field-epidemiology training."
-title-block-style: none
-page-layout: full
-image: /assets/og-card.png
+title: "Tools"
+description: "Interactive decision-support tools built on published choice experiments and cost models."
 ---
 
-```{=html}
-<header class="page-header"><div class="page-shell">
-<p class="eyebrow">Tools</p>
-<h1>Research translated into decisions</h1>
-<p>Decision-support tools developed from preference research and economic analysis. Each page explains the purpose, users, evidence base, and limitations.</p>
-</div></header>
+Three working instruments, not screenshots of instruments. Each carries estimates
+from a study and lets you change the assumptions behind them, so you can see how
+much of the conclusion depends on which assumption.
 
-<section class="content-section"><div class="page-shell narrow">
-<div class="tool-list">
-<article class="tool-row"><p class="editorial-label">Vaccine policy</p><h2><a href="/tools/emandeval/">eMANDEVAL Future <span>→</span></a></h2><p>Compares vaccine-mandate designs by predicted public support, expected outcomes, and benefit-cost trade-offs.</p></article>
-<article class="tool-row"><p class="editorial-label">Economic evaluation</p><h2><a href="/tools/soil-crc-bca/">SOIL CRC Benefit-Cost Analysis Tool <span>→</span></a></h2><p>Supports appraisal of agricultural trials using net present value, benefit-cost ratio, return on investment, and sensitivity analysis.</p></article>
-<article class="tool-row"><p class="editorial-label">Field epidemiology</p><h2><a href="/tools/steps/">STEPS FETP Scale-up Decision Aid <span>→</span></a></h2><p>Combines preference evidence, cost templates, and planning assumptions to compare field-epidemiology training scale-up options.</p></article>
-</div>
-<p class="tool-notice">The repository currently contains documentation for these tools but not the deployable standalone application files. The detail pages therefore describe the tools without presenting broken launch links.</p>
-</div></section>
-```
+They run in the browser. Nothing you enter is sent anywhere.
+
+<ul class="rec-list">
+
+<li class="rec">
+  <div class="rec-year">Policy</div>
+  <div class="rec-body">
+    <p class="rec-title"><a href="/tools/emandeval/">eMANDEVAL</a></p>
+    <p class="rec-finding">Compare vaccine mandate designs against public preference estimates. Change who a mandate covers, what the exemptions are and what follows from declining, and see which combinations hold public support.</p>
+  </div>
+</li>
+
+<li class="rec">
+  <div class="rec-year">Costing</div>
+  <div class="rec-body">
+    <p class="rec-title"><a href="/tools/steps/">STEPS</a></p>
+    <p class="rec-finding">Plan the scale-up of field-epidemiology training on a discrete choice experiment and cost model developed for a World Bank business case. Vary intake, duration and delivery mode, and see cost and enrolment move together.</p>
+  </div>
+</li>
+
+<li class="rec">
+  <div class="rec-year">Appraisal</div>
+  <div class="rec-body">
+    <p class="rec-title"><a href="/tools/soil-crc-bca/">Farming benefit–cost tool</a></p>
+    <p class="rec-finding">Benefit–cost appraisal for soil and farming interventions, with discount rate, time horizon and adoption assumptions exposed rather than fixed.</p>
+  </div>
+</li>
+
+</ul>
+
+## Using and citing them
+
+They are free to use, including in teaching and in policy work. If a tool informs
+something you publish, cite the underlying study rather than the tool; each tool
+page names it. If you want to adapt one for a different setting, the source is on
+[GitHub](https://github.com/DrGenie) and I am happy to help — write to
+[mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au).
+
+None of these is clinical advice or a substitute for local appraisal. They are
+research instruments that make assumptions visible.
