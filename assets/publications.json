@@ -12,7 +12,8 @@
     "citation_detail": "11, 01454",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2026-04"
   },
   {
     "field": "public-health",
@@ -27,7 +28,8 @@
     "citation_detail": "50, 100496",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2026-01"
   },
   {
     "field": "preference",
@@ -42,7 +44,8 @@
     "citation_detail": "167, 105587",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2026-02"
   },
   {
     "field": "preference",
@@ -57,7 +60,8 @@
     "citation_detail": "404, 119463",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2026-05"
   },
   {
     "field": "preference",
@@ -72,7 +76,8 @@
     "citation_detail": "35, 910–928",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2026-03"
   },
   {
     "field": "other",
@@ -92,7 +97,8 @@
         "https://doi.org/10.2139/ssrn.4269083"
       ]
     ],
-    "sources": []
+    "sources": [],
+    "sort_date": "2026-05"
   },
   {
     "field": "public-health",
@@ -107,7 +113,8 @@
     "citation_detail": "15, 101196",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2026-03"
   },
   {
     "field": "public-health",
@@ -122,7 +129,8 @@
     "citation_detail": "15, 101195",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2026-03"
   },
   {
     "field": "public-health",
@@ -137,7 +145,8 @@
     "citation_detail": "50, 100450",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2026-01"
   },
   {
     "field": "preference",
@@ -152,7 +161,8 @@
     "citation_detail": "29, 467–475",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2025-11"
   },
   {
     "field": "public-health",
@@ -167,7 +177,8 @@
     "citation_detail": "15, 101152",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2025-12"
   },
   {
     "field": "public-health",
@@ -182,7 +193,8 @@
     "citation_detail": "27, 47–63",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2025-06"
   },
   {
     "field": "public-health",
@@ -197,7 +209,8 @@
     "citation_detail": "15, 101148",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2025-12"
   },
   {
     "field": "public-health",
@@ -212,7 +225,8 @@
     "citation_detail": "15, 101246",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2026-05"
   },
   {
     "field": "public-health",
@@ -227,7 +241,8 @@
     "citation_detail": "88, 128825",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2026-06"
   },
   {
     "field": "public-health",
@@ -242,7 +257,8 @@
     "citation_detail": "366, 117687",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2025-02"
   },
   {
     "field": "public-health",
@@ -257,7 +273,8 @@
     "citation_detail": "",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2025-08"
   },
   {
     "field": "public-health",
@@ -272,7 +289,8 @@
     "citation_detail": "15, e097412",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2025-07"
   },
   {
     "field": "preference",
@@ -287,7 +305,8 @@
     "citation_detail": "43, 670–680",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2025-08"
   },
   {
     "field": "preference",
@@ -302,7 +321,8 @@
     "citation_detail": "8, 663–673",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2024-07"
   },
   {
     "field": "public-health",
@@ -317,22 +337,8 @@
     "citation_detail": "561–592",
     "status": "Published",
     "earlier": [],
-    "sources": []
-  },
-  {
-    "field": "public-health",
-    "year": 2025,
-    "type": "working",
-    "title": "Vaccinating Now or Vaccinating Later: Separating Pull-Forward and Net Effects Using a Dynamic Regression Discontinuity Design",
-    "url": "https://doi.org/10.48550/arXiv.2509.22714",
-    "doi_url": "https://doi.org/10.48550/arXiv.2509.22714",
-    "authors_plain": "Fabio I. Martinenghi; Mesfin Genie; Katie Attwell; Huong Le; Hannah C. Moore; Aregawi G. Gebremariam; Bette Liu; Francesco Paolucci; Christopher C. Blyth",
-    "authors_html": "Fabio I. Martinenghi; <strong>Mesfin Genie</strong>; Katie Attwell; Huong Le; Hannah C. Moore; Aregawi G. Gebremariam; Bette Liu; Francesco Paolucci; Christopher C. Blyth",
-    "journal": "arXiv",
-    "citation_detail": "",
-    "status": "Working paper",
-    "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2025-01"
   },
   {
     "field": "preference",
@@ -347,7 +353,8 @@
     "citation_detail": "27, 1594–1604",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2024-08"
   },
   {
     "field": "preference",
@@ -362,7 +369,8 @@
     "citation_detail": "88, 101089",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2024-09"
   },
   {
     "field": "public-health",
@@ -377,7 +385,8 @@
     "citation_detail": "145, 105082",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2024-05"
   },
   {
     "field": "public-health",
@@ -392,7 +401,8 @@
     "citation_detail": "13, 100849",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2024-02"
   },
   {
     "field": "public-health",
@@ -407,7 +417,8 @@
     "citation_detail": "13, 100792",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2023-08"
   },
   {
     "field": "public-health",
@@ -422,7 +433,8 @@
     "citation_detail": "13, 100820",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2023-10"
   },
   {
     "field": "preference",
@@ -437,7 +449,8 @@
     "citation_detail": "106-B, 1408–1415",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2024-12"
   },
   {
     "field": "preference",
@@ -452,7 +465,8 @@
     "citation_detail": "32, 1101–1119",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2023-02"
   },
   {
     "field": "preference",
@@ -467,7 +481,8 @@
     "citation_detail": "36, 9–18",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2021-12"
   },
   {
     "field": "other",
@@ -482,7 +497,8 @@
     "citation_detail": "185, 996–1005",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2021-12"
   },
   {
     "field": "public-health",
@@ -502,7 +518,8 @@
         "https://doi.org/10.1101/2021.10.12.21264883"
       ]
     ],
-    "sources": []
+    "sources": [],
+    "sort_date": "2022-03"
   },
   {
     "field": "other",
@@ -517,7 +534,8 @@
     "citation_detail": "18, 555–571",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2021-07"
   },
   {
     "field": "preference",
@@ -532,7 +550,8 @@
     "citation_detail": "11, e048996",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2021-11"
   },
   {
     "field": "other",
@@ -547,7 +566,8 @@
     "citation_detail": "28, 41912–41921",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2021-04"
   },
   {
     "field": "preference",
@@ -562,7 +582,8 @@
     "citation_detail": "276, 113822",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2021-03"
   },
   {
     "field": "preference",
@@ -577,7 +598,8 @@
     "citation_detail": "30, 1291–1305",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2021-03"
   },
   {
     "field": "public-health",
@@ -597,7 +619,8 @@
         "https://doi.org/10.2139/ssrn.3680293"
       ]
     ],
-    "sources": []
+    "sources": [],
+    "sort_date": "2020-09"
   },
   {
     "field": "preference",
@@ -617,7 +640,8 @@
         "https://doi.org/10.2139/ssrn.3428620"
       ]
     ],
-    "sources": []
+    "sources": [],
+    "sort_date": "2020-05"
   },
   {
     "field": "public-health",
@@ -632,7 +656,8 @@
     "citation_detail": "10, e043477",
     "status": "Published",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2020-11"
   },
   {
     "field": "other",
@@ -652,7 +677,8 @@
         "University record",
         "https://www.newcastle.edu.au/profile/mesfin-genie#publications"
       ]
-    ]
+    ],
+    "sort_date": "2020-09"
   },
   {
     "field": "other",
@@ -667,7 +693,8 @@
     "citation_detail": "",
     "status": "Published data",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2019-06"
   },
   {
     "field": "preference",
@@ -682,7 +709,8 @@
     "citation_detail": "",
     "status": "Working paper",
     "earlier": [],
-    "sources": []
+    "sources": [],
+    "sort_date": "2018-11"
   },
   {
     "title": "Polio-Free, Not Risk-Free: Mobility, Conflict, and Polio Vaccine Hesitancy in Ethiopia",
@@ -693,7 +721,8 @@
     "type": "journal",
     "field": "public-health",
     "url": "https://www.researchgate.net/publication/407056631",
-    "doi_url": ""
+    "doi_url": "",
+    "sort_date": "2026-01"
   },
   {
     "title": "Making Nursing a Better Place: A Discrete Choice Experiment to Elicit the Job Preferences of Early-Career Nurses",
@@ -704,17 +733,19 @@
     "type": "working",
     "field": "preference",
     "url": "https://www.researchgate.net/publication/396731169",
-    "doi_url": ""
+    "doi_url": "",
+    "sort_date": "2025-01"
   },
   {
-    "title": "New article, Social Science &amp; Medicine (2026)",
-    "authors_html": "<strong>Mesfin G. Genie</strong> and colleagues",
+    "title": "Pull-forward and induced vaccination under time-limited mandates: Evidence from a low-coercion mandate",
+    "authors_html": "Fabio I. Martinenghi; <strong>Mesfin Genie</strong>; Katie Attwell; Huong Le; Hannah C. Moore; Aregawi G. Gebremariam; Bette Liu; Francesco Paolucci; Christopher C. Blyth",
     "journal": "Social Science &amp; Medicine",
     "citation_detail": "",
     "year": 2026,
     "type": "journal",
     "field": "preference",
     "url": "https://www.sciencedirect.com/science/article/pii/S0277953626007859",
-    "doi_url": ""
+    "doi_url": "",
+    "sort_date": "2026-09"
   }
 ]
