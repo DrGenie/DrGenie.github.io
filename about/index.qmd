@@ -32,6 +32,11 @@ are [public](/tools/).
 
 ## Service
 
+```{=html}
+<details class="more"><summary>Read more</summary>
+```
+
+
 Guest Editor, *Health Policy and Technology*. Reviewer for the *Journal of Health
 Economics*, *Health Economics*, *Value in Health*, *Social Science & Medicine*, the
 *Journal of Choice Modelling*, *Theory and Decision*, and *BMJ Open*.
@@ -39,10 +44,14 @@ Economics*, *Health Economics*, *Value in Health*, *Social Science & Medicine*, 
 I coordinate health economics and preference research activity at Newcastle and
 work with early-career researchers across the group.
 
+```{=html}
+</details>
+```
+
 ## Elsewhere
 
 ```{=html}
-<p class="note" id="scholar-line">Google Scholar: <span data-sch="citations">1009</span> citations, h-index <span data-sch="h_index">14</span>, i10-index <span data-sch="i10_index">17</span>.</p>
+<p class="note" id="scholar-line">Google Scholar: <span data-sch="citations">974</span> citations, h-index <span data-sch="h_index">14</span>, i10-index <span data-sch="i10_index">17</span>.</p>
 ```
 
 ```{=html}
