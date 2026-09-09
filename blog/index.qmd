@@ -1,4 +1,3 @@
----
 title: "Writing"
 description: "Essays on health economics, behavioural economics and preference measurement."
 listing:
@@ -11,4 +10,3 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
----
