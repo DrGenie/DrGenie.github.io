@@ -16,6 +16,10 @@ image: /assets/og-card.png
 Mesfin Genie, Senior Lecturer in Health Economics, University of Newcastle
 :::
 
+```{=html}
+<p class="glance">46 papers, <span data-sch="citations">974</span> citations, 3 decision tools in public use, 35 short essays.</p>
+```
+
 I measure what people are willing to give up. Patients trade waiting time against
 cost, side effects against survival. Governments make the same trades on their
 behalf and rarely say so out loud.
@@ -141,11 +145,23 @@ information. That is why I run eye trackers alongside surveys.
 ## Latest writing
 
 ```{=html}
-<ul class="plain-list">
-<li><a href="/blog/posts/why-the-other-queue-always-moves-faster/">Why the other queue always moves faster</a><span class="pl-meta">It does not. You only remember the times it did.</span></li>
-<li><a href="/blog/posts/why-ten-thousand-steps/">Why ten thousand steps</a><span class="pl-meta">A 1965 pedometer advert that became everyone's goal</span></li>
-<li><a href="/blog/posts/why-you-tip-more-when-the-screen-asks/">Why you tip more when the screen asks</a><span class="pl-meta">Three buttons, a queue behind you, and a default</span></li>
-</ul>
+<div class="wgrid wgrid-3">
+  <a class="wcard" href="/blog/posts/why-the-other-queue-always-moves-faster/">
+    <img class="wcard-img" src="/assets/social/why-the-other-queue-always-moves-faster-og.png" alt="" width="1200" height="630" loading="lazy">
+    <span class="wcard-title">Why the other queue always moves faster</span>
+    <span class="wcard-meta">1 min read</span>
+  </a>
+  <a class="wcard" href="/blog/posts/why-ten-thousand-steps/">
+    <img class="wcard-img" src="/assets/social/why-ten-thousand-steps-og.png" alt="" width="1200" height="630" loading="lazy">
+    <span class="wcard-title">Why ten thousand steps</span>
+    <span class="wcard-meta">1 min read</span>
+  </a>
+  <a class="wcard" href="/blog/posts/why-you-keep-watching-a-bad-movie/">
+    <img class="wcard-img" src="/assets/social/why-you-keep-watching-a-bad-movie-og.png" alt="" width="1200" height="630" loading="lazy">
+    <span class="wcard-title">Why you keep watching a bad movie</span>
+    <span class="wcard-meta">1 min read</span>
+  </a>
+</div>
 ```
 
 [All writing](/blog/)

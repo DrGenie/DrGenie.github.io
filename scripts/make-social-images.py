@@ -254,3 +254,9 @@ for p in sorted(pathlib.Path('blog/posts').glob('*/index.qmd')):
     card(title, desc, field, mo, 1080, 1080, True).save(OUT/f"{slug}-sq.png", optimize=True)
     n += 1
 print("cards generated for", n, "posts")
+
+# Site-wide link preview card, in the same design
+card("Health economics for people who have to decide",
+     "Choice experiments, eye tracking and decision tools. Plus plain-language writing on why we choose the way we do.",
+     "Health Economics", m_grid, 1200, 630, False).save(HERE / "assets" / "og-card.png", optimize=True)
+print("site card regenerated")

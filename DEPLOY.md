@@ -1,31 +1,35 @@
 # Deploy
 
 Unzip and drag the folder's contents onto
-github.com/DrGenie/DrGenie.github.io/upload/main. Nothing to delete; every
-existing file is replaced in place and the rest are additions (six posts,
-twelve cards, three font files). The workflows are already in your repo.
+github.com/DrGenie/DrGenie.github.io/upload/main. Nothing to delete.
 
-## What changed
+## What I changed on my own initiative
 
-**Cards redrawn.** Inter (the site's typeface) instead of DejaVu, a category
-chip, the illustration enlarged, the hook text set at a readable size, and
-the handle @DrGenie on every card. If your Instagram handle is different,
-change HANDLE at the top of scripts/make-social-images.py and re-run it.
+**Writing is now visual.** The Writing page is a grid of the drawn cards,
+one per post, with topic chips (Everyday, Health and policy, Methods) and a
+reading time on each. The homepage shows the three newest as thumbnails.
+People scan pictures faster than lists, and the cards already existed.
 
-**Six more everyday posts** with their own illustrations: the other queue,
-ten thousand steps, the tipping screen, the lost ticket, waiting rooms, and
-the bigger plate. 35 posts, 14 for a general audience. Homepage shows the
-three newest.
+**Every post ends with three more.** A "Keep reading" row picks pieces from
+the same topic, with their cards. Reading time sits under the title.
 
-**Read more.** Long sections on the project pages, impact, supervision,
-tools, about and grants now open on click. Each page leads with its first
-section and a button.
+**The typeface is served from your own site.** Inter's files are in
+assets/fonts and loaded with @font-face. No request to Google on any page
+load: faster first paint, works offline, nothing tracked.
 
-**Footer.** Now a quiet tinted band that closes the page. I also removed
-every remaining rule that could stretch the page to the viewport. If a gap
-still shows on some page, send me a screenshot with the browser and page
-name; I have gone through the compiled CSS twice and cannot find another
-cause from here.
+**Papers open with five to start with**, for the reader who wants a way in
+before 55 entries. A one-click "All citations as BibTeX" link sits at the
+top. Back-to-top appears on long pages.
 
-**Category rule.** A card reads Behavioural Economics only when the post is
-tagged that way; health posts read Health Economics.
+**Link previews.** The site-wide card that appears when the homepage is
+shared was the old navy design; it is now drawn in the current one.
+
+**At a glance.** One muted line under your name: papers, citations, tools,
+essays. Citations update themselves from the metrics workflow.
+
+**Accessibility.** A skip-to-content link for keyboard and screen-reader
+users, and reduced motion respected.
+
+Plus the earlier asks: 35 posts (14 everyday), cards with a category chip,
+subject illustration and @DrGenie, seven long sections behind Read more,
+the footer as a tinted band.
