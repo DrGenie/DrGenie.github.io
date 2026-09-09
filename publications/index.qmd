@@ -15,18 +15,6 @@ description: "Peer-reviewed articles, working papers, chapters, datasets and con
 <input type="search" id="papers-search" class="papers-search" placeholder="Search titles, authors, journals" aria-label="Search papers">
 ```
 
-## Start here
-
-```{=html}
-<ul class="rec-list">
-<li class="rec"><div class="rec-year">2020</div><div class="rec-body"><p class="rec-title">The role of heterogeneity of patients' preferences in kidney transplantation</p><p class="rec-venue">Journal of Health Economics</p><p class="rec-links"><a href="https://doi.org/10.1016/j.jhealeco.2020.102331">DOI</a></p></div></li>
-<li class="rec"><div class="rec-year">2023</div><div class="rec-body"><p class="rec-title">Keeping an eye on cost: what eye tracking tells us about attention to cost in choice experiments</p><p class="rec-venue">Health Economics. Wiley top cited article, 2023.</p><p class="rec-links"><a href="https://doi.org/10.1002/hec.4658">DOI</a></p></div></li>
-<li class="rec"><div class="rec-year">2021</div><div class="rec-body"><p class="rec-title">Weighting or aggregating? Investigating information processing in multi-attribute choices</p><p class="rec-venue">Health Economics</p><p class="rec-links"><a href="https://doi.org/10.1002/hec.4245">DOI</a></p></div></li>
-<li class="rec"><div class="rec-year">2026</div><div class="rec-body"><p class="rec-title">Fit for purpose? Discrete choice experiment designs for evolving health technologies</p><p class="rec-venue">Social Science &amp; Medicine</p><p class="rec-links"><a href="https://doi.org/10.1016/j.socscimed.2026.119463">DOI</a></p></div></li>
-<li class="rec"><div class="rec-year">2026</div><div class="rec-body"><p class="rec-title">Guidance or misdirection? Feedback in health preference assessments</p><p class="rec-venue">Health Economics</p><p class="rec-links"><a href="https://doi.org/10.1002/hec.70093">DOI</a></p></div></li>
-</ul>
-```
-
 ## Journal articles
 
 ```{=html}
