@@ -1,0 +1,33 @@
+---
+title: "Why a bigger plate makes you eat more"
+description: "The same portion looks small on a large plate and generous on a small one. Your eyes decide how full you are before your stomach gets a say."
+author: "Mesfin Genie"
+date: "2026-08-16"
+categories: [behavioural economics, health, everyday]
+---
+
+Put a normal portion on a large dinner plate and it looks meagre. Put the
+same portion on a small plate and it looks like plenty. Nothing about the
+food changed. Your judgement of how much you are eating did.
+
+This is an old visual illusion with a name, and it has a very practical
+consequence: people served on bigger plates take more, eat more, and report
+feeling no fuller. The eye estimates the portion against the rim, and the rim
+lies.
+
+The effect is not large per meal. It is large across a year, because it
+happens at every meal, and because the correction goes only one way. A small
+plate never makes you feel you have overeaten.
+
+I like this example because the usual advice about eating is about
+willpower, and this has nothing to do with willpower. It is a fact about
+perception, and you can change the plate instead of trying to change
+yourself. That is the general shape of a good nudge: alter the environment
+so that the easy choice and the better choice are the same one, and leave
+the person's freedom exactly where it was.
+
+If you want to eat a bit less, do not buy a book. Buy smaller plates.
+
+```{=html}
+<div class="share" data-share></div>
+```

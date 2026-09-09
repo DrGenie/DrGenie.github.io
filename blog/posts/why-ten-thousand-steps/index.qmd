@@ -1,0 +1,35 @@
+---
+title: "Why ten thousand steps"
+description: "The number came from a Japanese pedometer marketing campaign in 1965. It is still the number, because round numbers become goals whether they deserve to or not."
+author: "Mesfin Genie"
+date: "2026-09-12"
+categories: [behavioural economics, everyday]
+---
+
+Ten thousand steps a day. You have probably tried to hit it. Your phone may be
+counting right now.
+
+The figure has no clinical origin. It came from a pedometer sold in Japan in
+1965, named with a character that looks like a walking person and translates
+roughly as "ten thousand steps meter". It was a product name. It stuck because
+it is round.
+
+We are drawn to round numbers as targets in a way that has nothing to do with
+evidence. Marathon finishers cluster just under four hours, not because bodies
+change at 3:59 but because people push for the number. Savings goals are
+$10,000 rather than $9,300. Diets target 1,500 calories, not 1,437. The
+roundness gives the goal a shape, and a shape is easier to want.
+
+It cuts both ways. A round target can pull real effort out of you; the
+runners at 3:59 did run faster. It can also be arbitrary in ways that cost
+you. Research on step counts suggests most of the benefit arrives well before
+10,000, and that for many older adults the curve flattens closer to 7,000.
+Someone who does 7,500 and feels like a failure has been misled by a number
+that was invented to sell a gadget.
+
+If a round number gets you moving, keep it. Just know where it came from, and
+do not let it tell you that 8,000 is nothing.
+
+```{=html}
+<div class="share" data-share></div>
+```

@@ -1,0 +1,38 @@
+---
+title: "The lost ticket"
+description: "You lose a $50 ticket on the way to the theatre. Do you buy another? Now imagine you lose $50 cash instead. Most people answer the two questions differently."
+author: "Mesfin Genie"
+date: "2026-08-30"
+categories: [behavioural economics, everyday]
+---
+
+You are on your way to a show. The ticket cost $50. At the door you find you
+have lost it. Do you buy another?
+
+Most people say no. A hundred dollars for one show feels like too much.
+
+Now change one detail. You never bought the ticket. You planned to buy it at
+the door, and on the way you lose $50 in cash. Do you still buy the ticket?
+
+Most people say yes. The lost cash is annoying, but it has nothing to do with
+the show.
+
+The two situations are identical. In both you are $50 down and facing a $50
+decision. The only difference is which mental account the loss landed in. The
+lost ticket went into the "theatre" account, which now shows $100 for one
+evening. The lost cash went into a general account, and the theatre account is
+untouched.
+
+We all keep these accounts. Money is money, but we treat it as if it were
+labelled, and the labels change what we will do with it. A tax refund gets
+spent in a way a pay cheque does not. A win at cards is "house money". A
+gift voucher gets used on something we would never buy with cash.
+
+Sometimes the accounts help; a savings jar you refuse to touch is one. But
+when a label makes you turn down something you wanted, it is worth asking
+which account is doing the deciding, and whether you would agree with it if
+you could see the whole balance.
+
+```{=html}
+<div class="share" data-share></div>
+```

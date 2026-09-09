@@ -1,0 +1,35 @@
+---
+title: "Why the other queue always moves faster"
+description: "It does not. You only notice the times it does, because losing to the other lane hurts more than winning feels good."
+author: "Mesfin Genie"
+date: "2026-09-16"
+categories: [behavioural economics, everyday]
+---
+
+You pick a lane at the supermarket. The lane next to you starts moving. You
+switch. Your old lane moves. Everyone has lived this, and everyone believes
+the universe is doing it to them personally.
+
+The universe is not. Over a year, your lane and the other lane move at about
+the same rate. What differs is what you remember.
+
+When your lane wins, nothing happens. You reach the till, pay, leave. There is
+nothing to notice, so you notice nothing. When the other lane wins, you stand
+there watching someone who arrived after you walk out before you. That is a
+small loss with a face on it, and losses with faces stick.
+
+So the memory is skewed by design. You have a full record of every time you
+lost and almost no record of the times you won. Ask yourself the last time
+your lane clearly beat the other one. You will struggle, and it happened about
+half the time.
+
+This matters beyond queues. It is why people are sure they always get the slow
+train, the bad seat, the referee who hates their team. The losses are counted
+and the wins are not. It is worth knowing about yourself because the feeling
+of being unlucky is often a feeling of being human with a normal memory.
+
+The queue is fine. Stay in it.
+
+```{=html}
+<div class="share" data-share></div>
+```

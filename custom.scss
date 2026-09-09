@@ -286,8 +286,8 @@ h4 {
 main.content {
   max-width: 736px;                              // ~66 characters plus gutters
   margin-inline: auto;
-  padding-top: 2.4rem;
-  padding-bottom: 2rem;
+  padding-top: 2.2rem;
+  padding-bottom: 1.4rem;
   padding-left: $gutter;
   padding-right: $gutter;
 }
@@ -296,8 +296,8 @@ main.content {
 
 // Quarto sets a viewport-height minimum on the content area so the footer sits
 // at the bottom of short pages. That reads as a blank band above the footer.
-.quarto-container { min-height: 0 !important; }
-#quarto-content { min-height: 0; }
+html { height: auto !important; }
+body, .quarto-container, #quarto-content, .page-columns { min-height: 0 !important; }
 .footer { margin-top: 0; }
 
 // Quarto's default title block: strip the rule and the metadata furniture.
@@ -724,12 +724,14 @@ hr {
 // 11. Footer — two lines, no duplicated navigation, no share widgets
 // ---------------------------------------------------------------------------
 
+footer.footer { background: $tint; border-top: 1px solid $rule; }
+
 .nav-footer {
   max-width: 736px;
   margin-inline: auto;
-  background: $paper;
-  border-top: 1px solid $rule;
-  padding: 1.2rem $gutter 1.8rem;   // shorthand last, or it resets the gutter
+  background: transparent;
+  border-top: 0;
+  padding: 1.1rem $gutter 1.4rem;   // shorthand last, or it resets the gutter
   font-size: 0.85rem;
   color: $muted;
   min-height: 0;
@@ -885,7 +887,7 @@ hr {
 // ---------------------------------------------------------------------------
 
 @media (max-width: 900px) {
-  main.content { padding-top: 2.4rem; padding-bottom: 3.4rem; }
+  main.content { padding-top: 1.8rem; padding-bottom: 1.4rem; }
 }
 
 @media (max-width: 700px) {
@@ -1041,3 +1043,17 @@ details.sec > summary {
 details.sec[open] > summary .au-more { display: none; }
 details.sec[open] > summary { border-bottom: 0; }
 details.sec .rec-list { margin-top: 0; border-top: 0; }
+
+// ---------------------------------------------------------------------------
+// 20. Read more
+// ---------------------------------------------------------------------------
+details.more > summary {
+  cursor: pointer; list-style: none; display: inline-block;
+  font-size: 0.9rem; font-weight: 500; color: $accent;
+  border: 1px solid $rule; border-radius: 3px; padding: 0.35rem 0.8rem; margin: 0.2rem 0 0.6rem;
+  &::-webkit-details-marker { display: none; }
+  &::after { content: " +"; color: $muted; }
+}
+details.more[open] > summary::after { content: " \2212"; }
+details.more[open] > summary { margin-bottom: 0.9rem; }
+@media (hover: hover) { details.more > summary:hover { border-color: $accent; } }

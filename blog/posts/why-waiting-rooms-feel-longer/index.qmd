@@ -1,0 +1,36 @@
+---
+title: "Why waiting rooms feel longer than they are"
+description: "Ten minutes not knowing feels like twenty. Ten minutes with a number and a screen feels like five. The clinic can change the second without touching the first."
+author: "Mesfin Genie"
+date: "2026-08-23"
+categories: [health, everyday]
+---
+
+Nobody enjoys a waiting room. But two waits of the same length can feel
+completely different, and the difference is almost never about the clock.
+
+An uncertain wait feels longer than a known one. Being told "about twenty
+minutes" makes twenty minutes tolerable; being told nothing makes ten feel
+like an insult. An unexplained wait feels longer than an explained one. A
+wait alone feels longer than one in company. An unoccupied wait feels longer
+than one where you have something to do. And a wait that feels unfair, when
+someone who arrived after you goes in first, feels longest of all.
+
+These are old findings from queuing research, and they explain something odd
+about healthcare: satisfaction with a clinic tracks the *experience* of
+waiting far more closely than the number of minutes. Two practices with
+identical waits can sit at opposite ends of a rating scale.
+
+Which means a lot of the fix is cheap. A screen with your position in the
+queue. A sentence about why the delay happened. A realistic estimate rather
+than an optimistic one. None of these shorten the wait. All of them shorten
+how long it feels.
+
+When we ask patients what they will trade for a shorter wait, the answers are
+often large. It is worth remembering that some of that value can be delivered
+without a single extra appointment slot, by changing the waiting rather than
+the wait.
+
+```{=html}
+<div class="share" data-share></div>
+```

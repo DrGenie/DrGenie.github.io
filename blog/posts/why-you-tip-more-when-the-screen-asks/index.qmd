@@ -1,0 +1,38 @@
+---
+title: "Why you tip more when the screen asks"
+description: "The card machine turns to face you with three buttons and a queue behind you. Twenty percent suddenly seems reasonable. Nothing about the coffee changed."
+author: "Mesfin Genie"
+date: "2026-09-06"
+categories: [behavioural economics, everyday]
+---
+
+You buy a coffee. The screen swivels round. Fifteen, twenty, twenty-five
+percent, and a small grey link that says "no tip". The person who made the
+coffee is watching. So is the person behind you.
+
+Two years ago you would have dropped a coin in a jar or not. Now you press
+twenty. The machine did that.
+
+Three things are happening at once. The options are the default, and the
+default is where most people land. The choice is public, and being seen to
+choose "no tip" carries a small social cost that a coin jar never did. And
+the amounts are presented as percentages, which feel smaller than the dollars
+they represent. A dollar on a five-dollar coffee is a lot; twenty percent
+sounds modest.
+
+None of this is an accident. The companies that make these systems publish
+figures showing how much tipping rises when the buttons appear, and the
+figures are large.
+
+I am not against tipping. I am against not noticing when a choice has been
+made for me. So here is the small act of independence: decide what you tip
+for a coffee before you reach the counter. Then, when the screen turns, you
+are not deciding under pressure with three people watching. You are just
+confirming.
+
+It sounds trivial. It is also exactly the skill that keeps you from being
+steered in rooms where the stakes are higher.
+
+```{=html}
+<div class="share" data-share></div>
+```
