@@ -11,6 +11,7 @@ description: "Upcoming and recent conference presentations, and selected publish
   <div class="rec-year">Oct 2026</div>
   <div class="rec-body">
     <p class="rec-title">Preferences for dementia support programmes in Australia</p>
+    <p class="rec-title">Quantum Choice Model</p>
     <p class="rec-venue">International Academy of Health Preference Research, Duke-NUS, Singapore. Podium.</p>
   </div>
 </li>
