@@ -1,5 +1,5 @@
 ---
-pagetitle: "Mesfin Genie"
+pagetitle: "Dr Genie"
 description: "Health economist at the University of Newcastle. I measure what people are willing to trade in healthcare, and whether they read what we put in front of them."
 image: /assets/og-card.png
 ---
@@ -10,10 +10,10 @@ image: /assets/og-card.png
 <img src="/assets/mesfin-genie-profile-square.webp" alt="Mesfin Genie" class="intro-portrait" width="300" height="300" decoding="async" fetchpriority="high">
 ```
 
-# Mesfin Genie
+# Dr Genie
 
 ::: {.standfirst}
-Senior Lecturer in Health Economics, University of Newcastle
+Mesfin Genie, Senior Lecturer in Health Economics, University of Newcastle
 :::
 
 I measure what people are willing to give up. Patients trade waiting time against
