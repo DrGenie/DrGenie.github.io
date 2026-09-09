@@ -3,7 +3,6 @@ pagetitle: "Editorial calendar | Blog | Mesfin Genie"
 description: "Planned topics for the behavioural insights blog."
 image: /assets/og-card.png
 ---
-
 ```{=html}
 <header class="page-header"><div class="page-shell">
 <p class="eyebrow">Blog</p>
