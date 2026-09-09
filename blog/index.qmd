@@ -1,14 +1,13 @@
 ---
 title: "Writing"
-description: "Essays on health economics, behavioural economics and preference measurement."
+description: "Short pieces on why we choose the way we do: everyday behavioural economics, health decisions, and how preference research works."
 listing:
   contents: posts
-  type: default
+  template: ../assets/listing-grid.ejs
   sort: "date desc"
-  fields: [date, title, description]
-  date-format: "MMMM YYYY"
+  fields: [image, title, description, date, reading-time, categories]
   feed: true
-  categories: false
-  sort-ui: false
-  filter-ui: false
+  page-size: 100
 ---
+
+Plain-language pieces, three to five minutes each.

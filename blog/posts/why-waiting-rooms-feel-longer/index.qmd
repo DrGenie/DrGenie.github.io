@@ -1,6 +1,7 @@
 ---
 title: "Why waiting rooms feel longer than they are"
 description: "Ten minutes not knowing feels like twenty. Ten minutes with a number and a screen feels like five. The clinic can change the second without touching the first."
+image: /assets/social/why-waiting-rooms-feel-longer-og.png
 author: "Mesfin Genie"
 date: "2026-08-23"
 categories: [health, everyday]

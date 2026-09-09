@@ -1,6 +1,7 @@
 ---
 title: "Why a bigger plate makes you eat more"
 description: "The same portion looks small on a large plate and generous on a small one. Your eyes decide how full you are before your stomach gets a say."
+image: /assets/social/why-a-bigger-plate-makes-you-eat-more-og.png
 author: "Mesfin Genie"
 date: "2026-08-16"
 categories: [behavioural economics, health, everyday]

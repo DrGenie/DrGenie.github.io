@@ -77,6 +77,13 @@ $toc-active-border:       $accent;
 
 /*-- scss:rules --*/
 
+// Inter is served from this site. No request leaves the page for a font.
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("/assets/fonts/Inter-Regular.ttf") format("truetype"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap; src: url("/assets/fonts/Inter-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap; src: url("/assets/fonts/Inter-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap; src: url("/assets/fonts/Inter-Bold.ttf") format("truetype"); }
+
+
 // ---------------------------------------------------------------------------
 // 1. Base
 // ---------------------------------------------------------------------------
@@ -1057,3 +1064,28 @@ details.more > summary {
 details.more[open] > summary::after { content: " \2212"; }
 details.more[open] > summary { margin-bottom: 0.9rem; }
 @media (hover: hover) { details.more > summary:hover { border-color: $accent; } }
+
+// ---------------------------------------------------------------------------
+// 21. Writing grid, reading time, keep reading, glance line
+// ---------------------------------------------------------------------------
+.wgrid {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem 1.6rem; margin: 1.4rem 0 0;
+}
+.wgrid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem 1.2rem; }
+.wcard {
+  display: block; text-decoration: none; color: $ink; min-width: 0;
+  .wcard-img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid $rule-soft; margin-bottom: 0.55rem; }
+  .wcard-topic { display: block; font-size: 0.74rem; font-weight: 600; color: $accent; margin-bottom: 0.2rem; }
+  .wcard-title { display: block; font-size: 1rem; font-weight: 600; line-height: 1.3; color: $ink-strong; letter-spacing: -0.005em; }
+  .wcard-desc { display: block; font-size: 0.86rem; color: $muted; line-height: 1.45; margin-top: 0.25rem;
+                display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .wcard-meta { display: block; font-size: 0.76rem; color: $muted; margin-top: 0.3rem; }
+}
+.wgrid-3 .wcard-title { font-size: 0.92rem; }
+@media (hover: hover) { .wcard:hover .wcard-title { color: $accent; } .wcard:hover .wcard-img { border-color: $accent; } }
+@media (max-width: 700px) { .wgrid, .wgrid-3 { grid-template-columns: 1fr 1fr; gap: 1rem; } }
+@media (max-width: 460px) { .wgrid, .wgrid-3 { grid-template-columns: 1fr; } }
+.rt { font-size: 0.82rem; color: $muted; margin: 0.35rem 0 0; }
+.keep { margin-top: 2.2rem; }
+.keep h2 { margin-top: 0; font-size: 1.1rem; }
+.glance { font-size: 0.86rem; color: $muted; margin: -0.6rem 0 1.4rem; }

@@ -1,6 +1,7 @@
 ---
 title: "Why ten thousand steps"
 description: "The number came from a Japanese pedometer marketing campaign in 1965. It is still the number, because round numbers become goals whether they deserve to or not."
+image: /assets/social/why-ten-thousand-steps-og.png
 author: "Mesfin Genie"
 date: "2026-09-12"
 categories: [behavioural economics, everyday]

@@ -1,6 +1,7 @@
 ---
 title: "The lost ticket"
 description: "You lose a $50 ticket on the way to the theatre. Do you buy another? Now imagine you lose $50 cash instead. Most people answer the two questions differently."
+image: /assets/social/the-lost-ticket-og.png
 author: "Mesfin Genie"
 date: "2026-08-30"
 categories: [behavioural economics, everyday]

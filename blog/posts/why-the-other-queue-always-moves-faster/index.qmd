@@ -1,6 +1,7 @@
 ---
 title: "Why the other queue always moves faster"
 description: "It does not. You only notice the times it does, because losing to the other lane hurts more than winning feels good."
+image: /assets/social/why-the-other-queue-always-moves-faster-og.png
 author: "Mesfin Genie"
 date: "2026-09-16"
 categories: [behavioural economics, everyday]

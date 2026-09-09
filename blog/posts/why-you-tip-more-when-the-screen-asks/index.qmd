@@ -1,6 +1,7 @@
 ---
 title: "Why you tip more when the screen asks"
 description: "The card machine turns to face you with three buttons and a queue behind you. Twenty percent suddenly seems reasonable. Nothing about the coffee changed."
+image: /assets/social/why-you-tip-more-when-the-screen-asks-og.png
 author: "Mesfin Genie"
 date: "2026-09-06"
 categories: [behavioural economics, everyday]
