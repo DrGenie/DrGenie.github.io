@@ -47,7 +47,7 @@ website:
   favicon: assets/favicon.png
   image: /assets/og-card.png
   page-navigation: false
-  back-to-top-navigation: false
+  back-to-top-navigation: true
   search: false
   open-graph:
     locale: en_AU

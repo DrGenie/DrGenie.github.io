@@ -1,0 +1,6 @@
+<div class="filter" id="writing-filter"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="Everyday" aria-pressed="false">Everyday</button><button type="button" data-filter="Health and policy" aria-pressed="false">Health and policy</button><button type="button" data-filter="Methods" aria-pressed="false">Methods</button></div>
+<div class="wgrid">
+<% for (const item of items) { const c = (item.categories || []).join(' ').toLowerCase(); const topic = (c.includes('everyday') || c.includes('risk')) ? 'Everyday' : (c.includes('health') || c.includes('policy') || c.includes('vaccin') || c.includes('preferences')) ? 'Health and policy' : 'Methods'; %>
+<a class="wcard" href="<%- item.path %>" data-topic="<%- topic %>"><% if (item.image) { %><img class="wcard-img" src="<%- item.image %>" alt="" loading="lazy" width="1200" height="630"><% } %><span class="wcard-topic"><%- topic %></span><span class="wcard-title"><%= item.title %></span><span class="wcard-desc"><%= item.description %></span><span class="wcard-meta"><%= item['reading-time'] %></span></a>
+<% } %>
+</div>

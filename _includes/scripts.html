@@ -1,4 +1,12 @@
 <script>
+/* Skip link for keyboard and screen-reader users. */
+(function () {
+  var main = document.querySelector("main"); if (!main) return;
+  main.id = main.id || "main-content";
+  var a = document.createElement("a"); a.className = "skip-link"; a.href = "#" + main.id; a.textContent = "Skip to content";
+  document.body.insertBefore(a, document.body.firstChild);
+})();
+
 /* ---------------------------------------------------------------------------
    Choice task (homepage)
 
@@ -306,16 +314,15 @@
    commits. It reads the repository's copy first, which is fresh the moment the
    bot commits, then falls back to the copy deployed with the site. */
 (function () {
-  var line = document.getElementById("scholar-line");
-  if (!line || !window.fetch) return;
+  var els = document.querySelectorAll("[data-sch]");
+  if (!els.length || !window.fetch) return;
   var srcs = [
     "https://raw.githubusercontent.com/DrGenie/DrGenie.github.io/main/assets/scholar-metrics.json",
     "/assets/scholar-metrics.json"
   ];
   function apply(m) {
-    ["citations", "h_index", "i10_index"].forEach(function (k) {
-      var el = line.querySelector('[data-sch="' + k + '"]');
-      if (el && m[k]) el.textContent = m[k];
+    Array.prototype.forEach.call(els, function (el) {
+      var k = el.getAttribute("data-sch"); if (m[k]) el.textContent = m[k];
     });
   }
   function tryNext(i) {
@@ -326,5 +333,43 @@
       .catch(function () { tryNext(i + 1); });
   }
   tryNext(0);
+})();
+
+/* Post pages: reading time under the title, and three related pieces after the
+   share row, chosen from the same topic. Data comes from assets/posts.json. */
+(function () {
+  var main = document.querySelector("main"); var share = document.querySelector("[data-share]");
+  if (!main || !share || location.pathname.indexOf("/blog/posts/") === -1) return;
+  var words = main.textContent.trim().split(/\s+/).length;
+  var mins = Math.max(1, Math.ceil(words / 200));
+  var meta = document.querySelector(".quarto-title-meta") || document.querySelector("#title-block-header");
+  if (meta) { var rt = document.createElement("p"); rt.className = "rt"; rt.textContent = mins + " min read"; meta.appendChild(rt); }
+  var slug = location.pathname.replace(/\/$/, "").split("/").pop();
+  fetch("/assets/posts.json").then(function (r) { return r.json(); }).then(function (posts) {
+    var me = posts.filter(function (p) { return p.slug === slug; })[0]; if (!me) return;
+    var same = posts.filter(function (p) { return p.slug !== slug && p.topic === me.topic; });
+    var rest = posts.filter(function (p) { return p.slug !== slug && p.topic !== me.topic; });
+    var pick = same.concat(rest).slice(0, 3);
+    var h = '<h2>Keep reading</h2><div class="wgrid wgrid-3">';
+    pick.forEach(function (p) {
+      h += '<a class="wcard" href="/blog/posts/' + p.slug + '/"><img class="wcard-img" src="' + p.image + '" alt="" loading="lazy" width="1200" height="630"><span class="wcard-title">' + p.title + '</span><span class="wcard-meta">' + p.minutes + ' min read</span></a>';
+    });
+    var box = document.createElement("section"); box.className = "keep"; box.innerHTML = h + "</div>";
+    share.parentNode.insertBefore(box, share.nextSibling);
+  }).catch(function () {});
+})();
+
+/* Writing page: topic chips */
+(function () {
+  var bar = document.getElementById("writing-filter"); if (!bar) return;
+  var cards = Array.prototype.slice.call(document.querySelectorAll(".wcard[data-topic]"));
+  var btns = Array.prototype.slice.call(bar.querySelectorAll("button"));
+  bar.style.display = "flex";
+  bar.addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    var t = b.getAttribute("data-filter");
+    cards.forEach(function (c) { c.style.display = (t === "all" || c.getAttribute("data-topic") === t) ? "" : "none"; });
+    btns.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+  });
 })();
 </script>
