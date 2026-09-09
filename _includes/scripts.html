@@ -302,16 +302,29 @@
 })();
 
 
-/* Scholar metrics: refresh the numbers on the About page from the JSON the
-   weekly workflow maintains, so a successful run shows up without a rebuild. */
+/* Scholar metrics: the About page shows the numbers the weekly workflow
+   commits. It reads the repository's copy first, which is fresh the moment the
+   bot commits, then falls back to the copy deployed with the site. */
 (function () {
   var line = document.getElementById("scholar-line");
   if (!line || !window.fetch) return;
-  fetch("/assets/scholar-metrics.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (m) {
+  var srcs = [
+    "https://raw.githubusercontent.com/DrGenie/DrGenie.github.io/main/assets/scholar-metrics.json",
+    "/assets/scholar-metrics.json"
+  ];
+  function apply(m) {
     ["citations", "h_index", "i10_index"].forEach(function (k) {
       var el = line.querySelector('[data-sch="' + k + '"]');
       if (el && m[k]) el.textContent = m[k];
     });
-  }).catch(function () {});
+  }
+  function tryNext(i) {
+    if (i >= srcs.length) return;
+    fetch(srcs[i], { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(apply)
+      .catch(function () { tryNext(i + 1); });
+  }
+  tryNext(0);
 })();
 </script>
