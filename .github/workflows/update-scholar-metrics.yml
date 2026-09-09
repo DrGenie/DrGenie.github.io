@@ -25,7 +25,9 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Attempt verified metrics update
+       - name: Attempt verified metrics update
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python scripts/update_scholar_metrics.py
 
       - name: Commit verified changes
