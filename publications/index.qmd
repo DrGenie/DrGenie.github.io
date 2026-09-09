@@ -94,8 +94,8 @@ description: "Peer-reviewed articles, working papers, chapters, datasets and con
 <li class="rec" data-topic="preferences">
   <div class="rec-year">2026</div>
   <div class="rec-body">
-    <p class="rec-title">New article, Social Science &amp; Medicine (2026)</p>
-    <p class="au-static">Mesfin G. Genie and colleagues</p>
+    <p class="rec-title">Pull-forward and induced vaccination under time-limited mandates: Evidence from a low-coercion mandate</p>
+    <details class="au"><summary>Fabio I. Martinenghi; Mesfin Genie <span class="au-more">and 7 others</span></summary><span class="au-full">Fabio I. Martinenghi; Mesfin Genie; Katie Attwell; Huong Le; Hannah C. Moore; Aregawi G. Gebremariam; Bette Liu; Francesco Paolucci; Christopher C. Blyth</span></details>
     <p class="rec-venue">Social Science &amp; Medicine</p>
     <p class="rec-links"><a href="https://www.sciencedirect.com/science/article/pii/S0277953626007859">Link</a></p>
   </div>
