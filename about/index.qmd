@@ -51,7 +51,7 @@ work with early-career researchers across the group.
 ## Elsewhere
 
 ```{=html}
-<p class="note" id="scholar-line">Google Scholar: <span data-sch="citations">974</span> citations, h-index <span data-sch="h_index">14</span>, i10-index <span data-sch="i10_index">17</span>.</p>
+<p class="note" id="scholar-line">Google Scholar: <span data-sch="citations">1009</span> citations, h-index <span data-sch="h_index">14</span>, i10-index <span data-sch="i10_index">17</span>.</p>
 ```
 
 ```{=html}
