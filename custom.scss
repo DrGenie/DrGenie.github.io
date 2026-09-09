@@ -1,0 +1,1024 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------------------
+// mesfingenie.com — design tokens
+//
+// Palette: deep petrol ink on a near-neutral white, one claret accent.
+// Deliberately not the cream + terracotta + high-contrast-serif combination
+// that most generated sites land on.
+//
+// Type: Spectral throughout. One family, used at different weights and sizes.
+// Spectral is a screen-first text serif with low stroke contrast and sharp,
+// slightly narrow forms — legible at 19px and distinctly not a system default.
+// ---------------------------------------------------------------------------
+
+$paper:        #ffffff;   // page background
+$paper-2:      #fafafa;   // raised surfaces (choice card)
+$tint:         #f4f5f7;   // option columns, table headers
+$ink:          #16191d;   // body text
+$ink-strong:   #0a0c0f;   // headings
+$muted:        #6a7178;   // metadata, captions
+$rule:         #e3e5e8;   // hairlines between records
+$rule-soft:    #eef0f2;
+$accent:       #9a1f35;   // links, current-page marker, selected option
+$accent-deep:  #741627;
+$accent-soft:  #fbeef0;
+
+$measure:      72ch;
+
+// Horizontal breathing room on every edge of the page. Grows with the viewport
+// so a phone gets 20px and a laptop 36px.
+$gutter:       clamp(20px, 5.5vw, 36px);
+
+// Bootstrap / Quarto variable overrides ------------------------------------
+
+$font-family-sans-serif:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$font-family-serif:       $font-family-sans-serif;
+$font-family-monospace:   ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+$font-size-root:          17px;
+$font-size-base:          1rem;
+$line-height-base:        1.6;
+
+$body-bg:                 $paper;
+$body-color:              $ink;
+
+$headings-font-family:    $font-family-sans-serif;
+$headings-font-weight:    600;
+$headings-color:          $ink-strong;
+$headings-line-height:    1.16;
+
+$link-color:              $accent;
+$link-hover-color:        $accent-deep;
+$link-decoration:         underline;
+
+$border-color:            $rule;
+$hr-border-color:         $rule;
+$hr-opacity:              1;
+
+$table-border-color:      $rule;
+$table-cell-padding-y:    0.6rem;
+$table-cell-padding-x:    0.7rem;
+
+$code-color:              $ink;
+$code-bg:                 $tint;
+
+$navbar-padding-y:        0.85rem;
+$navbar-brand-font-size:  1rem;
+
+// Quarto's grid. Only the body width is set. Zeroing the sidebar, margin and
+// gutter variables also deletes Quarto's responsive breakpoints, which leaves
+// the content column stuck at a 500px minimum and overflowing every phone.
+$grid-body-width:         760px;
+
+$toc-color:               $muted;
+$toc-active-border:       $accent;
+
+
+/*-- scss:rules --*/
+
+// ---------------------------------------------------------------------------
+// 1. Base
+// ---------------------------------------------------------------------------
+
+html {
+  -webkit-text-size-adjust: 100%;
+  overflow-x: clip;                 // safety net; nothing should overflow anyway
+
+  // Scales smoothly from 16.5px on a small phone to 19px on a laptop, rather
+  // than jumping at two breakpoints.
+  --bs-root-font-size: #{clamp(15.5px, 14.9px + 0.19vw, 17px)};
+}
+
+body {
+  font-optical-sizing: auto;
+  font-synthesis-weight: none;
+  font-feature-settings: "cv05" 1, "cv11" 1, "ss01" 1;
+  letter-spacing: -0.003em;
+  text-rendering: optimizeLegibility;
+  background-color: $paper;
+}
+
+::selection { background: $accent-soft; color: $ink-strong; }
+
+:focus-visible {
+  outline: 2px solid $accent;
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+p { margin: 0 0 1.1em; }
+
+strong { font-weight: 600; }
+
+a {
+  text-underline-offset: 0.16em;
+  text-decoration-thickness: 0.055em;
+  text-decoration-color: rgba(124, 34, 51, 0.35);
+  transition: none;
+
+  &:hover {
+    color: $accent-deep;
+    text-decoration-color: currentColor;
+  }
+}
+
+// Numerals line up in every list of years, counts and dollar figures.
+table, .rec-year, .ct, .num { font-variant-numeric: tabular-nums; }
+
+// ---------------------------------------------------------------------------
+// 2. Type scale (minor third, 1.2)
+// ---------------------------------------------------------------------------
+
+h1, .title {
+  font-size: 2.05rem;
+  font-weight: 600;
+  letter-spacing: -0.018em;
+  line-height: 1.08;
+  margin: 0 0 0.5rem;
+  max-width: 22ch;
+}
+
+h2 {
+  font-size: 1.32rem;
+  font-weight: 600;
+  letter-spacing: -0.011em;
+  margin: 2.5rem 0 0.85rem;
+  max-width: 30ch;
+}
+
+h3 {
+  font-size: 1.04rem;
+  font-weight: 600;
+  letter-spacing: -0.004em;
+  margin: 1.7rem 0 0.45rem;
+  max-width: 40ch;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.6rem 0 0.4rem;
+}
+
+// The one-line role/affiliation under a page title.
+.standfirst {
+  font-size: 1.12rem;
+  color: $muted;
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 46ch;
+  margin: 0 0 1.8rem;
+}
+
+.lede {
+  font-size: 1.1rem;
+  line-height: 1.62;
+  margin-bottom: 1.4rem;
+}
+
+.note {
+  font-size: 0.83rem;
+  line-height: 1.55;
+  color: $muted;
+  max-width: 62ch;
+}
+
+// ---------------------------------------------------------------------------
+// 3. Header
+//
+// No coloured bar. The header is the same paper as the page, separated by a
+// single hairline. The current section is marked with a small claret disc —
+// a fixation point, the unit of measurement in the eye-tracking work.
+// ---------------------------------------------------------------------------
+
+.navbar {
+  background: $paper !important;
+  border-bottom: 1px solid $rule-soft;
+  padding-top: 1.05rem;
+  padding-bottom: 1.05rem;
+  box-shadow: none;
+  font-size: 0.9rem;
+
+  // Quarto emits data-bs-theme="dark" on the navbar whatever the background
+  // colour is, which would make the links and the hamburger icon white on
+  // white. Setting the Bootstrap navbar variables here overrides that at
+  // source, so the header stays legible however Quarto is configured.
+  --bs-navbar-color: #{$ink};
+  --bs-navbar-hover-color: #{$accent};
+  --bs-navbar-active-color: #{$ink-strong};
+  --bs-navbar-disabled-color: #{$muted};
+  --bs-navbar-brand-color: #{$ink-strong};
+  --bs-navbar-brand-hover-color: #{$accent};
+  --bs-navbar-toggler-border-color: #{$rule};
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2316232b' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-emphasis-color: #{$ink-strong};
+  --bs-body-color: #{$ink};
+}
+
+// Pin the site name to the left edge; Quarto centres it by default.
+.navbar .navbar-brand-container {
+  margin-left: 0 !important;
+  margin-right: 1.8rem !important;
+}
+
+.navbar .navbar-title { color: $ink-strong; }
+
+.navbar > .navbar-container,
+.navbar > .container-fluid,
+.navbar > .container {
+  max-width: 736px;
+  padding-left: $gutter !important;
+  padding-right: $gutter !important;
+}
+
+.navbar-brand {
+  color: $ink-strong !important;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  &:hover { color: $accent !important; }
+}
+
+.navbar .navbar-nav .nav-link {
+  color: $ink !important;
+  font-weight: 400;
+  padding: 0.15rem 0 !important;
+  margin-right: 1.45rem;
+  position: relative;
+  opacity: 1;
+
+  &:hover { color: $accent !important; }
+
+  &.active {
+    color: $ink-strong !important;
+    font-weight: 500;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -0.72rem;
+      top: 50%;
+      width: 5px;
+      height: 5px;
+      margin-top: -2.5px;
+      border-radius: 50%;
+      background: $accent;
+    }
+  }
+}
+
+.navbar-nav.navbar-nav-scroll { margin-right: 0; }
+
+.navbar .quarto-navbar-tools { margin-left: 0.5rem; }
+
+.navbar-toggler {
+  border: 1px solid $rule;
+  padding: 0.3rem 0.5rem;
+  &:focus { box-shadow: none; }
+}
+
+// ---------------------------------------------------------------------------
+// 4. Page frame
+// ---------------------------------------------------------------------------
+
+main.content {
+  max-width: 736px;                              // ~66 characters plus gutters
+  margin-inline: auto;
+  padding-top: 2.4rem;
+  padding-bottom: 3.6rem;
+  padding-left: $gutter;
+  padding-right: $gutter;
+}
+
+#quarto-content > * { padding-top: 0; }
+
+// Quarto's default title block: strip the rule and the metadata furniture.
+#title-block-header {
+  margin-bottom: 1.4rem;
+  .quarto-title-banner, .quarto-title-meta { display: none; }
+}
+
+.quarto-title > h1.title { margin-bottom: 0.35rem; }
+
+header#title-block-header.quarto-title-block.default .description { display: none; }
+
+// ---------------------------------------------------------------------------
+// 5. Record lists
+//
+// Papers, projects and tools are sets of comparable items with the same
+// fields, so they are set as ruled rows rather than as cards. The rule is
+// doing the job the header row of an attribute table does: telling you these
+// entries are read against each other.
+// ---------------------------------------------------------------------------
+
+.rec-list {
+  list-style: none;
+  margin: 1.6rem 0 0;
+  padding: 0;
+  border-top: 1px solid $rule;
+  max-width: 100%;
+}
+
+.rec {
+  border-bottom: 1px solid $rule-soft;
+  padding: 0.9rem 0 0.95rem;
+  display: grid;
+  grid-template-columns: 4.2rem 1fr;
+  column-gap: 1.2rem;
+  max-width: 100%;
+
+  &:last-child { border-bottom: 1px solid $rule; }
+}
+
+.rec-year {
+  color: $muted;
+  font-size: 0.86rem;
+  padding-top: 0.32rem;
+  font-weight: 400;
+}
+
+.rec-body { min-width: 0; }
+
+.rec-title {
+  font-size: 1.03rem;
+  font-weight: 600;
+  line-height: 1.34;
+  margin: 0 0 0.3rem;
+  letter-spacing: -0.005em;
+  color: $ink-strong;
+  max-width: 54ch;
+
+  a { color: inherit; text-decoration-color: rgba(22, 35, 43, 0.28); }
+  a:hover { color: $accent; }
+}
+
+.rec-venue {
+  font-size: 0.86rem;
+  color: $muted;
+  margin: 0 0 0.45rem;
+  font-style: italic;
+}
+
+// The plain-English sentence: what the paper actually found.
+.rec-finding {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin: 0 0 0.55rem;
+  max-width: 60ch;
+}
+
+.rec-links {
+  font-size: 0.83rem;
+  color: $muted;
+
+  a { margin-right: 0.95rem; }
+}
+
+.rec-authors {
+  font-size: 0.86rem;
+  color: $muted;
+  margin: 0 0 0.3rem;
+  max-width: 62ch;
+}
+
+// Single-column fallback on narrow screens.
+@media (max-width: 620px) {
+  .rec { grid-template-columns: 1fr; row-gap: 0.15rem; }
+  .rec-year { padding-top: 0; font-size: 0.8rem; }
+}
+
+// A compact variant for link lists (grants, data, talks).
+.plain-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0 0;
+  border-top: 1px solid $rule-soft;
+
+  li {
+    border-bottom: 1px solid $rule-soft;
+    padding: 0.75rem 0;
+    max-width: 100%;
+    font-size: 0.97rem;
+    line-height: 1.5;
+  }
+
+  .pl-meta { color: $muted; font-size: 0.86rem; display: block; margin-top: 0.15rem; }
+}
+
+// ---------------------------------------------------------------------------
+// 6. Choice task
+//
+// The homepage demo is a real discrete choice card: attributes down the side,
+// alternatives across. This is the object at the centre of the research, so it
+// is the one place on the site allowed to be loud.
+// ---------------------------------------------------------------------------
+
+.ct {
+  margin: 2rem 0 0;
+  max-width: 100%;
+}
+
+.ct-frame {
+  background: $paper-2;
+  border: 1px solid $rule;
+  padding: 1.5rem 1.6rem 1.6rem;
+}
+
+.ct-q {
+  font-size: 0.86rem;
+  color: $muted;
+  margin: 0 0 0.15rem;
+}
+
+.ct-stem {
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1.45;
+  margin: 0 0 1.15rem;
+  max-width: 56ch;
+  color: $ink-strong;
+}
+
+.ct-grid {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 1fr) 1fr 1fr;
+  border-top: 1px solid $rule;
+}
+
+.ct-cell {
+  padding: 0.62rem 0.7rem;
+  border-bottom: 1px solid $rule-soft;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.ct-attr { color: $muted; font-size: 0.86rem; }
+
+.ct-head {
+  font-weight: 600;
+  color: $ink-strong;
+  background: $tint;
+  border-bottom: 1px solid $rule;
+  font-size: 0.9rem;
+}
+
+.ct-val { background: $paper-2; }
+
+.ct-actions {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 1fr) 1fr 1fr;
+  margin-top: 0.9rem;
+}
+
+.ct-actions > span { display: block; }
+
+.ct-pick {
+  font-family: inherit;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: $ink-strong;
+  background: $paper-2;
+  border: 1px solid $ink;
+  padding: 0.6rem 0.5rem;
+  margin: 0 0.35rem;
+  cursor: pointer;
+
+  &:hover { background: $accent; border-color: $accent; color: #fff; }
+}
+
+// Progress: three fixation points, filled as answers come in.
+.ct-dots {
+  display: flex;
+  gap: 0.42rem;
+  align-items: center;
+  margin: 1.1rem 0 0;
+}
+
+.ct-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid $muted;
+  background: transparent;
+
+  &.on { background: $accent; border-color: $accent; }
+}
+
+.ct-result { display: none; }
+.ct-result.show { display: block; }
+
+.ct-figure { margin: 1.3rem 0 1.1rem; }
+
+.ct-bar {
+  position: relative;
+  height: 46px;
+  border-left: 1px solid $rule;
+  border-right: 1px solid $rule;
+  border-bottom: 1px solid $ink;
+  background: linear-gradient(to right, $tint, $tint);
+}
+
+.ct-band {
+  position: absolute;
+  top: 6px;
+  bottom: 1px;
+  background: $accent;
+  opacity: 0.88;
+}
+
+.ct-scale {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: $muted;
+  margin-top: 0.3rem;
+}
+
+.ct-answer {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: $ink-strong;
+  max-width: 56ch;
+  margin: 0 0 0.8rem;
+}
+
+.ct-restart {
+  font-family: inherit;
+  font-size: 0.86rem;
+  color: $accent;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+  &:hover { color: $accent-deep; }
+}
+
+@media (max-width: 620px) {
+  .ct-frame { padding: 1.1rem 1rem 1.2rem; }
+  .ct-grid, .ct-actions { grid-template-columns: 6.2rem 1fr 1fr; }
+  .ct-cell { padding: 0.5rem 0.45rem; font-size: 0.86rem; }
+  .ct-pick { margin: 0 0.2rem; padding: 0.55rem 0.3rem; font-size: 0.86rem; }
+}
+
+// ---------------------------------------------------------------------------
+// 7. Intro block (homepage)
+// ---------------------------------------------------------------------------
+
+.intro { margin-bottom: 2.6rem; }
+
+.intro-portrait {
+  float: right;
+  width: 150px;
+  height: 150px;
+  margin: 0.3rem 0 1rem 1.8rem;
+  object-fit: cover;
+  filter: saturate(0.92);
+}
+
+.intro h1 { max-width: 100%; }
+
+@media (max-width: 700px) {
+  .intro-portrait { width: 112px; height: 112px; margin-left: 1.3rem; }
+}
+
+// Floating an image beside text stops working once the text column is narrow
+// enough that only three or four words fit per line.
+@media (max-width: 560px) {
+  .intro-portrait {
+    float: none;
+    display: block;
+    width: 96px;
+    height: 96px;
+    margin: 0 0 1.3rem;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 8. Schematic figures (eye-tracking page)
+// ---------------------------------------------------------------------------
+
+figure { margin: 2rem 0; }
+
+figure svg { max-width: 100%; height: auto; display: block; }
+
+figcaption {
+  font-size: 0.83rem;
+  color: $muted;
+  line-height: 1.5;
+  margin-top: 0.6rem;
+  max-width: 62ch;
+}
+
+// ---------------------------------------------------------------------------
+// 9. Filter control (papers page)
+// ---------------------------------------------------------------------------
+
+.filter {
+  display: none;          // revealed by script; without JS the full list stands alone
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.4rem 0 0;
+}
+
+.filter button {
+  font-family: inherit;
+  font-size: 0.85rem;
+  color: $ink;
+  background: transparent;
+  border: 1px solid $rule;
+  padding: 0.28rem 0.65rem;
+  cursor: pointer;
+
+  &:hover { border-color: $ink; }
+  &[aria-pressed="true"] { background: $ink-strong; border-color: $ink-strong; color: $paper; }
+}
+
+// ---------------------------------------------------------------------------
+// 9b. Action link (opening a tool)
+//
+// The only button-like link on the site. It exists because opening a tool is a
+// different kind of act from following a reference, and the page should say so.
+// ---------------------------------------------------------------------------
+
+a.open {
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: $paper;
+  background: $ink-strong;
+  border: 1px solid $ink-strong;
+  padding: 0.62rem 1.15rem;
+  margin: 1.4rem 0 0.6rem;
+  text-decoration: none;
+
+  &:hover {
+    background: $accent;
+    border-color: $accent;
+    color: $paper;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 10. Blockquote, tables, code
+// ---------------------------------------------------------------------------
+
+blockquote {
+  border-left: 2px solid $accent;
+  margin: 1.6rem 0;
+  padding: 0.1rem 0 0.1rem 1.1rem;
+  color: $ink;
+  font-style: italic;
+  max-width: $measure;
+}
+
+.table-wrap {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table {
+  max-width: 100%;
+  font-size: 0.92rem;
+  margin: 1.6rem 0;
+  width: 100%;
+
+  th {
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 1px solid $ink;
+    background: transparent;
+  }
+
+  td { border-bottom: 1px solid $rule-soft; }
+}
+
+pre, code { font-size: 0.85rem; }
+
+pre {
+  background: $tint;
+  border: none;
+  padding: 0.9rem 1rem;
+  overflow-x: auto;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid $rule;
+  margin: 3rem 0;
+}
+
+// ---------------------------------------------------------------------------
+// 11. Footer — two lines, no duplicated navigation, no share widgets
+// ---------------------------------------------------------------------------
+
+.nav-footer {
+  max-width: 736px;
+  margin-inline: auto;
+  background: $paper;
+  border-top: 1px solid $rule;
+  padding: 1.6rem $gutter 2.4rem;   // shorthand last, or it resets the gutter
+  font-size: 0.85rem;
+  color: $muted;
+  min-height: 0;
+  align-items: flex-start;
+}
+
+.nav-footer .nav-footer-center,
+.nav-footer .nav-footer-right { display: none; }
+
+.nav-footer .nav-footer-left {
+  flex: 1 1 100%;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.foot p { margin: 0 0 0.32rem; max-width: 100%; }
+
+.foot a { color: $muted; text-decoration-color: rgba(91, 109, 118, 0.4); }
+.foot a:hover { color: $accent; }
+
+.foot .foot-sep { color: $rule; padding: 0 0.42rem; }
+
+// ---------------------------------------------------------------------------
+// 12. Reduced motion and print
+// ---------------------------------------------------------------------------
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+@media print {
+  .navbar, .nav-footer, .ct-actions, .ct-restart { display: none !important; }
+  body { background: #fff; font-size: 11pt; }
+  a { text-decoration: none; color: #000; }
+}
+
+// ---------------------------------------------------------------------------
+// 13. Share row
+//
+// Authored glyphs rather than brand marks: reproducing platform logos means
+// reproducing trademarks, and a set of shapes drawn in the site's own language
+// sits better with everything around it anyway.
+// ---------------------------------------------------------------------------
+
+.share {
+  margin: 3rem 0 0;
+  padding-top: 1.4rem;
+  border-top: 1px solid $rule;
+}
+
+.share-label {
+  font-size: 0.86rem;
+  color: $muted;
+  margin: 0 0 0.7rem;
+}
+
+.share-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  min-height: 44px;                 // comfortable touch target
+  padding: 0.4rem 0.85rem;
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: $ink-strong;
+  background: $paper-2;
+  border: 1px solid $rule;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(124, 34, 51, 0.12);
+
+  svg {
+    width: 15px;
+    height: 15px;
+    flex: 0 0 15px;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  &.is-copied {
+    background: $accent;
+    border-color: $accent;
+    color: #fff;
+  }
+}
+
+@media (hover: hover) {
+  .share-btn:hover {
+    border-color: $accent;
+    color: $accent;
+    background: $accent-soft;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 14. Icon links (footer and About)
+// ---------------------------------------------------------------------------
+
+.iconlinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.1rem 0 0;
+}
+
+.iconlink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 42px;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.87rem;
+  color: $ink;
+  border: 1px solid $rule;
+  border-radius: 2px;
+  text-decoration: none;
+
+  svg {
+    width: 14px; height: 14px; flex: 0 0 14px;
+    stroke: currentColor; fill: none;
+    stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;
+  }
+}
+
+@media (hover: hover) {
+  .iconlink:hover { border-color: $accent; color: $accent; }
+}
+
+// ---------------------------------------------------------------------------
+// 15. Small screens and touch
+//
+// Type steps down rather than the layout reflowing into something different,
+// so the page reads the same on a phone as on a desktop.
+// ---------------------------------------------------------------------------
+
+@media (max-width: 900px) {
+  main.content { padding-top: 2.4rem; padding-bottom: 3.4rem; }
+}
+
+@media (max-width: 700px) {
+  h1, .title { font-size: 2.05rem; }
+  h2 { font-size: 1.4rem; margin-top: 2.6rem; }
+  .standfirst { font-size: 1.03rem; }
+}
+
+@media (max-width: 400px) {
+  h1, .title { font-size: 1.82rem; letter-spacing: -0.012em; }
+}
+
+// Long author lists and DOI strings must never widen the page.
+.rec-title, .rec-authors, .rec-venue, .rec-links, .plain-list li, td, th {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+img, svg, table, pre, iframe { max-width: 100%; }
+
+// Touch targets: the navigation and the filter are the two places a finger
+// lands most often.
+.navbar .navbar-nav .nav-link {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  -webkit-tap-highlight-color: rgba(124, 34, 51, 0.12);
+}
+
+.filter button {
+  min-height: 42px;
+  -webkit-tap-highlight-color: rgba(124, 34, 51, 0.12);
+}
+
+.ct-pick, a.open {
+  min-height: 46px;
+  -webkit-tap-highlight-color: rgba(124, 34, 51, 0.12);
+}
+
+// Hover effects only where a pointer exists, so nothing sticks after a tap.
+@media (hover: none) {
+  .navbar .navbar-nav .nav-link:hover,
+  .rec-title a:hover,
+  a:hover { color: inherit; }
+  a.open:hover { background: $ink-strong; border-color: $ink-strong; color: $paper; }
+  .ct-pick:hover { background: $paper-2; border-color: $ink; color: $ink-strong; }
+}
+
+// The choice table is the tightest thing on the page; give it one more step.
+@media (max-width: 430px) {
+  .ct-grid, .ct-actions { grid-template-columns: 5.4rem 1fr 1fr; }
+  .ct-cell { padding: 0.45rem 0.35rem; font-size: 0.8rem; line-height: 1.32; }
+  .ct-attr { font-size: 0.76rem; }
+  .ct-pick { font-size: 0.8rem; padding: 0.5rem 0.2rem; margin: 0 0.12rem; }
+  .ct-stem { font-size: 0.95rem; }
+  .ct-scale { font-size: 0.72rem; }
+}
+
+@media (max-width: 360px) {
+  .ct-grid, .ct-actions { grid-template-columns: 4.6rem 1fr 1fr; }
+  .ct-cell { padding: 0.4rem 0.28rem; font-size: 0.76rem; }
+  .ct-frame { padding: 0.9rem 0.8rem 1rem; }
+  .share-btn, .iconlink { padding-left: 0.6rem; padding-right: 0.6rem; font-size: 0.82rem; }
+}
+
+// Landscape phones: reclaim vertical space.
+@media (max-height: 460px) and (orientation: landscape) {
+  .navbar { padding-top: 0.55rem; padding-bottom: 0.55rem; }
+  main.content { padding-top: 1.6rem; }
+}
+
+// Anchored headings should not hide under the header.
+h1, h2, h3 { scroll-margin-top: 5rem; }
+
+// ---------------------------------------------------------------------------
+// 16. Collapsible author lists
+//
+// A fifteen-author paper takes four lines and buries the title above it. The
+// summary carries the first two names and a count; the rest opens on demand.
+// ---------------------------------------------------------------------------
+
+.au {
+  font-size: 0.83rem;
+  color: $muted;
+  margin: 0 0 0.3rem;
+  line-height: 1.45;
+
+  > summary {
+    cursor: pointer;
+    list-style: none;
+    display: inline;
+
+    &::-webkit-details-marker { display: none; }
+
+    .au-more {
+      color: $accent;
+      border-bottom: 1px dotted currentColor;
+      white-space: nowrap;
+    }
+  }
+
+  &[open] > summary .au-more { display: none; }
+
+  .au-full { display: block; margin-top: 0.15rem; }
+}
+
+.au-static { font-size: 0.83rem; color: $muted; margin: 0 0 0.3rem; line-height: 1.45; }
+
+// ---------------------------------------------------------------------------
+// 17. Papers search
+// ---------------------------------------------------------------------------
+
+.papers-search {
+  display: none;
+  width: 100%;
+  max-width: 340px;
+  margin: 0.85rem 0 0;
+  padding: 0.55rem 0.7rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: $ink;
+  background: $paper;
+  border: 1px solid $rule;
+  border-radius: 3px;
+  min-height: 42px;
+
+  &::placeholder { color: $muted; }
+  &:focus { border-color: $accent; outline: none; }
+}
+
+// ---------------------------------------------------------------------------
+// 18. Instagram card generator
+// ---------------------------------------------------------------------------
+
+.ig-preview {
+  display: none;
+  margin: 1rem 0 0;
+  max-width: 300px;
+  border: 1px solid $rule;
+}
+
+.ig-preview.show { display: block; }

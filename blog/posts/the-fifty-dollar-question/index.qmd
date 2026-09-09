@@ -1,0 +1,46 @@
+---
+title: "The fifty dollar question"
+description: "A small experiment you can run on yourself in under a minute, and what it reveals about how you actually value your own time."
+author: "Mesfin Genie"
+date: "2026-05-27"
+image: /assets/social/the-fifty-dollar-question-og.png
+categories: [behavioural economics]
+---
+
+Try this before you read on.
+
+You are buying a jacket for $200. A shop twenty minutes away has the same jacket
+for $150. Do you make the trip?
+
+Now: you are buying a laptop for $2,000. A shop twenty minutes away has the same
+laptop for $1,950. Do you make the trip?
+
+Most people say yes to the first and no to the second. I do too, when I am not
+paying attention.
+
+Both trips take the same twenty minutes. Both save exactly fifty dollars. If
+your time has a price, the answer should be identical.
+
+What is happening is that we do not evaluate the fifty dollars on its own. We
+evaluate it against the thing it is attached to. A quarter off feels
+substantial. Two and a half percent feels like nothing. The proportion hijacks
+the judgement even though only the absolute amount lands in your account.
+
+I like this one because it is not a trick. Nothing is hidden, the numbers are
+simple, and you still feel the pull after it has been explained. That is worth
+sitting with, because it means the pull is not ignorance. Knowing about it does
+not switch it off.
+
+It shows up in health decisions constantly. A $50 out-of-pocket cost feels
+different attached to a $60 GP visit than attached to a $6,000 procedure, and
+people's willingness to pay moves accordingly. When we build choice experiments
+we have to decide which framing to use, and there is no neutral option. Every
+version is a version.
+
+The practical use is small but real. When something is being sold to you as a
+percentage, convert it to dollars. When it is sold to you as dollars, convert it
+to a percentage. Whichever one feels worse is usually the one doing the work.
+
+```{=html}
+<div class="share" data-share></div>
+```

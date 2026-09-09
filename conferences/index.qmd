@@ -1,0 +1,100 @@
+---
+title: "Conferences"
+description: "Upcoming and recent conference presentations, and selected published conference abstracts."
+---
+
+## Upcoming
+
+```{=html}
+<ul class="rec-list">
+<li class="rec">
+  <div class="rec-year">Oct 2026</div>
+  <div class="rec-body">
+    <p class="rec-title">Preferences for dementia support programmes in Australia</p>
+    <p class="rec-venue">International Academy of Health Preference Research, Duke-NUS, Singapore. Podium.</p>
+  </div>
+</li>
+</ul>
+```
+
+## Recent presentations
+
+```{=html}
+<ul class="rec-list">
+<li class="rec">
+  <div class="rec-year">Jul 2026</div>
+  <div class="rec-body">
+    <p class="rec-title">Attribute ordering, attention and choice in a discrete choice experiment</p>
+    <p class="rec-venue">International Conference on Choice Modelling, Gold Coast, Australia. Conference paper.</p>
+  </div>
+</li>
+<li class="rec">
+  <div class="rec-year">Jun 2026</div>
+  <div class="rec-body">
+    <p class="rec-title">Choice modelling and vaccine-policy research</p>
+    <p class="rec-venue"><a href="https://www.cdic2026.com/">Communicable Diseases and Immunisation Conference</a>, Melbourne, Australia. Presentation.</p>
+  </div>
+</li>
+<li class="rec">
+  <div class="rec-year">May 2026</div>
+  <div class="rec-body">
+    <p class="rec-title">Choosing with concern for the worse-off</p>
+    <p class="rec-venue">ISPOR 2026, Philadelphia, United States. Poster.</p>
+  </div>
+</li>
+</ul>
+```
+
+## Selected published abstracts
+
+```{=html}
+<ul class="rec-list">
+<li class="rec">
+  <div class="rec-year">2026</div>
+  <div class="rec-body">
+    <p class="rec-title">PCR4 Choosing for the worse-off: a structural social welfare model of equity-efficiency preferences in type 2 diabetes treatment choices</p>
+    <p class="rec-authors"><strong>Mesfin G. Genie</strong> and colleagues</p>
+    <p class="rec-venue">Value in Health, 2026. ISPOR 2026.</p>
+    <p class="rec-links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S1098301526019157">Abstract</a></p>
+  </div>
+</li>
+<li class="rec">
+  <div class="rec-year">2026</div>
+  <div class="rec-body">
+    <p class="rec-title">PCR82 Preferences and trade-offs for MASLD/MASH testing among patients with type 2 diabetes: a discrete choice experiment</p>
+    <p class="rec-authors"><strong>Mesfin G. Genie</strong> and colleagues</p>
+    <p class="rec-venue">Value in Health, 2026. ISPOR 2026.</p>
+    <p class="rec-links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S1098301526019935">Abstract</a></p>
+  </div>
+</li>
+<li class="rec">
+  <div class="rec-year">2026</div>
+  <div class="rec-body">
+    <p class="rec-title">Community first or my body first? Moral values and vaccine mandate preferences</p>
+    <p class="rec-authors"><strong>Mesfin Genie</strong>; Fabio I. Martinenghi; Francesco Paolucci; Jonathan Lake; Katie Attwell; Christopher C. Blyth; Margie Danchin; Teresa Gavaruzzi; Udo Evers</p>
+    <p class="rec-venue">Australian and New Zealand Journal of Public Health, 50, 100496. CDIC 2026.</p>
+    <p class="rec-links"><a href="https://doi.org/10.1016/j.anzjph.2026.100496">DOI</a></p>
+  </div>
+</li>
+<li class="rec">
+  <div class="rec-year">2026</div>
+  <div class="rec-body">
+    <p class="rec-title">No jab, no access? Preferences for vaccine mandates in Europe and Australia</p>
+    <p class="rec-authors"><strong>Mesfin Genie</strong>; Fabio I. Martinenghi; Francesco Paolucci; Jonathan Lake; Katie Attwell; Christopher C. Blyth; Jessica Kaufman; Margie Danchin; Jeremy K. Ward; Teresa Gavaruzzi</p>
+    <p class="rec-venue">Australian and New Zealand Journal of Public Health, 50, 100450. CDIC 2026.</p>
+    <p class="rec-links"><a href="https://doi.org/10.1016/j.anzjph.2026.100450">DOI</a></p>
+  </div>
+</li>
+<li class="rec">
+  <div class="rec-year">2025</div>
+  <div class="rec-body">
+    <p class="rec-title">PCR18 Are discrete choice experiment results robust to omitted attributes?</p>
+    <p class="rec-authors"><strong>Mesfin Genie</strong>; Verity Watson; Stéphane Luchini; Michaël Schwarzinger</p>
+    <p class="rec-venue">Value in Health, 28, S549-S550.</p>
+    <p class="rec-links"><a href="https://doi.org/10.1016/j.jval.2025.09.2491">DOI</a></p>
+  </div>
+</li>
+</ul>
+```
+
+[All papers](/publications/) or [writing and talks](/writing/).

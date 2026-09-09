@@ -1,0 +1,48 @@
+---
+title: "CV"
+description: "Curriculum vitae for Mesfin Genie, health economist at the University of Newcastle."
+---
+
+[Download the full CV (PDF)](/cv/mesfin-genie-cv.pdf)
+
+## Appointments
+
+```{=html}
+<ul class="plain-list">
+<li>Senior Lecturer in Health Economics, Newcastle Business School, The University of Newcastle<span class="pl-meta">Continuing, 2026 to present</span></li>
+<li>Lecturer in Health Economics, Newcastle Business School, The University of Newcastle<span class="pl-meta">2023 to 2025</span></li>
+<li>Health Measurement and Regulatory Science Fellow, Duke University School of Medicine<span class="pl-meta">2023 to 2024</span></li>
+<li>Postdoctoral Research Fellow, Harrison School of Pharmacy, Auburn University<span class="pl-meta">2022 to 2023</span></li>
+<li>Research Fellow, Health Economics Research Unit, University of Aberdeen<span class="pl-meta">2020 to 2022</span></li>
+<li>Postdoctoral Research Fellow, Department of Economics, Ca' Foscari University of Venice<span class="pl-meta">2019 to 2020</span></li>
+</ul>
+```
+
+## Education
+
+```{=html}
+<ul class="plain-list">
+<li>PhD in Economics, Ca' Foscari University of Venice<span class="pl-meta">2019. Stated-preference methods for healthcare decision-making.</span></li>
+<li>MSc in Health Economics and Management, University of Bologna<span class="pl-meta">2015</span></li>
+<li>MSc in Economics, Addis Ababa University</li>
+<li>BA in Economics, Jimma University</li>
+</ul>
+```
+
+## Fields
+
+Health economics, discrete choice experiments, stated-preference methods,
+behavioural economics, eye tracking, clinical outcomes assessment, public health
+policy, decision-support tools.
+
+## Elsewhere on this site
+
+```{=html}
+<ul class="plain-list">
+<li><a href="/publications/">Papers</a></li>
+<li><a href="/grants/">Grants</a></li>
+<li><a href="/teaching/">Teaching</a></li>
+<li><a href="/supervision/">Supervision</a></li>
+<li><a href="/tools/">Tools</a></li>
+</ul>
+```

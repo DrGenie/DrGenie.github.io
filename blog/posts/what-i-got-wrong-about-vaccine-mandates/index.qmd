@@ -1,0 +1,41 @@
+---
+title: "What I got wrong about vaccine mandates"
+description: "I assumed opposition ran along a single line from pro to anti. The data said otherwise, and the design implications were not what I expected."
+author: "Mesfin Genie"
+date: "2026-06-30"
+image: /assets/social/what-i-got-wrong-about-vaccine-mandates-og.png
+categories: [vaccination, policy]
+---
+
+When we started working on mandates I carried an assumption I had not examined.
+I pictured a single axis, enthusiastic supporters at one end, hardened refusers
+at the other, most people somewhere in the middle, and policy as the job of
+finding the point on that line where you lose fewest people.
+
+That picture is wrong in a way that matters.
+
+When you break a mandate into its parts, who it covers, what the exemptions look
+like, what happens if you decline, how long it runs, people do not sort onto a
+line. They sort into groups that care about different parts. One group will
+accept almost any coverage rule but reacts badly to punitive consequences.
+Another has no problem with consequences but wants medical exemptions handled by
+a doctor rather than a form. A third mostly wants to know when it ends.
+
+That has a practical consequence I did not anticipate. Two mandates with the
+same overall support can be supported by completely different people. Soften the
+penalty and you gain one group while losing another, and the headline number
+barely moves. If you are only watching the headline number, you conclude the
+change did not matter. It mattered enormously to who was in the room.
+
+It also explains something that puzzled me early on. Public opposition to
+mandates often spiked over details that looked administratively trivial to the
+people designing them. The exemption paperwork. The review date. Those were not
+trivial to the groups they landed on.
+
+I now think the useful question is rarely "will the public accept a mandate". It
+is "which mandate, and who does each version lose". The first question has a
+number for an answer. The second has a design.
+
+```{=html}
+<div class="share" data-share></div>
+```

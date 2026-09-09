@@ -1,0 +1,24 @@
+---
+title: "The Tyranny of the Default"
+description: "The option you never chose is often the one you end up with. Defaults quietly shape huge decisions."
+author: "Mesfin Genie"
+date: "2026-07-09"
+image: /assets/social/the-tyranny-of-the-default-og.png
+categories: [Behavioural economics in everyday life, Health decisions and public policy]
+---
+
+Most of the choices in your day were made for you. The privacy settings on your phone, the contributions to your pension, the cookie banner you clicked through, all came with a preset option, and most of us keep it. Defaults are the quietest and most powerful tool in behavioural economics.
+
+The clearest evidence comes from organ donation. Countries where people are donors unless they opt out have consent rates above ninety percent. Countries where people must opt in often sit far lower, sometimes below twenty. The populations are not that different in their values. What differs is the default. Almost no one is against donation in the opt-out countries; they simply never change the setting, just as almost no one actively signs up in the opt-in ones.
+
+Two forces are at work. Changing a setting takes effort, and effort is enough to stop us. And a default carries a quiet signal: this is the normal, recommended choice. Together they make the preset option remarkably sticky.
+
+This gives whoever sets the default real power, which is why it deserves care. A default can serve people, by enrolling them in a pension they would have wanted anyway, or it can exploit them, by pre-ticking an expensive add-on they would never have chosen. The same mechanism, opposite intent. The honest use is to set the default to the option most people would pick if they stopped to think, and to keep opting out genuinely easy.
+
+For anyone designing a form, a service, or a policy, the practical point is simple: there is no neutral default. Whatever you preset will become what most people get. Choosing it well is part of the job, not an afterthought.
+
+**Key reference.** Johnson, E. J., and Goldstein, D. (2003). Do defaults save lives? *Science*.
+
+```{=html}
+<div class="share" data-share></div>
+```

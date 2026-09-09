@@ -1,0 +1,132 @@
+% Modern CV, Mesfin Genie
+% Compile with: pdflatex mesfin-genie-cv.tex   (run twice)
+% Single file, no external class, no system fonts. Compiles on any TeX Live
+% or MiKTeX install and on Overleaf without changing a setting.
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=2.0cm,top=1.8cm,bottom=1.8cm]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\definecolor{ink}{HTML}{16191D}
+\definecolor{muted}{HTML}{6A7178}
+\definecolor{accent}{HTML}{9A1F35}
+\definecolor{rule}{HTML}{E3E5E8}
+
+% Sans throughout, which reads as contemporary rather than as a journal article.
+\renewcommand{\familydefault}{\sfdefault}
+
+\color{ink}
+\setlength{\parindent}{0pt}
+\linespread{1.06}
+
+% Section headings: small, spaced, with a hairline under
+\titleformat{\section}
+  {\normalfont\large\bfseries\color{ink}}{}{0em}{}[\vspace{-0.55em}{\color{rule}\rule{\linewidth}{0.5pt}}]
+\titlespacing*{\section}{0pt}{1.35em}{0.55em}
+
+\newcommand{\entry}[3]{%
+  \begin{tabularx}{\linewidth}{@{}p{3.2cm}X@{}}
+  \textcolor{muted}{\small #1} & \textbf{#2}\newline #3 \\
+  \end{tabularx}\vspace{0.45em}}
+
+\newcommand{\simpleentry}[2]{%
+  \begin{tabularx}{\linewidth}{@{}p{3.2cm}X@{}}
+  \textcolor{muted}{\small #1} & #2 \\
+  \end{tabularx}\vspace{0.35em}}
+
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\textcolor{muted}{\small Mesfin Genie \quad mesfingenie.com \quad \thepage}}
+
+\begin{document}
+
+{\fontsize{26}{30}\selectfont\bfseries Mesfin Genie}\\[0.35em]
+{\color{muted}Senior Lecturer in Health Economics, Newcastle Business School, The University of Newcastle}\\[0.5em]
+{\small
+\href{mailto:mesfin.genie@newcastle.edu.au}{mesfin.genie@newcastle.edu.au} \quad
+\href{https://mesfingenie.com}{mesfingenie.com} \quad
+\href{https://orcid.org/0000-0002-1744-4666}{ORCID 0000-0002-1744-4666} \quad
+\href{https://scholar.google.com/citations?user=v2SXM_kAAAAJ}{Google Scholar}}
+
+\vspace{0.9em}
+{\color{accent}\rule{\linewidth}{1.4pt}}
+\vspace{0.4em}
+
+\section*{Profile}
+Health economist working on preference measurement: what people are willing to
+trade in healthcare, how reliably it can be measured, and what happens to the
+measurement when respondents have not read everything put in front of them.
+Combines discrete choice experiments with eye tracking and applied econometrics,
+and builds the results into decision-support tools used by policymakers.
+44 publications across the Journal of Health Economics, Health Economics,
+Social Science \& Medicine, Value in Health and npj Vaccines.
+
+\section*{Appointments}
+\entry{2026--}{Senior Lecturer in Health Economics}{Newcastle Business School, The University of Newcastle, Australia. Continuing.}
+\entry{2023--2025}{Lecturer in Health Economics}{Newcastle Business School, The University of Newcastle, Australia.}
+\entry{2023--2024}{Health Measurement and Regulatory Science Fellow}{School of Medicine, Duke University, United States.}
+\entry{2022--2023}{Postdoctoral Research Fellow}{Harrison School of Pharmacy, Auburn University, United States.}
+\entry{2020--2022}{Research Fellow}{Health Economics Research Unit, University of Aberdeen, United Kingdom.}
+\entry{2019--2020}{Postdoctoral Research Fellow}{Department of Economics, Ca' Foscari University of Venice, Italy.}
+
+\section*{Education}
+\entry{2019}{PhD, Economics}{Ca' Foscari University of Venice. Stated-preference methods for healthcare decision-making.}
+\entry{2015}{MSc, Health Economics and Management}{University of Bologna.}
+\simpleentry{}{\textbf{MSc, Economics} \newline Addis Ababa University.}
+\simpleentry{}{\textbf{BA, Economics} \newline Jimma University.}
+
+\section*{Selected publications}
+\begin{enumerate}[leftmargin=1.1em,itemsep=0.35em,label=\arabic*.]
+\item Genie MG, Watson V, Schwarzinger M, Luchini S (2026). Fit for purpose? Assessing the robustness of discrete choice experiment designs in the context of evolving health technologies. \textit{Social Science \& Medicine} 404, 119463.
+\item Genie MG, Reed SD, Ozdemir S (2026). Guidance or misdirection? Unpacking the role of feedback in health preference assessments. \textit{Health Economics} 35, 910--928.
+\item Martinenghi FI, \ldots\ Genie M, Attwell K, Blyth CC (2026). An open repository of COVID-19 vaccine mandate studies with a worked scoping review of quasi-experimental evidence. \textit{npj Vaccines} 11, 01454.
+\item Genie MG, Ngorsuraches S (2026). Priority for self or others? Incorporating equity considerations in a preference-based health value assessment. \textit{Value in Health} 29, 467--475.
+\item Genie MG, Boyes AW, Paolucci F (2026). Feeling lonely? Preferences for support programmes to reduce loneliness among older adults in Australia. \textit{Health Policy} 167, 105587.
+\item Attema AE, Antonini M, Genie M, Torbica A, Paolucci F (2026). Time preferences and COVID-19 vaccination uptake. \textit{European Journal of Health Economics} 27, 47--63.
+\item Genie MG, Poudel N, Paolucci F, Ngorsuraches S (2024). Choice consistency in discrete choice experiments: does numeracy skill matter? \textit{Value in Health} 27, 1594--1604.
+\item Genie MG, Ryan M, Krucien N (2023). Keeping an eye on cost: what can eye tracking tell us about attention to cost information in discrete choice experiments? \textit{Health Economics} 32, 1101--1119.
+\item Genie MG, Krucien N, Ryan M (2021). Weighting or aggregating? Investigating information processing in multi-attribute choices. \textit{Health Economics} 30, 1291--1305.
+\item Genie MG, Nicol\`{o} A, Pasini G (2020). The role of heterogeneity of patients' preferences in kidney transplantation. \textit{Journal of Health Economics} 72, 102331.
+\end{enumerate}
+\vspace{0.2em}
+{\small\color{muted}Full list of 44 items at \href{https://mesfingenie.com/publications/}{mesfingenie.com/publications}.}
+
+\section*{Grants}
+\entry{2023--2025}{MandEval, Medical Research Future Fund}{Effectiveness and consequences of Australia's COVID-19 vaccine mandates. MRF2019107. Programme A\$4,754,183; University of Newcastle allocation A\$808,440. Investigator.}
+\entry{2025}{World Bank Group, IBRD}{Business case for upscaling Field Epidemiology Training Programmes in India. \$416,000.}
+\simpleentry{2019}{American Society of Health Economists travel award, with the NIA-funded Center on the Demography and Economics of Health and Aging, Stanford University.}
+
+\section*{Decision-support tools}
+\simpleentry{eMANDEVAL}{Comparing vaccine mandate designs on predicted public support, health outcomes and cost.}
+\simpleentry{STEPS}{Planning Field Epidemiology Training Programme scale-up in India, with the World Bank.}
+\simpleentry{SOIL CRC BCA}{Benefit-cost appraisal for soil and farming interventions. Project lead: Dr Frank Wogbe Agbola.}
+
+\section*{Teaching}
+\simpleentry{ECON3111}{Behavioural Economics. Lecturer and Course Coordinator.}
+\simpleentry{ECON2112}{Health Economics and Finance. Lecturer and Course Coordinator.}
+\simpleentry{ECON3011}{Introduction to Health Economics and Finance. Primary Course Coordinator.}
+
+\section*{Supervision}
+Four current PhD candidates, on telehealth use in Australia, climate change and
+agriculture in the Solomon Islands, crop drought resilience, and menopause and
+female labour market participation. One PhD completed 2025 on health systems
+reform, equity and efficiency. Two MPhil students completed on the impacts of
+COVID-19 and influenza vaccine mandates.
+
+\section*{Service}
+Guest Editor, \textit{Health Policy and Technology}. Reviewer for the
+\textit{Journal of Health Economics}, \textit{Health Economics},
+\textit{Value in Health}, \textit{Social Science \& Medicine},
+\textit{Journal of Choice Modelling}, \textit{Theory and Decision} and
+\textit{BMJ Open}.
+
+\end{document}

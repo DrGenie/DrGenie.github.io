@@ -1,0 +1,108 @@
+lang: en-AU
+
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - 404.qmd
+    - research/index.qmd
+    - research/impact/index.qmd
+    - research/data-and-code/index.qmd
+    - research/projects/health-preferences-dce/index.qmd
+    - research/projects/eye-tracking-attribute-ordering/index.qmd
+    - research/projects/decision-support-tools/index.qmd
+    - research/projects/mandeval/index.qmd
+    - research/projects/fetp-india/index.qmd
+    - publications/index.qmd
+    - tools/index.qmd
+    - tools/emandeval/index.qmd
+    - tools/steps/index.qmd
+    - tools/soil-crc-bca/index.qmd
+    - about/index.qmd
+    - teaching/index.qmd
+    - teaching/behavioural-economics/index.qmd
+    - conferences/index.qmd
+    - supervision/index.qmd
+    - grants/index.qmd
+    - writing/index.qmd
+    - cv/index.qmd
+    - blog/index.qmd
+    - blog/posts/*/index.qmd
+  resources:
+    - CNAME
+    - .nojekyll
+    - robots.txt
+    - assets/**
+    - eMANDEVA-DecisionAid-V18/**
+    - farming-bca-tool-v18/**
+    - STEPS-FETP-DecisionAid-V20/**
+    #
+    # cv/mesfin-genie-cv.pdf does not need a line here: Quarto copies local
+    # files that a page links to.
+
+website:
+  title: "Mesfin Genie"
+  site-url: "https://mesfingenie.com"
+  favicon: assets/favicon.png
+  image: /assets/og-card.png
+  page-navigation: false
+  back-to-top-navigation: false
+  search: false
+  open-graph:
+    locale: en_AU
+    image: /assets/og-card.png
+  twitter-card:
+    card-style: summary_large_image
+    creator: "@mesfin_genie"
+    site: "@mesfin_genie"
+    image: /assets/og-card.png
+
+  navbar:
+    pinned: false
+    collapse-below: lg
+    background: "#ffffff"
+    foreground: "#16232b"
+    title: "Mesfin Genie"
+    left:
+      - text: "Research"
+        href: /research/
+      - text: "Papers"
+        href: /publications/
+      - text: "Tools"
+        href: /tools/
+      - text: "About"
+        href: /about/
+    right:
+      - text: "CV"
+        href: /cv/
+
+  page-footer:
+    left: |
+      <div class="foot">
+        <p>Mesfin Genie, Newcastle Business School, University of Newcastle, Australia</p>
+        <ul class="iconlinks">
+          <li><a class="iconlink" href="mailto:mesfin.genie@newcastle.edu.au"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3.5" width="12" height="9" rx="1"/><path d="M2.4 4.4L8 9l5.6-4.6"/></svg><span>Email</span></a></li>
+          <li><a class="iconlink" href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&amp;hl=en"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.4L14.5 6 8 9.6 1.5 6z"/><path d="M4 7.6v3.1c0 1 1.8 1.9 4 1.9s4-.9 4-1.9V7.6"/></svg><span>Scholar</span></a></li>
+          <li><a class="iconlink" href="https://orcid.org/0000-0002-1744-4666"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6"/><path d="M6 6v5M6 4.6v.1M9 11V7h1a2 2 0 0 1 0 4z"/></svg><span>ORCID</span></a></li>
+          <li><a class="iconlink" href="https://github.com/DrGenie"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 12.5c-2.6.8-2.6-1.5-3.6-1.8M10 14v-2.4c0-.7-.2-1.1-.5-1.4 1.8-.2 3.4-.9 3.4-3.9a3 3 0 0 0-.8-2.1 2.8 2.8 0 0 0-.1-2.1s-.7-.2-2.2.8a7.4 7.4 0 0 0-3.8 0C4.5 1.9 3.8 2.1 3.8 2.1a2.8 2.8 0 0 0-.1 2.1 3 3 0 0 0-.8 2.1c0 3 1.6 3.7 3.4 3.9-.3.3-.5.7-.5 1.4V14"/></svg><span>GitHub</span></a></li>
+          <li><a class="iconlink" href="https://au.linkedin.com/in/mesfin-genie-ph-d-65634216"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="2" width="12" height="12" rx="2"/><path d="M5 7v4M5 5.2v.1M8 11V8.6a1.4 1.4 0 0 1 2.8 0V11"/></svg><span>LinkedIn</span></a></li>
+          <li><a class="iconlink" href="https://x.com/mesfin_genie"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg><span>X</span></a></li>
+        </ul>
+      </div>
+
+format:
+  html:
+    theme: custom.scss
+    toc: false
+    page-layout: article
+    smooth-scroll: false
+    anchor-sections: false
+    link-external-newwindow: true
+    link-external-icon: false
+    include-in-header: _includes/head.html
+    include-after-body: _includes/scripts.html
+    title-block-banner: false
+
+execute:
+  freeze: auto

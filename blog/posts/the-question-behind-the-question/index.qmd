@@ -1,0 +1,44 @@
+---
+title: "The question behind the question"
+description: "Survey answers are not read off a preference sitting in your head. They are constructed on the spot, and the way you ask changes what gets built."
+author: "Mesfin Genie"
+date: "2026-07-22"
+image: /assets/social/the-question-behind-the-question-og.png
+categories: [methods, behavioural economics]
+---
+
+Ask someone how much they would pay for a shorter hospital wait and they will
+give you a number. Ask the same person the same thing a week later, worded
+slightly differently, and you will often get a different number.
+
+The instinct is to call this unreliability. Somebody is lying, or careless, or
+does not know their own mind.
+
+I think that reading is wrong, and it took me a long time to let go of it.
+
+Most of us have never priced a hospital wait. There is no figure filed away
+waiting to be reported. So when you ask, the person builds an answer, right
+there, out of whatever is nearby: the last bill they paid, the number you
+mentioned in the previous question, whether the option was on the left or the
+right. Change what is nearby and you change the construction.
+
+This is uncomfortable if you want survey answers to be measurements, like
+temperature. It is much less uncomfortable if you treat them as what they are:
+a decision made under specific conditions, which you designed.
+
+Which puts the responsibility on the person asking. If the ordering of your
+attributes moves the answer, then the ordering is part of your result whether
+you report it or not. If half your respondents never looked at the cost row,
+your willingness-to-pay number is partly an artefact of your layout.
+
+None of that makes the exercise pointless. Real decisions get constructed on the
+spot too, in a consulting room, under fluorescent light, with someone waiting.
+The survey is not failing to capture a stable preference. It is capturing a
+constructed one, which is the only kind there is.
+
+The useful move is to stop asking whether the number is true and start asking
+what it was built from.
+
+```{=html}
+<div class="share" data-share></div>
+```

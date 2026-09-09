@@ -1,0 +1,42 @@
+---
+title: "Why your doctor cannot tell you what to do"
+description: "Two treatments, same survival odds, different side effects. There is no medical answer to which is better, and that is not a failure of medicine."
+author: "Mesfin Genie"
+date: "2026-08-18"
+image: /assets/social/why-your-doctor-cannot-tell-you-what-to-do-og.png
+categories: [preferences, health]
+---
+
+A friend rang me last year, upset. Her surgeon had laid out two options and then
+said the choice was hers. She wanted to know why he would not just tell her.
+
+Here is the thing. He could not, and he was right not to.
+
+Both options had roughly the same survival odds. One carried a higher chance of
+long-term incontinence. The other carried a higher chance of fatigue that might
+never fully lift. Medicine can tell you the probabilities. It cannot tell you
+which of those two futures you would rather live in. That is not a gap in the
+evidence. It is a question about your life, and the surgeon has no access to it.
+
+What frustrated her was the handover. She heard "it's your choice" as *I am not
+going to help you*. What he meant was closer to *I have run out of things that
+medicine knows*.
+
+My whole field exists in that gap. When we run a choice experiment, we are
+asking hundreds of people to make exactly the trade her surgeon could not make
+for her, over and over, in slightly different combinations. From the pattern we
+can work out how much fatigue people will accept to avoid incontinence, on
+average, and how much that varies between them.
+
+That average never tells any individual what to do. What it does is stop the
+system from quietly assuming. Because if nobody measures it, someone still
+decides. A guideline gets written, a default gets set, a funding rule gets
+drafted, and it embeds a trade-off that nobody ever asked a patient about.
+
+My friend picked the fatigue. Two years on she says she would pick it again. I
+have no idea whether she chose correctly, and neither does she, and that is
+fine. What matters is that it was hers to get wrong.
+
+```{=html}
+<div class="share" data-share></div>
+```
