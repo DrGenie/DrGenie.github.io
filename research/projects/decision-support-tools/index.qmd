@@ -1,0 +1,42 @@
+---
+title: "Measurement, outcomes and decision support"
+description: "Making sure the outcomes we measure are the ones people value, and that the evidence reaches whoever is deciding."
+---
+
+Two failures sit at either end of an evaluation. At the front, measuring an
+outcome nobody cares much about, precisely. At the back, producing a good estimate
+that never reaches the person choosing.
+
+## Measurement
+
+Outcome measures inherit assumptions from whoever built them. If a measure was
+developed on one population and one condition, it does not automatically capture
+what matters in another. This strand works on outcome measurement and economic
+evaluation with that inheritance in view, particularly where a measure is being
+carried into a setting it was not designed for.
+
+## Decision support
+
+The second failure is the more common one, and the more fixable. Estimates from a
+choice experiment can be packaged so that someone with a decision can change the
+assumptions and watch the answer move. That is a different object from a report.
+It exposes the sensitivity of the conclusion instead of asserting the conclusion.
+
+Three are public:
+
+```{=html}
+<ul class="plain-list">
+<li><a href="/tools/emandeval/">eMANDEVAL</a>, mandate design against public preference estimates.</li>
+<li><a href="/tools/steps/">STEPS</a>, costing and planning for field-epidemiology training scale-up.</li>
+<li><a href="/tools/soil-crc-bca/">Farming benefit-cost tool</a>, appraisal for soil and farming interventions.</li>
+</ul>
+```
+
+Building them has its own lesson. A tool forces every assumption into the open,
+because it has to be entered somewhere. Assumptions that survive a paper's
+methods section do not always survive that.
+
+## Related
+
+- [Impact](/research/impact/)
+- [Tools](/tools/)

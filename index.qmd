@@ -1,0 +1,145 @@
+---
+pagetitle: "Mesfin Genie"
+description: "Health economist at the University of Newcastle. I measure what people are willing to trade in healthcare, and whether they read what we put in front of them."
+image: /assets/og-card.png
+---
+
+::: {.intro}
+
+```{=html}
+<img src="/assets/mesfin-genie-profile-square.webp" alt="Mesfin Genie" class="intro-portrait" width="300" height="300" decoding="async" fetchpriority="high">
+```
+
+# Mesfin Genie
+
+::: {.standfirst}
+Senior Lecturer in Health Economics, University of Newcastle
+:::
+
+I measure what people are willing to give up. Patients trade waiting time against
+cost, side effects against survival. Governments make the same trades on their
+behalf and rarely say so out loud.
+
+My work puts numbers on those trades, then asks the harder question: whether the
+numbers mean anything when the person answering has read only half the
+information. That is why I run eye trackers alongside surveys.
+
+[Papers](/publications/) · [Tools](/tools/) · [CV](/cv/) ·
+[mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au)
+
+:::
+
+## Try it: three questions, and I will price your patience
+
+```{=html}
+<div class="ct" id="choice-task">
+  <div class="ct-frame">
+    <div id="ct-ask">
+      <p class="ct-q">Question <span id="ct-n">1</span> of 3</p>
+      <p class="ct-stem">Two clinics can see you. They are alike except for these two things. Which do you book?</p>
+      <div class="ct-grid">
+        <div class="ct-cell ct-head"><span class="visually-hidden">Attribute</span></div>
+        <div class="ct-cell ct-head">Clinic A</div>
+        <div class="ct-cell ct-head">Clinic B</div>
+        <div class="ct-cell ct-attr">Wait</div>
+        <div class="ct-cell ct-val">2 weeks</div>
+        <div class="ct-cell ct-val">6 weeks</div>
+        <div class="ct-cell ct-attr">Cost to you</div>
+        <div class="ct-cell ct-val" id="ct-bid">$80</div>
+        <div class="ct-cell ct-val">No cost</div>
+      </div>
+      <div class="ct-actions">
+        <span></span>
+        <button type="button" class="ct-pick" data-pick="A">Clinic A</button>
+        <button type="button" class="ct-pick" data-pick="B">Clinic B</button>
+      </div>
+      <div class="ct-dots" aria-hidden="true">
+        <span class="ct-dot"></span><span class="ct-dot"></span><span class="ct-dot"></span>
+      </div>
+    </div>
+    <div id="ct-out" class="ct-result" tabindex="-1" aria-live="polite">
+      <p class="ct-q">What your answers imply</p>
+      <p class="ct-answer" id="ct-answer"></p>
+      <div class="ct-figure">
+        <div class="ct-bar"><div class="ct-band" id="ct-band"></div></div>
+        <div class="ct-scale"><span>$0</span><span>$150</span><span>$300+</span></div>
+      </div>
+      <details class="au" style="margin-top:0.9rem">
+        <summary>How this works <span class="au-more">read more</span></summary>
+        <span class="au-full">Each question moved the price up or down depending on your last answer, so three choices bracket the point where you switch. A real discrete choice experiment does this across hundreds of people and six or seven attributes at once, and estimates the switching point rather than bracketing it.</span>
+      </details>
+      <button type="button" class="ct-restart" id="ct-restart">Start again</button>
+    </div>
+  </div>
+</div>
+```
+
+## Recent papers
+
+```{=html}
+<ul class="rec-list">
+<li class="rec">
+  <div class="rec-year">2026</div>
+  <div class="rec-body">
+    <p class="rec-title">Fit for purpose? Discrete choice experiment designs for evolving health technologies</p>
+    <p class="rec-venue">Social Science &amp; Medicine</p>
+    <p class="rec-finding">A design freezes a technology at the moment it was written. When the technology moves on, the design can quietly stop measuring the thing it was built for.</p>
+    <p class="rec-links"><a href="https://doi.org/10.1016/j.socscimed.2026.119463">DOI</a></p>
+  </div>
+</li>
+<li class="rec">
+  <div class="rec-year">2026</div>
+  <div class="rec-body">
+    <p class="rec-title">Guidance or misdirection? Feedback in health preference assessments</p>
+    <p class="rec-venue">Health Economics</p>
+    <p class="rec-finding">626 heart failure patients faced a task where every option was worse than nothing. Telling half of them so changed the choices that followed.</p>
+    <p class="rec-links"><a href="https://doi.org/10.1002/hec.70093">DOI</a></p>
+  </div>
+</li>
+<li class="rec">
+  <div class="rec-year">2026</div>
+  <div class="rec-body">
+    <p class="rec-title">An open repository of COVID-19 vaccine mandate studies</p>
+    <p class="rec-venue">npj Vaccines</p>
+    <p class="rec-finding">The evidence sat across four disciplines in formats that would not compare. Now it is one repository others can extend.</p>
+    <p class="rec-links"><a href="https://doi.org/10.1038/s41541-026-01454-4">DOI</a></p>
+  </div>
+</li>
+</ul>
+```
+
+[All 44 papers](/publications/)
+
+## Tools
+
+```{=html}
+<ul class="rec-list">
+<li class="rec">
+  <div class="rec-year">Policy</div>
+  <div class="rec-body">
+    <p class="rec-title"><a href="/tools/emandeval/">eMANDEVAL</a></p>
+    <p class="rec-finding">Compare vaccine mandate designs on predicted public support.</p>
+  </div>
+</li>
+<li class="rec">
+  <div class="rec-year">Costing</div>
+  <div class="rec-body">
+    <p class="rec-title"><a href="/tools/steps/">STEPS</a></p>
+    <p class="rec-finding">Plan field epidemiology training scale-up. Built with the World Bank.</p>
+  </div>
+</li>
+<li class="rec">
+  <div class="rec-year">Appraisal</div>
+  <div class="rec-body">
+    <p class="rec-title"><a href="/tools/soil-crc-bca/">Farming benefit-cost tool</a></p>
+    <p class="rec-finding">Soil and farming appraisal with the assumptions exposed.</p>
+  </div>
+</li>
+</ul>
+```
+
+## Students
+
+I supervise work on choice experiments, eye tracking and outcomes measurement.
+Read [what to send](/supervision/) before you write. Courses are under
+[teaching](/teaching/).

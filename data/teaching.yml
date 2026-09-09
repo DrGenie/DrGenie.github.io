@@ -1,0 +1,21 @@
+courses:
+  - code: ECON3011
+    title: Introduction to Health Economics and Finance
+    role: Primary Course Coordinator
+    institution: The University of Newcastle
+    periods:
+      - "22 July 2024 to 29 November 2024"
+  - code: ECON2112
+    title: Health Economics and Finance
+    role: Lecturer and Course Coordinator
+    institution: The University of Newcastle
+    periods:
+      - "Coordination: 24 February 2025 to 29 May 2026"
+      - "Teaching: 24 February 2025 to 25 June 2025"
+  - code: ECON3111
+    title: Behavioural Economics
+    role: Lecturer and Course Coordinator
+    institution: The University of Newcastle
+    periods:
+      - "Coordination: 24 February 2025 to 29 May 2026"
+      - "Teaching: 24 February 2025 to 25 June 2025"

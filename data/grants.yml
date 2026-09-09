@@ -1,0 +1,41 @@
+# Verified funding records. Never combine institutional allocations with whole-programme totals.
+- title: Upscaling FETP in India Business Case
+  category: Commissioned research
+  funder: The World Bank Group, International Bank for Reconstruction and Development
+  start: 2025-03-10
+  end: 2025-12-31
+  amount: "$416,000"
+  amount_note: Currency to be confirmed against the official record.
+  team: Mesfin Genie, M. Wu, J. Henriquez, A. Gebremariam, A. Melia, and additional collaborators.
+- title: "MandEval: effectiveness and consequences of Australia's COVID-19 vaccine mandates"
+  category: Competitive research grant
+  funder: Australian Department of Health and Aged Care
+  scheme: MRFF Early to Mid-Career Researchers
+  identifier: MRF2019107
+  start: 2023-01-01
+  end: 2025-12-31
+  uon_component: "A$808,440"
+  programme_total: "A$4,754,183.37"
+  totals_note: The A$808,440 is the University of Newcastle component; A$4,754,183.37 is the full multi-institution programme award. These are not the same figure and must not be conflated.
+  people: Mesfin Genie and Francesco Paolucci (from the supplied record; others only if verified).
+  grant_record: https://www.grants.gov.au/Ga/Show/57849742-1674-4b10-b75a-47d575e5d430
+- title: ASHEcon/NIA support
+  category: Travel and conference support
+  funder: American Society of Health Economists, jointly with the NIA-funded Center on the Demography and Economics of Health and Aging at Stanford University
+  start: 2019-06-25
+  end: 2019-07-26
+  amount_note: No amount or scheme category supplied; none invented.
+- title: Novartis Travel Grant
+  category: Travel and conference support
+  funder: Novartis
+  start: 2017-09-20
+  end: 2017-10-26
+  amount: "$1,139"
+  amount_note: Currency to be confirmed before display.
+- title: Royal Economic Society Conference Grant
+  category: Travel and conference support
+  funder: Royal Economic Society
+  start: 2017-06-25
+  end: 2017-07-25
+  amount: "$626"
+  amount_note: Currency to be confirmed before display.

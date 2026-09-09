@@ -1,0 +1,30 @@
+---
+title: "Teaching"
+description: "Behavioural economics and health economics at the University of Newcastle."
+---
+
+I teach behavioural economics and health economics. The courses use current
+research rather than textbook summaries of it, and each one makes students handle
+data at some point, because the gap between reading a coefficient and producing
+one is where the understanding is.
+
+## Courses
+
+```{=html}
+<ul class="plain-list">
+<li><strong>ECON3111 Behavioural Economics</strong><span class="pl-meta">Lecturer and Course Coordinator, The University of Newcastle</span></li>
+<li><strong>ECON2112 Health Economics and Finance</strong><span class="pl-meta">Lecturer and Course Coordinator, The University of Newcastle</span></li>
+<li><strong>ECON3011 Introduction to Health Economics and Finance</strong><span class="pl-meta">Primary Course Coordinator, The University of Newcastle</span></li>
+</ul>
+```
+
+## Open teaching material
+
+[Behavioural economics resources](/teaching/behavioural-economics/) from ECON3111
+are public, as is the [certainty effect](/blog/posts/why-99-does-not-feel-like-100/)
+explainer and its recorded webinar. Use it in your own teaching if it is useful; attribution is
+appreciated and permission is not required.
+
+## Supervision
+
+See [research supervision](/supervision/).

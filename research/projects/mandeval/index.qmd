@@ -1,0 +1,38 @@
+---
+title: "MandEval"
+description: "Evaluating the effects and consequences of Australia's COVID-19 vaccine mandates, and what mandate designs the public will support."
+---
+
+Australia mandated COVID-19 vaccination in ways that varied by state, by
+occupation and by time, and then unwound those mandates on a similar patchwork.
+That variation is the identification strategy. MandEval uses it to ask what the
+mandates did, what they cost in trust and compliance elsewhere, and what design
+the public would actually accept.
+
+Funded through the Medical Research Future Fund under the Early to Mid-Career
+Researchers scheme. The multi-institution programme received approximately
+$4.75 million, of which $808,440 was allocated to the University of Newcastle.
+
+## Three questions
+
+**Did uptake rise, or did it move?** A mandate that lifts vaccination this month
+may only be pulling next month's vaccinations forward. Separating a pull-forward
+effect from a net effect changes the verdict on whether a mandate worked, and it
+requires a design that can see the timing rather than the total.
+
+**What else moved?** Mandates operate on people who have other things to lose.
+The consequences beyond the vaccination rate are part of the evaluation, not an
+afterthought to it.
+
+**What would the public accept?** A mandate has design parameters: who it covers,
+what the exemptions are, what happens if you decline, how long it lasts. Choice
+experiments let us ask which combinations retain public support and which do not,
+before rather than after.
+
+## Outputs
+
+- An [open repository of mandate studies](/research/data-and-code/) with a worked scoping review of the quasi-experimental evidence.
+- [eMANDEVAL](/tools/emandeval/), which puts the preference estimates in front of people designing policy.
+- A study protocol for the uptake analysis across Australia and international comparators.
+
+See [papers](/publications/) for the published work.

@@ -1,0 +1,29 @@
+- id: emandeval
+  name: eMANDEVAL Future
+  path: /eMANDEVA-DecisionAid-V18/
+  theme: Vaccine policy
+  problem: Comparing vaccine-mandate designs is hard because public support, health benefits and costs move together and differ across settings.
+  users: Public-health policymakers, researchers and partner agencies.
+  outputs: Predicted public support, expected health outcomes and benefit-cost comparisons for alternative mandate designs.
+  basis: Preference estimates from discrete choice experiments on vaccine-mandate designs.
+  developer: Mesfin Genie
+- id: soil-crc
+  name: SOIL CRC Benefit-Cost Analysis Tool
+  path: /farming-bca-tool-v18/
+  theme: Economic evaluation
+  problem: Assessing whether farm-trial and soil-management interventions are worth their cost under uncertainty.
+  users: Researchers and partners evaluating agricultural production trials.
+  outputs: Net present value, benefit-cost ratio, return on investment and sensitivity analysis.
+  basis: Standard benefit-cost analysis with user-supplied assumptions and sensitivity ranges.
+  developer: Mesfin Genie
+  lead: Dr Frank Wogbe Agbola (project lead and publisher)
+- id: steps
+  name: STEPS FETP Scale-up Decision Aid
+  path: /STEPS-FETP-DecisionAid-V20/
+  theme: Field epidemiology
+  problem: Planning the scale-up of Field Epidemiology Training Programmes under budget constraints, balancing cost, endorsement and health benefit.
+  users: Policymakers and partners planning FETP scale-up in India.
+  outputs: Endorsement estimates, perceived programme value, cost per cohort, national simulation and scenario exports.
+  basis: A mixed-logit preference model estimated from a discrete choice experiment with stakeholders, combined with cost templates and epidemiological multipliers.
+  developer: Mesfin Genie
+  partner: The University of Newcastle, in partnership with the World Bank.

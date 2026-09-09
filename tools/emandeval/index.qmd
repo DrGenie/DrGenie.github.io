@@ -1,0 +1,22 @@
+---
+title: "eMANDEVAL"
+description: "Compare COVID-19 vaccine mandate designs on predicted public support, health outcomes and cost."
+---
+
+Comparing mandate designs is hard because public support, health benefit and cost
+move together, and differ across settings. A design defensible on epidemiology can
+be indefensible on acceptability, and the trade-off is rarely stated.
+
+eMANDEVAL runs on preference estimates from discrete choice experiments on mandate
+designs. Assemble a design and it returns predicted public support, expected health
+outcomes, and a benefit-cost comparison against the alternatives.
+
+For public health policymakers, researchers and partner agencies.
+
+[Open eMANDEVAL](/eMANDEVA-DecisionAid-V18/){.open}
+
+::: {.note}
+Predictions are model outputs conditional on the estimated preference structure and
+the sampled population. They are an input to a policy judgement, not the judgement.
+Part of [MandEval](/research/projects/mandeval/).
+:::

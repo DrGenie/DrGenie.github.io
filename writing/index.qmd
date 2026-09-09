@@ -1,0 +1,31 @@
+---
+title: "Writing and talks"
+description: "Essays on health and behavioural economics, plus recorded talks and webinars."
+---
+
+Occasional writing, mostly explaining one idea at a time to people who are not
+economists.
+
+## Essays
+
+```{=html}
+<ul class="rec-list">
+<li class="rec">
+  <div class="rec-year">Essay</div>
+  <div class="rec-body">
+    <p class="rec-title"><a href="/blog/posts/why-99-does-not-feel-like-100/">Why 99% does not feel like 100%</a></p>
+    <p class="rec-finding">Removing the last one percent of a risk is worth far more to people than removing a middling one percent, and standard expected-utility reasoning cannot account for the difference. What that does to health decisions, and to the policies built on them.</p>
+    <p class="rec-links"><a href="https://youtu.be/HO2qXJp-BFs">Recorded webinar</a></p>
+  </div>
+</li>
+</ul>
+```
+
+[All posts](/blog/), or subscribe by [RSS](/blog/index.xml).
+
+## Talks
+
+I speak on discrete choice experiments, eye tracking in preference research, and
+the evaluation of vaccine mandates, to academic and to policy audiences. For
+invitations, write to
+[mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au).

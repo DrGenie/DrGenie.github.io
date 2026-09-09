@@ -1,0 +1,25 @@
+---
+title: "Field-epidemiology training: the business case"
+description: "A discrete choice experiment and cost model supporting a World Bank business case for scaling field-epidemiology training."
+---
+
+Outbreak detection depends on trained field epidemiologists, and training them is
+expensive enough that scale-up decisions get made on intuition. This project built
+the evidence for one: a discrete choice experiment on what makes a training
+programme attractive to the people who would enrol, combined with a cost model for
+what different scale-up paths would take.
+
+The two halves matter together. A programme that is cheap per graduate but that
+nobody wants to join does not produce graduates. The choice experiment prices the
+programme features that drive enrolment; the cost model prices delivering them.
+
+The result is [STEPS](/tools/steps/), which lets a planner change the scale-up
+assumptions and see the consequences, rather than reading a single recommended
+scenario.
+
+Developed with the World Bank.
+
+## Related
+
+- [STEPS decision aid](/tools/steps/)
+- [Impact](/research/impact/)

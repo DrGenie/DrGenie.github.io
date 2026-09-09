@@ -1,0 +1,23 @@
+---
+title: "STEPS: FETP scale-up decision aid"
+description: "Plan the scale-up of Field Epidemiology Training Programmes in India under budget constraints."
+---
+
+Scaling a training programme means committing money years before the graduates
+appear, and balancing three things that move against each other: cost,
+stakeholder endorsement, and health benefit.
+
+STEPS puts them in one place. It runs on a mixed-logit preference model estimated
+from a discrete choice experiment with stakeholders, combined with cost templates
+and epidemiological multipliers. Change the scale-up assumptions and it returns
+endorsement estimates, perceived programme value, cost per cohort, a national
+simulation, and scenario exports.
+
+For policymakers and partners planning FETP scale-up in India.
+
+[Open STEPS](/STEPS-FETP-DecisionAid-V20/){.open}
+
+::: {.note}
+Developed at the University of Newcastle in partnership with the World Bank. See
+[the project](/research/projects/fetp-india/).
+:::

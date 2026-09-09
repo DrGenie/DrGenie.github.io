@@ -1,0 +1,41 @@
+---
+title: "Health preferences and behavioural economics"
+description: "Discrete choice experiments across clinical and policy settings, and what they reveal about where real decisions depart from the standard model."
+---
+
+A discrete choice experiment shows a person a series of made-up options and asks
+which they would take. Repeated across enough people and enough combinations, the
+pattern of answers identifies how much each feature of the option is worth in the
+currency of the others. It is the closest thing health economics has to a price
+for something that is never priced.
+
+I have run these across organ transplantation, diabetes, prostate cancer,
+dementia, loneliness, telehealth, medical devices, health workforce training and
+vaccination policy. The clinical settings vary. The methodological questions
+recur.
+
+## What keeps coming back
+
+**Heterogeneity is not a nuisance.** Averaging across people who want genuinely
+different things produces a number that describes nobody. The interesting work is
+in characterising the groups rather than smoothing over them.
+
+**Consistency is informative.** How reliably a person answers is not just
+measurement error to be minimised. It varies systematically with the task, with
+how the task is presented, and with the person, and it carries information about
+how much confidence a coefficient deserves.
+
+**Equity does not sum.** Adding up individual willingness to pay assumes a
+distributional judgement most people would reject if it were stated plainly. Work
+on equity and efficiency in value-based preference assessment tries to make that
+judgement explicit rather than implicit in the arithmetic.
+
+**Feedback changes choices.** In work on heart-failure device decisions, telling
+people something about their earlier answers alters the answers that follow.
+Whether that is learning or anchoring is an empirical question, and it matters for
+how choice tasks should be built.
+
+## Related
+
+- [Attention and information processing](/research/projects/eye-tracking-attribute-ordering/)
+- [Papers](/publications/)

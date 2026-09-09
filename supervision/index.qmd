@@ -1,0 +1,56 @@
+---
+title: "Research supervision"
+description: "Current and completed higher-degree supervision, and what to send if you want to work with me."
+---
+
+I supervise PhD and Master's students working on health economics, preference
+measurement, behavioural economics and applied econometrics. I am open to new
+students.
+
+## Current
+
+```{=html}
+<ul class="plain-list">
+<li>Understanding the drivers of telehealth usage among patients in Australia, and how it reduces costs relative to in-person services<span class="pl-meta">PhD, Principal Supervisor</span></li>
+<li>Economic analysis of the impact of climate change on the agricultural sector in the Solomon Islands<span class="pl-meta">PhD, Co-Supervisor, expected 2028</span></li>
+<li>Economic modelling of novel approaches to crop drought resilience, using long-term trials in Australia<span class="pl-meta">PhD, Co-Supervisor</span></li>
+<li>Gendered ageism in the workplace: menopause and female labour market participation<span class="pl-meta">PhD, Co-Supervisor</span></li>
+</ul>
+```
+
+## Completed
+
+```{=html}
+<ul class="plain-list">
+<li>Health systems reform dynamics: implications for equity and efficiency<span class="pl-meta">PhD, Co-Supervisor, completed March 2025</span></li>
+<li>Socio-economic and behavioural impacts of COVID-19 vaccine mandates: a scoping review<span class="pl-meta">MPhil, Principal Supervisor</span></li>
+<li>The socio-economic and behavioural impacts of influenza vaccine mandates on healthcare workers: a scoping review<span class="pl-meta">MPhil, Principal Supervisor</span></li>
+</ul>
+```
+
+## Before you write to me
+
+Most enquiries I receive could be answered from a template, and I answer those
+with a template. The ones I answer properly do three things.
+
+**Name a question, not a field.** "I want to work on health economics" tells me
+nothing. "I want to know whether patients in this setting weigh X against Y the
+way clinical guidelines assume" tells me whether I can help.
+
+**Say why me.** Point to a specific paper or tool of mine and what you would do
+next with it. If nothing of mine connects to your question, I am probably the
+wrong supervisor, and you will be glad to have found that out early.
+
+**Attach the evidence.** CV with qualifications and results, any publications, and
+English language results if relevant.
+
+Send it to [mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au).
+I read everything that meets those three conditions.
+
+## Admission and funding
+
+Admission and scholarships at Newcastle run through the University's Higher Degree
+by Research process on its own timetable, separately from my agreement to
+supervise. Check the University's
+[research degree pages](https://www.newcastle.edu.au/research-and-innovation/graduate-research)
+for current deadlines before planning around a start date.
