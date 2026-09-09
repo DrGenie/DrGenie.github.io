@@ -1,0 +1,36 @@
+---
+title: "Why the second slice never tastes as good"
+description: "The first bite of anything is the best one you will get. Economists have a dull name for this and a surprisingly useful lesson inside it."
+image: /assets/social/why-the-second-slice-never-tastes-as-good-og.png
+author: "Mesfin Genie"
+date: "2026-09-02"
+categories: [behavioural economics, everyday]
+---
+
+Think about the last time you were really hungry and the first slice of pizza
+arrived. That slice was perfect. The second was good. By the fourth you were
+eating because it was there.
+
+Economists call this diminishing marginal utility, which is a terrible name for
+one of the most useful ideas you will ever learn. Each extra unit of something
+gives you a bit less than the one before.
+
+Once you see it, it is everywhere. The first coffee of the day is a small
+miracle. The third is a habit. The first week of holiday is bliss. Week three
+you are checking email. A pay rise feels enormous for two months and then
+becomes the new normal.
+
+Here is the practical part. Because the first unit of anything gives you the
+most, you get more total pleasure by spreading things out than by piling them
+up. One great meal a week beats three average ones. A short holiday twice a year
+usually beats one long one. Small, frequent, and separated wins.
+
+It also explains why the richest people you know do not seem proportionally
+happier. The hundredth thousand does far less than the first.
+
+The next time you are about to reach for the fourth slice, ask what the fourth
+slice is really giving you. Often the honest answer is: not the pizza.
+
+```{=html}
+<div class="share" data-share></div>
+```

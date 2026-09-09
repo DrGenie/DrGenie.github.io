@@ -1,0 +1,35 @@
+---
+title: "The gym membership you never use"
+description: "You are not lazy. You were sold a version of yourself that does not exist yet, and the pricing was designed around the gap."
+image: /assets/social/the-gym-membership-you-never-use-og.png
+author: "Mesfin Genie"
+date: "2026-08-26"
+categories: [behavioural economics, everyday]
+---
+
+A famous study looked at people who signed up for a monthly gym membership at
+around $70 a month and then went about four times a month. That works out at
+roughly $17 a visit. The same gym sold ten-visit passes for $10 a visit.
+
+Almost everyone would have been better off buying the passes. Almost nobody did.
+
+The reason is not stupidity. When you sign up, you are not buying access for the
+person you are today. You are buying it for the person you plan to be, the one
+who goes three times a week. That person would get a bargain. That person also
+tends not to turn up.
+
+Gyms know this. The business model quietly depends on it. A gym where every
+member came as often as they intended would need three times the floor space.
+
+I do not think the lesson is "never buy a membership". The lesson is to price
+things for the person you actually are. Look at the last three months, not the
+next three. If you went four times a month, buy the thing that is cheapest at
+four times a month. If that later turns out to be too little, you can upgrade,
+and you will be upgrading on evidence.
+
+The version of you that goes every day is welcome to buy the membership when he
+shows up.
+
+```{=html}
+<div class="share" data-share></div>
+```

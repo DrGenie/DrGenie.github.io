@@ -6,6 +6,7 @@ date: "2026-06-21"
 image: /assets/social/averages-hide-the-people-who-matter-og.png
 categories: [Choice modelling explained, Health decisions and public policy]
 ---
+
 When a study reports what people prefer, it usually reports an average. The average is easy to read and easy to quote. It is also the place where the most important information can go missing.
 
 Preferences differ across people. In health they often differ in ways that line up with who is affected by a decision. Older and younger people, people with and without a condition, and people in cities and in rural areas can weigh the same features very differently. When we collapse all of that into one number, we can end up describing a person who does not exist: the average of two groups who want opposite things.

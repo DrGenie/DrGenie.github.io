@@ -1,0 +1,36 @@
+---
+title: "Why free shipping costs you money"
+description: "You added a $14 item you did not want to avoid a $6 delivery fee. Everyone does it. Here is the switch in your head that got flipped."
+image: /assets/social/why-free-shipping-costs-you-money-og.png
+author: "Mesfin Genie"
+date: "2026-08-12"
+categories: [behavioural economics, everyday]
+---
+
+Your basket is $46. Free shipping kicks in at $50. Shipping is $6.
+
+You add a $14 thing you did not come for. Total: $60. You just paid $14 to avoid
+paying $6, and you felt good about it.
+
+This is not a maths failure. Nearly everyone can do the subtraction. It is that
+the two amounts live in different mental accounts. The $6 feels like a fee, a
+loss, money for nothing. The $14 feels like a purchase, something you get to
+keep. We hate losses roughly twice as much as we enjoy equivalent gains, so a
+$6 loss can feel worse than a $14 spend.
+
+Retailers set the free-shipping threshold just above the typical basket for
+exactly this reason. It is not a coincidence that it always seems to be a few
+dollars out of reach.
+
+Two habits help. First, before adding the extra item, ask whether you would buy
+it at full price on its own, tomorrow, with no shipping involved. If not, you
+are paying for a feeling. Second, treat the shipping fee as part of the price of
+the things you actually wanted. A $46 basket with $6 shipping is a $52 basket.
+Compared like that, it is usually still the cheaper option.
+
+None of this will stop you feeling the pull. It is meant to be felt. But you can
+notice it and decline.
+
+```{=html}
+<div class="share" data-share></div>
+```

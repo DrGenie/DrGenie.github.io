@@ -6,8 +6,8 @@
     "title": "An Open Repository of COVID-19 Vaccine Mandate Studies with a Worked Scoping Review of Quasi-experimental Evidence",
     "url": "https://doi.org/10.1038/s41541-026-01454-4",
     "doi_url": "https://doi.org/10.1038/s41541-026-01454-4",
-    "authors_plain": "Fabio Martinenghi; Tushar P. Ojha; Anaïs Thomasson; Bianca Devsam; Sarah Drislane; Stavros Vasiliadis; Chiara Berardi; Aregawi Gebremariam; Arianna Dipalma; Teresa Gavaruzzi; Jeremy K. Ward; Francesco Paolucci; Margie Danchin; Mesfin Genie; Katie Attwell; Christopher C. Blyth",
-    "authors_html": "Fabio Martinenghi; Tushar P. Ojha; Anaïs Thomasson; Bianca Devsam; Sarah Drislane; Stavros Vasiliadis; Chiara Berardi; Aregawi Gebremariam; Arianna Dipalma; Teresa Gavaruzzi; Jeremy K. Ward; Francesco Paolucci; Margie Danchin; <strong>Mesfin Genie</strong>; Katie Attwell; Christopher C. Blyth",
+    "authors_plain": "Fabio I. Martinenghi; Tushar P. Ojha; Anaïs Thomasson; Bianca Devsam; Sarah Drislane; Stavros Vasiliadis; Chiara Berardi; Aregawi Gebremariam; Arianna Dipalma; Teresa Gavaruzzi; Jeremy K. Ward; Francesco Paolucci; Margie Danchin; Mesfin Genie; Katie Attwell; Christopher C. Blyth",
+    "authors_html": "Fabio I. Martinenghi; Tushar P. Ojha; Anaïs Thomasson; Bianca Devsam; Sarah Drislane; Stavros Vasiliadis; Chiara Berardi; Aregawi Gebremariam; Arianna Dipalma; Teresa Gavaruzzi; Jeremy K. Ward; Francesco Paolucci; Margie Danchin; <strong>Mesfin Genie</strong>; Katie Attwell; Christopher C. Blyth",
     "journal": "npj Vaccines",
     "citation_detail": "11, 01454",
     "status": "Published",
@@ -637,14 +637,14 @@
   {
     "field": "other",
     "year": 2019,
-    "type": "data",
+    "type": "working",
     "title": "Combining the Retrospective Interviews of Wave 3 and Wave 7: The Third Release of the SHARE Job Episodes Panel",
-    "url": "https://www.newcastle.edu.au/profile/mesfin-genie#publications",
+    "url": "https://www.researchgate.net/publication/344276664",
     "doi_url": "",
     "authors_plain": "Mesfin Genie",
-    "authors_html": "<strong>Mesfin Genie</strong>",
-    "journal": "Survey of Health, Ageing and Retirement in Europe",
-    "citation_detail": "",
+    "authors_html": "Agar Brugiavini; Cristina Elisa Orso; <strong>Mesfin G. Genie</strong>; Rinaldo Naci; Giacomo Pasini",
+    "journal": "SHARE Working Paper Series",
+    "citation_detail": "36, 1-18",
     "status": "Published data",
     "earlier": [],
     "sources": [
@@ -683,5 +683,38 @@
     "status": "Working paper",
     "earlier": [],
     "sources": []
+  },
+  {
+    "title": "Polio-Free, Not Risk-Free: Mobility, Conflict, and Polio Vaccine Hesitancy in Ethiopia",
+    "authors_html": "Nardos Tekalign Mamo; <strong>Mesfin Genie</strong>",
+    "journal": "Australian and New Zealand Journal of Public Health",
+    "citation_detail": "50",
+    "year": 2026,
+    "type": "journal",
+    "field": "public-health",
+    "url": "https://www.researchgate.net/publication/407056631",
+    "doi_url": ""
+  },
+  {
+    "title": "Making Nursing a Better Place: A Discrete Choice Experiment to Elicit the Job Preferences of Early-Career Nurses",
+    "authors_html": "Zo&eacute; Ejebu; Jane E. Ball; <strong>Mesfin Genie</strong>; Joanne Turnbull",
+    "journal": "Preprint",
+    "citation_detail": "",
+    "year": 2025,
+    "type": "working",
+    "field": "preference",
+    "url": "https://www.researchgate.net/publication/396731169",
+    "doi_url": ""
+  },
+  {
+    "title": "New article, Social Science &amp; Medicine (2026)",
+    "authors_html": "<strong>Mesfin G. Genie</strong> and colleagues",
+    "journal": "Social Science &amp; Medicine",
+    "citation_detail": "",
+    "year": 2026,
+    "type": "journal",
+    "field": "preference",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0277953626007859",
+    "doi_url": ""
   }
 ]

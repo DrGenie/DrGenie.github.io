@@ -63,7 +63,7 @@ website:
     collapse-below: lg
     background: "#ffffff"
     foreground: "#16232b"
-    title: "Mesfin Genie"
+    title: "Dr Genie"
     left:
       - text: "Research"
         href: /research/
@@ -71,6 +71,8 @@ website:
         href: /publications/
       - text: "Tools"
         href: /tools/
+      - text: "Writing"
+        href: /blog/
       - text: "About"
         href: /about/
     right:
