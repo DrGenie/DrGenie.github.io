@@ -350,26 +350,13 @@
     var same = posts.filter(function (p) { return p.slug !== slug && p.topic === me.topic; });
     var rest = posts.filter(function (p) { return p.slug !== slug && p.topic !== me.topic; });
     var pick = same.concat(rest).slice(0, 3);
-    var h = '<h2>Keep reading</h2><div class="wgrid wgrid-3">';
+    var h = '<h2>Keep reading</h2><ul class="plain-list">';
     pick.forEach(function (p) {
-      h += '<a class="wcard" href="/blog/posts/' + p.slug + '/"><img class="wcard-img" src="' + p.image + '" alt="" loading="lazy" width="1200" height="630"><span class="wcard-title">' + p.title + '</span><span class="wcard-meta">' + p.minutes + ' min read</span></a>';
+      h += '<li><a href="/blog/posts/' + p.slug + '/">' + p.title + '</a><span class="pl-meta">' + p.minutes + ' min read</span></li>';
     });
-    var box = document.createElement("section"); box.className = "keep"; box.innerHTML = h + "</div>";
+    var box = document.createElement("section"); box.className = "keep"; box.innerHTML = h + "</ul>";
     share.parentNode.insertBefore(box, share.nextSibling);
   }).catch(function () {});
 })();
 
-/* Writing page: topic chips */
-(function () {
-  var bar = document.getElementById("writing-filter"); if (!bar) return;
-  var cards = Array.prototype.slice.call(document.querySelectorAll(".wcard[data-topic]"));
-  var btns = Array.prototype.slice.call(bar.querySelectorAll("button"));
-  bar.style.display = "flex";
-  bar.addEventListener("click", function (e) {
-    var b = e.target.closest("button"); if (!b) return;
-    var t = b.getAttribute("data-filter");
-    cards.forEach(function (c) { c.style.display = (t === "all" || c.getAttribute("data-topic") === t) ? "" : "none"; });
-    btns.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
-  });
-})();
 </script>
