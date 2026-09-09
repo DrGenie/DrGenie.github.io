@@ -301,4 +301,17 @@
   });
 })();
 
+
+/* Scholar metrics: refresh the numbers on the About page from the JSON the
+   weekly workflow maintains, so a successful run shows up without a rebuild. */
+(function () {
+  var line = document.getElementById("scholar-line");
+  if (!line || !window.fetch) return;
+  fetch("/assets/scholar-metrics.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (m) {
+    ["citations", "h_index", "i10_index"].forEach(function (k) {
+      var el = line.querySelector('[data-sch="' + k + '"]');
+      if (el && m[k]) el.textContent = m[k];
+    });
+  }).catch(function () {});
+})();
 </script>
