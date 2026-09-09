@@ -42,6 +42,10 @@ work with early-career researchers across the group.
 ## Elsewhere
 
 ```{=html}
+<p class="note" id="scholar-line">Google Scholar: <span data-sch="citations">974</span> citations, h-index <span data-sch="h_index">14</span>, i10-index <span data-sch="i10_index">17</span>.</p>
+```
+
+```{=html}
 <ul class="iconlinks">
   <li><a class="iconlink" href="https://scholar.google.com/citations?user=v2SXM_kAAAAJ&amp;hl=en"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.4L14.5 6 8 9.6 1.5 6z"/><path d="M4 7.6v3.1c0 1 1.8 1.9 4 1.9s4-.9 4-1.9V7.6"/></svg><span>Google Scholar</span></a></li>
   <li><a class="iconlink" href="https://orcid.org/0000-0002-1744-4666"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6"/><path d="M6 6v5M6 4.6v.1M9 11V7h1a2 2 0 0 1 0 4z"/></svg><span>ORCID</span></a></li>
