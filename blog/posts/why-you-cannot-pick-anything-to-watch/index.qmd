@@ -1,0 +1,37 @@
+---
+title: "Why you cannot pick anything to watch"
+description: "Thousands of options, thirty minutes of scrolling, and you watch the thing you have already seen. Too much choice does not free you. It stalls you."
+image: /assets/social/why-you-cannot-pick-anything-to-watch-og.png
+author: "Mesfin Genie"
+date: "2026-08-20"
+categories: [behavioural economics, everyday]
+---
+
+You open the app. There are thousands of things to watch. Thirty minutes later
+you are watching an episode of something you have seen twice, and you are
+slightly annoyed with yourself.
+
+The problem is not you. It is the thousands.
+
+In a well-known study, shoppers offered six flavours of jam bought far more
+often than shoppers offered twenty-four. More options should mean a better
+match. Instead they mean more comparisons, more chances of picking wrong, and
+a nagging sense that whatever you chose, something better was in there. At
+some point the effort of choosing exceeds the value of the choice, and people
+stop.
+
+That is why you fall back on the familiar. It is not laziness. It is the only
+option that does not require you to evaluate the other 2,000.
+
+Two things help. Decide what mood you are in before opening the app, in one
+word: funny, tense, nothing. That shrinks the set. And give yourself a rule
+that ends the search: three options, pick one, no going back. The rule sounds
+restrictive and is the opposite. It gives you back the evening.
+
+The same thing happens with pension funds, health plans and phone contracts,
+with rather higher stakes than a Tuesday night. Fewer, clearer options are
+usually the kinder design, even though more options sounds like more freedom.
+
+```{=html}
+<div class="share" data-share></div>
+```

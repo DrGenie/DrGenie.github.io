@@ -1,0 +1,36 @@
+---
+title: "Why the medium popcorn always wins"
+description: "Small $5, medium $8, large $8.50. Nobody buys the medium. That is exactly the point of the medium."
+image: /assets/social/why-the-medium-popcorn-always-wins-og.png
+author: "Mesfin Genie"
+date: "2026-09-03"
+categories: [behavioural economics, everyday]
+---
+
+Small popcorn, $5. Medium, $8. Large, $8.50.
+
+Almost nobody buys the medium. That is not a pricing mistake. The medium is not
+there to be bought. It is there to make the large look sensible.
+
+Put the small next to the large on its own and $8.50 feels like a lot for
+popcorn. Put the medium between them and the large is suddenly only fifty
+cents more than something. The comparison has changed, and the comparison is
+what you actually use to decide. We are terrible at judging value in
+isolation and very good at judging it relative to whatever is sitting nearby.
+
+This is called the decoy effect, and once you know the name you will see it
+every week. The subscription tier that makes no sense except as a reference
+point. The "most popular" plan sitting between a stripped-down one and a
+premium one. The house the agent shows you first, which is not for sale to you
+so much as for calibration.
+
+It works on smart people because it does not ask you to believe anything
+false. Every number is real. It just controls what you compare against.
+
+The defence is boring and effective. Before you look at the options, decide
+what you want and roughly what it should cost. Then look. The decoy only
+works if it gets to set the frame before you do.
+
+```{=html}
+<div class="share" data-share></div>
+```

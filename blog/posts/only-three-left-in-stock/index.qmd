@@ -1,0 +1,38 @@
+---
+title: "Only three left in stock"
+description: "There were four this morning. There will be four tomorrow. Scarcity is the oldest trick in the shop, and it still works on you."
+image: /assets/social/only-three-left-in-stock-og.png
+author: "Mesfin Genie"
+date: "2026-08-05"
+categories: [behavioural economics, everyday]
+---
+
+Only 3 left in stock. Seven people are looking at this hotel. Offer ends at
+midnight.
+
+You know these are tactics. You have known for years. They still work, and it
+is worth understanding why, because knowing the name of a trick and being
+immune to it are different things.
+
+Scarcity does two things at once. It raises the value of the object, since
+things other people want feel more worth wanting. And it raises the cost of
+waiting, because now the option might not be there tomorrow. Both push in the
+same direction, and both bypass the question of whether you wanted the thing
+in the first place.
+
+The tell is that the pressure comes from the seller's timeline, not yours. You
+did not wake up needing to decide by midnight. Somebody chose midnight for you.
+
+A simple habit works. When you feel the pull, ask what happens if it is gone.
+Most of the time the honest answer is that you will buy it somewhere else, or
+buy something similar, or discover you did not need it. Very occasionally it
+is a real loss. The point is to check, because the message is designed so
+that you do not.
+
+In healthcare this one has teeth. "Limited places on the trial." "Only a few
+appointments this month." Some of it is true. Enough of it is not that the
+question is always worth asking.
+
+```{=html}
+<div class="share" data-share></div>
+```

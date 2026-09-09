@@ -287,12 +287,18 @@ main.content {
   max-width: 736px;                              // ~66 characters plus gutters
   margin-inline: auto;
   padding-top: 2.4rem;
-  padding-bottom: 3.6rem;
+  padding-bottom: 2rem;
   padding-left: $gutter;
   padding-right: $gutter;
 }
 
 #quarto-content > * { padding-top: 0; }
+
+// Quarto sets a viewport-height minimum on the content area so the footer sits
+// at the bottom of short pages. That reads as a blank band above the footer.
+.quarto-container { min-height: 0 !important; }
+#quarto-content { min-height: 0; }
+.footer { margin-top: 0; }
 
 // Quarto's default title block: strip the rule and the metadata furniture.
 #title-block-header {

@@ -1,0 +1,37 @@
+---
+title: "Why you keep watching a bad movie"
+description: "Forty minutes in, you know it is terrible. You stay anyway, because leaving would waste the forty minutes. It would not. They are already gone."
+image: /assets/social/why-you-keep-watching-a-bad-movie-og.png
+author: "Mesfin Genie"
+date: "2026-09-08"
+categories: [behavioural economics, everyday]
+---
+
+You paid for the ticket. You are forty minutes in. It is bad, and you know it
+is not going to get better. And you stay, because walking out now would mean
+the forty minutes were wasted.
+
+Here is the uncomfortable part. The forty minutes are gone whether you stay or
+leave. So is the ticket money. Nothing you do from this point forward gets
+either of them back. The only thing you still control is the next eighty
+minutes, and the question is whether you want to spend them in that seat.
+
+Economists call the money and time already spent a sunk cost, and the rule is
+simple: it should not affect what you do next. People break the rule
+constantly, and not because they are foolish. Leaving feels like admitting the
+first decision was wrong. Staying lets you avoid that, at the price of eighty
+more minutes.
+
+It shows up in bigger places than cinemas. The degree you finish because you
+are three years in. The project a company keeps funding because of what it has
+already cost. The relationship that continues because of how long it has
+lasted. In each case the past is doing the deciding, and the past has no stake
+in what happens next.
+
+A question that helps: if someone offered you this exact situation fresh, right
+now, with nothing already invested, would you take it? If the answer is no,
+the thing keeping you there is not the future. It is the receipt.
+
+```{=html}
+<div class="share" data-share></div>
+```
