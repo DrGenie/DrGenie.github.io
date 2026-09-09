@@ -49,6 +49,11 @@ They run in the browser. Nothing you enter is sent anywhere.
 
 ## Using and citing them
 
+```{=html}
+<details class="more"><summary>Read more</summary>
+```
+
+
 They are free to use, including in teaching and in policy work. If a tool informs
 something you publish, cite the underlying study rather than the tool; each tool
 page names it. If you want to adapt one for a different setting, the source is on
@@ -57,3 +62,8 @@ page names it. If you want to adapt one for a different setting, the source is o
 
 None of these is clinical advice or a substitute for local appraisal. They are
 research instruments that make assumptions visible.
+
+```{=html}
+</details>
+```
+

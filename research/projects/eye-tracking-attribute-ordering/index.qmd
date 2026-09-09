@@ -96,6 +96,11 @@ preference has changed, so either the elicitation or the interpretation is wrong
 
 ## What the process evidence buys
 
+```{=html}
+<details class="more"><summary>Read more</summary>
+```
+
+
 **A check on the design.** If a whole attribute goes unattended by most
 respondents, its coefficient is not measuring a preference. Knowing that before
 publication is better than after.
@@ -109,6 +114,10 @@ preferences.
 **A reason to standardise reporting.** If order effects are real, then attribute
 order belongs in the methods section alongside the design, and reordering across
 respondents belongs in the design itself.
+
+```{=html}
+</details>
+```
 
 ## Software
 

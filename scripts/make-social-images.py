@@ -13,9 +13,17 @@ slug and a drawing function. Unmatched posts get the generic curve.
 from PIL import Image, ImageDraw, ImageFont
 import pathlib, re, textwrap, glob, math, random
 
-F = glob.glob('/usr/share/fonts/**/DejaVuSans-Bold.ttf', recursive=True) + glob.glob('/usr/share/fonts/**/DejaVuSans.ttf', recursive=True)
-BOLD = next((f for f in F if 'Bold' in f), None); REG = next((f for f in F if 'Bold' not in f), None)
-if not BOLD: raise SystemExit("Install fonts-dejavu")
+HERE = pathlib.Path(__file__).resolve().parents[1]
+def _font(name, fallback_glob):
+    f = HERE / "assets" / "fonts" / name
+    if f.exists(): return str(f)
+    g = glob.glob(fallback_glob, recursive=True)
+    if not g: raise SystemExit("No fonts found: add assets/fonts/Inter-*.ttf or install fonts-dejavu")
+    return g[0]
+BOLD = _font("Inter-Bold.ttf", '/usr/share/fonts/**/DejaVuSans-Bold.ttf')
+SEMI = _font("Inter-SemiBold.ttf", '/usr/share/fonts/**/DejaVuSans-Bold.ttf')
+REG  = _font("Inter-Regular.ttf", '/usr/share/fonts/**/DejaVuSans.ttf')
+HANDLE = "@DrGenie"
 OUT = pathlib.Path('assets/social'); OUT.mkdir(parents=True, exist_ok=True)
 INK, MUTED, RULE, SOFT, WHITE = "#0a0c0f", "#6a7178", "#e3e5e8", "#f4f5f7", "#ffffff"
 def W_(s, k): return max(2, int(s * k))
@@ -132,6 +140,41 @@ def m_hourglass(d, x, y, s, c):
     d.polygon([(x+s*.2, y+s*.08), (x+s*.8, y+s*.08), (x+s*.5, y+s*.5), (x+s*.8, y+s*.92), (x+s*.2, y+s*.92), (x+s*.5, y+s*.5)], outline=INK, width=W_(s, .035))
     d.polygon([(x+s*.32, y+s*.15), (x+s*.68, y+s*.15), (x+s*.5, y+s*.42)], fill=c); d.polygon([(x+s*.5, y+s*.62), (x+s*.7, y+s*.88), (x+s*.3, y+s*.88)], fill=c)
     d.text((x+s*.74, y), "3", font=fnt(BOLD, s*.16), fill=c)
+def m_lanes(d, x, y, s, c):            # two queues, one moving
+    for i, (col, n) in enumerate(((INK, 5), (c, 3))):
+        lx = x+s*(.25+i*.5)
+        d.line([(lx, y+s*.08), (lx, y+s*.95)], fill=RULE, width=W_(s, .03))
+        for k in range(n): d.ellipse([lx-s*.07, y+s*(.92-k*.17)-s*.07, lx+s*.07, y+s*(.92-k*.17)+s*.07], fill=col)
+    d.polygon([(x+s*.75, y+s*.02), (x+s*.68, y+s*.14), (x+s*.82, y+s*.14)], fill=c)
+def m_tenk(d, x, y, s, c):              # 10,000 with a footprint
+    d.text((x+s*.02, y+s*.22), "10k", font=fnt(BOLD, s*.42), fill=c)
+    for i, (px, py) in enumerate(((.62, .68), (.8, .58))):
+        d.ellipse([x+s*px-s*.07, y+s*py-s*.11, x+s*px+s*.07, y+s*py+s*.11], fill=INK)
+        d.ellipse([x+s*px-s*.05, y+s*py+.13*s, x+s*px+s*.05, y+s*py+.2*s], fill=INK)
+def m_tipscreen(d, x, y, s, c):         # card terminal with three buttons
+    d.rounded_rectangle([x+s*.12, y+s*.05, x+s*.88, y+s*.95], radius=int(s*.08), outline=INK, width=W_(s, .035))
+    for i, t in enumerate(("15%", "20%", "25%")):
+        yy = y+s*(.2+i*.22); mid = (i == 1)
+        d.rounded_rectangle([x+s*.22, yy, x+s*.78, yy+s*.16], radius=int(s*.04), fill=c if mid else RULE)
+        d.text((x+s*.42, yy+s*.03), t, font=fnt(BOLD, s*.1), fill=WHITE if mid else INK)
+def m_ticket(d, x, y, s, c):            # a ticket stub, torn
+    d.rounded_rectangle([x+s*.08, y+s*.28, x+s*.92, y+s*.72], radius=int(s*.06), fill=c)
+    for cx in (.08, .92): d.ellipse([x+s*cx-s*.07, y+s*.5-s*.07, x+s*cx+s*.07, y+s*.5+s*.07], fill=WHITE)
+    for k in range(6): d.line([(x+s*.62, y+s*(.32+k*.07)), (x+s*.62, y+s*(.35+k*.07))], fill=WHITE, width=W_(s, .02))
+    d.text((x+s*.18, y+s*.39), "$50", font=fnt(BOLD, s*.17), fill=WHITE)
+def m_clock(d, x, y, s, c):
+    d.ellipse([x+s*.08, y+s*.08, x+s*.92, y+s*.92], outline=INK, width=W_(s, .04))
+    cx, cy = x+s*.5, y+s*.5
+    d.line([(cx, cy), (cx, y+s*.2)], fill=INK, width=W_(s, .045)); d.line([(cx, cy), (x+s*.72, cy+s*.08)], fill=c, width=W_(s, .045))
+    d.ellipse([cx-s*.04, cy-s*.04, cx+s*.04, cy+s*.04], fill=c)
+    for a in range(12):
+        import math as _m; r1, r2 = s*.38, s*.42; ang = a*_m.pi/6
+        d.line([(cx+r1*_m.sin(ang), cy-r1*_m.cos(ang)), (cx+r2*_m.sin(ang), cy-r2*_m.cos(ang))], fill=INK, width=W_(s, .02))
+def m_plate(d, x, y, s, c):             # same portion, two plates
+    d.ellipse([x+s*.02, y+s*.15, x+s*.62, y+s*.75], outline=INK, width=W_(s, .03))
+    d.ellipse([x+s*.22, y+s*.35, x+s*.42, y+s*.55], fill=c)
+    d.ellipse([x+s*.62, y+s*.42, x+s*.98, y+s*.78], outline=INK, width=W_(s, .03))
+    d.ellipse([x+s*.7, y+s*.5, x+s*.9, y+s*.7], fill=c)
 def m_curve(d, x, y, s, c):
     pts = [(x+s*t/40, y+s*.9-s*.8*(1-math.exp(-2.6*t/40))) for t in range(41)]
     d.line([(x+s*.02, y+s*.92), (x+s*.98, y+s*.92)], fill=RULE, width=2); d.line(pts, fill=c, width=W_(s, .05), joint="curve")
@@ -143,11 +186,13 @@ MOTIFS = [("99", m_percent), ("autoplay", m_play), ("doctor", m_doors), ("questi
     ("left-digit", m_tag), ("benchmark", m_target), ("averages", m_scatter), ("feedback", m_bubble),
     ("insurance", m_umbrella), ("preference-research", m_clipboard), ("discrete-choice", m_grid),
     ("eye-tracking", m_eye), ("decision-tools", m_sliders), ("bad-movie", m_clapper),
-    ("popcorn", m_cups), ("pick-anything", m_tiles), ("left-in-stock", m_hourglass)]
+    ("popcorn", m_cups), ("pick-anything", m_tiles), ("left-in-stock", m_hourglass),
+    ("queue", m_lanes), ("ten-thousand", m_tenk), ("tip-more", m_tipscreen), ("lost-ticket", m_ticket),
+    ("waiting-rooms", m_clock), ("bigger-plate", m_plate)]
 def motif_for(slug):
     return next((fn for k, fn in MOTIFS if k in slug), m_curve)
 def field_of(cats):
-    return "Behavioural Economics" if re.search(r'behavio|everyday|decision', cats.lower()) else "Health Economics"
+    return "Behavioural Economics" if re.search(r'behavio|decision', cats.lower()) else "Health Economics"
 def fit(d, text, path, max_w, start, min_size, max_lines):
     size = start
     while size > min_size:
@@ -158,25 +203,44 @@ def fit(d, text, path, max_w, start, min_size, max_lines):
 
 def card(title, desc, field, motif, W, H, square):
     accent = "#9a1f35" if field == "Health Economics" else "#1f4e9a"
-    im = Image.new("RGB", (W, H), WHITE); d = ImageDraw.Draw(im); pad = int(W*.07)
-    d.rectangle([0, 0, W, int(H*.015)], fill=accent)
-    d.text((pad, int(H*.085)), field.upper(), font=fnt(BOLD, W*.023), fill=accent)
+    chip_bg = "#fbeef0" if field == "Health Economics" else "#e9f0fb"
+    im = Image.new("RGB", (W, H), WHITE); d = ImageDraw.Draw(im); pad = int(W*.075)
+    d.rectangle([0, 0, W, int(H*.012)], fill=accent)
+
+    # category chip
+    cf = fnt(SEMI, W*.021); label = field.upper(); tw = d.textlength(label, font=cf); ch = int(W*.036)
+    cy = int(H*.075)
+    d.rounded_rectangle([pad, cy, pad+tw+int(W*.03), cy+ch], radius=ch//2, fill=chip_bg)
+    d.text((pad+int(W*.015), cy+int(ch*.24)), label, font=cf, fill=accent)
+
+    # motif box
     if square:
-        ms = int(W*.36); mx, my = W-pad-ms, H-int(H*.19)-ms; text_w = W-2*pad
+        ms = int(W*.38); mx, my = W-pad-ms, H-int(H*.2)-ms
+        text_w = W-2*pad; desc_w = W-2*pad-ms-int(W*.05)
     else:
-        ms = int(H*.52); mx, my = W-pad-ms, int(H*.2); text_w = mx-pad-int(W*.04)
-    tf, tl, ts = fit(d, title, BOLD, text_w, int(W*.06), 28, 4 if square else 3)
-    y = int(H*.17)
-    for l in tl: d.text((pad, y), l, font=tf, fill=INK); y += int(ts*1.18)
-    y += int(H*.025)
-    dw = (W-2*pad-ms-int(W*.05)) if square else text_w
-    df, dl, ds = fit(d, desc, REG, dw, int(W*.027), 19, 6 if square else 3)
-    for l in dl: d.text((pad, y), l, font=df, fill="#3a4149"); y += int(ds*1.42)
-    pad_m = int(ms*.09)
-    d.rounded_rectangle([mx-pad_m, my-pad_m, mx+ms+pad_m, my+ms+pad_m], radius=int(ms*.08), fill=SOFT)
+        ms = int(H*.56); mx, my = W-pad-ms, int(H*.2)
+        text_w = mx-pad-int(W*.045); desc_w = text_w
+    pm = int(ms*.1)
+    d.rounded_rectangle([mx-pm, my-pm, mx+ms+pm, my+ms+pm], radius=int(ms*.1), fill=SOFT)
+
+    # title
+    tf, tl, ts = fit(d, title, BOLD, text_w, int(W*.064), 30, 4 if square else 3)
+    y = cy+ch+int(H*.05)
+    for l in tl: d.text((pad, y), l, font=tf, fill=INK); y += int(ts*1.16)
+
+    # hook
+    y += int(H*.022)
+    df, dl, ds = fit(d, desc, REG, desc_w, int(W*.028), 20, 6 if square else 3)
+    for l in dl: d.text((pad, y), l, font=df, fill="#3f464e"); y += int(ds*1.42)
+
     motif(d, mx, my, ms, accent)
-    d.text((pad, H-int(H*.135)), "Dr Genie", font=fnt(BOLD, W*.031), fill=INK)
-    d.text((pad, H-int(H*.085)), f"{field}  \u00b7  mesfingenie.com", font=fnt(REG, W*.023), fill=MUTED)
+
+    # signature row: name and field left, handle right
+    by = H-int(H*.085)
+    d.text((pad, by-int(W*.04)), "Dr Genie", font=fnt(BOLD, W*.03), fill=INK)
+    d.text((pad, by), field + "  \u00b7  mesfingenie.com", font=fnt(REG, W*.021), fill=MUTED)
+    hf = fnt(SEMI, W*.024); hw = d.textlength(HANDLE, font=hf)
+    d.text((W-pad-hw, by-int(W*.005)), HANDLE, font=hf, fill=accent)
     return im
 
 n = 0

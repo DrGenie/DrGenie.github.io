@@ -65,6 +65,22 @@ def fetch_from_serpapi(key: str) -> dict:
     return out
 
 
+ABOUT = Path(__file__).resolve().parents[1] / "about" / "index.qmd"
+
+
+def update_about_page(m: dict) -> None:
+    """Keep the static numbers on the About page in step with the JSON."""
+    import re
+    try:
+        text = ABOUT.read_text(encoding="utf-8")
+    except Exception:
+        return
+    for key in ("citations", "h_index", "i10_index"):
+        if m.get(key):
+            text = re.sub(r'(data-sch="%s">)[^<]*(</span>)' % key, r"\g<1>%s\g<2>" % m[key], text)
+    ABOUT.write_text(text, encoding="utf-8")
+
+
 def main() -> int:
     existing = load_existing()
     key = os.environ.get("SERPAPI_KEY", "").strip()
@@ -86,6 +102,7 @@ def main() -> int:
     result["updated"] = date.today().isoformat()
     result["source"] = SOURCE
     OUT.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
+    update_about_page(result)
     print(f"[scholar] updated {datetime.now(timezone.utc).isoformat()}: {metrics}")
     return 0
 

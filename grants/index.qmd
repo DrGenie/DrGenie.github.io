@@ -28,6 +28,11 @@ With M. Wu, J. Henriquez, A. Gebremariam, A. Melia and collaborators.
 ## Travel and conference support
 
 ```{=html}
+<details class="more"><summary>Read more</summary>
+```
+
+
+```{=html}
 <ul class="plain-list">
 <li>American Society of Health Economists, jointly with the NIA-funded Center on the Demography and Economics of Health and Aging at Stanford University<span class="pl-meta">2019</span></li>
 <li>Novartis Travel Grant<span class="pl-meta">2017, $1,139</span></li>
@@ -39,3 +44,8 @@ With M. Wu, J. Henriquez, A. Gebremariam, A. Melia and collaborators.
 Currency denominations on the FETP and travel awards are recorded as supplied and
 should be confirmed against the official record before being cited.
 :::
+
+```{=html}
+</details>
+```
+

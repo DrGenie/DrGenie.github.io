@@ -31,8 +31,18 @@ before rather than after.
 
 ## Outputs
 
+```{=html}
+<details class="more"><summary>Read more</summary>
+```
+
+
 - An [open repository of mandate studies](/research/data-and-code/) with a worked scoping review of the quasi-experimental evidence.
 - [eMANDEVAL](/tools/emandeval/), which puts the preference estimates in front of people designing policy.
 - A study protocol for the uptake analysis across Australia and international comparators.
 
 See [papers](/publications/) for the published work.
+
+```{=html}
+</details>
+```
+

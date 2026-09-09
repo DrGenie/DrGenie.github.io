@@ -30,6 +30,11 @@ students.
 
 ## Before you write to me
 
+```{=html}
+<details class="more"><summary>Read more</summary>
+```
+
+
 Most enquiries I receive could be answered from a template, and I answer those
 with a template. The ones I answer properly do three things.
 
@@ -46,6 +51,10 @@ English language results if relevant.
 
 Send it to [mesfin.genie@newcastle.edu.au](mailto:mesfin.genie@newcastle.edu.au).
 I read everything that meets those three conditions.
+
+```{=html}
+</details>
+```
 
 ## Admission and funding
 

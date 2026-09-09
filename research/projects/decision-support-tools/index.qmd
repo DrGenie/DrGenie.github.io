@@ -17,6 +17,11 @@ carried into a setting it was not designed for.
 
 ## Decision support
 
+```{=html}
+<details class="more"><summary>Read more</summary>
+```
+
+
 The second failure is the more common one, and the more fixable. Estimates from a
 choice experiment can be packaged so that someone with a decision can change the
 assumptions and watch the answer move. That is a different object from a report.
@@ -35,6 +40,10 @@ Three are public:
 Building them has its own lesson. A tool forces every assumption into the open,
 because it has to be entered somewhere. Assumptions that survive a paper's
 methods section do not always survive that.
+
+```{=html}
+</details>
+```
 
 ## Related
 

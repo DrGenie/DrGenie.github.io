@@ -142,9 +142,9 @@ information. That is why I run eye trackers alongside surveys.
 
 ```{=html}
 <ul class="plain-list">
-<li><a href="/blog/posts/why-you-keep-watching-a-bad-movie/">Why you keep watching a bad movie</a><span class="pl-meta">Sunk costs, and the receipt that does your deciding</span></li>
-<li><a href="/blog/posts/why-the-medium-popcorn-always-wins/">Why the medium popcorn always wins</a><span class="pl-meta">The decoy option is not there to be bought</span></li>
-<li><a href="/blog/posts/why-free-shipping-costs-you-money/">Why free shipping costs you money</a><span class="pl-meta">Paying $14 to avoid paying $6</span></li>
+<li><a href="/blog/posts/why-the-other-queue-always-moves-faster/">Why the other queue always moves faster</a><span class="pl-meta">It does not. You only remember the times it did.</span></li>
+<li><a href="/blog/posts/why-ten-thousand-steps/">Why ten thousand steps</a><span class="pl-meta">A 1965 pedometer advert that became everyone's goal</span></li>
+<li><a href="/blog/posts/why-you-tip-more-when-the-screen-asks/">Why you tip more when the screen asks</a><span class="pl-meta">Three buttons, a queue behind you, and a default</span></li>
 </ul>
 ```
 
