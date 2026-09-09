@@ -1,38 +1,50 @@
 # Deploy
 
-Unzip. In your repo, delete `publications/` and `blog/` first (they have
-files this version replaces or reorganises), then drag the contents of this
-folder onto github.com/DrGenie/DrGenie.github.io/upload/main and commit.
-Everything else lands on the same path as the file it replaces.
+Unzip. Delete `publications/`, `blog/` and `assets/social/` in your repo
+first, then drag this folder's contents onto
+github.com/DrGenie/DrGenie.github.io/upload/main and commit. Everything else
+overwrites in place. Dotfiles are already in your repo; leave them.
 
-`.github/`, `.gitignore` and `.nojekyll`: already in your repo. Leave them.
-To replace `publish.yml`, open it on GitHub, pencil icon, paste the version
-from the message, commit.
+## Assessment of the deployed site, and what changed
 
-## What is in this version
+Your deployed site is in good shape: Inter, five-item nav, collapsible
+authors, 25 posts, working tool links, corrected workflow, and you had
+already replaced the Social Science & Medicine placeholder with the real
+paper. Four things needed fixing, none of them by adding anything.
 
-Papers: 47 items from Google Scholar, ResearchGate and your staff profile,
-split into journal articles (41), working papers (4), chapters and datasets
-(2), and 9 conference abstracts in their own collapsed section. Notes under
-papers removed. Author lists collapse. Search box.
+**Papers were ordered by title within a year, not by date.** Every item now
+carries an online-first month taken from ResearchGate and the journals, and
+lists newest first. Your September paper on pull-forward and induced
+vaccination is at the top. Its arXiv preprint has been removed from the
+working papers, since the published version supersedes it.
 
-One item I could not resolve: the Social Science & Medicine paper at
-sciencedirect.com/science/article/pii/S0277953626007859. ScienceDirect blocks
-automated access and it is not yet on ResearchGate, Scholar snippets, PubMed
-or RePEc. The entry is on the page with your link and the correct venue and
-year; the title reads "New article, Social Science & Medicine (2026)". Open
-publications/index.qmd, search for that string, replace it with the title.
+**A blank band sat above the footer on every page.** Quarto gives the content
+area a minimum height of the viewport so the footer sits at the bottom of
+short pages. On About, Tools, Grants and most posts, that showed as empty
+space. Removed; the footer now follows the content.
 
-Instagram: the button draws a square card (category, title, hook, a chart
-unique to the post, "Dr Genie · Health Economics" or "· Behavioural
-Economics") and hands it to your phone's share sheet as an image. Tap
-Instagram, then "Add to your story". On a laptop there is no share sheet, so
-the card downloads and instagram.com opens.
+**Every Instagram card had the same curve.** Each post now gets a drawing of
+its own subject: a parcel with a FREE tag for free shipping, an urn with
+hidden balls for Ellsberg, an eye for eye tracking, four fading slices for the
+second slice, a switch left ON for defaults, the 99% ring, a clapperboard for
+the bad movie, three cups for the popcorn decoy, a grid of tiles for choice
+overload, an hourglass reading 3 for scarcity, and so on for all 29. The
+share button on a phone hands that exact card to the share sheet; on a desktop
+it downloads it and opens instagram.com.
 
-Nav now has Writing. Brand is Dr Genie. Inter throughout. Spacing tightened.
-25 posts, 8 new, each with its own preview image. Em dashes removed. CV
-recompiled.
+**Writing was one nav click away and nowhere on the homepage.** Three latest
+posts now sit on the homepage as plain lines.
 
-About "Error rendering embedded code / Invalid image source" on GitHub: that
-is GitHub trying to preview .qmd source files. It cannot resolve site paths or
-Quarto fences. It says nothing about the site, which renders them correctly.
+Four new posts for a general audience: the bad movie you keep watching (sunk
+cost), the medium popcorn (decoy effect), not being able to pick anything to
+watch (choice overload), and only three left in stock (scarcity). 29 posts
+total, 8 of them everyday behavioural economics.
+
+## Adding a post later
+
+Create `blog/posts/<slug>/index.qmd` with title, description, image, author,
+date and categories; end with the share block. Run
+`python3 scripts/make-social-images.py` to draw its cards. If the slug
+contains a keyword in the MOTIFS list at the top of that script, it gets that
+picture; otherwise the generic curve. Add a keyword and a small drawing
+function to give it its own.

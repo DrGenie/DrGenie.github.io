@@ -138,6 +138,18 @@ information. That is why I run eye trackers alongside surveys.
 </ul>
 ```
 
+## Latest writing
+
+```{=html}
+<ul class="plain-list">
+<li><a href="/blog/posts/why-you-keep-watching-a-bad-movie/">Why you keep watching a bad movie</a><span class="pl-meta">Sunk costs, and the receipt that does your deciding</span></li>
+<li><a href="/blog/posts/why-the-medium-popcorn-always-wins/">Why the medium popcorn always wins</a><span class="pl-meta">The decoy option is not there to be bought</span></li>
+<li><a href="/blog/posts/why-free-shipping-costs-you-money/">Why free shipping costs you money</a><span class="pl-meta">Paying $14 to avoid paying $6</span></li>
+</ul>
+```
+
+[All writing](/blog/)
+
 ## Students
 
 I supervise work on choice experiments, eye tracking and outcomes measurement.
